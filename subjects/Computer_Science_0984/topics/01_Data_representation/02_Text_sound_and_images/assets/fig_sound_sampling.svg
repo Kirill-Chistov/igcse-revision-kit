@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 272" width="680" height="272" role="img" aria-label="A sound wave sampled at regular intervals with 3-bit sample resolution" font-family="Carlito, Calibri, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<line x1="90" y1="190.0" x2="560" y2="190.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="194.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >000</text>
+<line x1="90" y1="166.0" x2="560" y2="166.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="170.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >001</text>
+<line x1="90" y1="142.0" x2="560" y2="142.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="146.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >010</text>
+<line x1="90" y1="118.0" x2="560" y2="118.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="122.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >011</text>
+<line x1="90" y1="94.0" x2="560" y2="94.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="98.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >100</text>
+<line x1="90" y1="70.0" x2="560" y2="70.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="74.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >101</text>
+<line x1="90" y1="46.0" x2="560" y2="46.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="50.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >110</text>
+<line x1="90" y1="22.0" x2="560" y2="22.0" stroke="#e5e9ee" stroke-width="1" />
+<text x="80" y="26.0" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >111</text>
+<line x1="90" y1="190" x2="570" y2="190" stroke="#16283c" stroke-width="1.5" marker-end="url(#ar)" />
+<line x1="90" y1="190" x2="90" y2="10" stroke="#16283c" stroke-width="1.5" marker-end="url(#ar)" />
+<text x="560" y="212" font-size="12" fill="#6b7a88" text-anchor="end" font-weight="normal" >time</text>
+<text x="24" y="106.0" font-size="12" fill="#6b7a88" text-anchor="middle" font-weight="normal" transform="rotate(-90 24 106.0)">amplitude</text>
+<polyline points="90.0,84.0 94.0,77.7 98.0,71.5 102.0,65.6 106.0,60.0 110.0,54.9 114.0,50.2 118.0,46.1 122.0,42.5 126.0,39.4 130.0,37.0 134.0,35.1 138.0,33.8 142.0,33.0 146.0,32.7 150.0,32.8 154.0,33.3 158.0,34.1 162.0,35.2 166.0,36.5 170.0,37.9 174.0,39.4 178.0,40.9 182.0,42.5 186.0,44.1 190.0,45.7 194.0,47.2 198.0,48.7 202.0,50.3 206.0,51.9 210.0,53.6 214.0,55.5 218.0,57.5 222.0,59.8 226.0,62.3 230.0,65.2 234.0,68.4 238.0,72.0 242.0,76.0 246.0,80.4 250.0,85.2 254.0,90.4 258.0,95.9 262.0,101.8 266.0,107.9 270.0,114.1 274.0,120.5 278.0,126.9 282.0,133.3 286.0,139.5 290.0,145.5 294.0,151.2 298.0,156.5 302.0,161.3 306.0,165.7 310.0,169.5 314.0,172.7 318.0,175.4 322.0,177.4 326.0,178.9 330.0,179.9 334.0,180.3 338.0,180.2 342.0,179.7 346.0,178.9 350.0,177.8 354.0,176.4 358.0,174.9 362.0,173.2 366.0,171.5 370.0,169.7 374.0,167.9 378.0,166.2 382.0,164.4 386.0,162.7 390.0,161.0 394.0,159.2 398.0,157.4 402.0,155.5 406.0,153.4 410.0,151.2 414.0,148.7 418.0,146.0 422.0,142.9 426.0,139.4 430.0,135.6 434.0,131.4 438.0,126.8 442.0,121.8 446.0,116.5 450.0,110.8 454.0,104.9 458.0,98.7 462.0,92.5 466.0,86.1 470.0,79.8 474.0,73.5 478.0,67.5 482.0,61.7 486.0,56.3 490.0,51.2 494.0,46.7 498.0,42.7 502.0,39.3 506.0,36.4 510.0,34.1 514.0,32.5 518.0,31.4 522.0,30.8 526.0,30.8 530.0,31.2 534.0,32.0 538.0,33.2 542.0,34.6 546.0,36.3 550.0,38.1 554.0,40.0 558.0,41.9" fill="none" stroke="#0f766e" stroke-width="2.5"/>
+<line x1="90.0" y1="190" x2="90.0" y2="84.01329662439633" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="90.0" cy="94.0" r="4.5" fill="#b45309"/>
+<line x1="129.16666666666666" y1="190" x2="129.16666666666666" y2="37.44574258335746" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="129.2" cy="46.0" r="4.5" fill="#b45309"/>
+<line x1="168.33333333333331" y1="190" x2="168.33333333333331" y2="37.27497596016781" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="168.3" cy="46.0" r="4.5" fill="#b45309"/>
+<line x1="207.5" y1="190" x2="207.5" y2="52.560849637034494" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="207.5" cy="46.0" r="4.5" fill="#b45309"/>
+<line x1="246.66666666666666" y1="190" x2="246.66666666666666" y2="81.14854235217976" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="246.7" cy="70.0" r="4.5" fill="#b45309"/>
+<line x1="285.8333333333333" y1="190" x2="285.8333333333333" y2="139.2500987647078" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="285.8" cy="142.0" r="4.5" fill="#b45309"/>
+<line x1="325.0" y1="190" x2="325.0" y2="178.6017430928855" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="325.0" cy="190.0" r="4.5" fill="#b45309"/>
+<line x1="364.16666666666663" y1="190" x2="364.16666666666663" y2="172.29396880551784" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="364.2" cy="166.0" r="4.5" fill="#b45309"/>
+<line x1="403.3333333333333" y1="190" x2="403.3333333333333" y2="154.81470786395784" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="403.3" cy="166.0" r="4.5" fill="#b45309"/>
+<line x1="442.5" y1="190" x2="442.5" y2="121.18352046101394" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="442.5" cy="118.0" r="4.5" fill="#b45309"/>
+<line x1="481.66666666666663" y1="190" x2="481.66666666666663" y2="62.166385101236386" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="481.7" cy="70.0" r="4.5" fill="#b45309"/>
+<line x1="520.8333333333333" y1="190" x2="520.8333333333333" y2="30.939848779665397" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="520.8" cy="22.0" r="4.5" fill="#b45309"/>
+<line x1="560.0" y1="190" x2="560.0" y2="42.91183994593419" stroke="#b45309" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="560.0" cy="46.0" r="4.5" fill="#b45309"/>
+<line x1="129.2" y1="224" x2="168.3" y2="224" stroke="#16283c" stroke-width="1.3" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="176.33333333333331" y="228" font-size="12" fill="#33475b" text-anchor="start" font-weight="normal" >one sample interval — sample rate = number of samples per second</text>
+<text x="574" y="26.0" font-size="12" fill="#33475b" text-anchor="start" font-weight="normal" >3-bit sample</text>
+<text x="574" y="41.0" font-size="12" fill="#33475b" text-anchor="start" font-weight="normal" >resolution:</text>
+<text x="574" y="56.0" font-size="12" fill="#33475b" text-anchor="start" font-weight="normal" >8 levels</text>
+<text x="330" y="262" font-size="13" fill="#16283c" text-anchor="middle" font-weight="bold" >stored samples: 100 110 110 110 101 …</text>
+<circle cx="100" cy="248" r="4.5" fill="#b45309"/>
+<text x="110" y="252" font-size="11" fill="#6b7a88" text-anchor="start" font-weight="normal" >sample</text>
+</svg>

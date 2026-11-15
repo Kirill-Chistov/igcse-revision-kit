@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="A food web with trophic levels. Producers: grass and oak tree. Primary consumers: rabbit, grasshopper, caterpillar. Secondary consumers: fox, frog, blue tit. Tertiary consumer: hawk, which is also a secondary consumer when it eats rabbits. One food chain is highlighted: grass, grasshopper, frog, hawk. Arrows show the direction of energy transfer. Decomposers feed on dead organisms and waste from every level.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .fw-b { font-size: 12.5px; font-weight: 700; }
+    .fw-s { font-size: 11.5px; fill: #33475b; }
+    .fw-n { font-size: 12.5px; font-weight: 700; }
+    .fw-w { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+    .fw-ws { font-size: 11.5px; fill: #ffffff; }
+  </style>
+  <defs>
+    <marker id="fw-g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a97a6"/></marker>
+    <marker id="fw-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f7b6c"/></marker>
+    <marker id="fw-d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b5a45"/></marker>
+  </defs>
+  <rect x="4" y="12" width="626" height="62" rx="6" fill="#eeebfa"/>
+  <text class="fw-b" x="14" y="38" style="fill:#4c3fa8">Tertiary consumer</text>
+  <text class="fw-s" x="14" y="54">eats secondary consumers</text>
+  <rect x="4" y="80" width="626" height="62" rx="6" fill="#fbecea"/>
+  <text class="fw-b" x="14" y="106" style="fill:#b8433a">Secondary consumer</text>
+  <text class="fw-s" x="14" y="122">eats primary consumers</text>
+  <rect x="4" y="148" width="626" height="62" rx="6" fill="#fdf6e5"/>
+  <text class="fw-b" x="14" y="174" style="fill:#d99a17">Primary consumer</text>
+  <text class="fw-s" x="14" y="190">eats producers (herbivore)</text>
+  <rect x="4" y="216" width="626" height="62" rx="6" fill="#edf5e8"/>
+  <text class="fw-b" x="14" y="242" style="fill:#4f8a3a">Producer</text>
+  <text class="fw-s" x="14" y="258">makes its own food by</text>
+  <text class="fw-s" x="14" y="272">photosynthesis</text>
+  <line x1="296.2" y1="235.0" x2="248.8" y2="197.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="333.8" y1="235.0" x2="381.2" y2="197.0" stroke="#0f7b6c" stroke-width="3.2" marker-end="url(#fw-t)"/>
+  <line x1="560.0" y1="235.0" x2="560.0" y2="197.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="230.0" y1="167.0" x2="230.0" y2="129.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="400.0" y1="167.0" x2="400.0" y2="129.0" stroke="#0f7b6c" stroke-width="3.2" marker-end="url(#fw-t)"/>
+  <line x1="435.3" y1="167.0" x2="524.7" y2="129.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="560.0" y1="167.0" x2="560.0" y2="129.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="400.0" y1="99.0" x2="400.0" y2="61.0" stroke="#0f7b6c" stroke-width="3.2" marker-end="url(#fw-t)"/>
+  <line x1="524.7" y1="99.0" x2="435.3" y2="61.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <line x1="248.8" y1="167.0" x2="381.2" y2="61.0" stroke="#8a97a6" stroke-width="1.5" marker-end="url(#fw-g)"/>
+  <rect x="265.0" y="235.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#0f7b6c" stroke-width="2.4"/>
+  <text class="fw-n" x="315" y="254.5" text-anchor="middle">grass</text>
+  <rect x="510.0" y="235.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#8a97a6" stroke-width="1.2"/>
+  <text class="fw-n" x="560" y="254.5" text-anchor="middle">oak tree</text>
+  <rect x="180.0" y="167.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#8a97a6" stroke-width="1.2"/>
+  <text class="fw-n" x="230" y="186.5" text-anchor="middle">rabbit</text>
+  <rect x="350.0" y="167.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#0f7b6c" stroke-width="2.4"/>
+  <text class="fw-n" x="400" y="186.5" text-anchor="middle">grasshopper</text>
+  <rect x="510.0" y="167.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#8a97a6" stroke-width="1.2"/>
+  <text class="fw-n" x="560" y="186.5" text-anchor="middle">caterpillar</text>
+  <rect x="180.0" y="99.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#8a97a6" stroke-width="1.2"/>
+  <text class="fw-n" x="230" y="118.5" text-anchor="middle">fox</text>
+  <rect x="350.0" y="99.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#0f7b6c" stroke-width="2.4"/>
+  <text class="fw-n" x="400" y="118.5" text-anchor="middle">frog</text>
+  <rect x="510.0" y="99.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#8a97a6" stroke-width="1.2"/>
+  <text class="fw-n" x="560" y="118.5" text-anchor="middle">blue tit</text>
+  <rect x="350.0" y="31.0" width="100" height="30" rx="15" fill="#ffffff" stroke="#0f7b6c" stroke-width="2.4"/>
+  <text class="fw-n" x="400" y="50.5" text-anchor="middle">hawk</text>
+  <text class="fw-s" x="452" y="38">also a secondary consumer</text>
+  <text class="fw-s" x="452" y="52">when it eats rabbits</text>
+  <!-- decomposers -->
+  <rect x="644" y="12" width="112" height="266" rx="8" fill="#6b5a45"/>
+  <text class="fw-w" x="700" y="40" text-anchor="middle">DECOMPOSERS</text>
+  <text class="fw-ws" x="700" y="58" text-anchor="middle">bacteria and fungi</text>
+  <text class="fw-ws" x="700" y="96" text-anchor="middle">feed on dead</text>
+  <text class="fw-ws" x="700" y="111" text-anchor="middle">organisms and</text>
+  <text class="fw-ws" x="700" y="126" text-anchor="middle">waste from</text>
+  <text class="fw-ws" x="700" y="141" text-anchor="middle">every level</text>
+  <text class="fw-ws" x="700" y="180" text-anchor="middle">release mineral</text>
+  <text class="fw-ws" x="700" y="195" text-anchor="middle">ions and CO₂</text>
+  <text class="fw-ws" x="700" y="210" text-anchor="middle">for reuse</text>
+  <line x1="612" y1="43" x2="642" y2="43" stroke="#6b5a45" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#fw-d)"/><line x1="612" y1="111" x2="642" y2="111" stroke="#6b5a45" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#fw-d)"/><line x1="612" y1="179" x2="642" y2="179" stroke="#6b5a45" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#fw-d)"/><line x1="612" y1="247" x2="642" y2="247" stroke="#6b5a45" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#fw-d)"/>
+  <line x1="200" y1="292" x2="236" y2="292" stroke="#0f7b6c" stroke-width="3.2" marker-end="url(#fw-t)"/>
+  <text class="fw-s" x="244" y="296">one food chain: grass → grasshopper → frog → hawk.  Arrow = direction of energy transfer ("is eaten by").</text>
+</svg>

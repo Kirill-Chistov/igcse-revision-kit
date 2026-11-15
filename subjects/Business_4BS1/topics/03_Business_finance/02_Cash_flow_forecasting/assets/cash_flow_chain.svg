@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 212" width="800" height="212" role="img"
+     aria-label="Cash inflows minus cash outflows equals net cash flow; opening balance plus net cash flow equals closing balance, which becomes next month's opening balance">
+  <defs>
+    <marker id="cfArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" text-anchor="middle">
+    <!-- row 1 -->
+    <rect x="20" y="8" width="210" height="52" rx="6" fill="#eaf7ef" stroke="#1e8449" stroke-width="2"/>
+    <text x="125" y="30" font-size="17" font-weight="700" fill="#1e8449">Cash inflows</text>
+    <text x="125" y="49" font-size="12.5" fill="#33475b">sales, loans, owner's capital</text>
+
+    <text x="252" y="43" font-size="30" font-weight="700" fill="#16283c">−</text>
+
+    <rect x="275" y="8" width="210" height="52" rx="6" fill="#fdeded" stroke="#c0392b" stroke-width="2"/>
+    <text x="380" y="30" font-size="17" font-weight="700" fill="#c0392b">Cash outflows</text>
+    <text x="380" y="49" font-size="12.5" fill="#33475b">materials, wages, rent, repayments</text>
+
+    <text x="507" y="43" font-size="30" font-weight="700" fill="#16283c">=</text>
+
+    <rect x="530" y="8" width="250" height="52" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="2"/>
+    <text x="655" y="30" font-size="17" font-weight="700" fill="#0b5f54">Net cash flow</text>
+    <text x="655" y="49" font-size="12.5" fill="#33475b">for the month — can be negative</text>
+
+    <!-- link net cash flow down -->
+    <path d="M655 60 V78 H380 V94" fill="none" stroke="#16283c" stroke-width="1.8" marker-end="url(#cfArrow)"/>
+
+    <!-- row 2 -->
+    <rect x="20" y="98" width="210" height="52" rx="6" fill="#eef2f5" stroke="#33475b" stroke-width="2"/>
+    <text x="125" y="120" font-size="17" font-weight="700" fill="#16283c">Opening balance</text>
+    <text x="125" y="139" font-size="12.5" fill="#33475b">cash at the start of the month</text>
+
+    <text x="252" y="133" font-size="30" font-weight="700" fill="#16283c">+</text>
+
+    <rect x="275" y="98" width="210" height="52" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="2"/>
+    <text x="380" y="130" font-size="17" font-weight="700" fill="#0b5f54">Net cash flow</text>
+
+    <text x="507" y="133" font-size="30" font-weight="700" fill="#16283c">=</text>
+
+    <rect x="530" y="98" width="250" height="52" rx="6" fill="#16283c"/>
+    <text x="655" y="120" font-size="17" font-weight="700" fill="#ffffff">Closing balance</text>
+    <text x="655" y="139" font-size="12.5" fill="#c3d0dc">cash at the end of the month</text>
+
+    <!-- carry forward loop -->
+    <path d="M655 150 V172 H125 V156" fill="none" stroke="#16283c" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#cfArrow)"/>
+    <text x="390" y="196" font-size="13.5" font-style="italic" fill="#33475b">closing balance becomes next month's opening balance</text>
+  </g>
+</svg>

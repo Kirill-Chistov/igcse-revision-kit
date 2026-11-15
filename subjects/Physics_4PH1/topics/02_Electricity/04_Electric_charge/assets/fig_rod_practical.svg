@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 212" font-family="Carlito, Calibri, Arial, sans-serif">
+<defs><marker id="e4f2-16283c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16283c"/></marker><marker id="e4f2-c0392b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="e4f2-1f6fb2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f6fb2"/></marker><marker id="e4f2-b5651d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b5651d"/></marker><marker id="e4f2-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker><marker id="e4f2-8b4a1c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8b4a1c"/></marker></defs>
+<text x="178" y="18" font-size="13" text-anchor="middle" font-weight="700" fill="#16283c">Like charges repel</text>
+<rect x="18" y="190" width="64" height="8" rx="0" fill="#dfe5ea" stroke="#16283c" stroke-width="1.5"/>
+<line x1="40" y1="190" x2="40" y2="34" stroke="#16283c" stroke-width="4"/>
+<line x1="40" y1="34" x2="175" y2="34" stroke="#16283c" stroke-width="4"/>
+<line x1="175" y1="34" x2="175" y2="88" stroke="#16283c" stroke-width="1.2"/>
+<text x="181" y="62" font-size="11" fill="#33475b">nylon thread</text>
+<rect x="95" y="90" width="160" height="16" rx="8" fill="#e8eef3" stroke="#16283c" stroke-width="2"/>
+<path d="M164,86 V110 H186 V86" stroke="#16283c" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="212" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="230" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="248" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="175" y="128" font-size="11" text-anchor="middle" fill="#33475b">rubbed polythene,</text>
+<text x="175" y="141" font-size="11" text-anchor="middle" fill="#33475b">free to turn</text>
+<rect x="272" y="90" width="82" height="16" rx="8" fill="#e8eef3" stroke="#16283c" stroke-width="2"/>
+<text x="282" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="300" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="314" y="128" font-size="11" text-anchor="middle" fill="#33475b">rubbed polythene</text>
+<text x="314" y="141" font-size="11" text-anchor="middle" fill="#33475b">brought near</text>
+<path d="M256,80 Q238,62 214,72" stroke="#c0392b" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#e4f2-c0392b)"/>
+<text x="290" y="66" font-size="12" text-anchor="middle" font-weight="700" fill="#c0392b">turns away</text>
+<text x="543" y="18" font-size="13" text-anchor="middle" font-weight="700" fill="#16283c">Unlike charges attract</text>
+<rect x="383" y="190" width="64" height="8" rx="0" fill="#dfe5ea" stroke="#16283c" stroke-width="1.5"/>
+<line x1="405" y1="190" x2="405" y2="34" stroke="#16283c" stroke-width="4"/>
+<line x1="405" y1="34" x2="540" y2="34" stroke="#16283c" stroke-width="4"/>
+<line x1="540" y1="34" x2="540" y2="88" stroke="#16283c" stroke-width="1.2"/>
+<text x="546" y="62" font-size="11" fill="#33475b">nylon thread</text>
+<rect x="460" y="90" width="160" height="16" rx="8" fill="#e8eef3" stroke="#16283c" stroke-width="2"/>
+<path d="M529,86 V110 H551 V86" stroke="#16283c" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="577" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="595" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="613" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#1f6fb2">−</text>
+<text x="540" y="128" font-size="11" text-anchor="middle" fill="#33475b">rubbed polythene,</text>
+<text x="540" y="141" font-size="11" text-anchor="middle" fill="#33475b">free to turn</text>
+<rect x="637" y="90" width="82" height="16" rx="8" fill="#e8eef3" stroke="#16283c" stroke-width="2"/>
+<text x="647" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#c0392b">+</text>
+<text x="665" y="103" font-size="15" text-anchor="middle" font-weight="700" fill="#c0392b">+</text>
+<text x="679" y="128" font-size="11" text-anchor="middle" fill="#33475b">rubbed acetate</text>
+<text x="679" y="141" font-size="11" text-anchor="middle" fill="#33475b">brought near</text>
+<path d="M579,72 Q603,62 621,80" stroke="#c0392b" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#e4f2-c0392b)"/>
+<text x="655" y="66" font-size="12" text-anchor="middle" font-weight="700" fill="#c0392b">turns towards</text>
+<line x1="360" y1="30" x2="360" y2="200" stroke="#c9d3db" stroke-width="1.2"/>
+</svg>

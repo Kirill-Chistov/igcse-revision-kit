@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 128" width="680" height="128" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Simplex, half-duplex and full-duplex transmission">
+<defs><marker id="dx-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="dx-arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/></marker></defs>
+<text x="110" y="18" text-anchor="middle" font-size="14" font-weight="700" fill="#134e4a">SIMPLEX</text>
+<rect x="10" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="30" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">A</text>
+<rect x="170" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="190" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">B</text>
+<line x1="54" y1="62" x2="166" y2="62" stroke="#0f766e" stroke-width="2.4" marker-end="url(#dx-arr)"/>
+<text x="110" y="110" text-anchor="middle" font-size="12" fill="#475569">one direction only</text>
+<text x="335" y="18" text-anchor="middle" font-size="14" font-weight="700" fill="#134e4a">HALF-DUPLEX</text>
+<rect x="235" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="255" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">A</text>
+<rect x="395" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="415" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">B</text>
+<line x1="279" y1="52" x2="391" y2="52" stroke="#0f766e" stroke-width="2.4" marker-end="url(#dx-arr)"/>
+<line x1="391" y1="72" x2="279" y2="72" stroke="#94a3b8" stroke-width="2.4" stroke-dasharray="6 4" marker-end="url(#dx-arr2)"/>
+<text x="335" y="110" text-anchor="middle" font-size="12" fill="#475569">both directions, but not at the same time</text>
+<text x="560" y="18" text-anchor="middle" font-size="14" font-weight="700" fill="#134e4a">FULL-DUPLEX</text>
+<rect x="460" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="480" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">A</text>
+<rect x="620" y="36" width="40" height="52" rx="5" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="640" y="67" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">B</text>
+<line x1="504" y1="52" x2="616" y2="52" stroke="#0f766e" stroke-width="2.4" marker-end="url(#dx-arr)"/>
+<line x1="616" y1="72" x2="504" y2="72" stroke="#0f766e" stroke-width="2.4" marker-end="url(#dx-arr)"/>
+<text x="560" y="110" text-anchor="middle" font-size="12" fill="#475569">both directions at the same time</text>
+</svg>

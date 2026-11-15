@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 138" width="680" height="138" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Echo check">
+<defs><marker id="ec" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="ecg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#15803d"/></marker><marker id="ecr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker></defs>
+<rect x="10" y="24" width="120" height="76" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="70.0" y="67.2" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">Sender</text>
+<rect x="550" y="24" width="120" height="76" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="610.0" y="67.2" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">Receiver</text>
+<line x1="134" y1="46" x2="546" y2="46" stroke="#0f766e" stroke-width="2.4" marker-end="url(#ec)"/>
+<line x1="546" y1="80" x2="134" y2="80" stroke="#0f766e" stroke-width="2.4" stroke-dasharray="7 4" marker-end="url(#ec)"/>
+<text x="340" y="38" text-anchor="middle" font-size="12.5" fill="#134e4a"><tspan font-weight="700">1</tspan>  data is sent to the receiver</text>
+<text x="340" y="96" text-anchor="middle" font-size="12.5" fill="#134e4a"><tspan font-weight="700">2</tspan>  the receiver sends a copy of the data back</text>
+<text x="340" y="126" text-anchor="middle" font-size="12.5" fill="#134e4a"><tspan font-weight="700">3</tspan>  the sender compares the returned copy with the original: any difference means an error, so the data is re-sent</text>
+</svg>

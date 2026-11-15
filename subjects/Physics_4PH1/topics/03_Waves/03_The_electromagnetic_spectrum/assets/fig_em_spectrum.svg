@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 236" width="820" height="236" role="img" aria-label="The electromagnetic spectrum in order of decreasing wavelength and increasing frequency: radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays; visible light expanded into red, orange, yellow, green, blue, indigo, violet">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4c3fa8"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b7a88"/></marker><marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d99a17"/></marker><linearGradient id="vis" x1="0" x2="1" y1="0" y2="0"><stop offset="0.000" stop-color="#d62f2f"/><stop offset="0.167" stop-color="#f28c28"/><stop offset="0.333" stop-color="#e8c31e"/><stop offset="0.500" stop-color="#3bb34a"/><stop offset="0.667" stop-color="#2f5fd6"/><stop offset="0.833" stop-color="#4b3ab5"/><stop offset="1.000" stop-color="#7b3fbf"/></linearGradient></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<line x1="40.0" y1="24.0" x2="780.0" y2="24.0" stroke="#0f7b6c" stroke-width="2.2" stroke-linecap="round" marker-end="url(#aht)"/>
+<rect x="300" y="12" width="220" height="20" fill="#ffffff"/>
+<text x="410.0" y="29.0" font-size="14" fill="#0f7b6c" text-anchor="middle" font-weight="700">wavelength decreases</text>
+<rect x="20.0" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="75.7" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Radio waves</text>
+<rect x="131.4" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="187.1" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Microwaves</text>
+<rect x="242.9" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="298.6" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Infrared</text>
+<rect x="354.3" y="40.0" width="111.4" height="52.0" rx="0" fill="url(#vis)" stroke="#16283c" stroke-width="1.4"/>
+<rect x="364.3" y="55" width="91.4" height="22" rx="4" fill="#ffffff" fill-opacity="0.85"/>
+<text x="410.0" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Visible</text>
+<rect x="465.7" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="521.4" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Ultraviolet</text>
+<rect x="577.1" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="632.9" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">X-rays</text>
+<rect x="688.6" y="40.0" width="111.4" height="52.0" rx="0" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="744.3" y="71.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700">Gamma rays</text>
+<line x1="354.3" y1="92.0" x2="200.0" y2="138.0" stroke="#6b7a88" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="465.7" y1="92.0" x2="620.0" y2="138.0" stroke="#6b7a88" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<rect x="200.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#d62f2f" stroke="none" stroke-width="0"/>
+<text x="230.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">red</text>
+<rect x="260.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#f28c28" stroke="none" stroke-width="0"/>
+<text x="290.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">orange</text>
+<rect x="320.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#e8c31e" stroke="none" stroke-width="0"/>
+<text x="350.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">yellow</text>
+<rect x="380.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#3bb34a" stroke="none" stroke-width="0"/>
+<text x="410.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">green</text>
+<rect x="440.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#2f5fd6" stroke="none" stroke-width="0"/>
+<text x="470.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">blue</text>
+<rect x="500.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#4b3ab5" stroke="none" stroke-width="0"/>
+<text x="530.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">indigo</text>
+<rect x="560.0" y="138.0" width="60.0" height="30.0" rx="0" fill="#7b3fbf" stroke="none" stroke-width="0"/>
+<text x="590.0" y="186.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">violet</text>
+<rect x="200.0" y="138.0" width="420.0" height="30.0" rx="0" fill="none" stroke="#16283c" stroke-width="1.2"/>
+<text x="190.0" y="158.0" font-size="12.5" fill="#33475b" text-anchor="end" font-weight="400">longest λ</text>
+<text x="630.0" y="158.0" font-size="12.5" fill="#33475b" text-anchor="start" font-weight="400">shortest λ</text>
+<line x1="40.0" y1="214.0" x2="780.0" y2="214.0" stroke="#4c3fa8" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahp)"/>
+<rect x="250" y="203" width="320" height="22" fill="#ffffff"/>
+<text x="410.0" y="219.0" font-size="14" fill="#4c3fa8" text-anchor="middle" font-weight="700">frequency (and energy) increases</text>
+</g>
+</svg>

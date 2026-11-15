@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 312" font-family="Carlito, Calibri, Arial, sans-serif">
+<defs><marker id="e3f5-16283c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16283c"/></marker><marker id="e3f5-c0392b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/></marker><marker id="e3f5-1f6fb2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f6fb2"/></marker><marker id="e3f5-b5651d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b5651d"/></marker><marker id="e3f5-2e7d4f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker><marker id="e3f5-8b4a1c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8b4a1c"/></marker></defs>
+<text x="180" y="18" font-size="13.5" text-anchor="middle" font-weight="700" fill="#16283c">Series circuit</text>
+<polygon points="40.0,62.0 320.0,62.0 320.0,200.0 40.0,200.0" stroke="#16283c" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<rect x="158" y="45" width="44" height="34" fill="white" stroke="none"/>
+<line x1="162" y1="47" x2="162" y2="77" stroke="#16283c" stroke-width="2"/>
+<line x1="170" y1="54" x2="170" y2="70" stroke="#16283c" stroke-width="5"/>
+<line x1="190" y1="47" x2="190" y2="77" stroke="#16283c" stroke-width="2"/>
+<line x1="198" y1="54" x2="198" y2="70" stroke="#16283c" stroke-width="5"/>
+<line x1="174" y1="62" x2="186" y2="62" stroke="#16283c" stroke-width="1.5" stroke-dasharray="2 3"/>
+<text x="180" y="40" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">6.0 V</text>
+<circle cx="40" cy="131" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="40" y="136" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">A</text>
+<text x="60" y="135" font-size="12" font-weight="700" fill="#c0392b">0.50 A</text>
+<circle cx="320" cy="131" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="320" y="136" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">A</text>
+<text x="300" y="135" font-size="12" text-anchor="end" font-weight="700" fill="#c0392b">0.50 A</text>
+<rect x="98.0" y="193.0" width="44" height="14" rx="0" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="120" y="187" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">4.0 Ω</text>
+<circle cx="84" cy="200" r="3.5" fill="#16283c"/>
+<circle cx="156" cy="200" r="3.5" fill="#16283c"/>
+<polyline points="84.0,200.0 84.0,240.0 156.0,240.0 156.0,200.0" stroke="#16283c" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<circle cx="120" cy="240" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="120" y="245" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">V</text>
+<text x="120" y="272" font-size="12" text-anchor="middle" font-weight="700" fill="#1f6fb2">2.0 V</text>
+<rect x="218.0" y="193.0" width="44" height="14" rx="0" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="240" y="187" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">8.0 Ω</text>
+<circle cx="204" cy="200" r="3.5" fill="#16283c"/>
+<circle cx="276" cy="200" r="3.5" fill="#16283c"/>
+<polyline points="204.0,200.0 204.0,240.0 276.0,240.0 276.0,200.0" stroke="#16283c" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<circle cx="240" cy="240" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="240" y="245" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">V</text>
+<text x="240" y="272" font-size="12" text-anchor="middle" font-weight="700" fill="#1f6fb2">4.0 V</text>
+<text x="180" y="298" font-size="11.5" text-anchor="middle" font-style="italic" fill="#33475b">same current everywhere · 2.0 V + 4.0 V = 6.0 V</text>
+<text x="550" y="18" font-size="13.5" text-anchor="middle" font-weight="700" fill="#16283c">Parallel circuit</text>
+<polyline points="410.0,140.0 410.0,62.0 690.0,62.0 690.0,140.0" stroke="#16283c" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<polyline points="410.0,140.0 410.0,212.0 690.0,212.0 690.0,140.0" stroke="#16283c" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<line x1="410" y1="140" x2="690" y2="140" stroke="#16283c" stroke-width="2"/>
+<rect x="528" y="45" width="44" height="34" fill="white" stroke="none"/>
+<line x1="532" y1="47" x2="532" y2="77" stroke="#16283c" stroke-width="2"/>
+<line x1="540" y1="54" x2="540" y2="70" stroke="#16283c" stroke-width="5"/>
+<line x1="560" y1="47" x2="560" y2="77" stroke="#16283c" stroke-width="2"/>
+<line x1="568" y1="54" x2="568" y2="70" stroke="#16283c" stroke-width="5"/>
+<line x1="544" y1="62" x2="556" y2="62" stroke="#16283c" stroke-width="1.5" stroke-dasharray="2 3"/>
+<text x="550" y="40" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">6.0 V</text>
+<circle cx="410" cy="140" r="3.5" fill="#16283c"/>
+<circle cx="690" cy="140" r="3.5" fill="#16283c"/>
+<circle cx="410" cy="101" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="410" y="106" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">A</text>
+<text x="430" y="105" font-size="12" font-weight="700" fill="#c0392b">0.50 A</text>
+<circle cx="470" cy="140" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="470" y="145" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">A</text>
+<text x="470" y="122" font-size="12" text-anchor="middle" font-weight="700" fill="#c0392b">0.20 A</text>
+<circle cx="470" cy="212" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="470" y="217" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">A</text>
+<text x="470" y="194" font-size="12" text-anchor="middle" font-weight="700" fill="#c0392b">0.30 A</text>
+<rect x="568.0" y="133.0" width="44" height="14" rx="0" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="590" y="164" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">30 Ω</text>
+<rect x="568.0" y="205.0" width="44" height="14" rx="0" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="590" y="199" font-size="12" text-anchor="middle" font-weight="700" fill="#16283c">20 Ω</text>
+<circle cx="550" cy="140" r="3.5" fill="#16283c"/>
+<circle cx="630" cy="140" r="3.5" fill="#16283c"/>
+<polyline points="550.0,140.0 550.0,101.0 630.0,101.0 630.0,140.0" stroke="#16283c" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<circle cx="590" cy="101" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="590" y="106" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">V</text>
+<text x="638" y="105" font-size="12" font-weight="700" fill="#1f6fb2">6.0 V</text>
+<circle cx="550" cy="212" r="3.5" fill="#16283c"/>
+<circle cx="630" cy="212" r="3.5" fill="#16283c"/>
+<polyline points="550.0,212.0 550.0,250.0 630.0,250.0 630.0,212.0" stroke="#16283c" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<circle cx="590" cy="250" r="13" fill="white" stroke="#16283c" stroke-width="2"/>
+<text x="590" y="255" font-size="14" text-anchor="middle" font-weight="700" fill="#16283c">V</text>
+<text x="590" y="282" font-size="12" text-anchor="middle" font-weight="700" fill="#1f6fb2">6.0 V</text>
+<text x="550" y="298" font-size="11.5" text-anchor="middle" font-style="italic" fill="#33475b">same voltage across each branch · 0.20 A + 0.30 A = 0.50 A</text>
+<line x1="365" y1="30" x2="365" y2="290" stroke="#c9d3db" stroke-width="1.2"/>
+</svg>

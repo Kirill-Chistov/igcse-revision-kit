@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 178" width="760" height="178" role="img" aria-label="Three graphs of rate of photosynthesis. Against light intensity: the rate rises while light is limiting, then levels off when carbon dioxide or temperature becomes limiting; the plateau is higher at high carbon dioxide. Against carbon dioxide concentration: the rate rises then levels off when light or temperature becomes limiting. Against temperature: the rate rises to an optimum then falls as enzymes are denatured.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .lg-t { font-size: 13px; font-weight: 700; fill: #0b5f54; }
+    .lg-l { font-size: 11.5px; font-weight: 700; }
+    .lg-s { font-size: 11.5px; fill: #33475b; }
+    .lg-k { font-size: 11.5px; font-weight: 700; fill: #b07a0a; }
+    .lg-r { font-size: 11.5px; font-weight: 700; fill: #c0392b; }
+    .lg-c { fill: none; stroke: #0f7b6c; stroke-width: 2.8; }
+    .lg-c2 { fill: none; stroke: #4c3fa8; stroke-width: 2.4; stroke-dasharray: 6 4; }
+  </style>
+  <text class="lg-t" x="129.0" y="16" text-anchor="middle">Light intensity</text>
+  <path d="M34,32 L34,150 L224,150" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <text class="lg-l" x="129.0" y="168" text-anchor="middle">light intensity</text>
+  <text class="lg-l" x="26" y="91.0" transform="rotate(-90 26 91.0)" text-anchor="middle">rate of photosynthesis</text>
+  <path class="lg-c" d="M34.0,150.0 L37.2,142.8 L40.3,136.1 L43.5,129.9 L46.7,124.1 L49.8,118.6 L53.0,113.6 L56.2,108.9 L59.3,104.5 L62.5,100.4 L65.7,96.5 L68.8,93.0 L72.0,89.6 L75.2,86.5 L78.3,83.7 L81.5,81.0 L84.7,78.5 L87.8,76.1 L91.0,73.9 L94.2,71.9 L97.3,70.0 L100.5,68.2 L103.7,66.6 L106.8,65.0 L110.0,63.6 L113.2,62.3 L116.3,61.0 L119.5,59.8 L122.7,58.8 L125.8,57.7 L129.0,56.8 L132.2,55.9 L135.3,55.1 L138.5,54.3 L141.7,53.6 L144.8,53.0 L148.0,52.3 L151.2,51.8 L154.3,51.2 L157.5,50.7 L160.7,50.3 L163.8,49.8 L167.0,49.4 L170.2,49.0 L173.3,48.7 L176.5,48.4 L179.7,48.0 L182.8,47.8 L186.0,47.5 L189.2,47.2 L192.3,47.0 L195.5,46.8 L198.7,46.6 L201.8,46.4 L205.0,46.2 L208.2,46.1 L211.3,45.9 L214.5,45.8 L217.7,45.6 L220.8,45.5 L224.0,45.4"/>
+  <path class="lg-c2" d="M34.0,150.0 L37.2,144.3 L40.3,139.1 L43.5,134.4 L46.7,130.1 L49.8,126.1 L53.0,122.5 L56.2,119.3 L59.3,116.3 L62.5,113.5 L65.7,111.1 L68.8,108.8 L72.0,106.7 L75.2,104.8 L78.3,103.1 L81.5,101.5 L84.7,100.1 L87.8,98.8 L91.0,97.6 L94.2,96.5 L97.3,95.5 L100.5,94.6 L103.7,93.7 L106.8,93.0 L110.0,92.3 L113.2,91.7 L116.3,91.1 L119.5,90.6 L122.7,90.1 L125.8,89.6 L129.0,89.2 L132.2,88.9 L135.3,88.6 L138.5,88.3 L141.7,88.0 L144.8,87.7 L148.0,87.5 L151.2,87.3 L154.3,87.1 L157.5,86.9 L160.7,86.8 L163.8,86.6 L167.0,86.5 L170.2,86.4 L173.3,86.2 L176.5,86.1 L179.7,86.1 L182.8,86.0 L186.0,85.9 L189.2,85.8 L192.3,85.8 L195.5,85.7 L198.7,85.7 L201.8,85.6 L205.0,85.6 L208.2,85.5 L211.3,85.5 L214.5,85.4 L217.7,85.4 L220.8,85.4 L224.0,85.4"/>
+  <text class="lg-s" x="222" y="37.8" text-anchor="end">high CO₂</text>
+  <text class="lg-s" x="222" y="101.1" text-anchor="end">low CO₂</text>
+  <text class="lg-k" x="75.8" y="130">light limiting</text><path d="M72.0,126 L53.0,114.6" stroke="#b07a0a" stroke-width="1.1"/>
+  <text class="lg-s" x="132.8" y="65.8">CO₂ or temperature</text><text class="lg-s" x="132.8" y="78.8">now limiting</text>
+  <text class="lg-t" x="387.0" y="16" text-anchor="middle">Carbon dioxide concentration</text>
+  <path d="M292,32 L292,150 L482,150" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <text class="lg-l" x="387.0" y="168" text-anchor="middle">carbon dioxide concentration</text>
+  <text class="lg-l" x="284" y="91.0" transform="rotate(-90 284 91.0)" text-anchor="middle">rate of photosynthesis</text>
+  <path class="lg-c" d="M292.0,150.0 L295.2,143.5 L298.3,137.5 L301.5,131.8 L304.7,126.5 L307.8,121.6 L311.0,116.9 L314.2,112.6 L317.3,108.5 L320.5,104.7 L323.7,101.2 L326.8,97.9 L330.0,94.8 L333.2,91.9 L336.3,89.1 L339.5,86.6 L342.7,84.2 L345.8,82.0 L349.0,79.9 L352.2,78.0 L355.3,76.1 L358.5,74.4 L361.7,72.8 L364.8,71.3 L368.0,70.0 L371.2,68.6 L374.3,67.4 L377.5,66.3 L380.7,65.2 L383.8,64.2 L387.0,63.3 L390.2,62.4 L393.3,61.6 L396.5,60.8 L399.7,60.1 L402.8,59.4 L406.0,58.8 L409.2,58.2 L412.3,57.7 L415.5,57.1 L418.7,56.7 L421.8,56.2 L425.0,55.8 L428.2,55.4 L431.3,55.0 L434.5,54.7 L437.7,54.4 L440.8,54.1 L444.0,53.8 L447.2,53.5 L450.3,53.3 L453.5,53.0 L456.7,52.8 L459.8,52.6 L463.0,52.4 L466.2,52.3 L469.3,52.1 L472.5,51.9 L475.7,51.8 L478.8,51.7 L482.0,51.5"/>
+  <text class="lg-k" x="333.8" y="130">CO₂ limiting</text><path d="M330.0,126 L311.0,114.6" stroke="#b07a0a" stroke-width="1.1"/>
+  <text class="lg-s" x="377.5" y="93.7">light or temperature</text><text class="lg-s" x="377.5" y="106.7">now limiting</text>
+  <text class="lg-t" x="645.0" y="16" text-anchor="middle">Temperature</text>
+  <path d="M550,32 L550,150 L740,150" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <text class="lg-l" x="645.0" y="168" text-anchor="middle">temperature</text>
+  <text class="lg-l" x="542" y="91.0" transform="rotate(-90 542 91.0)" text-anchor="middle">rate of photosynthesis</text>
+  <path class="lg-c" d="M550.0,144.1 L552.1,143.9 L554.2,143.6 L556.3,143.1 L558.4,142.6 L560.6,141.9 L562.7,141.2 L564.8,140.4 L566.9,139.5 L569.0,138.5 L571.1,137.5 L573.2,136.4 L575.3,135.3 L577.4,134.1 L579.6,132.8 L581.7,131.5 L583.8,130.1 L585.9,128.7 L588.0,127.2 L590.1,125.7 L592.2,124.1 L594.3,122.5 L596.4,120.8 L598.6,119.1 L600.7,117.3 L602.8,115.5 L604.9,113.7 L607.0,111.8 L609.1,109.9 L611.2,107.9 L613.3,105.9 L615.4,103.8 L617.6,101.7 L619.7,99.6 L621.8,97.4 L623.9,95.2 L626.0,92.9 L628.1,90.6 L630.2,88.3 L632.3,85.9 L634.4,83.5 L636.6,81.1 L638.7,78.6 L640.8,76.1 L642.9,73.5 L645.0,70.9 L647.1,68.3 L649.2,65.7 L651.3,63.0 L653.4,60.3 L655.6,57.5 L657.7,54.7 L659.8,51.9 L661.9,49.0 L664.0,46.2 L666.1,46.4 L668.2,47.1 L670.3,48.1 L672.4,49.5 L674.6,51.1 L676.7,53.1 L678.8,55.3 L680.9,57.8 L683.0,60.5 L685.1,63.5 L687.2,66.8 L689.3,70.3 L691.4,74.0 L693.6,78.0 L695.7,82.2 L697.8,86.6 L699.9,91.3 L702.0,96.2 L704.1,101.3 L706.2,106.7 L708.3,112.2 L710.4,118.0 L712.6,124.0 L714.7,130.2 L716.8,136.6 L718.9,143.2 L721.0,150.0 L723.1,150.0 L725.2,150.0 L727.3,150.0 L729.4,150.0 L731.6,150.0 L733.7,150.0 L735.8,150.0 L737.9,150.0 L740.0,150.0"/>
+  <text class="lg-s" x="664.0" y="40.16" text-anchor="middle">optimum</text>
+  <text class="lg-r" x="702.0" y="85.1">enzymes</text><text class="lg-r" x="702.0" y="98.1">denatured</text>
+</svg>

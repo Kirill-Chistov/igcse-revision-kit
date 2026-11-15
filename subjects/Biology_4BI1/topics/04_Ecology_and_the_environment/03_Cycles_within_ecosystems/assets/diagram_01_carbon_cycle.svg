@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 304" width="760" height="304" role="img" aria-label="The carbon cycle. Photosynthesis by green plants removes carbon dioxide from the air and makes carbon compounds. Feeding passes carbon compounds to animals. Plants, animals and decomposers all return carbon dioxide to the air by respiration. Dead organisms and waste are broken down by decomposers (bacteria and fungi) in decomposition. If dead organisms do not decay they can form fossil fuels over millions of years, and combustion of fossil fuels releases carbon dioxide into the air.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .cc-h { font-size: 13px; font-weight: 700; }
+    .cc-s { font-size: 11.5px; fill: #33475b; }
+    .cc-l { font-size: 12.5px; font-weight: 700; }
+  </style>
+  <defs>
+    <marker id="cc-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4f8a3a"/></marker>
+    <marker id="cc-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8433a"/></marker>
+    <marker id="cc-o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c46a12"/></marker>
+    <marker id="cc-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f7b6c"/></marker>
+    <marker id="cc-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+    <marker id="cc-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a5a3a"/></marker>
+  </defs>
+  <rect x="250" y="8" width="260" height="42" rx="8" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.6"/>
+  <text class="cc-h" x="380.0" y="28" text-anchor="middle">CARBON DIOXIDE IN THE AIR</text>
+  <rect x="20" y="120" width="180" height="56" rx="8" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.6"/>
+  <text class="cc-h" x="110.0" y="140" text-anchor="middle">Green plants</text>
+  <text class="cc-s" x="110.0" y="156" text-anchor="middle">carbon compounds (carbohydrates,</text>
+  <text class="cc-s" x="110.0" y="170" text-anchor="middle">proteins, fats)</text>
+  <rect x="290" y="120" width="180" height="56" rx="8" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+  <text class="cc-h" x="380.0" y="140" text-anchor="middle">Animals</text>
+  <text class="cc-s" x="380.0" y="156" text-anchor="middle">carbon compounds</text>
+  <rect x="290" y="224" width="180" height="56" rx="8" fill="#f3f5f7" stroke="#6f7d8c" stroke-width="1.6"/>
+  <text class="cc-h" x="380.0" y="244" text-anchor="middle">Dead organisms and waste</text>
+  <text class="cc-s" x="380.0" y="260" text-anchor="middle">faeces, urine, fallen leaves</text>
+  <rect x="556" y="224" width="190" height="56" rx="8" fill="#f1ebe3" stroke="#7a5a3a" stroke-width="1.6"/>
+  <text class="cc-h" x="651.0" y="244" text-anchor="middle">Decomposers</text>
+  <text class="cc-s" x="651.0" y="260" text-anchor="middle">bacteria and fungi</text>
+  <rect x="20" y="224" width="180" height="72" rx="8" fill="#eeeae6" stroke="#5b4a3a" stroke-width="1.6"/>
+  <text class="cc-h" x="110.0" y="244" text-anchor="middle">Fossil fuels</text>
+  <text class="cc-s" x="110.0" y="260" text-anchor="middle">coal, oil, natural gas — formed</text>
+  <text class="cc-s" x="110.0" y="274" text-anchor="middle">over millions of years when</text>
+  <text class="cc-s" x="110.0" y="288" text-anchor="middle">dead organisms do not decay</text>
+  <path d="M262,52 L86,118" fill="none" stroke="#4f8a3a" stroke-width="3" marker-end="url(#cc-g)"/>
+  <path d="M176,118 L322,54" fill="none" stroke="#b8433a" stroke-width="2.6" marker-end="url(#cc-r)"/>
+  <path d="M200,148 L286,148" fill="none" stroke="#0f7b6c" stroke-width="2.6" marker-end="url(#cc-t)"/>
+  <path d="M380,118 L380,54" fill="none" stroke="#b8433a" stroke-width="2.6" marker-end="url(#cc-r)"/>
+  <path d="M150,178 L304,222" fill="none" stroke="#6f7d8c" stroke-width="2.6" marker-end="url(#cc-k)"/>
+  <path d="M380,178 L380,220" fill="none" stroke="#6f7d8c" stroke-width="2.6" marker-end="url(#cc-k)"/>
+  <path d="M472,252 L552,252" fill="none" stroke="#7a5a3a" stroke-width="2.6" marker-end="url(#cc-b)"/>
+  <path d="M651,222 L651,29 L514,29" fill="none" stroke="#b8433a" stroke-width="2.6" marker-end="url(#cc-r)"/>
+  <path d="M288,262 L204,262" fill="none" stroke="#6f7d8c" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#cc-k)"/>
+  <path d="M20,238 L8,238 L8,29 L246,29" fill="none" stroke="#c46a12" stroke-width="3" marker-end="url(#cc-o)"/>
+  <text class="cc-l" x="150" y="76" text-anchor="end" style="fill:#4f8a3a">photosynthesis</text>
+  <text class="cc-l" x="262" y="98" style="fill:#b8433a">respiration</text>
+  <text class="cc-l" x="243" y="140" text-anchor="middle" style="fill:#0f7b6c">feeding</text>
+  <text class="cc-l" x="388" y="92" style="fill:#b8433a">respiration</text>
+  <text class="cc-l" x="206" y="212" style="fill:#6f7d8c">death</text>
+  <text class="cc-l" x="388" y="204" style="fill:#6f7d8c">death, egestion, excretion</text>
+  <text class="cc-l" x="512" y="244" text-anchor="middle" style="fill:#7a5a3a">decomposition</text>
+  <text class="cc-l" x="659" y="120" style="fill:#b8433a">respiration</text>
+  <text class="cc-s" x="659" y="135">by decomposers</text>
+  <text class="cc-l" x="246" y="254" text-anchor="middle" style="fill:#6f7d8c;font-size:11px">no decay</text>
+  <text class="cc-l" x="40" y="22" style="fill:#c46a12">combustion</text>
+</svg>

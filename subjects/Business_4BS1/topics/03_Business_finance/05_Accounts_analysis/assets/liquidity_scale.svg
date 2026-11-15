@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="800" height="150" role="img" aria-label="Liquidity: cash is most liquid, then trade receivables, then inventory, then non-current assets. Current ratio uses cash, receivables and inventory; acid test excludes inventory">
+<defs><marker id="lqArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<text x="30" y="22" font-size="14" font-weight="700" fill="#16283c">most liquid</text>
+<text x="770" y="22" font-size="14" font-weight="700" text-anchor="end" fill="#16283c">least liquid</text>
+<line x1="118" y1="17" x2="682" y2="17" stroke="#16283c" stroke-width="1.8" marker-end="url(#lqArr)"/>
+<text x="400" y="12" font-size="12" font-style="italic" text-anchor="middle" fill="#33475b">harder and slower to turn into cash</text>
+<rect x="30" y="30" width="170" height="46" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+<text x="115.0" y="50" font-size="15.5" font-weight="700" text-anchor="middle" fill="#16283c">Cash</text>
+<text x="115.0" y="68" font-size="12.5" text-anchor="middle" fill="#33475b">already cash</text>
+<rect x="212" y="30" width="183" height="46" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+<text x="303.5" y="50" font-size="15.5" font-weight="700" text-anchor="middle" fill="#16283c">Trade receivables</text>
+<text x="303.5" y="68" font-size="12.5" text-anchor="middle" fill="#33475b">customers yet to pay</text>
+<rect x="407" y="30" width="173" height="46" rx="6" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.8"/>
+<text x="493.5" y="50" font-size="15.5" font-weight="700" text-anchor="middle" fill="#16283c">Inventory</text>
+<text x="493.5" y="68" font-size="12.5" text-anchor="middle" fill="#33475b">must be sold first</text>
+<rect x="597" y="30" width="173" height="46" rx="6" fill="#eef2f5" stroke="#33475b" stroke-width="1.8"/>
+<text x="683.5" y="50" font-size="15.5" font-weight="700" text-anchor="middle" fill="#16283c">Non-current assets</text>
+<text x="683.5" y="68" font-size="12.5" text-anchor="middle" fill="#33475b">property, machinery</text>
+<path d="M32 84 v6 H393 v-6" fill="none" stroke="#0f7b6c" stroke-width="1.8"/>
+<text x="212" y="106" font-size="13.5" font-weight="700" text-anchor="middle" fill="#0b5f54">acid test ratio: current assets − inventory</text>
+<path d="M32 116 v6 H578 v-6" fill="none" stroke="#16283c" stroke-width="1.8"/>
+<text x="305" y="140" font-size="13.5" font-weight="700" text-anchor="middle" fill="#16283c">current ratio: all current assets</text>
+</g></svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 760 222" width="760" height="222" role="img" aria-label="Pyramids of number, biomass and energy for the food chain oak tree, caterpillars, blue tits, hawk. The pyramid of numbers is not a pyramid: the single oak tree bar is narrow and the caterpillar bar is wide. The pyramid of biomass narrows at each level. The pyramid of energy transfer always narrows at each level.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .py-t { font-size: 14px; font-weight: 700; }
+    .py-s { font-size: 11.5px; fill: #33475b; }
+    .py-l { font-size: 12px; font-weight: 700; }
+  </style>
+  <text class="py-l" x="8" y="202.0" style="fill:#4f8a3a">producer: oak tree</text>
+  <line x1="150" y1="198.0" x2="752" y2="198.0" stroke="#e1e6ec" stroke-width="1"/>
+  <text class="py-l" x="8" y="168.0" style="fill:#d99a17">primary: caterpillars</text>
+  <line x1="150" y1="164.0" x2="752" y2="164.0" stroke="#e1e6ec" stroke-width="1"/>
+  <text class="py-l" x="8" y="134.0" style="fill:#b8433a">secondary: blue tits</text>
+  <line x1="150" y1="130.0" x2="752" y2="130.0" stroke="#e1e6ec" stroke-width="1"/>
+  <text class="py-l" x="8" y="100.0" style="fill:#4c3fa8">tertiary: hawk</text>
+  <line x1="150" y1="96.0" x2="752" y2="96.0" stroke="#e1e6ec" stroke-width="1"/>
+  <text class="py-t" x="270" y="64" text-anchor="middle">Pyramid of numbers</text>
+  <rect x="262.0" y="182" width="16" height="32" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.6"/>
+  <rect x="180.0" y="148" width="180" height="32" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+  <rect x="235.0" y="114" width="70" height="32" fill="#fbecea" stroke="#b8433a" stroke-width="1.6"/>
+  <rect x="265.0" y="80" width="10" height="32" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.6"/>
+  <text class="py-s" x="270" y="234" text-anchor="middle" style="font-weight:700">can be any shape</text>
+  <text class="py-s" x="270" y="249" text-anchor="middle">(one tree feeds thousands)</text>
+  <text class="py-t" x="475" y="64" text-anchor="middle">Pyramid of biomass</text>
+  <rect x="385.0" y="182" width="180" height="32" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.6"/>
+  <rect x="420.0" y="148" width="110" height="32" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+  <rect x="450.0" y="114" width="50" height="32" fill="#fbecea" stroke="#b8433a" stroke-width="1.6"/>
+  <rect x="468.0" y="80" width="14" height="32" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.6"/>
+  <text class="py-s" x="475" y="234" text-anchor="middle" style="font-weight:700">usually a pyramid</text>
+  <text class="py-t" x="675" y="64" text-anchor="middle">Pyramid of energy transfer</text>
+  <rect x="595.0" y="182" width="160" height="32" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.6"/>
+  <rect x="640.0" y="148" width="70" height="32" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+  <rect x="660.0" y="114" width="30" height="32" fill="#fbecea" stroke="#b8433a" stroke-width="1.6"/>
+  <rect x="669.0" y="80" width="12" height="32" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.6"/>
+  <text class="py-s" x="675" y="234" text-anchor="middle" style="font-weight:700">always a pyramid</text>
+  <text class="py-s" x="675" y="249" text-anchor="middle">(not to scale)</text>
+</svg>

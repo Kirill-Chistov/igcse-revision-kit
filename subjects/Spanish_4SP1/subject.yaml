@@ -1,0 +1,12 @@
+name: Spanish
+board: Pearson Edexcel
+qualification: International GCSE (9–1) Spanish
+code: "4SP1"
+aliases: [spanish, es]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Spanish/2017/specification-and-sample-assessments/international-gcse-spanish-specification.pdf
+tiers: none
+centre_choices: []
+status: specification mapped, no notes yet
+spec_points: 42
+subtopics_written: 0
+topic_pdfs: 0

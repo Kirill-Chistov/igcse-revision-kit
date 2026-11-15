@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="680" height="200" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Serial transmission sends one bit at a time on one wire; parallel sends several bits at the same time on several wires">
+<defs><marker id="sp-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker></defs>
+<text x="165" y="18" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">SERIAL</text>
+<text x="165" y="35" text-anchor="middle" font-size="12" fill="#475569">one wire · one bit at a time, one after another</text>
+<rect x="10" y="78" width="70" height="80" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="45" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#134e4a">Sender</text>
+<rect x="250" y="78" width="70" height="80" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="285" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#134e4a">Receiver</text>
+<line x1="80" y1="118" x2="248" y2="118" stroke="#0f766e" stroke-width="2" marker-end="url(#sp-arr)"/>
+<text x="98" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">1</text>
+<text x="116" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">0</text>
+<text x="134" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">0</text>
+<text x="152" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">1</text>
+<text x="170" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">1</text>
+<text x="188" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">0</text>
+<text x="206" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">1</text>
+<text x="224" y="111" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">1</text>
+<text x="515" y="18" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">PARALLEL</text>
+<text x="515" y="35" text-anchor="middle" font-size="12" fill="#475569">several wires · one bit per wire, all at the same time</text>
+<rect x="360" y="46" width="70" height="146" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="395" y="123" text-anchor="middle" font-size="13" font-weight="700" fill="#134e4a">Sender</text>
+<rect x="600" y="46" width="70" height="146" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/><text x="635" y="123" text-anchor="middle" font-size="13" font-weight="700" fill="#134e4a">Receiver</text>
+<line x1="430" y1="58" x2="598" y2="58" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="55" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">1</text>
+<line x1="430" y1="76" x2="598" y2="76" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">0</text>
+<line x1="430" y1="94" x2="598" y2="94" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="91" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">0</text>
+<line x1="430" y1="112" x2="598" y2="112" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="109" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">1</text>
+<line x1="430" y1="130" x2="598" y2="130" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">1</text>
+<line x1="430" y1="148" x2="598" y2="148" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="145" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">0</text>
+<line x1="430" y1="166" x2="598" y2="166" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="163" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">1</text>
+<line x1="430" y1="184" x2="598" y2="184" stroke="#0f766e" stroke-width="1.6" marker-end="url(#sp-arr)"/>
+<text x="515" y="181" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">1</text>
+</svg>

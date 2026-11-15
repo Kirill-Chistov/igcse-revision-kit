@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" width="760" height="318" role="img" aria-label="Simplified front views. Male: bladder, sperm ducts running from each testis in the scrotum up and over the bladder to join the urethra, prostate gland and seminal vesicles adding fluid, urethra through the penis. Female: two ovaries, oviducts leading to the uterus, cervix, vagina.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .rp-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .rp-l { font-size: 12px; font-weight: 700; }
+    .ld { stroke: #8fa3b8; stroke-width: 1; fill: none; }
+  </style>
+  <text class="rp-t" x="6" y="16">A  MALE (front view)</text>
+  <text class="rp-t" x="404" y="16">B  FEMALE (front view)</text>
+  <line x1="390" y1="6" x2="390" y2="312" stroke="#dfe5ea" stroke-width="1.4"/>
+
+  <!-- MALE, centre x=200 -->
+  <!-- bladder -->
+  <ellipse cx="200" cy="80" rx="36" ry="30" fill="#f6e7a8" stroke="#b8960b" stroke-width="1.6"/>
+  <!-- seminal vesicles -->
+  <ellipse cx="166" cy="116" rx="11" ry="16" transform="rotate(30 166 116)" fill="#d8c7ef" stroke="#6a52a3" stroke-width="1.4"/>
+  <ellipse cx="234" cy="116" rx="11" ry="16" transform="rotate(-30 234 116)" fill="#d8c7ef" stroke="#6a52a3" stroke-width="1.4"/>
+  <!-- prostate -->
+  <ellipse cx="200" cy="130" rx="20" ry="13" fill="#c9b3ea" stroke="#6a52a3" stroke-width="1.4"/>
+  <!-- scrotum + testes -->
+  <path d="M140,196 C120,210 124,262 158,262 C176,262 186,248 186,230 L214,230 C214,248 224,262 242,262 C276,262 280,210 260,196 Z" fill="#fbe8df" stroke="#a0604a" stroke-width="1.4"/>
+  <ellipse cx="156" cy="232" rx="16" ry="20" fill="#f0a98f" stroke="#a0604a" stroke-width="1.6"/>
+  <ellipse cx="244" cy="232" rx="16" ry="20" fill="#f0a98f" stroke="#a0604a" stroke-width="1.6"/>
+  <!-- penis -->
+  <path d="M186,168 L186,262 Q186,282 200,282 Q214,282 214,262 L214,168 Z" fill="#f4d3c4" stroke="#a0604a" stroke-width="1.6"/>
+  <!-- urethra -->
+  <path d="M200,108 L200,280" stroke="#b8960b" stroke-width="3"/>
+  <!-- sperm ducts -->
+  <path d="M156,212 C140,170 128,110 146,64 C154,46 176,48 178,70 C180,96 186,118 198,140" fill="none" stroke="#0f7b6c" stroke-width="3"/>
+  <path d="M244,212 C260,170 272,110 254,64 C246,46 224,48 222,70 C220,96 214,118 202,140" fill="none" stroke="#0f7b6c" stroke-width="3"/>
+  <!-- labels male left -->
+  <text class="rp-l" x="8" y="60">sperm duct</text><path class="ld" d="M74,56 L134,90"/>
+  <text class="rp-l" x="8" y="112">seminal vesicle</text><path class="ld" d="M96,108 L156,114"/>
+  <text class="rp-l" x="8" y="232">testis</text><path class="ld" d="M44,228 L140,232"/>
+  <text class="rp-l" x="8" y="282">scrotum</text><path class="ld" d="M56,278 L134,252"/>
+  <!-- labels male right -->
+  <text class="rp-l" x="290" y="60">bladder</text><path class="ld" d="M288,56 L234,70"/>
+  <text class="rp-l" x="290" y="136">prostate gland</text><path class="ld" d="M288,132 L220,130"/>
+  <text class="rp-l" x="290" y="180">urethra</text><path class="ld" d="M288,176 L202,176"/>
+  <text class="rp-l" x="290" y="296">penis</text><path class="ld" d="M288,292 L214,268"/>
+
+  <!-- FEMALE, centre x=580 -->
+  <!-- oviducts -->
+  <path d="M556,104 C530,86 500,84 478,96" fill="none" stroke="#0f7b6c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M604,104 C630,86 660,84 682,96" fill="none" stroke="#0f7b6c" stroke-width="7" stroke-linecap="round"/>
+  <!-- funnels -->
+  <path d="M480,92 C466,90 458,100 460,114 L470,108 L474,118 L480,106 L488,112 Z" fill="#8fd1bd" stroke="#0f7b6c" stroke-width="1.2"/>
+  <path d="M680,92 C694,90 702,100 700,114 L690,108 L686,118 L680,106 L672,112 Z" fill="#8fd1bd" stroke="#0f7b6c" stroke-width="1.2"/>
+  <!-- ovaries -->
+  <ellipse cx="476" cy="136" rx="20" ry="13" fill="#f0a98f" stroke="#a0604a" stroke-width="1.6"/>
+  <ellipse cx="684" cy="136" rx="20" ry="13" fill="#f0a98f" stroke="#a0604a" stroke-width="1.6"/>
+  <!-- uterus -->
+  <path d="M548,100 Q548,86 564,86 L596,86 Q612,86 612,100 L606,176 Q600,204 588,210 L572,210 Q560,204 554,176 Z" fill="#f4c2c2" stroke="#b0557a" stroke-width="2"/>
+  <path d="M562,104 L598,104 L588,190 L572,190 Z" fill="#fce8ec" stroke="#d98ca0" stroke-width="1.2"/>
+  <!-- cervix -->
+  <rect x="570" y="208" width="20" height="16" rx="3" fill="#e8a0b4" stroke="#b0557a" stroke-width="1.6"/>
+  <!-- vagina -->
+  <path d="M566,224 L564,296 L596,296 L594,224 Z" fill="#fbe0e6" stroke="#b0557a" stroke-width="1.6"/>
+  <!-- labels female -->
+  <text class="rp-l" x="404" y="60">oviduct</text><path class="ld" d="M450,56 L510,86"/>
+  <text class="rp-l" x="404" y="176">ovary</text><path class="ld" d="M440,172 L466,146"/>
+  <text class="rp-l" x="650" y="60">oviduct funnel</text><path class="ld" d="M690,64 L690,92"/>
+  <text class="rp-l" x="650" y="200">uterus wall</text><path class="ld" d="M648,196 L604,180"/>
+  <text class="rp-l" x="650" y="160">lining</text><path class="ld" d="M648,156 L594,150"/>
+  <text class="rp-l" x="650" y="224">cervix</text><path class="ld" d="M648,220 L592,216"/>
+  <text class="rp-l" x="650" y="270">vagina</text><path class="ld" d="M648,266 L596,266"/>
+</svg>

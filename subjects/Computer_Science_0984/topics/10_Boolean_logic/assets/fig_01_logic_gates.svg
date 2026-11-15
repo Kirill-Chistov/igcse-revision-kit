@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 439" width="760" height="439" role="img" aria-label="The six logic gates with their standard symbols, logic expressions, truth tables and functions. NOT: output is the opposite of the input. AND: 1 only if both inputs are 1. OR: 1 if either or both inputs are 1. NAND: 0 only if both inputs are 1. NOR: 1 only if both inputs are 0. XOR: 1 if the inputs are different." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5YmIyMTc5OC04MDlkLTRmZTAtYjZlOC0wZWE1ZGE2ZjI1NzAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaEIVvE5KtXcVlm3lYxuxE5YAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3MGZkZDIzNy0wNjRjLTQxNzEtYTAwNy02NjFlMzJhODcxNmNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoKweBIZWP3vydugpOaknpggAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg2s73sH8DFZPPBcKmPRVxu1tXFmD7O5ICAhp75ZhKhFakZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAfBtOwIC81RCCQE0+NlDTEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIGfPDQ+IVuyh1Ahm6m09p2wD/CzeISTBY9Yg4oPt9hl6ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQHpZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjliYjIxNzk4LTgwOWQtNGZlMC1iNmU4LTBlYTVkYTZmMjU3MC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjdjMmY0MDQ5LTE4NmQtNDZkZC1iZTRhLWMxMTI5NGMzYzY4M3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDazvewfwMVk88FwqY9FXG7W1cWYPs7kgICGnvlmEqEVqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggd+GG/LL03AopqfaYUY1JaeK49xFF6rVX/P7v2Zi7XBWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggIYj1c8wt2XNv+GHFXfbxRO+iW6OAv2TTaVysjhIDWsx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQIG/EtNBlnj1odZgDADZ6dtW402rivnQAdfPTmBZ0iStXoLJLh05Op1QTtBo9OFKyIf5GmvRhnnF0TPdcsLEy6s=</c2pa:manifest></metadata>
+  <g font-family="Carlito, Calibri, sans-serif">
+  <rect x="1" y="1" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="14" y="27" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">NOT</text>
+  <text x="14" y="48" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = NOT A</text>
+  <path d="M56,97 L90,112 L56,127 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <circle cx="94" cy="112" r="4" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="32" y1="112" x2="56" y2="112" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="16" y="117" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="98" y1="112" x2="132" y2="112" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="136" y="117" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="178" y="64" width="54" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="191.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="218.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="191.5" y="100" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="218.5" y="100" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="178" y1="85" x2="232" y2="85" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="191.5" y="121" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="218.5" y="121" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="178" y1="106" x2="232" y2="106" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="178" y1="127" x2="232" y2="127" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="205" y1="64" x2="205" y2="127" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="14" y="176" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">Output is the opposite</text>
+  <text x="14" y="195" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">of the input</text>
+  <rect x="258" y="1" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="271" y="27" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">AND</text>
+  <text x="271" y="48" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = A AND B</text>
+  <path d="M305,92 H335 A20,20 0 0 1 335,132 H305 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="289" y1="102" x2="305" y2="102" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="273" y="107" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="289" y1="122" x2="305" y2="122" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="273" y="127" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">B</text>
+  <line x1="355" y1="112" x2="389" y2="112" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="393" y="117" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="408" y="64" width="81" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="421.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="448.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">B</text>
+  <text x="475.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="421.5" y="100" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="448.5" y="100" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="475.5" y="100" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="85" x2="489" y2="85" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="121" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="448.5" y="121" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="475.5" y="121" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="106" x2="489" y2="106" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="142" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="448.5" y="142" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="475.5" y="142" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="127" x2="489" y2="127" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="163" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="448.5" y="163" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="475.5" y="163" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="408" y1="148" x2="489" y2="148" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="408" y1="169" x2="489" y2="169" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="462" y1="64" x2="462" y2="169" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="271" y="176" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">1 only if both</text>
+  <text x="271" y="195" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">inputs are 1</text>
+  <rect x="515" y="1" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="528" y="27" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">OR</text>
+  <text x="528" y="48" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = A OR B</text>
+  <path d="M562,92 Q592,92 612,112 Q592,132 562,132 Q574,112 562,92 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="546" y1="102" x2="566.5" y2="102" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="530" y="107" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="546" y1="122" x2="566.5" y2="122" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="530" y="127" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">B</text>
+  <line x1="612" y1="112" x2="646" y2="112" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="650" y="117" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="665" y="64" width="81" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="678.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="705.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">B</text>
+  <text x="732.5" y="79" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="678.5" y="100" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="705.5" y="100" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="732.5" y="100" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="665" y1="85" x2="746" y2="85" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="121" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="705.5" y="121" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="732.5" y="121" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="665" y1="106" x2="746" y2="106" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="142" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="705.5" y="142" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="732.5" y="142" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="665" y1="127" x2="746" y2="127" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="163" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="705.5" y="163" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="732.5" y="163" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="665" y1="148" x2="746" y2="148" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="665" y1="169" x2="746" y2="169" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="719" y1="64" x2="719" y2="169" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="528" y="176" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">1 if either input</text>
+  <text x="528" y="195" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">or both inputs are 1</text>
+  <rect x="1" y="226" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="14" y="252" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">NAND</text>
+  <text x="14" y="273" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = A NAND B</text>
+  <path d="M48,317 H78 A20,20 0 0 1 78,357 H48 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <circle cx="102" cy="337" r="4" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="32" y1="327" x2="48" y2="327" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="16" y="332" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="32" y1="347" x2="48" y2="347" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="16" y="352" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">B</text>
+  <line x1="106" y1="337" x2="132" y2="337" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="136" y="342" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="151" y="289" width="81" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="164.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="191.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">B</text>
+  <text x="218.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="164.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="191.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="218.5" y="325" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="151" y1="310" x2="232" y2="310" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="164.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="191.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="218.5" y="346" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="151" y1="331" x2="232" y2="331" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="164.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="191.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="218.5" y="367" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="151" y1="352" x2="232" y2="352" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="164.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="191.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="218.5" y="388" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="151" y1="373" x2="232" y2="373" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="151" y1="394" x2="232" y2="394" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="205" y1="289" x2="205" y2="394" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="14" y="401" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">NOT AND: 0 only if</text>
+  <text x="14" y="420" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">both inputs are 1</text>
+  <rect x="258" y="226" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="271" y="252" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">NOR</text>
+  <text x="271" y="273" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = A NOR B</text>
+  <path d="M305,317 Q335,317 355,337 Q335,357 305,357 Q317,337 305,317 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <circle cx="359" cy="337" r="4" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="289" y1="327" x2="309.5" y2="327" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="273" y="332" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="289" y1="347" x2="309.5" y2="347" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="273" y="352" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">B</text>
+  <line x1="363" y1="337" x2="389" y2="337" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="393" y="342" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="408" y="289" width="81" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="421.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="448.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">B</text>
+  <text x="475.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="421.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="448.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="475.5" y="325" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="408" y1="310" x2="489" y2="310" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="448.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="475.5" y="346" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="331" x2="489" y2="331" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="448.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="475.5" y="367" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="352" x2="489" y2="352" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="421.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="448.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="475.5" y="388" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="408" y1="373" x2="489" y2="373" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="408" y1="394" x2="489" y2="394" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="462" y1="289" x2="462" y2="394" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="271" y="401" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">NOT OR: 1 only if</text>
+  <text x="271" y="420" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">both inputs are 0</text>
+  <rect x="515" y="226" width="244" height="212" rx="6" fill="#fbfdfd" stroke="#b9d3d1" stroke-width="1.2"/>
+  <text x="528" y="252" font-size="19" font-weight="700" text-anchor="start" fill="#0e6b6b">XOR (EOR)</text>
+  <text x="528" y="273" font-size="15" font-weight="400" text-anchor="start" fill="#16283c">X = A XOR B</text>
+  <path d="M562,357 Q574,337 562,317" fill="none" stroke="#16283c" stroke-width="2"/>
+  <path d="M570,317 Q600,317 620,337 Q600,357 570,357 Q582,337 570,317 Z" fill="#fff" stroke="#16283c" stroke-width="2"/>
+  <line x1="546" y1="327" x2="566.5" y2="327" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="530" y="332" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">A</text>
+  <line x1="546" y1="347" x2="566.5" y2="347" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="530" y="352" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">B</text>
+  <line x1="620" y1="337" x2="646" y2="337" stroke="#16283c" stroke-width="2" stroke-linecap="square"/>
+  <text x="650" y="342" font-size="15" font-weight="700" text-anchor="start" fill="#16283c">X</text>
+  <rect x="665" y="289" width="81" height="21" rx="0" fill="#e3f1f0" stroke="none" stroke-width="1"/>
+  <text x="678.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">A</text>
+  <text x="705.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">B</text>
+  <text x="732.5" y="304" font-size="14" font-weight="700" text-anchor="middle" fill="#0e6b6b">X</text>
+  <text x="678.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="705.5" y="325" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="732.5" y="325" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="665" y1="310" x2="746" y2="310" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="705.5" y="346" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="732.5" y="346" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="665" y1="331" x2="746" y2="331" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="705.5" y="367" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">0</text>
+  <text x="732.5" y="367" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">1</text>
+  <line x1="665" y1="352" x2="746" y2="352" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <text x="678.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="705.5" y="388" font-size="14" font-weight="400" text-anchor="middle" fill="#16283c">1</text>
+  <text x="732.5" y="388" font-size="14" font-weight="700" text-anchor="middle" fill="#16283c">0</text>
+  <line x1="665" y1="373" x2="746" y2="373" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="665" y1="394" x2="746" y2="394" stroke="#b9d3d1" stroke-width="0.8" stroke-linecap="square"/>
+  <line x1="719" y1="289" x2="719" y2="394" stroke="#8fb8b5" stroke-width="1" stroke-linecap="square"/>
+  <text x="528" y="401" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">1 if the inputs are</text>
+  <text x="528" y="420" font-size="14.5" font-weight="400" text-anchor="start" fill="#5b6b7a">different</text>
+  </g>
+</svg>

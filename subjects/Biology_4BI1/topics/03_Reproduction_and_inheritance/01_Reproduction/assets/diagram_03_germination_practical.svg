@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 346" width="760" height="346" role="img" aria-label="Four tubes of seeds. A: moist cotton wool, air, 20 degrees: seeds germinate. B: dry cotton wool: no germination. C: seeds in boiled cooled water under a layer of oil: no oxygen, no germination. D: moist cotton wool in a fridge at 4 degrees: too cold, no germination.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .gp-h { font-size: 13px; font-weight: 700; }
+    .gp-l { font-size: 12px; font-weight: 700; }
+    .gp-s { font-size: 11px; fill: #33475b; }
+    .gp-r { font-size: 11.5px; font-weight: 700; fill: #6b7a88; }
+    .ok { fill: #0f7b6c; font-weight: 700; font-size: 13px; }
+    .no { fill: #c0392b; font-weight: 700; font-size: 13px; }
+  </style>
+  <path d="M88,64 L88,196 A22,22 0 0 0 132,196 L132,64" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M89,170 L89,196 A21,21 0 0 0 131,196 L131,170 Z" fill="#cfe3f0" stroke="#9fb3c4" stroke-width="1" stroke-dasharray="2 2"/>
+  <ellipse cx="98" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><path d="M98,163 C96,152 101,146 99,138" stroke="#4f8a3c" stroke-width="1.8" fill="none"/><path d="M98,169 C99,174 96,178 98,182" stroke="#b08a5a" stroke-width="1.4" fill="none"/><ellipse cx="110" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><path d="M110,163 C108,152 113,146 111,138" stroke="#4f8a3c" stroke-width="1.8" fill="none"/><path d="M110,169 C111,174 108,178 110,182" stroke="#b08a5a" stroke-width="1.4" fill="none"/><ellipse cx="122" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><path d="M122,163 C120,152 125,146 123,138" stroke="#4f8a3c" stroke-width="1.8" fill="none"/><path d="M122,169 C123,174 120,178 122,182" stroke="#b08a5a" stroke-width="1.4" fill="none"/>
+  <path d="M268,64 L268,196 A22,22 0 0 0 312,196 L312,64" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M269,170 L269,196 A21,21 0 0 0 311,196 L311,170 Z" fill="#fbfbf8" stroke="#9fb3c4" stroke-width="1" stroke-dasharray="2 2"/>
+  <ellipse cx="278" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="290" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="302" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/>
+  <path d="M448,64 L448,196 A22,22 0 0 0 492,196 L492,64" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M449,104 L449,196 A21,21 0 0 0 491,196 L491,104 Z" fill="#cfe3f0"/>
+  <rect x="449" y="94" width="42" height="10" fill="#f2d64b"/>
+  <ellipse cx="458" cy="208" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="470" cy="208" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="482" cy="208" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/>
+  <rect x="588" y="40" width="124" height="190" rx="8" fill="#eef5fb" stroke="#6f9cc4" stroke-width="1.6" stroke-dasharray="6 3"/>
+  <text class="gp-s" x="594" y="56">fridge, 4 °C</text>
+  <path d="M628,64 L628,196 A22,22 0 0 0 672,196 L672,64" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M629,170 L629,196 A21,21 0 0 0 671,196 L671,170 Z" fill="#cfe3f0" stroke="#9fb3c4" stroke-width="1" stroke-dasharray="2 2"/>
+  <ellipse cx="638" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="650" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/><ellipse cx="662" cy="166" rx="5.5" ry="4" fill="#e0c48a" stroke="#8a6a3a" stroke-width="0.8"/>
+  <text class="gp-h" x="110" y="28" text-anchor="middle">A</text>
+  <text class="gp-s" x="110" y="244" text-anchor="middle">moist cotton wool, 20 °C</text>
+  <text class="gp-h" x="290" y="28" text-anchor="middle">B</text>
+  <text class="gp-s" x="290" y="244" text-anchor="middle">dry cotton wool, 20 °C</text>
+  <text class="gp-h" x="470" y="28" text-anchor="middle">C</text>
+  <text class="gp-s" x="470" y="244" text-anchor="middle">boiled, cooled water</text>
+  <text class="gp-h" x="650" y="28" text-anchor="middle">D</text>
+  <text class="gp-s" x="650" y="244" text-anchor="middle">moist cotton wool</text>
+  <text class="gp-s" x="470" y="257" text-anchor="middle">under oil, 20 °C</text>
+  <text class="gp-s" x="500" y="92">oil layer stops</text><text class="gp-s" x="500" y="105">O₂ dissolving</text>
+  <text class="gp-r" x="6" y="278">water</text>
+  <text class="ok" x="110" y="278" text-anchor="middle">✓</text>
+  <text class="no" x="290" y="278" text-anchor="middle">✗</text>
+  <text class="ok" x="470" y="278" text-anchor="middle">✓</text>
+  <text class="ok" x="650" y="278" text-anchor="middle">✓</text>
+  <text class="gp-r" x="6" y="294">oxygen</text>
+  <text class="ok" x="110" y="294" text-anchor="middle">✓</text>
+  <text class="ok" x="290" y="294" text-anchor="middle">✓</text>
+  <text class="no" x="470" y="294" text-anchor="middle">✗</text>
+  <text class="ok" x="650" y="294" text-anchor="middle">✓</text>
+  <text class="gp-r" x="6" y="310">warmth</text>
+  <text class="ok" x="110" y="310" text-anchor="middle">✓</text>
+  <text class="ok" x="290" y="310" text-anchor="middle">✓</text>
+  <text class="ok" x="470" y="310" text-anchor="middle">✓</text>
+  <text class="no" x="650" y="310" text-anchor="middle">✗</text>
+  <line x1="6" y1="318" x2="754" y2="318" stroke="#dfe5ea" stroke-width="1.2"/>
+  <text class="gp-l" x="110" y="340" text-anchor="middle" style="fill:#0f7b6c">germinate</text>
+  <text class="gp-l" x="290" y="340" text-anchor="middle" style="fill:#c0392b">no germination</text>
+  <text class="gp-l" x="470" y="340" text-anchor="middle" style="fill:#c0392b">no germination</text>
+  <text class="gp-l" x="650" y="340" text-anchor="middle" style="fill:#c0392b">no germination</text>
+  <text class="gp-r" x="6" y="340">result</text>
+  </svg>

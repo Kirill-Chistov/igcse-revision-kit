@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 244" width="800" height="244" role="img"
+     aria-label="Price over time: skimming starts high and is lowered; penetration starts low and is raised; both move towards competitors' price">
+  <defs>
+    <marker id="sp-ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- axes -->
+    <line x1="60" y1="214" x2="790" y2="214" stroke="#16283c" stroke-width="2" marker-end="url(#sp-ax)"/>
+    <line x1="60" y1="214" x2="60" y2="10" stroke="#16283c" stroke-width="2" marker-end="url(#sp-ax)"/>
+    <text x="32" y="112" font-size="14" font-weight="700" fill="#16283c" text-anchor="middle" transform="rotate(-90 32 112)">Price</text>
+    <text x="786" y="236" font-size="13" font-weight="700" fill="#16283c" text-anchor="end">Time since launch</text>
+    <text x="64" y="236" font-size="12.5" fill="#6b7a88">launch</text>
+
+    <!-- competitors' price -->
+    <line x1="62" y1="122" x2="780" y2="122" stroke="#9aa6b1" stroke-width="1.6" stroke-dasharray="6 5"/>
+    <text x="70" y="115" font-size="12.5" fill="#6b7a88">competitors' price</text>
+
+    <!-- skimming -->
+    <path d="M64,44 L230,44 C300,44 340,94 420,104 C520,112 640,114 760,115" fill="none" stroke="#4c3fa8" stroke-width="3.2"/>
+    <text x="74" y="32" font-size="14" font-weight="700" fill="#4c3fa8">Skimming</text>
+    <text x="146" y="32" font-size="13">high launch price, lowered as rivals enter and early buyers are served</text>
+
+    <!-- penetration -->
+    <path d="M64,186 L260,186 C340,186 380,150 460,138 C560,130 660,128 760,128" fill="none" stroke="#0f7b6c" stroke-width="3.2"/>
+    <text x="74" y="205" font-size="14" font-weight="700" fill="#0b5f54">Penetration</text>
+    <text x="160" y="205" font-size="13">low launch price to win customers, raised once market share is gained</text>
+  </g>
+</svg>

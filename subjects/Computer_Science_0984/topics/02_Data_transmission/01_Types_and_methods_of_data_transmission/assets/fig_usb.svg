@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 104" width="680" height="104" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="How a USB device connects and transmits data">
+  <defs>
+    <marker id="usb-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker>
+  </defs>
+  <g font-size="12.5" fill="#1e293b" text-anchor="middle">
+    <rect x="4" y="8" width="148" height="88" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+    <text x="78" y="36" font-weight="700" fill="#134e4a">Device plugged</text>
+    <text x="78" y="53" font-weight="700" fill="#134e4a">into a USB port</text>
+    <text x="78" y="75" fill="#475569">cable also supplies</text>
+    <text x="78" y="90" fill="#475569">power to the device</text>
+
+    <rect x="176" y="8" width="148" height="88" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+    <text x="250" y="36" font-weight="700" fill="#134e4a">Computer</text>
+    <text x="250" y="53" font-weight="700" fill="#134e4a">automatically</text>
+    <text x="250" y="70" font-weight="700" fill="#134e4a">detects the device</text>
+
+    <rect x="348" y="8" width="148" height="88" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+    <text x="422" y="30" font-weight="700" fill="#134e4a">Device identified;</text>
+    <text x="422" y="47" font-weight="700" fill="#134e4a">its device driver</text>
+    <text x="422" y="64" font-weight="700" fill="#134e4a">is loaded</text>
+    <text x="422" y="84" fill="#475569">(downloaded if missing)</text>
+
+    <rect x="520" y="8" width="156" height="88" rx="6" fill="#ccfbf1" stroke="#0f766e" stroke-width="2"/>
+    <text x="598" y="36" font-weight="700" fill="#134e4a">Data is transmitted</text>
+    <text x="598" y="53" font-weight="700" fill="#134e4a">serially</text>
+    <text x="598" y="75" fill="#475569">half- or full-duplex,</text>
+    <text x="598" y="90" fill="#475569">with error checking</text>
+  </g>
+  <g stroke="#0f766e" stroke-width="2.2">
+    <line x1="153" y1="52" x2="173" y2="52" marker-end="url(#usb-arr)"/>
+    <line x1="325" y1="52" x2="345" y2="52" marker-end="url(#usb-arr)"/>
+    <line x1="497" y1="52" x2="517" y2="52" marker-end="url(#usb-arr)"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 282" font-family="Carlito, Calibri, sans-serif">
+<style>.fa-h{font-size:14.5px;font-weight:700;fill:#ffffff;text-anchor:middle}.fa-i{font-size:12.5px;fill:#16283c}</style>
+<rect x="280" y="6" width="160" height="30" rx="5" fill="#16283c"/>
+<text x="360" y="26" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Managing director</text>
+<path d="M360,36 V48 M94.0,48 H626.0" stroke="#6b7a88" stroke-width="1.4" fill="none"/>
+<path d="M94.0,48 V60" stroke="#6b7a88" stroke-width="1.4"/>
+<rect x="10.0" y="60" width="168" height="214" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.5"/>
+<rect x="10.0" y="60" width="168" height="28" rx="6" fill="#0f7b6c"/>
+<rect x="10.0" y="80" width="168" height="8" fill="#0f7b6c"/>
+<text class="fa-h" x="94.0" y="79">Human resources</text>
+<text class="fa-i" x="20.0" y="106">• workforce planning</text>
+<text class="fa-i" x="20.0" y="122">• recruitment and selection</text>
+<text class="fa-i" x="20.0" y="138">• training</text>
+<text class="fa-i" x="20.0" y="154">• health and safety</text>
+<text class="fa-i" x="20.0" y="170">• staff welfare</text>
+<text class="fa-i" x="20.0" y="186">• employment issues</text>
+<text class="fa-i" x="20.0" y="202">• industrial relations</text>
+<text class="fa-i" x="20.0" y="218">• disciplinary and grievance</text>
+<text class="fa-i" x="30.0" y="234">procedures</text>
+<text class="fa-i" x="20.0" y="250">• dismissal, unfair dismissal</text>
+<text class="fa-i" x="20.0" y="266">• redundancy</text>
+<path d="M271.3,48 V60" stroke="#6b7a88" stroke-width="1.4"/>
+<rect x="187.3" y="60" width="168" height="214" rx="6" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.5"/>
+<rect x="187.3" y="60" width="168" height="28" rx="6" fill="#4c3fa8"/>
+<rect x="187.3" y="80" width="168" height="8" fill="#4c3fa8"/>
+<text class="fa-h" x="271.3" y="79">Finance</text>
+<text class="fa-i" x="197.3" y="106">• wages and salaries</text>
+<text class="fa-i" x="197.3" y="122">• cash-flow forecasting</text>
+<text class="fa-i" x="197.3" y="138">• budgets</text>
+<text class="fa-i" x="197.3" y="154">• accounting</text>
+<path d="M448.7,48 V60" stroke="#6b7a88" stroke-width="1.4"/>
+<rect x="364.7" y="60" width="168" height="214" rx="6" fill="#fbf0e6" stroke="#b5651d" stroke-width="1.5"/>
+<rect x="364.7" y="60" width="168" height="28" rx="6" fill="#b5651d"/>
+<rect x="364.7" y="80" width="168" height="8" fill="#b5651d"/>
+<text class="fa-h" x="448.7" y="79">Marketing</text>
+<text class="fa-i" x="374.7" y="106">• market research</text>
+<text class="fa-i" x="374.7" y="122">• product planning</text>
+<text class="fa-i" x="374.7" y="138">• pricing</text>
+<text class="fa-i" x="374.7" y="154">• sales promotion</text>
+<text class="fa-i" x="374.7" y="170">• advertising</text>
+<text class="fa-i" x="374.7" y="186">• customer service</text>
+<text class="fa-i" x="374.7" y="202">• public relations</text>
+<text class="fa-i" x="374.7" y="218">• packaging</text>
+<text class="fa-i" x="374.7" y="234">• distribution</text>
+<path d="M626.0,48 V60" stroke="#6b7a88" stroke-width="1.4"/>
+<rect x="542.0" y="60" width="168" height="214" rx="6" fill="#e8f1fa" stroke="#1f6fb2" stroke-width="1.5"/>
+<rect x="542.0" y="60" width="168" height="28" rx="6" fill="#1f6fb2"/>
+<rect x="542.0" y="80" width="168" height="8" fill="#1f6fb2"/>
+<text class="fa-h" x="626.0" y="79">Production</text>
+<text class="fa-i" x="552.0" y="106">• manufacturing the product</text>
+<text class="fa-i" x="552.0" y="122">• designing new products</text>
+<text class="fa-i" x="552.0" y="138">• quality control</text>
+<text class="fa-i" x="552.0" y="154">• stock control</text>
+</svg>

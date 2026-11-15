@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 150" font-family="Carlito, Calibri, sans-serif">
+  <defs>
+    <marker id="ex-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <text x="360" y="20" text-anchor="middle" font-size="14" font-weight="700" fill="#16283c">Exchange rate: £1 = US$1.25</text>
+  <rect x="110" y="36" width="170" height="70" rx="9" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.5"/>
+  <text x="195" y="68" text-anchor="middle" font-size="22" font-weight="700" fill="#16283c">£</text>
+  <text x="195" y="90" text-anchor="middle" font-size="12.5" fill="#33475b">pounds</text>
+  <rect x="440" y="36" width="170" height="70" rx="9" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.5"/>
+  <text x="525" y="68" text-anchor="middle" font-size="22" font-weight="700" fill="#16283c">US$</text>
+  <text x="525" y="90" text-anchor="middle" font-size="12.5" fill="#33475b">US dollars</text>
+  <text x="360" y="50" text-anchor="middle" font-size="13" font-weight="700" fill="#16283c">× 1.25</text>
+  <line x1="284" y1="58" x2="436" y2="58" stroke="#16283c" stroke-width="1.8" marker-end="url(#ex-arr)"/>
+  <line x1="436" y1="86" x2="284" y2="86" stroke="#16283c" stroke-width="1.8" marker-end="url(#ex-arr)"/>
+  <text x="360" y="103" text-anchor="middle" font-size="13" font-weight="700" fill="#16283c">÷ 1.25</text>
+  <text x="360" y="136" text-anchor="middle" font-size="12.5" fill="#33475b">Out of the currency that equals 1 → multiply.  Into it → divide.</text>
+</svg>

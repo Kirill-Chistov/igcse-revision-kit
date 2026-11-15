@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 276" width="760" height="276" role="img" aria-label="Carbohydrates contain carbon, hydrogen and oxygen; starch and glycogen are chains of simple sugars (glucose), glycogen being more branched. Proteins contain carbon, hydrogen, oxygen and nitrogen; a protein is a chain of amino acids. Lipids contain carbon, hydrogen and oxygen; a lipid is made of glycerol joined to three fatty acids.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .bm-h  { font-size: 14px; font-weight: 700; fill: #0b5f54; }
+    .bm-el { font-size: 12.5px; font-weight: 700; fill: #4c3fa8; }
+    .bm-s  { font-size: 12px; fill: #33475b; }
+    .bm-hd { font-size: 11.5px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.06em; }
+    .bm-gl { fill: #fdf6e5; stroke: #d99a17; stroke-width: 1.6; }
+    .bm-bd { stroke: #33475b; stroke-width: 1.6; fill: none; }
+  </style>
+  <text class="bm-hd" x="6" y="14">MOLECULE</text>
+  <text class="bm-hd" x="150" y="14">ELEMENTS</text>
+  <text class="bm-hd" x="270" y="14">LARGE MOLECULE ← SMALLER BASIC UNITS</text>
+  <line x1="6" y1="22" x2="754" y2="22" stroke="#dfe5ea" stroke-width="1.2"/>
+
+  <!-- CARBOHYDRATE -->
+  <text class="bm-h" x="6" y="56">Carbohydrates</text>
+  <text class="bm-s" x="6" y="72">starch, glycogen</text>
+  <text class="bm-el" x="150" y="62">C, H, O</text>
+  <!-- simple sugar -->
+  <polygon class="bm-gl" points="282,52 294,45 306,52 306,66 294,73 282,66"/>
+  <text class="bm-s" x="294" y="92" text-anchor="middle">simple sugar</text>
+  <text class="bm-s" x="294" y="106" text-anchor="middle">(glucose)</text>
+  <!-- starch chain -->
+  <g>
+    <path class="bm-bd" d="M358,59 L562,59"/>
+    <g class="bm-gl">
+      <polygon points="346,52 358,45 370,52 370,66 358,73 346,66"/>
+      <polygon points="380,52 392,45 404,52 404,66 392,73 380,66"/>
+      <polygon points="414,52 426,45 438,52 438,66 426,73 414,66"/>
+      <polygon points="448,52 460,45 472,52 472,66 460,73 448,66"/>
+      <polygon points="482,52 494,45 506,52 506,66 494,73 482,66"/>
+      <polygon points="516,52 528,45 540,52 540,66 528,73 516,66"/>
+      <polygon points="550,52 562,45 574,52 574,66 562,73 550,66"/>
+    </g>
+  </g>
+  <text class="bm-s" x="592" y="56">starch (plants)</text>
+  <text class="bm-s" x="592" y="70">— long chains</text>
+  <!-- glycogen branched -->
+  <g>
+    <path class="bm-bd" d="M358,100 L528,100 M392,100 L418,132 L450,132 M494,100 L520,132 L552,132"/>
+    <g class="bm-gl">
+      <polygon points="369,106 358,113 347,106 347,94 358,87 369,94"/>
+      <polygon points="403,106 392,113 381,106 381,94 392,87 403,94"/>
+      <polygon points="437,106 426,113 415,106 415,94 426,87 437,94"/>
+      <polygon points="471,106 460,113 449,106 449,94 460,87 471,94"/>
+      <polygon points="505,106 494,113 483,106 483,94 494,87 505,94"/>
+      <polygon points="539,106 528,113 517,106 517,94 528,87 539,94"/>
+      <polygon points="428,138 418,144 408,138 408,126 418,120 428,126"/>
+      <polygon points="460,138 450,144 440,138 440,126 450,120 460,126"/>
+      <polygon points="530,138 520,144 510,138 510,126 520,120 530,126"/>
+      <polygon points="562,138 552,144 542,138 542,126 552,120 562,126"/>
+    </g>
+  </g>
+  <text class="bm-s" x="592" y="108">glycogen (animals)</text>
+  <text class="bm-s" x="592" y="122">— highly branched</text>
+  <line x1="6" y1="164" x2="754" y2="164" stroke="#eef2f5" stroke-width="1.2"/>
+
+  <!-- PROTEIN -->
+  <text class="bm-h" x="6" y="196">Proteins</text>
+  <text class="bm-el" x="150" y="202">C, H, O, N</text>
+  <circle cx="294" cy="198" r="10" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+  <text class="bm-s" x="294" y="226" text-anchor="middle">amino acid</text>
+  <path class="bm-bd" d="M346,198 L586,198"/>
+  <g stroke-width="1.6">
+    <circle cx="346" cy="198" r="10" fill="#e7f3ef" stroke="#0f7b6c"/>
+    <circle cx="372" cy="198" r="10" fill="#eadcf5" stroke="#6d3fa8"/>
+    <circle cx="398" cy="198" r="10" fill="#fdf6e5" stroke="#d99a17"/>
+    <circle cx="424" cy="198" r="10" fill="#e7f3ef" stroke="#0f7b6c"/>
+    <circle cx="450" cy="198" r="10" fill="#f6dada" stroke="#a93226"/>
+    <circle cx="476" cy="198" r="10" fill="#eadcf5" stroke="#6d3fa8"/>
+    <circle cx="502" cy="198" r="10" fill="#e7f3ef" stroke="#0f7b6c"/>
+    <circle cx="528" cy="198" r="10" fill="#fdf6e5" stroke="#d99a17"/>
+    <circle cx="554" cy="198" r="10" fill="#f6dada" stroke="#a93226"/>
+  </g>
+  <text class="bm-s" x="592" y="194">chain of many amino</text>
+  <text class="bm-s" x="592" y="208">acids (several kinds)</text>
+  <line x1="6" y1="236" x2="754" y2="236" stroke="#eef2f5" stroke-width="1.2"/>
+
+  <!-- LIPID -->
+  <text class="bm-h" x="6" y="258">Lipids</text>
+  <text class="bm-s" x="6" y="272">fats and oils</text>
+  <text class="bm-el" x="150" y="262">C, H, O</text>
+  <rect x="346" y="242" width="30" height="30" rx="3" fill="#dcecf7" stroke="#5b8db8" stroke-width="1.6"/>
+    <g stroke="#b86e12" stroke-width="3" fill="none">
+    <path d="M376,246 L420,246 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 L500,246"/>
+    <path d="M376,257 L420,257 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 L500,257"/>
+    <path d="M376,268 L420,268 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 l6,-3 l6,3 L500,268"/>
+  </g>
+  <text class="bm-s" x="592" y="254">1 glycerol (square) +</text>
+  <text class="bm-s" x="592" y="268">3 fatty acid chains</text>
+</svg>

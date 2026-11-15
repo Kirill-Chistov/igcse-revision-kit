@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="Plant responses: shoots grow towards light (positive phototropism) and upwards against gravity (negative geotropism); roots grow down with gravity (positive geotropism) and away from light (negative phototropism). Auxin is made in the shoot tip; when light comes from one side it moves to the shaded side, where it makes cells elongate more, so the shoot bends towards the light.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .tr-t { font-size: 11.5px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .tr-l { font-size: 12.5px; font-weight: 700; }
+    .tr-s { font-size: 11.5px; fill: #33475b; }
+    .tr-k { font-size: 11.5px; font-weight: 700; fill: #0b5f54; }
+  </style>
+  <text class="tr-t" x="6" y="14">RESPONSES OF SHOOT AND ROOT</text><text class="tr-t" x="330" y="14">HOW AUXIN BENDS A SHOOT TOWARDS LIGHT</text>
+  <line x1="316" y1="6" x2="316" y2="236" stroke="#dfe5ea" stroke-width="1.4"/>
+  <rect x="20" y="130" width="280" height="104" fill="#f3ead8"/><path d="M20,130 L300,130" stroke="#8a6a3a" stroke-width="1.5"/>
+  <path d="M180,130 C180,90 190,70 220,52" fill="none" stroke="#3d7a1c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M210,60 C200,46 206,38 218,40 M216,58 C228,52 236,56 232,64" fill="#8cc466" stroke="#3d7a1c" stroke-width="2"/>
+  <path d="M180,130 C180,160 178,190 182,224" fill="none" stroke="#b09060" stroke-width="5" stroke-linecap="round"/>
+  <path d="M180,160 C168,168 160,176 156,188 M181,180 C192,188 198,198 200,206" fill="none" stroke="#b09060" stroke-width="2.4"/>
+  <circle cx="292" cy="40" r="14" fill="#fdf2c4" stroke="#d99a17" stroke-width="2"/>
+  <path d="M274,34 L244,38" stroke="#d99a17" stroke-width="2"/>
+  <path d="M274,46 L244,50" stroke="#d99a17" stroke-width="2"/>
+  <path d="M274,58 L244,62" stroke="#d99a17" stroke-width="2"/>
+  <text class="tr-s" x="292" y="72" text-anchor="middle">light</text>
+  <text class="tr-l" x="10" y="44">shoot</text><text class="tr-s" x="10" y="58">grows towards light:</text><text class="tr-k" x="10" y="72">positive phototropism</text><text class="tr-s" x="10" y="86">grows up, against gravity:</text><text class="tr-k" x="10" y="100">negative geotropism</text>
+  <text class="tr-l" x="26" y="152">root</text><text class="tr-s" x="26" y="166">grows down, with</text><text class="tr-s" x="26" y="180">gravity:</text><text class="tr-k" x="26" y="194">positive geotropism</text><text class="tr-s" x="26" y="208">grows away from light:</text><text class="tr-k" x="26" y="222">negative phototropism</text>
+  <path d="M380,200 L380,96" fill="none" stroke="#cfe8bb" stroke-width="30" stroke-linecap="round"/><circle cx="374" cy="104" r="3.2" fill="#6d3fa8"/><circle cx="386" cy="104" r="3.2" fill="#6d3fa8"/><circle cx="380" cy="114" r="3.2" fill="#6d3fa8"/><circle cx="374" cy="124" r="3.2" fill="#6d3fa8"/><circle cx="386" cy="124" r="3.2" fill="#6d3fa8"/><circle cx="380" cy="134" r="3.2" fill="#6d3fa8"/><text class="tr-s" x="380" y="222" text-anchor="middle">auxin made in tip,</text><text class="tr-s" x="380" y="236" text-anchor="middle">spreads evenly</text>
+  <path d="M530,200 L530,96" fill="none" stroke="#cfe8bb" stroke-width="30" stroke-linecap="round"/><circle cx="521" cy="104" r="3.2" fill="#6d3fa8"/><circle cx="523" cy="116" r="3.2" fill="#6d3fa8"/><circle cx="520" cy="128" r="3.2" fill="#6d3fa8"/><circle cx="524" cy="140" r="3.2" fill="#6d3fa8"/><circle cx="521" cy="152" r="3.2" fill="#6d3fa8"/><circle cx="535" cy="112" r="3.2" fill="#6d3fa8"/><text class="tr-s" x="530" y="222" text-anchor="middle">light from one side:</text><text class="tr-s" x="530" y="236" text-anchor="middle">auxin moves to shaded side</text>
+  <path d="M590,100 L560,100" stroke="#d99a17" stroke-width="2"/><path d="M556,100 l7,-4 v8z" fill="#d99a17"/>
+  <path d="M590,112 L560,112" stroke="#d99a17" stroke-width="2"/><path d="M556,112 l7,-4 v8z" fill="#d99a17"/>
+  <path d="M590,124 L560,124" stroke="#d99a17" stroke-width="2"/><path d="M556,124 l7,-4 v8z" fill="#d99a17"/>
+  <path d="M676,200 C676,150 682,120 706,96" fill="none" stroke="#cfe8bb" stroke-width="30" stroke-linecap="round"/><circle cx="666" cy="130" r="3.2" fill="#6d3fa8"/><circle cx="667" cy="146" r="3.2" fill="#6d3fa8"/><circle cx="666" cy="162" r="3.2" fill="#6d3fa8"/><circle cx="668" cy="176" r="3.2" fill="#6d3fa8"/><text class="tr-s" x="676" y="222" text-anchor="middle">shaded side cells elongate</text><text class="tr-s" x="676" y="236" text-anchor="middle">more → bends to light</text>
+  <path d="M752,84 L724,84" stroke="#d99a17" stroke-width="2"/><path d="M720,84 l7,-4 v8z" fill="#d99a17"/>
+  <path d="M752,96 L724,96" stroke="#d99a17" stroke-width="2"/><path d="M720,96 l7,-4 v8z" fill="#d99a17"/>
+  <circle cx="344" cy="34" r="3.2" fill="#6d3fa8"/><text class="tr-s" x="352" y="38">auxin</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 292" width="760" height="292" role="img" aria-label="The nitrogen cycle. Nitrogen-fixing bacteria in the root nodules of legumes and in soil convert nitrogen gas from the air into nitrogen compounds that plants can use. Plants absorb nitrate ions from the soil by active transport and make amino acids and proteins. Animals get proteins by eating plants. Dead organisms, urea and faeces are broken down by decomposers, releasing ammonium ions. Nitrifying bacteria, which need oxygen, convert ammonium ions to nitrite and then nitrate ions. Denitrifying bacteria, in waterlogged soil, convert nitrate ions back to nitrogen gas.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .nc-h { font-size: 13px; font-weight: 700; }
+    .nc-s { font-size: 11.5px; fill: #33475b; }
+    .nc-l { font-size: 12.5px; font-weight: 700; }
+  </style>
+  <defs>
+    <marker id="nc-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4f8a3a"/></marker>
+    <marker id="nc-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4c3fa8"/></marker>
+    <marker id="nc-k" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+    <marker id="nc-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a5a3a"/></marker>
+    <marker id="nc-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0f7b6c"/></marker>
+  </defs>
+  <rect x="210" y="8" width="340" height="46" rx="8" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.6"/>
+  <text class="nc-h" x="380.0" y="28" text-anchor="middle">NITROGEN GAS (N₂) IN THE AIR</text>
+  <text class="nc-s" x="380.0" y="44" text-anchor="middle">unreactive — plants and animals cannot use it</text>
+  <rect x="20" y="126" width="180" height="50" rx="8" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.6"/>
+  <text class="nc-h" x="110.0" y="146" text-anchor="middle">Nitrate ions (NO₃⁻)</text>
+  <text class="nc-s" x="110.0" y="162" text-anchor="middle">in the soil</text>
+  <rect x="560" y="126" width="180" height="50" rx="8" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.6"/>
+  <text class="nc-h" x="650.0" y="146" text-anchor="middle">Plant proteins</text>
+  <text class="nc-s" x="650.0" y="162" text-anchor="middle">nitrates → amino acids → proteins</text>
+  <rect x="560" y="232" width="180" height="50" rx="8" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+  <text class="nc-h" x="650.0" y="252" text-anchor="middle">Animal proteins</text>
+  <rect x="300" y="232" width="170" height="50" rx="8" fill="#f3f5f7" stroke="#6f7d8c" stroke-width="1.6"/>
+  <text class="nc-h" x="385.0" y="252" text-anchor="middle">Dead organisms and waste</text>
+  <text class="nc-s" x="385.0" y="268" text-anchor="middle">urea, faeces</text>
+  <rect x="20" y="232" width="180" height="50" rx="8" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.6"/>
+  <text class="nc-h" x="110.0" y="252" text-anchor="middle">Ammonium ions (NH₄⁺)</text>
+  <text class="nc-s" x="110.0" y="268" text-anchor="middle">in the soil</text>
+  <path d="M202,151 L556,151" fill="none" stroke="#4f8a3a" stroke-width="3" marker-end="url(#nc-g)"/>
+  <path d="M522,58 L586,124" fill="none" stroke="#4c3fa8" stroke-width="3" marker-end="url(#nc-p)"/>
+  <path d="M176,124 L236,58" fill="none" stroke="#4c3fa8" stroke-width="3" marker-end="url(#nc-p)"/>
+  <path d="M650,178 L650,228" fill="none" stroke="#0f7b6c" stroke-width="2.6" marker-end="url(#nc-t)"/>
+  <path d="M558,257 L474,257" fill="none" stroke="#6f7d8c" stroke-width="2.6" marker-end="url(#nc-k)"/>
+  <path d="M600,178 L452,229" fill="none" stroke="#6f7d8c" stroke-width="2.6" marker-end="url(#nc-k)"/>
+  <path d="M298,257 L204,257" fill="none" stroke="#7a5a3a" stroke-width="3" marker-end="url(#nc-b)"/>
+  <path d="M110,230 L110,180" fill="none" stroke="#4c3fa8" stroke-width="3" marker-end="url(#nc-p)"/>
+  <text class="nc-l" x="380" y="143" text-anchor="middle" style="fill:#4f8a3a">absorbed by roots (active transport)</text>
+  <text class="nc-l" x="604" y="78" style="fill:#4c3fa8">nitrogen-fixing bacteria</text>
+  <text class="nc-s" x="604" y="92">in root nodules of legumes</text>
+  <text class="nc-s" x="604" y="105">(peas, beans, clover) and in soil</text>
+  <text class="nc-l" x="170" y="78" text-anchor="end" style="fill:#4c3fa8">denitrifying bacteria</text>
+  <text class="nc-s" x="170" y="92" text-anchor="end">waterlogged soil (no oxygen):</text>
+  <text class="nc-s" x="170" y="105" text-anchor="end">nitrate → nitrogen gas</text>
+  <text class="nc-l" x="658" y="208" style="fill:#0f7b6c">eaten</text>
+  <text class="nc-l" x="516" y="249" text-anchor="middle" style="fill:#6f7d8c">death,</text>
+  <text class="nc-l" x="516" y="275" text-anchor="middle" style="fill:#6f7d8c">waste</text>
+  <text class="nc-l" x="520" y="196" text-anchor="end" style="fill:#6f7d8c">death</text>
+  <text class="nc-l" x="251" y="249" text-anchor="middle" style="fill:#7a5a3a">decomposers</text>
+  <text class="nc-s" x="251" y="275" text-anchor="middle">proteins → NH₄⁺</text>
+  <text class="nc-l" x="120" y="200" style="fill:#4c3fa8">nitrifying bacteria</text>
+  <text class="nc-s" x="120" y="214">(need oxygen): ammonium → nitrite → nitrate</text>
+</svg>

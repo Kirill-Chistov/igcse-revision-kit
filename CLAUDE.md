@@ -1,0 +1,206 @@
+# igcse-revision-kit — rules for AI agents
+
+This repository is a revision system for IGCSE / GCSE students, run by an AI agent (Claude Code,
+or any agent that reads `AGENTS.md`). **This file is the canonical rule set.** Every other rule
+file must agree with it; on a conflict this file wins.
+
+## Start of every session
+
+1. Read this file.
+2. Read `me/profile.md`. **If `me/` does not exist, the student has not been set up:** say so in
+   one line and offer `/setup` before anything else (a quick question about a topic can still be
+   answered).
+3. Then read what the task needs:
+   - making or editing notes → `rules/WORKFLOW.md`, `rules/CONTENT_RULES.md`
+   - teaching, quizzing, testing, marking → `rules/TUTORING.md`, `rules/REVISION.md`,
+     `me/weak_spots/<Subject>.md`
+   - planning → `rules/REVISION.md` § Planning, `me/study_plan.md`
+   - anything → `rules/DECISIONS.md` (settled design; do not re-open)
+
+## Skills
+
+| Command | Does |
+| --- | --- |
+| `/setup` | first-run interview → `me/` (subjects, options, schedule, preferences, tracker) |
+| `/add-subject <board> <code>` | adds a qualification the kit does not have: spec → map → empty topic folders |
+| `/make-topic <subject> <topic>` | writes, edits, compresses or audits a topic's notes and rebuilds its PDF |
+| `/revise <subject> <topic>` | the revision loop: blurt → check → read gaps → cards → questions → record |
+| `/test <subject> <topic>` | self-test after revising alone: past-paper questions, marked, recorded |
+| `/plan` | builds or updates `me/study_plan.md` |
+| `/progress` | where the student stands, what to do today; opens the tracker |
+
+Skills live in `.claude/skills/<name>/SKILL.md`. If the user asks in plain words ("quiz me on
+Waves", "make notes for Chemistry topic 3"), use the matching skill.
+
+## First principle
+
+For any study-material task, first identify the exact subject, exam board, specification code,
+target topic, the student's options (`me/profile.md`) and the subject's rules. Never produce generic
+GCSE material when the repository has the exact specification.
+
+> **BARE MINIMUM, BUT STILL ENOUGH TO FULLY UNDERSTAND THE SPECIFICATION AND GET TOP MARKS.**
+
+Include everything assessable in the mapped specification scope, plus only the minimum bridging
+explanation needed to understand and apply it. No textbook background, next-level material,
+enrichment, extra examples, later-topic teaching or repetitive exam advice unless asked.
+
+## Repository layout
+
+```text
+igcse-revision-kit/
+├── CLAUDE.md · AGENTS.md         rules for agents (this file wins)
+├── .claude/skills/               the skills above
+├── rules/                        WORKFLOW, CONTENT_RULES, TUTORING, REVISION, STYLE_GUIDE,
+│                                 SOURCE_POLICY, DECISIONS
+├── subjects/<Subject_code>/      one per qualification, e.g. Physics_4PH1
+│   ├── subject.yaml              name, board, code, aliases, spec URL, centre choices, status
+│   ├── AGENT.md, SUBJECT_RULES.md, QA_CHECKLIST.md, CONTENT_STYLE.md…   subject rules
+│   ├── specification.md · specification_map.csv · coverage_checklist.md
+│   ├── Specification.pdf         downloaded locally by tools/fetch_specs.py — NOT in Git
+│   └── topics/NN_<Topic>/NN_<Subtopic>/   topic.md, summary.md, questions.md, assets/
+├── notes/<Subject_code>/NN_<Topic>.pdf    the revision PDFs, one per top-level topic
+├── templates/                    topic/summary/questions templates + me/ templates
+├── tools/pdf/                    PDF pipeline (build_pdf.py)
+├── tools/tracker/                progress + flashcards web app (local server or claude.ai artifact)
+├── tools/fetch_specs.py · tools/check_repo.py
+└── me/                           EVERYTHING PERSONAL — ignored by Git (created by /setup)
+    ├── profile.md                subjects + options, exam dates, time available, preferences
+    ├── study_plan.md             schedule and backlog
+    ├── progress.json · flashcards.json     tracker data
+    ├── weak_spots/<Subject>.md   priorities + re-test bank
+    ├── work/                     marked long answers
+    ├── papers/<Subject>/         past papers + mark schemes the student downloaded
+    └── sources/<Subject>/        school material: class notes, case-study docs, textbook pages
+```
+
+- A topic without subtopics keeps its sources directly in `topics/NN_<Topic>/`.
+- Unwritten subtopics are skeleton folders with `.gitkeep`; the build skips them.
+- `content_path` in `specification_map.csv` reads `<Subject>/NN_<Topic>/NN_<Subtopic>`, relative
+  to `subjects/<Subject>/topics/`.
+
+## Privacy and copyright — hard rules
+
+- **Never write personal data outside `me/`.** No names, schools, grades, marked work, weak spots
+  or test results in `subjects/`, `notes/`, `rules/` or commit messages.
+- **Never commit** anything under `me/`, a `Specification.pdf`, past papers, mark schemes, examiner
+  reports, textbooks or school documents. `.gitignore` covers the usual paths; check `git status`
+  before every commit anyway.
+- Notes paraphrase. Diagrams are drawn for the kit; a photo only when openly licensed, recorded in
+  the subtopic's `assets/SOURCES.md` (file, what it shows, origin URL, author, licence).
+- Quotations: set-text quotes come from the student's own notes. Past-paper questions may be used
+  in a session from `me/papers/`, never copied into the shared repository.
+
+## Content filter
+
+- **A — Required:** explicitly assessable specification content. Always include.
+- **B — Bridging:** the minimum extra explanation needed to understand/apply A. Keep short.
+- **C — Enrichment:** interesting, advanced, redundant, later-course, background, extra examples.
+  Omit (not in a labelled "enrichment" section either).
+
+If removing something would still leave the student fully able to answer questions on the mapped
+specification, it does not belong.
+
+## Standard subtopic pack
+
+In `subjects/<Subject>/topics/NN_<Topic>/NN_<Subtopic>/`:
+
+- `topic.md` — canonical, complete but concise learning source (YAML front matter; `tools/pdf/README.md`)
+- `summary.md` — genuinely shorter rapid revision, markdown only
+- `questions.md` — focused practice with concise answers/marking guidance, markdown only
+- `assets/` — only when useful visuals are needed (+ `SOURCES.md` for any third-party image)
+
+Important examinable content must exist in `topic.md`, never only in the summary or the PDF.
+
+### What the PDF contains
+
+Rendered from the `topic.md` files only, as one continuous document. Printed: the qualification
+line and topic title once; per subtopic its title and specification points; then the teaching
+content. Never: specification tables or objective panels (the `## Specification coverage` table in
+`topic.md` is for agents and is not printed), recap sections, self-tests, answers, checklists,
+generic exam tips, introductions or "why it matters" padding. Do not write such sections into
+`topic.md` or `summary.md` either. Practice lives only in `questions.md`.
+
+## Visual rule
+
+Use visuals whenever they teach faster or more clearly than prose — and then let the visual carry
+the content: cut the prose it replaces. **Plan visuals before writing.** Defaults:
+
+- processes, mechanisms, sequences, cycles, cross-sections, cause → effect chains → a labelled diagram
+- quantitative patterns and graph shapes → a graph or map
+- real visible things (landforms, structures) → an openly licensed photograph when it helps recognition
+- comparisons of several items on the same attributes → a compact table (tables are for comparisons only)
+- definitions and short reasoning → prose
+
+Every subject gets diagrams where the content has a shape — Business too (break-even chart,
+cash-flow chain, organisation chart, product life cycle…). No decorative filler; never photo +
+diagram + table + long prose for the same idea. Subject rules may add to this.
+
+## Source hierarchy
+
+1. the current official specification/syllabus
+2. official exam-board assessment material
+3. the student's school material (`me/sources/`)
+4. reliable educational/reference sources
+
+External research may improve accuracy, explanation or visuals; it must not expand scope or bypass
+subject source restrictions. Never guess a centre decision (route, set text, case study,
+programming language, tier): read `me/profile.md`; if it does not say, ask.
+
+## Existing material
+
+Inspect an existing pack first. If it is accurate but too long, **edit/compress it** rather than
+regenerating. Regenerate only for a factual/structural problem harder to repair than rebuild.
+
+## Write scope
+
+During a topic run, write only: the requested subtopic source folder(s); the topic PDF; and the
+tracker rows for the points covered (`coverage_checklist.md` ticks and `content_status` in
+`specification_map.csv`). Do not modify `rules/`, `tools/`, other rule files, other topics or other
+subjects unless the user asks. Revision sessions write only inside `me/`. Parallel sessions must
+have non-overlapping write scopes.
+
+Clean up temporary files when done.
+
+## PDF production
+
+`python3 tools/pdf/build_pdf.py <Subject>/NN_<Topic>` builds the whole topic PDF (a subtopic path
+also works). It needs Chromium via Playwright (`tools/pdf/README.md`). After building, inspect the
+rendered pages: clipping, page breaks, image quality, labels, tables, spacing, blank pages. If the
+environment cannot render, say so; the student can run it, or CI builds it on push.
+
+## Mandatory final lean pass
+
+After the first complete draft, do a **second, separate compression audit**, unasked. For every
+paragraph, list, table, example, callout and visual ask:
+
+> If this were removed or shortened, would the student still fully understand and answer every
+> mapped specification requirement at the required depth?
+
+If yes, remove or compress it. Do not make notes cryptic just to shorten them. Check `summary.md`
+is materially shorter than `topic.md` and `questions.md` is focused. Rebuild and inspect again.
+
+## Final QA (topic runs)
+
+- every mapped specification point and sub-bullet covered, at command-word depth
+- nothing required lost in compression; no enrichment left
+- subject source restrictions obeyed; subject `QA_CHECKLIST.md` run
+- visuals planned: every process/structure/pattern has its diagram, graph or photo
+- `python3 tools/check_repo.py` passes
+- PDF rebuilt and inspected; tracker rows updated; work committed
+
+Then stop. Do not expand into the next topic automatically.
+
+## Git
+
+- Commit once at the end of each finished piece of shared work, staging **only the paths this
+  session changed** (`git add -- <path> …`, never `git add -A`). Message: one line saying what was
+  done, e.g. `Physics 4PH1 topic 3: compress Waves`.
+- Never commit `me/` (it is ignored — keep it that way).
+- Never push, reset, rebase, amend or rewrite history unless the user asks.
+- Finished nothing? Do not commit; say what is left uncommitted.
+
+## Default action
+
+When the user asks to create, audit, compress or update material, work on the files rather than
+describing what could be done. When the student asks to be taught, quizzed or marked, tutor by
+`rules/TUTORING.md`.

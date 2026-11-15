@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 254" width="760" height="254" role="img" aria-label="A belt transect runs from shade under a tree into open grassland. Quadrats are placed every 2 metres along a tape measure and light intensity is measured with a light meter at each quadrat. Light intensity rises from about 300 lux under the tree to 18 000 lux in the open. The graph below shows the percentage cover of moss falling and the percentage cover of grass rising along the transect, so each species' distribution follows light intensity.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .tr-h { font-size: 13px; font-weight: 700; }
+    .tr-s { font-size: 12px; fill: #33475b; }
+    .tr-l { font-size: 11.5px; fill: #4c3fa8; font-weight: 700; }
+    .tr-a { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <g transform="translate(0,-22)">
+  <!-- shade -->
+  <path d="M10,112 L10,50 Q70,24 150,34 Q240,44 300,112 Z" fill="#dfe3e8"/>
+  <text class="tr-h" x="170" y="76" text-anchor="middle">shade</text>
+  <text class="tr-h" x="620" y="76" text-anchor="middle">open, full light</text>
+  <!-- tree -->
+  <rect x="26" y="56" width="12" height="56" fill="#8a6a3f"/>
+  <ellipse cx="32" cy="50" rx="28" ry="18" fill="#4f8a3a"/>
+  <!-- ground and tape -->
+  <rect x="10" y="112" width="740" height="36" fill="#eef6e6"/>
+  <line x1="60" y1="130" x2="720" y2="130" stroke="#d99a17" stroke-width="3"/>
+    <rect x="66" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="80" y="162" text-anchor="middle">0 m</text>
+  <text class="tr-l" x="80" y="106" text-anchor="middle">300 lx</text>
+  <rect x="186" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="200" y="162" text-anchor="middle">2 m</text>
+  <text class="tr-l" x="200" y="106" text-anchor="middle">1 200 lx</text>
+  <rect x="306" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="320" y="162" text-anchor="middle">4 m</text>
+  <text class="tr-l" x="320" y="108" text-anchor="middle" dy="-2">4 000 lx</text>
+  <rect x="426" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="440" y="162" text-anchor="middle">6 m</text>
+  <text class="tr-l" x="440" y="108" text-anchor="middle" dy="-2">9 000 lx</text>
+  <rect x="546" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="560" y="162" text-anchor="middle">8 m</text>
+  <text class="tr-l" x="560" y="108" text-anchor="middle" dy="-2">15 000 lx</text>
+  <rect x="666" y="116" width="28" height="28" fill="none" stroke="#b8433a" stroke-width="2"/>
+  <text class="tr-a" x="680" y="162" text-anchor="middle">10 m</text>
+  <text class="tr-l" x="680" y="108" text-anchor="middle" dy="-2">18 000 lx</text>
+  <line x1="60" y1="266" x2="720" y2="266" stroke="#16283c" stroke-width="1.2"/>
+  <line x1="60" y1="266" x2="60" y2="174" stroke="#16283c" stroke-width="1.2"/>
+  <text class="tr-a" x="54" y="182" text-anchor="end">100</text><text class="tr-a" x="54" y="270" text-anchor="end">0</text>
+  <text class="tr-a" x="16" y="226" transform="rotate(-90 16 222)" text-anchor="middle">% cover</text>
+  <polyline points="80,204.1 200,217.8 320,238.5 440,255.7 560,262.6 680,266.0" fill="none" stroke="#0f7b6c" stroke-width="2.4"/>
+  <polyline points="80,261.7 200,248.8 320,227.3 440,205.8 560,192.9 680,188.6" fill="none" stroke="#d99a17" stroke-width="2.4" stroke-dasharray="7 4"/>
+  <circle cx="80" cy="204.1" r="3.4" fill="#0f7b6c"/>
+  <circle cx="200" cy="217.8" r="3.4" fill="#0f7b6c"/>
+  <circle cx="320" cy="238.5" r="3.4" fill="#0f7b6c"/>
+  <circle cx="440" cy="255.7" r="3.4" fill="#0f7b6c"/>
+  <circle cx="560" cy="262.6" r="3.4" fill="#0f7b6c"/>
+  <circle cx="680" cy="266.0" r="3.4" fill="#0f7b6c"/>
+  <circle cx="80" cy="261.7" r="3.4" fill="#d99a17"/>
+  <circle cx="200" cy="248.8" r="3.4" fill="#d99a17"/>
+  <circle cx="320" cy="227.3" r="3.4" fill="#d99a17"/>
+  <circle cx="440" cy="205.8" r="3.4" fill="#d99a17"/>
+  <circle cx="560" cy="192.9" r="3.4" fill="#d99a17"/>
+  <circle cx="680" cy="188.6" r="3.4" fill="#d99a17"/>
+  <text class="tr-h" x="118" y="192" fill="#0f7b6c" style="fill:#0f7b6c">moss</text>
+  <text class="tr-h" x="604" y="186" style="fill:#b07a0c">grass</text>
+  </g>
+  <rect x="330" y="8" width="14" height="14" fill="none" stroke="#b8433a" stroke-width="2"/><text class="tr-s" x="350" y="20">quadrat every 2 m along a tape measure (transect line)</text>
+  <text class="tr-l" x="330" y="40">lx</text><text class="tr-s" x="350" y="40">light intensity measured at each quadrat (light meter)</text>
+</svg>

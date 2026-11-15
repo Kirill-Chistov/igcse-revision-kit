@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 196" font-family="Carlito, Calibri, sans-serif">
+  <defs>
+    <marker id="sc-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">
+    <rect x="10" y="8" width="160" height="24" rx="5" fill="#0b5f54"/>
+    <text x="90" y="25">PRIMARY</text>
+    <rect x="200" y="8" width="320" height="24" rx="5" fill="#0f7b6c"/>
+    <text x="360" y="25">SECONDARY</text>
+    <rect x="550" y="8" width="160" height="24" rx="5" fill="#4c3fa8"/>
+    <text x="630" y="25">TERTIARY</text>
+  </g>
+  <g font-size="12.5" fill="#33475b" text-anchor="middle">
+    <rect x="10" y="42" width="160" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="90" y="64" font-size="14" font-weight="700" fill="#16283c">Wheat farm</text>
+    <text x="90" y="84">grows wheat</text>
+    <text x="90" y="101" font-style="italic">raw material</text>
+
+    <rect x="200" y="42" width="150" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="275" y="64" font-size="14" font-weight="700" fill="#16283c">Flour mill</text>
+    <text x="275" y="84">wheat → flour</text>
+    <text x="275" y="101" font-style="italic">semi-finished good</text>
+
+    <rect x="370" y="42" width="150" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="445" y="64" font-size="14" font-weight="700" fill="#16283c">Bakery</text>
+    <text x="445" y="84">flour → bread</text>
+    <text x="445" y="101" font-style="italic">finished good</text>
+
+    <rect x="550" y="42" width="160" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="630" y="64" font-size="14" font-weight="700" fill="#16283c">Supermarket</text>
+    <text x="630" y="84">sells bread</text>
+    <text x="630" y="101" font-style="italic">service to consumers</text>
+  </g>
+  <g stroke="#16283c" stroke-width="1.8">
+    <line x1="172" y1="78" x2="196" y2="78" marker-end="url(#sc-arr)"/>
+    <line x1="352" y1="78" x2="366" y2="78" marker-end="url(#sc-arr)"/>
+    <line x1="522" y1="78" x2="546" y2="78" marker-end="url(#sc-arr)"/>
+  </g>
+  <g stroke="#4c3fa8" stroke-width="1.4" stroke-dasharray="4 3">
+    <line x1="90" y1="146" x2="90" y2="118" marker-end="url(#sc-arr)"/>
+    <line x1="275" y1="146" x2="275" y2="118" marker-end="url(#sc-arr)"/>
+    <line x1="445" y1="146" x2="445" y2="118" marker-end="url(#sc-arr)"/>
+    <line x1="630" y1="146" x2="630" y2="118" marker-end="url(#sc-arr)"/>
+  </g>
+  <rect x="10" y="148" width="700" height="40" rx="7" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.4"/>
+  <text x="360" y="173" text-anchor="middle" font-size="12.5" fill="#16283c"><tspan font-weight="700">Tertiary services support every stage:</tspan> transport, banking, insurance, advertising</text>
+</svg>

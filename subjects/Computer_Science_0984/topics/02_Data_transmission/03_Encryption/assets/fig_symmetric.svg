@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 190" width="680" height="190" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Symmetric encryption: the same key encrypts and decrypts">
+<defs><marker id="sy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="syg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#15803d"/></marker></defs>
+<rect x="4" y="40" width="86" height="56" rx="6" fill="#ffffff" stroke="#0f766e" stroke-width="1.8"/>
+<text x="47.0" y="72.4" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">Plaintext</text>
+<text x="47" y="112" text-anchor="middle" font-size="11.5" fill="#475569">“Meet at 6”</text>
+<rect x="114" y="40" width="112" height="56" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="170.0" y="64.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">Encryption</text>
+<text x="170.0" y="80.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">algorithm</text>
+<rect x="250" y="40" width="180" height="56" rx="6" fill="#f1f5f9" stroke="#64748b" stroke-width="1.8"/>
+<text x="340.0" y="64.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e293b">Ciphertext sent</text>
+<text x="340.0" y="80.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1e293b">over the network</text>
+<text x="340" y="112" text-anchor="middle" font-size="11.5" fill="#475569">“7Hq#x9!p”</text>
+<rect x="454" y="40" width="112" height="56" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="510.0" y="64.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">Decryption</text>
+<text x="510.0" y="80.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">algorithm</text>
+<rect x="590" y="40" width="86" height="56" rx="6" fill="#ffffff" stroke="#0f766e" stroke-width="1.8"/>
+<text x="633.0" y="72.4" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">Plaintext</text>
+<text x="633" y="112" text-anchor="middle" font-size="11.5" fill="#475569">“Meet at 6”</text>
+<line x1="91" y1="68" x2="111" y2="68" stroke="#0f766e" stroke-width="2.2" marker-end="url(#sy)"/>
+<line x1="227" y1="68" x2="247" y2="68" stroke="#0f766e" stroke-width="2.2" marker-end="url(#sy)"/>
+<line x1="431" y1="68" x2="451" y2="68" stroke="#0f766e" stroke-width="2.2" marker-end="url(#sy)"/>
+<line x1="567" y1="68" x2="587" y2="68" stroke="#0f766e" stroke-width="2.2" marker-end="url(#sy)"/>
+<text x="340" y="22" text-anchor="middle" font-size="12" fill="#b91c1c">a hacker who intercepts it sees only ciphertext</text>
+<g stroke="#d97706" stroke-width="2.4" fill="none"><circle cx="150" cy="122" r="6"/><line x1="156" y1="122" x2="176" y2="122"/><line x1="170" y1="122" x2="170" y2="128"/><line x1="175" y1="122" x2="175" y2="128"/></g>
+<g stroke="#d97706" stroke-width="2.4" fill="none"><circle cx="490" cy="122" r="6"/><line x1="496" y1="122" x2="516" y2="122"/><line x1="510" y1="122" x2="510" y2="128"/><line x1="515" y1="122" x2="515" y2="128"/></g>
+<text x="170" y="148" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e">key</text>
+<text x="510" y="148" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e">the same key</text>
+<path d="M170 154 L170 162 L510 162 L510 154" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="340" y="180" text-anchor="middle" font-size="12" fill="#92400e">the key must also be sent to the receiver — it could be intercepted</text>
+</svg>

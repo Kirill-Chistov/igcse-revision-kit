@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 250" width="820" height="250" role="img" aria-label="Ray inside a semicircular glass block meeting the flat glass-air surface at angles of incidence less than, equal to and greater than the critical angle">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4c3fa8"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b7a88"/></marker><marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d99a17"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<text x="140.0" y="22.0" font-size="16" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">i < c</text>
+<path d="M48 92 A92 92 0 0 0 232 92 Z" fill="#dcecf3" stroke="#5b87a3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="140.0" y1="40.0" x2="140.0" y2="198.0" stroke="#6b7a88" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="78.7" y1="212.3" x2="109.4" y2="152.1" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="109.4" y1="152.1" x2="140.0" y2="92.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M140.0 126.0 A34 34 0 0 1 124.6 122.3" fill="none" stroke="#16283c" stroke-width="1.3"/>
+<text x="131.0" y="142.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">i</text>
+<line x1="140.0" y1="92.0" x2="165.5" y2="64.5" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="165.5" y1="64.5" x2="191.1" y2="37.1" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="140.0" y1="92.0" x2="175.4" y2="161.5" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="140.0" y="222.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">refracted out,</text>
+<text x="140.0" y="238.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">plus a weak reflection</text>
+<text x="410.0" y="22.0" font-size="16" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">i = c</text>
+<path d="M318 92 A92 92 0 0 0 502 92 Z" fill="#dcecf3" stroke="#5b87a3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="410.0" y1="40.0" x2="410.0" y2="198.0" stroke="#6b7a88" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="320.0" y1="192.6" x2="365.0" y2="142.3" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="365.0" y1="142.3" x2="410.0" y2="92.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M410.0 126.0 A34 34 0 0 1 387.3 117.3" fill="none" stroke="#16283c" stroke-width="1.3"/>
+<text x="401.0" y="142.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">c</text>
+<line x1="410.0" y1="90.0" x2="456.0" y2="90.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="456.0" y1="90.0" x2="502.0" y2="90.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M410.0 66.0 A26 26 0 0 1 436.0 92.0" fill="none" stroke="#16283c" stroke-width="1.3"/>
+<text x="432.0" y="64.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="700">90°</text>
+<line x1="410.0" y1="92.0" x2="462.0" y2="150.1" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="410.0" y="222.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">refracted ray along</text>
+<text x="410.0" y="238.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">the surface: r = 90°</text>
+<text x="680.0" y="22.0" font-size="16" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">i > c</text>
+<path d="M588 92 A92 92 0 0 0 772 92 Z" fill="#dcecf3" stroke="#5b87a3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="680.0" y1="40.0" x2="680.0" y2="198.0" stroke="#6b7a88" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="565.5" y1="163.5" x2="622.8" y2="127.8" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="622.8" y1="127.8" x2="680.0" y2="92.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M680.0 126.0 A34 34 0 0 1 651.2 110.0" fill="none" stroke="#16283c" stroke-width="1.3"/>
+<text x="663.0" y="142.0" font-size="14" fill="#16283c" text-anchor="middle" font-weight="700" font-style="italic">i</text>
+<line x1="680.0" y1="92.0" x2="716.5" y2="114.8" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round" marker-end="url(#ahr)"/>
+<line x1="716.5" y1="114.8" x2="752.9" y2="137.6" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<text x="680.0" y="222.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">total internal reflection:</text>
+<text x="680.0" y="238.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">all the light reflected</text>
+<text x="26.0" y="70.0" font-size="12.5" fill="#6b7a88" text-anchor="start" font-weight="700">air</text>
+<text x="58.0" y="118.0" font-size="12.5" fill="#5b87a3" text-anchor="start" font-weight="700">glass</text>
+</g>
+</svg>

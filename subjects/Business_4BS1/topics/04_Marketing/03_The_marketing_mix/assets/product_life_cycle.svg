@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img"
+     aria-label="Product life cycle: sales over time through development, introduction, growth, maturity and decline, with an extension strategy lifting sales in maturity">
+  <defs>
+    <marker id="plc-ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- phase bands -->
+    <rect x="70" y="36" width="80" height="254" fill="#eef2f5"/>
+    <rect x="270" y="36" width="160" height="254" fill="#f5faf8"/>
+    <rect x="610" y="36" width="170" height="254" fill="#fdf5f5"/>
+    <g stroke="#b6c2cc" stroke-width="1.2" stroke-dasharray="5 4">
+      <line x1="150" y1="36" x2="150" y2="290"/>
+      <line x1="270" y1="36" x2="270" y2="290"/>
+      <line x1="430" y1="36" x2="430" y2="290"/>
+      <line x1="610" y1="36" x2="610" y2="290"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#16283c" text-anchor="middle">
+      <text x="110" y="26">Development</text>
+      <text x="210" y="26">Introduction</text>
+      <text x="350" y="26">Growth</text>
+      <text x="520" y="26">Maturity</text>
+      <text x="695" y="26">Decline</text>
+    </g>
+
+    <!-- axes -->
+    <line x1="70" y1="290" x2="790" y2="290" stroke="#16283c" stroke-width="2" marker-end="url(#plc-ax)"/>
+    <line x1="70" y1="290" x2="70" y2="34" stroke="#16283c" stroke-width="2" marker-end="url(#plc-ax)"/>
+    <text x="40" y="170" font-size="14" font-weight="700" fill="#16283c" text-anchor="middle" transform="rotate(-90 40 170)">Sales</text>
+    <text x="786" y="282" font-size="13" font-weight="700" fill="#16283c" text-anchor="end">Time</text>
+
+    <!-- extension strategy -->
+    <path d="M585,92 C620,86 650,64 690,66 C725,68 755,90 780,112" fill="none" stroke="#4c3fa8" stroke-width="2.6" stroke-dasharray="7 5"/>
+    <text x="690" y="56" font-size="13" font-weight="700" fill="#4c3fa8" text-anchor="middle">extension strategy</text>
+
+    <!-- sales curve -->
+    <path d="M70,289 L150,289 C200,287 240,272 270,254 C320,224 380,142 430,112 C470,90 560,80 610,100 C660,120 730,200 780,250"
+          fill="none" stroke="#0f7b6c" stroke-width="3.4"/>
+
+    <!-- what happens in each phase -->
+    <g font-size="12.5" text-anchor="middle">
+      <text x="110" y="312">no sales;</text>
+      <text x="110" y="329">R&amp;D costs</text>
+      <text x="110" y="346">→ loss</text>
+
+      <text x="210" y="312">low sales;</text>
+      <text x="210" y="329">high promotion</text>
+      <text x="210" y="346">costs → loss</text>
+
+      <text x="350" y="312">sales rise fast;</text>
+      <text x="350" y="329">profit begins;</text>
+      <text x="350" y="346">competitors enter</text>
+
+      <text x="520" y="312">sales peak and level off;</text>
+      <text x="520" y="329">market saturated;</text>
+      <text x="520" y="346">profit highest</text>
+
+      <text x="695" y="312">sales fall;</text>
+      <text x="695" y="329">withdraw the product,</text>
+      <text x="695" y="346">or extend its life</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 214" width="760" height="214" role="img" aria-label="Pondweed in a boiling tube of sodium hydrogencarbonate solution, lit by a lamp at a measured distance with a glass tank of water between them as a heat shield. Bubbles of oxygen are counted per minute or the gas is collected in an upturned measuring cylinder; the gas relights a glowing splint.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .pw-l { font-size: 12.5px; font-weight: 700; }
+    .pw-s { font-size: 12px; fill: #33475b; }
+    .pw-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- lamp -->
+  <path d="M40,150 L40,60 L70,60" fill="none" stroke="#33475b" stroke-width="4"/>
+  <rect x="20" y="150" width="40" height="10" fill="#33475b"/>
+  <path d="M66,48 L96,40 L96,92 L66,84 Z" fill="#6b7a88"/>
+  <circle cx="100" cy="66" r="10" fill="#fdf2c4" stroke="#d99a17" stroke-width="2"/>
+  <g stroke="#d99a17" stroke-width="2"><path d="M116,56 L140,50"/><path d="M118,66 L142,66"/><path d="M116,76 L140,82"/></g>
+  <text class="pw-l" x="60" y="182" text-anchor="middle">lamp</text>
+  <!-- heat shield -->
+  <rect x="160" y="40" width="44" height="120" rx="3" fill="#e9f2f9" stroke="#5b8db8" stroke-width="1.6"/>
+  <text class="pw-l" x="182" y="182" text-anchor="middle">glass tank</text>
+  <text class="pw-s" x="182" y="196" text-anchor="middle">of water: heat shield</text>
+  <!-- tube with pondweed -->
+  <path d="M290,30 L290,150 A14,14 0 0 0 318,150 L318,30" fill="#eef7f2" stroke="#33475b" stroke-width="1.8"/>
+  <rect x="291" y="46" width="26" height="4" fill="#eef7f2"/>
+  <path d="M304,160 C300,130 308,110 304,70" stroke="#3d7a1c" stroke-width="3" fill="none"/>
+  <g fill="#5aa132"><ellipse cx="298" cy="140" rx="6" ry="2.5"/><ellipse cx="311" cy="128" rx="6" ry="2.5"/><ellipse cx="298" cy="112" rx="6" ry="2.5"/><ellipse cx="311" cy="96" rx="6" ry="2.5"/><ellipse cx="298" cy="82" rx="6" ry="2.5"/></g>
+  <g fill="#ffffff" stroke="#2e6fa3" stroke-width="1"><circle cx="304" cy="60" r="2.6"/><circle cx="302" cy="48" r="2.2"/><circle cx="305" cy="38" r="2"/></g>
+  <!-- distance ruler -->
+  <path d="M100,22 L304,22" stroke="#0f7b6c" stroke-width="1.4" stroke-dasharray="5 3"/>
+  <path d="M100,16 L100,52 M304,16 L304,28" stroke="#0f7b6c" stroke-width="1.4"/>
+  <text class="pw-l" x="202" y="16" text-anchor="middle" style="fill:#0b5f54">distance d</text>
+  <!-- labels -->
+  <path class="pw-ld" d="M330,62 L310,54"/><text class="pw-l" x="334" y="60">bubbles of oxygen</text>
+  <text class="pw-s" x="334" y="74">count per minute, or collect</text>
+  <text class="pw-s" x="334" y="88">in an upturned measuring cylinder</text>
+  <path class="pw-ld" d="M330,122 L312,128"/><text class="pw-l" x="334" y="122">pondweed (Elodea)</text>
+  <path class="pw-ld" d="M330,150 L318,150"/><text class="pw-l" x="334" y="150">sodium hydrogencarbonate</text>
+  <text class="pw-s" x="334" y="164">solution — supplies CO₂</text>
+
+  <line x1="540" y1="20" x2="540" y2="200" stroke="#dfe5ea" stroke-width="1.4"/>
+  <text class="pw-l" x="556" y="40" style="fill:#0b5f54">Test for oxygen</text>
+  <text class="pw-s" x="556" y="58">collected gas relights</text>
+  <text class="pw-s" x="556" y="72">a glowing splint</text>
+  <text class="pw-l" x="556" y="104" style="fill:#0b5f54">Result</text>
+  <text class="pw-s" x="556" y="122">lamp closer → brighter light</text>
+  <text class="pw-s" x="556" y="136">→ more bubbles per minute,</text>
+  <text class="pw-s" x="556" y="150">until another factor limits</text>
+</svg>

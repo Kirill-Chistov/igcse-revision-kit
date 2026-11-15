@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" role="img" aria-label="Annotated statement of comprehensive income: revenue 500,000 minus cost of sales 300,000 gives gross profit 200,000; minus other operating expenses 120,000 gives operating profit 80,000">
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="10" y="10" width="400" height="250" rx="6" fill="#ffffff" stroke="#b9c6d1" stroke-width="1.4"/>
+<rect x="10" y="10" width="400" height="44" rx="6" fill="#e7f3ef"/>
+<text x="24" y="30" font-size="14" font-weight="700" fill="#0b5f54">Statement of comprehensive income</text>
+<text x="24" y="47" font-size="12.5" fill="#33475b">for the year ending 31 December</text>
+<text x="396" y="47" font-size="12.5" font-weight="700" text-anchor="end" fill="#33475b">$</text>
+<text x="24" y="86" font-size="15" font-weight="400" fill="#33475b">Revenue (sales)</text>
+<text x="396" y="86" font-size="15" font-weight="400" text-anchor="end" fill="#33475b">500,000</text>
+<line x1="410" y1="81" x2="436" y2="81" stroke="#6b7a88" stroke-width="1.2"/>
+<circle cx="438" cy="81" r="2.6" fill="#6b7a88"/>
+<text x="450" y="86" font-size="13.5" fill="#33475b">money from selling goods or services</text>
+<text x="24" y="126" font-size="15" font-weight="400" fill="#33475b">Cost of sales</text>
+<text x="396" y="126" font-size="15" font-weight="400" text-anchor="end" fill="#33475b">(300,000)</text>
+<line x1="410" y1="121" x2="436" y2="121" stroke="#6b7a88" stroke-width="1.2"/>
+<circle cx="438" cy="121" r="2.6" fill="#6b7a88"/>
+<text x="450" y="126" font-size="13.5" fill="#33475b">cost of making or buying the goods sold</text>
+<line x1="290" y1="146" x2="396" y2="146" stroke="#16283c" stroke-width="1.2"/>
+<text x="24" y="166" font-size="15" font-weight="700" fill="#16283c">Gross profit</text>
+<text x="396" y="166" font-size="15" font-weight="700" text-anchor="end" fill="#16283c">200,000</text>
+<line x1="410" y1="161" x2="436" y2="161" stroke="#6b7a88" stroke-width="1.2"/>
+<circle cx="438" cy="161" r="2.6" fill="#6b7a88"/>
+<rect x="446" y="144" width="346" height="30" rx="5" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.2"/>
+<text x="456" y="164" font-size="14" font-weight="700" fill="#0b5f54">= revenue − cost of sales</text>
+<text x="24" y="206" font-size="15" font-weight="400" fill="#33475b">Other operating expenses</text>
+<text x="396" y="206" font-size="15" font-weight="400" text-anchor="end" fill="#33475b">(120,000)</text>
+<line x1="410" y1="201" x2="436" y2="201" stroke="#6b7a88" stroke-width="1.2"/>
+<circle cx="438" cy="201" r="2.6" fill="#6b7a88"/>
+<text x="450" y="206" font-size="13.5" fill="#33475b">expenses (overheads): rent, salaries, marketing</text>
+<line x1="290" y1="226" x2="396" y2="226" stroke="#16283c" stroke-width="1.2"/>
+<text x="24" y="246" font-size="15" font-weight="700" fill="#16283c">Operating profit</text>
+<text x="396" y="246" font-size="15" font-weight="700" text-anchor="end" fill="#16283c">80,000</text>
+<line x1="410" y1="241" x2="436" y2="241" stroke="#6b7a88" stroke-width="1.2"/>
+<circle cx="438" cy="241" r="2.6" fill="#6b7a88"/>
+<rect x="446" y="224" width="346" height="30" rx="5" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.2"/>
+<text x="456" y="244" font-size="14" font-weight="700" fill="#0b5f54">= gross profit − other operating expenses</text>
+<line x1="290" y1="254" x2="396" y2="254" stroke="#16283c" stroke-width="1.2"/>
+<line x1="290" y1="257" x2="396" y2="257" stroke="#16283c" stroke-width="1.2"/>
+</g></svg>

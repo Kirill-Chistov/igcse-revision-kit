@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 262" font-family="Carlito, Calibri, sans-serif">
+<defs>
+<marker id="rp-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16283c"/></marker>
+</defs>
+<style>
+.rp-rb{fill:#e7f3ef;stroke:#0f7b6c;stroke-width:1.8}
+.rp-sb{fill:#eeedfb;stroke:#4c3fa8;stroke-width:1.8}
+.rp-ib{fill:#f4f6f8;stroke:#6b7a88;stroke-width:1.5;stroke-dasharray:5 3}
+.rp-t{font-size:14.5px;font-weight:700;fill:#16283c;text-anchor:middle}
+.rp-s{font-size:11.5px;fill:#33475b;text-anchor:middle}
+.rp-n{font-size:11px;font-weight:700;fill:#ffffff;text-anchor:middle}
+.rp-lab{font-size:12.5px;font-weight:700;letter-spacing:1.5px}
+.rp-ln{stroke:#16283c;stroke-width:1.8;fill:none}
+</style>
+<!-- recruitment bracket -->
+<text class="rp-lab" x="10" y="18" fill="#0f7b6c">RECRUITMENT — identifying the vacancy and attracting suitable applicants</text>
+<!-- row 1 -->
+<rect class="rp-rb" x="10" y="30" width="160" height="66" rx="6"/>
+<circle cx="24" cy="44" r="9" fill="#0f7b6c"/><text class="rp-n" x="24" y="48">1</text>
+<text class="rp-t" x="94" y="56">Vacancy</text>
+<text class="rp-s" x="90" y="74">new job, or an employee</text>
+<text class="rp-s" x="90" y="88">leaves or is promoted</text>
+<rect class="rp-rb" x="190" y="30" width="160" height="66" rx="6"/>
+<circle cx="204" cy="44" r="9" fill="#0f7b6c"/><text class="rp-n" x="204" y="48">2</text>
+<text class="rp-t" x="274" y="52">Job description</text>
+<text class="rp-t" x="270" y="69">+ person specification</text>
+<text class="rp-s" x="270" y="86">the job / the person wanted</text>
+<rect class="rp-rb" x="370" y="30" width="160" height="66" rx="6"/>
+<circle cx="384" cy="44" r="9" fill="#0f7b6c"/><text class="rp-n" x="384" y="48">3</text>
+<text class="rp-t" x="454" y="56">Job advertisement</text>
+<text class="rp-s" x="450" y="74">internal or external</text>
+<text class="rp-s" x="450" y="88">recruitment</text>
+<rect class="rp-rb" x="550" y="30" width="160" height="66" rx="6"/>
+<circle cx="564" cy="44" r="9" fill="#0f7b6c"/><text class="rp-n" x="564" y="48">4</text>
+<text class="rp-t" x="634" y="56">Applications</text>
+<text class="rp-s" x="630" y="74">application form</text>
+<text class="rp-s" x="630" y="88">or CV / résumé</text>
+<line class="rp-ln" x1="172" y1="63" x2="186" y2="63" marker-end="url(#rp-arr)"/>
+<line class="rp-ln" x1="352" y1="63" x2="366" y2="63" marker-end="url(#rp-arr)"/>
+<line class="rp-ln" x1="532" y1="63" x2="546" y2="63" marker-end="url(#rp-arr)"/>
+<!-- connector -->
+<path class="rp-ln" d="M630,98 V122 H90 V144" marker-end="url(#rp-arr)"/>
+<!-- row 2 -->
+<rect class="rp-sb" x="10" y="148" width="160" height="66" rx="6"/>
+<circle cx="24" cy="162" r="9" fill="#4c3fa8"/><text class="rp-n" x="24" y="166">5</text>
+<text class="rp-t" x="94" y="174">Shortlisting</text>
+<text class="rp-s" x="90" y="192">best applicants chosen</text>
+<text class="rp-s" x="90" y="206">for interview</text>
+<rect class="rp-sb" x="190" y="148" width="160" height="66" rx="6"/>
+<circle cx="204" cy="162" r="9" fill="#4c3fa8"/><text class="rp-n" x="204" y="166">6</text>
+<text class="rp-t" x="274" y="174">Interviews</text>
+<text class="rp-s" x="270" y="192">may include tests or</text>
+<text class="rp-s" x="270" y="206">practical tasks</text>
+<rect class="rp-sb" x="370" y="148" width="160" height="66" rx="6"/>
+<circle cx="384" cy="162" r="9" fill="#4c3fa8"/><text class="rp-n" x="384" y="166">7</text>
+<text class="rp-t" x="454" y="174">Job offer</text>
+<text class="rp-s" x="450" y="192">references checked;</text>
+<text class="rp-s" x="450" y="206">contract of employment</text>
+<rect class="rp-ib" x="550" y="148" width="160" height="66" rx="6"/>
+<circle cx="564" cy="162" r="9" fill="#6b7a88"/><text class="rp-n" x="564" y="166">8</text>
+<text class="rp-t" x="634" y="174">Induction</text>
+<text class="rp-s" x="630" y="192">new employee starts</text>
+<text class="rp-s" x="630" y="206">(training → 2.3)</text>
+<line class="rp-ln" x1="172" y1="181" x2="186" y2="181" marker-end="url(#rp-arr)"/>
+<line class="rp-ln" x1="352" y1="181" x2="366" y2="181" marker-end="url(#rp-arr)"/>
+<line class="rp-ln" x1="532" y1="181" x2="546" y2="181" marker-end="url(#rp-arr)"/>
+<!-- selection bracket -->
+<path d="M12,226 V234 H528 V226" fill="none" stroke="#4c3fa8" stroke-width="1.6"/>
+<text class="rp-lab" x="270" y="254" fill="#4c3fa8" text-anchor="middle">SELECTION — choosing the most suitable applicant</text>
+</svg>

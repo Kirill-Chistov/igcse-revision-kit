@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" width="760" height="318" role="img" aria-label="Half-flower of an insect-pollinated flower with large coloured petals, nectary, anthers and a sticky stigma inside the flower, beside a wind-pollinated grass flower with no petals, anthers hanging outside on long filaments and a large feathery stigma hanging outside.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .fl-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .fl-l { font-size: 12px; font-weight: 700; }
+    .fl-s { font-size: 11px; fill: #33475b; }
+    .ld { stroke: #8fa3b8; stroke-width: 1; fill: none; }
+  </style>
+  <text class="fl-t" x="6" y="16">A  INSECT-POLLINATED FLOWER (half-flower)</text>
+  <text class="fl-t" x="420" y="16">B  WIND-POLLINATED FLOWER (grass)</text>
+  <line x1="404" y1="6" x2="404" y2="312" stroke="#dfe5ea" stroke-width="1.4"/>
+
+  <!-- ===== A insect-pollinated ===== -->
+  <!-- stalk -->
+  <path d="M200,272 L200,310" stroke="#4f8a3c" stroke-width="5" stroke-linecap="round"/>
+  <!-- sepals -->
+  <path d="M192,266 C170,270 150,282 138,296 C160,292 180,282 196,272 Z" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.2"/>
+  <path d="M208,266 C230,270 250,282 262,296 C240,292 220,282 204,272 Z" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.2"/>
+  <!-- petals -->
+  <path d="M190,262 C150,250 112,196 118,112 C146,140 172,196 194,254 Z" fill="#f3b6c8" stroke="#b0557a" stroke-width="1.5"/>
+  <path d="M210,262 C250,250 288,196 282,112 C254,140 228,196 206,254 Z" fill="#f3b6c8" stroke="#b0557a" stroke-width="1.5"/>
+  <!-- receptacle -->
+  <ellipse cx="200" cy="266" rx="20" ry="8" fill="#b7d99c" stroke="#4f8a3c" stroke-width="1.2"/>
+  <!-- nectaries -->
+  <ellipse cx="182" cy="258" rx="6" ry="4" fill="#f2c14e" stroke="#b8860b" stroke-width="1"/>
+  <ellipse cx="218" cy="258" rx="6" ry="4" fill="#f2c14e" stroke="#b8860b" stroke-width="1"/>
+  <!-- ovary with ovules -->
+  <ellipse cx="200" cy="244" rx="15" ry="15" fill="#d9ecd9" stroke="#0f7b6c" stroke-width="1.6"/>
+  <circle cx="200" cy="237" r="3.2" fill="#0f7b6c"/><circle cx="200" cy="246" r="3.2" fill="#0f7b6c"/><circle cx="200" cy="255" r="3.2" fill="#0f7b6c"/>
+  <!-- style + stigma -->
+  <path d="M197,230 L197,168 L203,168 L203,230 Z" fill="#d9ecd9" stroke="#0f7b6c" stroke-width="1.4"/>
+  <ellipse cx="200" cy="164" rx="9" ry="6" fill="#a9d8c6" stroke="#0f7b6c" stroke-width="1.6"/>
+  <!-- stamens -->
+  <path d="M188,250 C182,220 176,196 172,176" stroke="#9a7b2f" stroke-width="2" fill="none"/>
+  <path d="M212,250 C218,220 224,196 228,176" stroke="#9a7b2f" stroke-width="2" fill="none"/>
+  <ellipse cx="171" cy="170" rx="5" ry="9" fill="#e8b93a" stroke="#9a7b2f" stroke-width="1.2"/>
+  <ellipse cx="229" cy="170" rx="5" ry="9" fill="#e8b93a" stroke="#9a7b2f" stroke-width="1.2"/>
+
+  <!-- labels A left -->
+  <text class="fl-l" x="8" y="70">petal</text>
+  <path class="ld" d="M42,66 L134,140"/>
+  <text class="fl-l" x="8" y="172">anther</text>
+  <path class="ld" d="M50,168 L165,169"/>
+  <text class="fl-l" x="8" y="220">filament</text>
+  <path class="ld" d="M56,216 L180,216"/>
+  <text class="fl-l" x="8" y="246">nectary</text>
+  <path class="ld" d="M58,242 L176,257"/>
+  <text class="fl-l" x="8" y="292">sepal</text>
+  <path class="ld" d="M42,288 L146,290"/>
+  <!-- labels A right -->
+  <text class="fl-l" x="300" y="146">stigma</text>
+  <path class="ld" d="M298,142 L210,160"/>
+  <text class="fl-l" x="300" y="200">style</text>
+  <path class="ld" d="M298,196 L204,196"/>
+  <text class="fl-l" x="300" y="236">ovary</text>
+  <path class="ld" d="M298,232 L216,240"/>
+  <!-- brackets stamen / carpel -->
+  <text class="fl-s" x="250" y="92" font-style="italic">stamen = anther + filament</text>
+  <text class="fl-s" x="250" y="106" font-style="italic">carpel = stigma + style + ovary</text>
+
+  <!-- ===== B wind-pollinated ===== -->
+  <path d="M590,262 L590,310" stroke="#4f8a3c" stroke-width="4" stroke-linecap="round"/>
+  <!-- small green bracts -->
+  <path d="M584,264 C566,250 560,226 564,204 C576,220 584,242 588,258 Z" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.2"/>
+  <path d="M596,264 C614,250 620,226 616,204 C604,220 596,242 592,258 Z" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.2"/>
+  <!-- ovary -->
+  <ellipse cx="590" cy="238" rx="11" ry="14" fill="#d9ecd9" stroke="#0f7b6c" stroke-width="1.6"/>
+  <circle cx="590" cy="240" r="3.2" fill="#0f7b6c"/>
+  <!-- feathery stigmas -->
+  <path d="M585,226 L548,120" stroke="#0f7b6c" stroke-width="2" fill="none"/>
+  <path d="M595,226 L632,120" stroke="#0f7b6c" stroke-width="2" fill="none"/>
+  <g stroke="#0f7b6c" stroke-width="1.1">
+    <path d="M578,206 l-12,-4 M578,206 l8,-9 M573,192 l-12,-4 M573,192 l8,-9 M568,178 l-12,-4 M568,178 l8,-9 M563,164 l-12,-4 M563,164 l8,-9 M558,150 l-12,-4 M558,150 l8,-9 M553,136 l-12,-4 M553,136 l8,-9"/>
+    <path d="M602,206 l12,-4 M602,206 l-8,-9 M607,192 l12,-4 M607,192 l-8,-9 M612,178 l12,-4 M612,178 l-8,-9 M617,164 l12,-4 M617,164 l-8,-9 M622,150 l12,-4 M622,150 l-8,-9 M627,136 l12,-4 M627,136 l-8,-9"/>
+  </g>
+  <!-- long hanging filaments + anthers outside -->
+  <path d="M582,246 C556,244 528,250 510,272" stroke="#9a7b2f" stroke-width="1.6" fill="none"/>
+  <path d="M598,246 C624,244 652,250 670,272" stroke="#9a7b2f" stroke-width="1.6" fill="none"/>
+  <rect x="504" y="272" width="12" height="26" rx="5" fill="#e8b93a" stroke="#9a7b2f" stroke-width="1.2"/>
+  <rect x="664" y="272" width="12" height="26" rx="5" fill="#e8b93a" stroke="#9a7b2f" stroke-width="1.2"/>
+  <!-- pollen drifting -->
+  <g fill="#e8b93a"><circle cx="530" cy="300" r="1.8"/><circle cx="540" cy="292" r="1.8"/><circle cx="552" cy="302" r="1.8"/><circle cx="690" cy="296" r="1.8"/><circle cx="700" cy="286" r="1.8"/><circle cx="712" cy="298" r="1.8"/></g>
+
+  <!-- labels B -->
+  <text class="fl-l" x="420" y="92">feathery stigma</text>
+  <path class="ld" d="M512,88 L552,140"/>
+  <text class="fl-l" x="420" y="196">small green bracts (no petals)</text>
+  <path class="ld" d="M560,200 L568,214"/>
+  <text class="fl-l" x="646" y="178">ovary</text>
+  <path class="ld" d="M644,182 L602,236"/>
+  <text class="fl-l" x="610" y="60">anther on long filament</text>
+  <path class="ld" d="M690,64 L674,272"/>
+  <text class="fl-l" x="420" y="262">pollen</text>
+  <path class="ld" d="M462,258 L524,292"/>
+</svg>

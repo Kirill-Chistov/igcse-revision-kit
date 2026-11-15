@@ -1,0 +1,12 @@
+name: Mathematics A
+board: Pearson Edexcel
+qualification: International GCSE (9–1) Mathematics A
+code: "4MA1"
+aliases: [maths, math, mathematics]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20A/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-a.pdf
+tiers: Foundation | Higher
+centre_choices: []
+status: specification mapped, no notes yet
+spec_points: 39
+subtopics_written: 0
+topic_pdfs: 0

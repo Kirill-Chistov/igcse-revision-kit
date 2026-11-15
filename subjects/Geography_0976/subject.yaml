@@ -1,0 +1,14 @@
+name: Geography
+board: Cambridge International
+qualification: IGCSE (9–1) Geography
+code: "0976"
+aliases: [geo, geography]
+spec_url: https://www.cambridgeinternational.org/Images/718939-2027-2029-syllabus.pdf
+tiers: none
+centre_choices:
+  - Paper 4 or Component 3 (coursework)
+  - the 16 detailed specific examples (case studies) the school uses
+status: notes for every topic
+spec_points: 129
+subtopics_written: 35
+topic_pdfs: 10

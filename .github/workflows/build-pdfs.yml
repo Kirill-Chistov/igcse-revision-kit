@@ -1,0 +1,38 @@
+name: build-pdfs
+# Rebuilds the topic PDFs whose sources changed and uploads them as an artifact.
+# A maintainer downloads the artifact and commits the PDFs (CI never pushes).
+on:
+  pull_request:
+    paths: ["subjects/**/topics/**", "tools/pdf/**"]
+  workflow_dispatch:
+    inputs:
+      all: { description: "Rebuild every topic", type: boolean, default: false }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install renderer
+        run: |
+          pip install -r tools/pdf/requirements.txt
+          python3 -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-crosextra-carlito fonts-crosextra-caladea
+      - name: Build changed topics
+        run: |
+          if [ "${{ inputs.all }}" = "true" ]; then
+            python3 tools/pdf/build_pdf.py --all
+          else
+            base="${{ github.event.pull_request.base.sha || 'HEAD~1' }}"
+            topics=$(git diff --name-only "$base" HEAD -- 'subjects/*/topics/*' \
+                     | awk -F/ '{print "subjects/"$2"/topics/"$4}' | sort -u)
+            [ -z "$topics" ] && { echo "no topic sources changed"; exit 0; }
+            python3 tools/pdf/build_pdf.py $topics
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: topic-pdfs
+          path: notes/
+          if-no-files-found: ignore

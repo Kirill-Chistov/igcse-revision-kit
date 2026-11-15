@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="A: cubes of agar containing pink indicator placed in dilute hydrochloric acid lose their colour as acid diffuses in; the smallest cube, with the largest surface area to volume ratio, loses its colour first. B: Visking tubing containing sucrose solution in water; water enters by osmosis and the liquid rises up the capillary tube. C: graph of percentage change in mass of potato cylinders against sucrose concentration: gain in mass in dilute solutions, loss in concentrated solutions, no change where the solution has the same concentration as the cells, about 0.3 mol per cubic decimetre.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .pr-t { font-size: 13px; font-weight: 700; fill: #0b5f54; }
+    .pr-s { font-size: 11.5px; fill: #33475b; }
+    .pr-k { font-size: 11.5px; font-weight: 700; }
+    .pr-n { font-size: 10.5px; fill: #6b7a88; }
+    .pr-l { font-size: 11.5px; font-weight: 700; }
+  </style>
+  <text class="pr-t" x="8" y="16">A  Diffusion: agar cubes</text><text class="pr-s" x="8" y="31">non-living</text>
+  <text class="pr-t" x="262" y="16">B  Osmosis: Visking tubing</text><text class="pr-s" x="262" y="31">non-living</text>
+  <text class="pr-t" x="506" y="16">C  Osmosis: potato cylinders</text><text class="pr-s" x="506" y="31">living</text>
+  <line x1="250" y1="6" x2="250" y2="236" stroke="#dfe5ea" stroke-width="1.4"/><line x1="494" y1="6" x2="494" y2="236" stroke="#dfe5ea" stroke-width="1.4"/>
+  <path d="M30,60 L30,160 Q30,168 38,168 L202,168 Q210,168 210,160 L210,60" fill="none" stroke="#33475b" stroke-width="2"/>
+  <rect x="32" y="84" width="176" height="82" fill="#eef4f8"/>
+  <path d="M32,84 L208,84" stroke="#5b8db8" stroke-width="1.2"/>
+  <rect x="52" y="144" width="16" height="16" fill="#f7f7f2" stroke="#a93226" stroke-width="1.3"/>
+  <rect x="88" y="132" width="28" height="28" fill="#f7f7f2" stroke="#a93226" stroke-width="1.3"/>
+  <rect x="97.0" y="141.0" width="10" height="10" fill="#e56aa6"/>
+  <rect x="136" y="112" width="48" height="48" fill="#f7f7f2" stroke="#a93226" stroke-width="1.3"/>
+  <rect x="144.0" y="120.0" width="32" height="32" fill="#e56aa6"/>
+  <text class="pr-s" x="120" y="78" text-anchor="middle">dilute hydrochloric acid</text>
+  <text class="pr-s" x="8" y="188">agar + indicator: pink → colourless</text>
+  <text class="pr-s" x="8" y="203">as acid diffuses in. Time how long</text>
+  <text class="pr-s" x="8" y="218">each cube takes to lose its colour:</text>
+  <text class="pr-k" x="8" y="233">smallest cube (largest SA : V) first</text>
+  <path d="M290,70 L290,168 Q290,176 298,176 L442,176 Q450,176 450,168 L450,70" fill="none" stroke="#33475b" stroke-width="2"/>
+  <rect x="292" y="92" width="156" height="82" fill="#eef4f8"/><path d="M292,92 L448,92" stroke="#5b8db8" stroke-width="1.2"/>
+  <path d="M362,110 C340,112 336,160 350,166 C360,172 382,172 392,166 C406,158 402,112 380,110 Z" fill="#fdecc8" stroke="#b86e12" stroke-width="1.8"/>
+  <rect x="366" y="40" width="10" height="72" fill="#ffffff" stroke="#33475b" stroke-width="1.4"/>
+  <rect x="367" y="62" width="8" height="50" fill="#fdecc8"/>
+  <path d="M380,62 L380,44" stroke="#0f7b6c" stroke-width="2"/><path d="M380,40 l-5,8 h10z" fill="#0f7b6c"/>
+  <text class="pr-s" x="388" y="56">level rises</text>
+  <text class="pr-s" x="408" y="128">Visking</text><text class="pr-s" x="408" y="142">tubing</text>
+  <text class="pr-s" x="300" y="110">water</text>
+  <text class="pr-s" x="262" y="196">sucrose solution inside, water</text>
+  <text class="pr-s" x="262" y="211">outside: water enters by osmosis</text>
+  <text class="pr-s" x="262" y="226">through the partially permeable</text>
+  <text class="pr-s" x="262" y="241">tubing; sucrose cannot leave</text>
+  <path d="M548,50 L548,174" stroke="#16283c" stroke-width="1.5"/>
+  <path d="M548,112 L738,112" stroke="#16283c" stroke-width="1.5"/>
+  <path d="M548,59 L586,90 L624,125 L662,147 L700,160 L738,167" fill="none" stroke="#0f7b6c" stroke-width="2.6"/>
+  <circle cx="548" cy="59" r="3" fill="#0f7b6c"/>
+  <circle cx="586" cy="90" r="3" fill="#0f7b6c"/>
+  <circle cx="624" cy="125" r="3" fill="#0f7b6c"/>
+  <circle cx="662" cy="147" r="3" fill="#0f7b6c"/>
+  <circle cx="700" cy="160" r="3" fill="#0f7b6c"/>
+  <circle cx="738" cy="167" r="3" fill="#0f7b6c"/>
+  <text class="pr-n" x="548" y="188" text-anchor="middle">0</text>
+  <text class="pr-n" x="643" y="188" text-anchor="middle">0.5</text>
+  <text class="pr-n" x="738" y="188" text-anchor="middle">1</text>
+  <path d="M548,174 L738,174" stroke="#dfe5ea" stroke-width="1"/>
+  <text class="pr-n" x="544" y="72" text-anchor="end">+20</text><text class="pr-n" x="544" y="116" text-anchor="end">0</text><text class="pr-n" x="544" y="160" text-anchor="end">−20</text>
+  <text class="pr-l" x="522" y="112" transform="rotate(-90 522 112)" text-anchor="middle">% change in mass</text>
+  <text class="pr-l" x="643.0" y="204" text-anchor="middle">sucrose concentration / mol dm⁻³</text>
+  <path d="M605,112 L616,98" stroke="#8fa3b8" stroke-width="1.1"/>
+  <text class="pr-s" x="618" y="82">no net movement:</text><text class="pr-s" x="618" y="95">same conc. as cells</text>
+  <text class="pr-s" x="601" y="64">gain mass: water in</text>
+  <text class="pr-s" x="571" y="162">lose mass: water out</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 150" width="760" height="150" role="img" aria-label="Peristalsis: circular muscles in the gut wall contract behind the ball of food, narrowing the gut and squeezing the food forward, while muscles ahead of it relax to widen the gut. The wave of contraction moves along the gut.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ps-l { font-size: 12.5px; font-weight: 700; }
+    .ps-s { font-size: 12px; fill: #33475b; }
+    .ps-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- gut wall upper and lower -->
+  <path d="M40,40 C120,40 160,40 200,56 C240,72 260,72 290,56 C330,30 420,26 470,40 C520,54 560,40 720,40" fill="none" stroke="#c9776b" stroke-width="12" stroke-linecap="round"/>
+  <path d="M40,120 C120,120 160,120 200,104 C240,88 260,88 290,104 C330,130 420,134 470,120 C520,106 560,120 720,120" fill="none" stroke="#c9776b" stroke-width="12" stroke-linecap="round"/>
+  <!-- bolus -->
+  <ellipse cx="380" cy="80" rx="62" ry="34" fill="#e3c089" stroke="#9a6b2c" stroke-width="1.8"/>
+  <!-- direction arrow -->
+  <path d="M470,80 L560,80" stroke="#0f7b6c" stroke-width="3"/><path d="M570,80 l-11,-7 v14z" fill="#0f7b6c"/>
+  <text class="ps-l" x="520" y="72" text-anchor="middle" style="fill:#0b5f54">food moves</text>
+  <!-- squeeze arrows -->
+  <path d="M245,20 L245,52" stroke="#a93226" stroke-width="2"/><path d="M245,58 l-5,-9 h10z" fill="#a93226"/>
+  <path d="M245,140 L245,108" stroke="#a93226" stroke-width="2"/><path d="M245,102 l-5,9 h10z" fill="#a93226"/>
+  <text class="ps-l" x="30" y="16">circular muscles contract behind the food</text>
+  <text class="ps-s" x="30" y="148">gut narrows and squeezes the food forward</text>
+  <text class="ps-l" x="590" y="16" style="text-anchor:start">muscles ahead relax</text>
+  <text class="ps-s" x="590" y="148">gut widens to receive the food</text>
+  <path class="ps-ld" d="M640,22 L600,40"/>
+  <text class="ps-s" x="380" y="84" text-anchor="middle">food</text>
+</svg>

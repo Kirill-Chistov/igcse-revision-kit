@@ -1,0 +1,18 @@
+name: New subject
+description: Ask for (or offer to add) a qualification the kit doesn't have
+labels: ["subject"]
+body:
+  - type: input
+    id: qual
+    attributes: { label: Board, qualification and code, placeholder: "AQA GCSE Chemistry 8462" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Link to the official specification (board's website) }
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I can run /add-subject and open a pull request
+        - label: I can review notes for this subject

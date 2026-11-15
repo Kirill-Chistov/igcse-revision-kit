@@ -1,0 +1,12 @@
+name: Chemistry
+board: Pearson Edexcel
+qualification: International GCSE (9–1) Chemistry
+code: "4CH1"
+aliases: [chem, chemistry]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Chemistry/2017/specification-and-sample-assessments/international-gcse-chemistry-2017-specification.pdf
+tiers: none
+centre_choices: []
+status: notes for every topic
+spec_points: 182
+subtopics_written: 28
+topic_pdfs: 4

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262" role="img" aria-label="Zooming in from a cell to its nucleus, which contains chromosomes; a chromosome is one long DNA molecule with genes along it; DNA is two strands coiled into a double helix, joined by paired bases, adenine with thymine and cytosine with guanine.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .gn-l { font-size: 12px; font-weight: 700; }
+    .gn-s { font-size: 11px; fill: #33475b; }
+    .gn-b { font-size: 12px; font-weight: 700; fill: #ffffff; }
+    .zm { stroke: #b8c4cf; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+  </style>
+  <ellipse cx="70" cy="110" rx="56" ry="46" fill="#eef5f1" stroke="#0f7b6c" stroke-width="1.6"/>
+  <circle cx="80" cy="104" r="17" fill="#d8c7ef" stroke="#6a52a3" stroke-width="1.4"/>
+  <path class="zm" d="M80,87 L200,50 M80,121 L200,170"/>
+  <circle cx="236" cy="110" r="58" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.6"/>
+  <path d="M201.0,77.3 L211.0,94.7" stroke="#0f7b6c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M209.5,78.7 L222.5,101.3" stroke="#0f7b6c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M251.1,63.9 L240.9,92.1" stroke="#c46f1c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M258.1,70.7 L249.9,93.3" stroke="#c46f1c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M202.7,123.9 L225.3,132.1" stroke="#4c3fa8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M213.5,130.9 L230.5,137.1" stroke="#4c3fa8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M255.6,108.2 L260.4,135.8" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M263.0,107.3 L269.0,140.7" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+  <path class="zm" d="M266,110 L352,30 M268,140 L352,210"/>
+  <rect x="352" y="30" width="22" height="180" rx="11" fill="#e9c6a6" stroke="#c46f1c" stroke-width="1.6"/>
+  <rect x="353" y="52" width="20" height="5" fill="#c9a07a"/>
+  <rect x="353" y="70" width="20" height="5" fill="#c9a07a"/>
+  <rect x="353" y="150" width="20" height="5" fill="#c9a07a"/>
+  <rect x="353" y="176" width="20" height="5" fill="#c9a07a"/>
+  <rect x="353" y="194" width="20" height="5" fill="#c9a07a"/>
+  <rect x="353" y="98" width="20" height="30" fill="#0f7b6c"/>
+  <path class="zm" d="M374,98 L440,40 M374,128 L440,200"/>
+  <path d="M446,111.9 L446,128.1" stroke="#e07a5f" stroke-width="3"/>
+  <path d="M456,101.4 L456,138.6" stroke="#3d8bd6" stroke-width="3"/>
+  <path d="M466,98.0 L466,142.0" stroke="#f2c14e" stroke-width="3"/>
+  <path d="M476,103.0 L476,137.0" stroke="#6ab04c" stroke-width="3"/>
+  <path d="M486,114.5 L486,125.5" stroke="#e07a5f" stroke-width="3"/>
+  <path d="M496,128.1 L496,111.9" stroke="#3d8bd6" stroke-width="3"/>
+  <path d="M506,138.6 L506,101.4" stroke="#f2c14e" stroke-width="3"/>
+  <path d="M516,142.0 L516,98.0" stroke="#6ab04c" stroke-width="3"/>
+  <path d="M526,137.0 L526,103.0" stroke="#e07a5f" stroke-width="3"/>
+  <path d="M536,125.5 L536,114.5" stroke="#3d8bd6" stroke-width="3"/>
+  <path d="M546,111.9 L546,128.1" stroke="#f2c14e" stroke-width="3"/>
+  <path d="M556,101.4 L556,138.6" stroke="#6ab04c" stroke-width="3"/>
+  <path d="M566,98.0 L566,142.0" stroke="#e07a5f" stroke-width="3"/>
+  <path d="M576,103.0 L576,137.0" stroke="#3d8bd6" stroke-width="3"/>
+  <path d="M586,114.5 L586,125.5" stroke="#f2c14e" stroke-width="3"/>
+  <path d="M440,120.0 L443,115.9 L446,111.9 L449,108.2 L452,104.9 L455,102.2 L458,100.1 L461,98.7 L464,98.0 L467,98.2 L470,99.1 L473,100.7 L476,103.0 L479,106.0 L482,109.4 L485,113.2 L488,117.2 L491,121.4 L494,125.5 L497,129.4 L500,132.9 L503,136.0 L506,138.6 L509,140.5 L512,141.6 L515,142.0 L518,141.6 L521,140.5 L524,138.6 L527,136.0 L530,132.9 L533,129.4 L536,125.5 L539,121.4 L542,117.2 L545,113.2 L548,109.4 L551,106.0 L554,103.0 L557,100.7 L560,99.1 L563,98.2 L566,98.0 L569,98.7 L572,100.1 L575,102.2 L578,104.9 L581,108.2 L584,111.9 L587,115.9 L590,120.0" fill="none" stroke="#16283c" stroke-width="3"/>
+  <path d="M440,120.0 L443,124.1 L446,128.1 L449,131.8 L452,135.1 L455,137.8 L458,139.9 L461,141.3 L464,142.0 L467,141.8 L470,140.9 L473,139.3 L476,137.0 L479,134.0 L482,130.6 L485,126.8 L488,122.8 L491,118.6 L494,114.5 L497,110.6 L500,107.1 L503,104.0 L506,101.4 L509,99.5 L512,98.4 L515,98.0 L518,98.4 L521,99.5 L524,101.4 L527,104.0 L530,107.1 L533,110.6 L536,114.5 L539,118.6 L542,122.8 L545,126.8 L548,130.6 L551,134.0 L554,137.0 L557,139.3 L560,140.9 L563,141.8 L566,142.0 L569,141.3 L572,139.9 L575,137.8 L578,135.1 L581,131.8 L584,128.1 L587,124.1 L590,120.0" fill="none" stroke="#6b7a88" stroke-width="3"/>
+  <path class="zm" d="M590,120 L630,48 M590,120 L630,196"/>
+  <path d="M640,44 L640,200" stroke="#16283c" stroke-width="4"/><path d="M740,44 L740,200" stroke="#6b7a88" stroke-width="4"/>
+  <rect x="642" y="47" width="47" height="18" fill="#e07a5f"/><rect x="691" y="47" width="47" height="18" fill="#3d8bd6"/>
+  <text class="gn-b" x="665" y="60" text-anchor="middle">A</text><text class="gn-b" x="715" y="60" text-anchor="middle">T</text>
+  <rect x="642" y="73" width="47" height="18" fill="#f2c14e"/><rect x="691" y="73" width="47" height="18" fill="#6ab04c"/>
+  <text class="gn-b" x="665" y="86" text-anchor="middle">C</text><text class="gn-b" x="715" y="86" text-anchor="middle">G</text>
+  <rect x="642" y="99" width="47" height="18" fill="#6ab04c"/><rect x="691" y="99" width="47" height="18" fill="#f2c14e"/>
+  <text class="gn-b" x="665" y="112" text-anchor="middle">G</text><text class="gn-b" x="715" y="112" text-anchor="middle">C</text>
+  <rect x="642" y="125" width="47" height="18" fill="#3d8bd6"/><rect x="691" y="125" width="47" height="18" fill="#e07a5f"/>
+  <text class="gn-b" x="665" y="138" text-anchor="middle">T</text><text class="gn-b" x="715" y="138" text-anchor="middle">A</text>
+  <rect x="642" y="151" width="47" height="18" fill="#e07a5f"/><rect x="691" y="151" width="47" height="18" fill="#3d8bd6"/>
+  <text class="gn-b" x="665" y="164" text-anchor="middle">A</text><text class="gn-b" x="715" y="164" text-anchor="middle">T</text>
+  <rect x="642" y="177" width="47" height="18" fill="#6ab04c"/><rect x="691" y="177" width="47" height="18" fill="#f2c14e"/>
+  <text class="gn-b" x="665" y="190" text-anchor="middle">G</text><text class="gn-b" x="715" y="190" text-anchor="middle">C</text>
+  <text class="gn-l" x="70" y="178" text-anchor="middle">cell</text>
+  <text class="gn-l" x="236" y="188" text-anchor="middle">nucleus</text>
+  <text class="gn-l" x="363" y="228" text-anchor="middle">chromosome</text>
+  <text class="gn-l" x="515" y="178" text-anchor="middle">DNA double helix</text>
+  <text class="gn-l" x="690" y="222" text-anchor="middle">paired bases</text>
+  <text class="gn-s" x="236" y="202" text-anchor="middle">contains chromosomes</text>
+  <text class="gn-s" x="363" y="242" text-anchor="middle">one long DNA molecule</text>
+  <text class="gn-s" x="515" y="192" text-anchor="middle">two strands coiled</text>
+  <text class="gn-s" x="690" y="236" text-anchor="middle">A–T and C–G (Paper 2)</text>
+  <text class="gn-l" x="386" y="112" style="fill:#0f7b6c">gene</text>
+  <text class="gn-s" x="386" y="16" text-anchor="middle">a gene is a section of DNA coding for one protein</text>
+  <path d="M386,20 L366,96" stroke="#8fa3b8" stroke-width="1" fill="none"/>
+  </svg>

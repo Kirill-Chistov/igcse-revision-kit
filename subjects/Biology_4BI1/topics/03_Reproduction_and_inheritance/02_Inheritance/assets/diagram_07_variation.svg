@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 226" width="760" height="226" role="img" aria-label="Left: a feature controlled by a single gene, such as ABO blood group, falls into a few distinct categories shown as separate bars. Right: a feature controlled by many genes and the environment, such as height, shows a continuous range with most people near the middle.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .vr-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .vr-l { font-size: 12px; font-weight: 700; }
+    .vr-s { font-size: 11px; fill: #33475b; }
+  </style>
+  <text class="vr-t" x="6" y="16">A  SINGLE GENE: DISTINCT CATEGORIES</text><text class="vr-t" x="400" y="16">B  POLYGENIC: CONTINUOUS RANGE</text>
+  <line x1="386" y1="6" x2="386" y2="220" stroke="#dfe5ea" stroke-width="1.4"/>
+  <path d="M60,30 L60,170 L350,170" fill="none" stroke="#16283c" stroke-width="1.4"/>
+  <rect x="84" y="70" width="40" height="100" fill="#4c3fa8"/><text class="vr-l" x="104" y="186" text-anchor="middle">A</text>
+  <rect x="150" y="130" width="40" height="40" fill="#4c3fa8"/><text class="vr-l" x="170" y="186" text-anchor="middle">B</text>
+  <rect x="216" y="152" width="40" height="18" fill="#4c3fa8"/><text class="vr-l" x="236" y="186" text-anchor="middle">AB</text>
+  <rect x="282" y="60" width="40" height="110" fill="#4c3fa8"/><text class="vr-l" x="302" y="186" text-anchor="middle">O</text>
+  <text class="vr-l" x="205" y="204" text-anchor="middle">blood group</text>
+  <text class="vr-l" x="44" y="100" transform="rotate(-90 44 100)" text-anchor="middle">number of people</text>
+  <text class="vr-s" x="205" y="220" text-anchor="middle">no in-between values</text>
+  <path d="M450,30 L450,170 L740,170" fill="none" stroke="#16283c" stroke-width="1.4"/>
+  <rect x="458" y="153.7" width="17" height="16.3" fill="#0f7b6c"/>
+  <rect x="477" y="140.8" width="17" height="29.2" fill="#0f7b6c"/>
+  <rect x="496" y="122.4" width="17" height="47.6" fill="#0f7b6c"/>
+  <rect x="515" y="99.6" width="17" height="70.4" fill="#0f7b6c"/>
+  <rect x="534" y="75.7" width="17" height="94.3" fill="#0f7b6c"/>
+  <rect x="553" y="55.3" width="17" height="114.7" fill="#0f7b6c"/>
+  <rect x="572" y="43.6" width="17" height="126.4" fill="#0f7b6c"/>
+  <rect x="591" y="43.6" width="17" height="126.4" fill="#0f7b6c"/>
+  <rect x="610" y="55.3" width="17" height="114.7" fill="#0f7b6c"/>
+  <rect x="629" y="75.7" width="17" height="94.3" fill="#0f7b6c"/>
+  <rect x="648" y="99.6" width="17" height="70.4" fill="#0f7b6c"/>
+  <rect x="667" y="122.4" width="17" height="47.6" fill="#0f7b6c"/>
+  <rect x="686" y="140.8" width="17" height="29.2" fill="#0f7b6c"/>
+  <rect x="705" y="153.7" width="17" height="16.3" fill="#0f7b6c"/>
+  <text class="vr-l" x="595" y="186" text-anchor="middle">height</text>
+  <text class="vr-l" x="434" y="100" transform="rotate(-90 434 100)" text-anchor="middle">number of people</text>
+  <text class="vr-s" x="595" y="204" text-anchor="middle">many genes + environment → any value</text>
+  <text class="vr-s" x="595" y="218" text-anchor="middle">in a range, most near the middle</text>
+  </svg>

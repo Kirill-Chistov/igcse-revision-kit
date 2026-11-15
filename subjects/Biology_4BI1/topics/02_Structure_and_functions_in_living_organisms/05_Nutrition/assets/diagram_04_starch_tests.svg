@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 302" width="760" height="302" role="img" aria-label="Testing a leaf for starch: boil in water, warm in ethanol in a hot water bath to remove chlorophyll, rinse in warm water, spread on a tile and add iodine; blue-black shows starch. Requirements: a variegated leaf makes starch only in green parts; a leaf partly covered by foil has no starch under the foil; a leaf in a bag with sodium hydroxide, which absorbs carbon dioxide, has no starch while the control leaf in a bag with water does.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .st-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.06em; }
+    .st-l { font-size: 12.5px; font-weight: 700; }
+    .st-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <text class="st-t" x="6" y="16">TESTING A LEAF FOR STARCH</text>
+  <text class="st-l" x="70" y="112" text-anchor="middle">1  boil in water</text><text class="st-s" x="70" y="126" text-anchor="middle">kills cells; lets</text><text class="st-s" x="70" y="140" text-anchor="middle">iodine in</text>
+  <text class="st-l" x="250" y="112" text-anchor="middle">2  warm in ethanol</text><text class="st-s" x="250" y="126" text-anchor="middle">removes chlorophyll</text><text class="st-s" x="250" y="140" text-anchor="middle">(hot water bath — no flame)</text>
+  <text class="st-l" x="430" y="112" text-anchor="middle">3  rinse in warm water</text><text class="st-s" x="430" y="126" text-anchor="middle">softens the leaf</text><text class="st-s" x="430" y="140" text-anchor="middle"></text>
+  <text class="st-l" x="610" y="112" text-anchor="middle">4  add iodine on a tile</text><text class="st-s" x="610" y="126" text-anchor="middle">blue-black = starch</text><text class="st-s" x="610" y="140" text-anchor="middle">orange-brown = none</text>
+  <path d="M44,36 L44,86 Q44,92 50,92 L90,92 Q96,92 96,86 L96,36" fill="#e9f2f9" stroke="#33475b" stroke-width="1.6"/>
+  <path d="M53.0,70 C60.0,59.0 79.0,58.0 87.0,70 C79.0,82.0 60.0,81.0 53.0,70 Z" fill="#5aa132" stroke="#2f5d12" stroke-width="1.3" />
+  <path d="M64,100 C60,94 68,90 70,96 C72,90 80,94 76,100 Z" fill="#f0a030"/>
+  <path d="M222,46 L222,86 Q222,92 228,92 L272,92 Q278,92 278,86 L278,46" fill="#e9f2f9" stroke="#33475b" stroke-width="1.6"/>
+  <path d="M242,28 L242,84 A8,8 0 0 0 258,84 L258,28" fill="#f7f7ea" stroke="#33475b" stroke-width="1.4"/>
+  <rect x="243" y="50" width="14" height="40" fill="#c7e0a8"/>
+  <path d="M404,46 L404,86 Q404,92 410,92 L450,92 Q456,92 456,86 L456,46" fill="#e9f2f9" stroke="#33475b" stroke-width="1.6"/>
+  <path d="M414.7,74 C421.0,64.1 438.1,63.2 445.3,74 C438.1,84.8 421.0,83.9 414.7,74 Z" fill="#e6ecc8" stroke="#2f5d12" stroke-width="1.3" />
+  <rect x="566" y="46" width="88" height="48" rx="4" fill="#ffffff" stroke="#8fa3b8" stroke-width="1.4"/>
+  <path d="M586.2,70 C596.0,54.6 622.6,53.2 633.8,70 C622.6,86.8 596.0,85.4 586.2,70 Z" fill="#1f2a44" stroke="#2f5d12" stroke-width="1.3" />
+  <path d="M640,34 L646,52" stroke="#33475b" stroke-width="1.4"/><path d="M636,24 L644,24 L646,34 L638,34 Z" fill="#fff" stroke="#33475b" stroke-width="1.2"/>
+  <line x1="6" y1="154" x2="754" y2="154" stroke="#dfe5ea" stroke-width="1.2"/>
+  <text class="st-t" x="6" y="174">WHAT PHOTOSYNTHESIS NEEDS</text>
+  <text class="st-s" x="754" y="174" text-anchor="end">plant destarched first: 48 h in the dark</text>
+  <text class="st-l" x="120" y="196" text-anchor="middle">Chlorophyll: variegated leaf</text>
+  <path d="M39.4,236 C52.0,216.2 86.2,214.4 100.6,236 C86.2,257.6 52.0,255.8 39.4,236 Z" fill="#f3f1df" stroke="#2f5d12" stroke-width="1.3" />
+  <path d="M51.3,236 C59.0,223.9 79.9,222.8 88.7,236 C79.9,249.2 59.0,248.1 51.3,236 Z" fill="#5aa132" stroke="#2f5d12" stroke-width="1.3" />
+  <path d="M112,236 L128,236" stroke="#33475b" stroke-width="1.8"/><path d="M134,236 l-8,-5 v10z" fill="#33475b"/>
+  <path d="M145.4,236 C158.0,216.2 192.2,214.4 206.6,236 C192.2,257.6 158.0,255.8 145.4,236 Z" fill="#d7a14a" stroke="#2f5d12" stroke-width="1.3" />
+  <path d="M157.3,236 C165.0,223.9 185.9,222.8 194.7,236 C185.9,249.2 165.0,248.1 157.3,236 Z" fill="#1f2a44" stroke="#2f5d12" stroke-width="1.3" />
+  <text class="st-s" x="120" y="280" text-anchor="middle">only the green parts make starch</text>
+  <text class="st-l" x="380" y="196" text-anchor="middle">Light: part covered with foil</text>
+  <path d="M299.4,236 C312.0,216.2 346.2,214.4 360.6,236 C346.2,257.6 312.0,255.8 299.4,236 Z" fill="#5aa132" stroke="#2f5d12" stroke-width="1.3" />
+  <rect x="318" y="214" width="16" height="44" fill="#b8c2cc" stroke="#6b7a88" stroke-width="1"/>
+  <path d="M372,236 L388,236" stroke="#33475b" stroke-width="1.8"/><path d="M394,236 l-8,-5 v10z" fill="#33475b"/>
+  <path d="M405.4,236 C418.0,216.2 452.2,214.4 466.6,236 C452.2,257.6 418.0,255.8 405.4,236 Z" fill="#1f2a44" stroke="#2f5d12" stroke-width="1.3" />
+  <rect x="424" y="215" width="16" height="42" fill="#d7a14a"/>
+  <text class="st-s" x="380" y="280" text-anchor="middle">covered part has no starch</text>
+  <text class="st-l" x="630" y="196" text-anchor="middle">Carbon dioxide: leaves in bags</text>
+  <path d="M540,212 C526,230 530,258 546,262 L594,262 C610,258 614,230 600,212 Z" fill="none" stroke="#8fa3b8" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <path d="M553.0,230 C560.0,219.0 579.0,218.0 587.0,230 C579.0,242.0 560.0,241.0 553.0,230 Z" fill="#d7a14a" stroke="#2f5d12" stroke-width="1.3" />
+  <rect x="558" y="246" width="24" height="12" rx="2" fill="#fbe0d8" stroke="#33475b" stroke-width="1"/>
+  <text class="st-s" x="570" y="280" text-anchor="middle">sodium hydroxide</text>
+  <path d="M660,212 C646,230 650,258 666,262 L714,262 C730,258 734,230 720,212 Z" fill="none" stroke="#8fa3b8" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <path d="M673.0,230 C680.0,219.0 699.0,218.0 707.0,230 C699.0,242.0 680.0,241.0 673.0,230 Z" fill="#1f2a44" stroke="#2f5d12" stroke-width="1.3" />
+  <rect x="678" y="246" width="24" height="12" rx="2" fill="#e9f2f9" stroke="#33475b" stroke-width="1"/>
+  <text class="st-s" x="690" y="280" text-anchor="middle">water (control)</text>
+  <text class="st-s" x="630" y="296" text-anchor="middle">no CO₂ → no starch (left)</text>
+</svg>

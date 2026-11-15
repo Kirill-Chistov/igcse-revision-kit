@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="Reflex arc for withdrawing a finger from a hot object: heat (stimulus) is detected by receptors in the skin; impulses travel along a sensory neurone to the spinal cord, across synapses via a relay neurone to a motor neurone, and out to the biceps muscle (effector), which contracts and pulls the hand away (response).">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ra-l { font-size: 12px; font-weight: 700; }
+    .ra-s { font-size: 11.5px; fill: #33475b; }
+    .ra-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- hot plate and finger -->
+  <rect x="20" y="214" width="130" height="14" rx="3" fill="#c0392b"/>
+  <path d="M32,206 q4,-8 0,-16 M48,206 q4,-8 0,-16 M140,212 q4,-8 0,-14" stroke="#e67e22" stroke-width="2" fill="none"/>
+  <rect x="66" y="148" width="30" height="62" rx="15" fill="#f6dccb" stroke="#b07a5a" stroke-width="1.6"/>
+  <circle cx="81" cy="200" r="5" fill="#0f7b6c"/>
+  <text class="ra-l" x="160" y="222">hot plate (stimulus)</text>
+  <text class="ra-l" x="102" y="170">receptor</text><text class="ra-s" x="102" y="184">in the skin</text>
+  <!-- muscle -->
+  <ellipse cx="250" cy="150" rx="46" ry="18" fill="#e8908a" stroke="#a93226" stroke-width="1.6"/>
+  <path d="M196,150 L204,150 M296,150 L306,150" stroke="#a93226" stroke-width="3"/>
+  <text class="ra-l" x="250" y="110" text-anchor="middle">effector: biceps muscle</text>
+  <text class="ra-s" x="250" y="124" text-anchor="middle">contracts → hand pulled away</text>
+  <!-- spinal cord -->
+  <circle cx="610" cy="130" r="72" fill="#f4f7f9" stroke="#6b7a88" stroke-width="2"/>
+  <path d="M610,86 C640,74 660,96 642,118 C660,140 650,176 620,166 C614,162 606,162 600,166 C570,176 560,140 578,118 C560,96 580,74 610,86 Z" fill="#dfe5ea" stroke="#8fa3b8" stroke-width="1.2"/>
+  <text class="ra-l" x="690" y="222" text-anchor="middle">spinal cord (CNS)</text>
+  <!-- sensory neurone -->
+  <path d="M81,196 L81,120 L170,56 L560,56 C580,56 590,70 600,96" fill="none" stroke="#2e6fa3" stroke-width="3"/>
+  <ellipse cx="500" cy="56" rx="12" ry="8" fill="#9dbbe0" stroke="#2e6fa3" stroke-width="1.6"/>
+  <path d="M300,56 l-10,-6 v12z" fill="#2e6fa3"/>
+  <text class="ra-l" x="300" y="44" style="fill:#2e6fa3">sensory neurone</text>
+  <!-- relay neurone -->
+  <path d="M600,100 L618,150" fill="none" stroke="#6d3fa8" stroke-width="3"/>
+  <circle cx="608" cy="122" r="5" fill="#6d3fa8"/>
+  <text class="ra-l" x="700" y="112" style="fill:#6d3fa8">relay</text><text class="ra-l" x="700" y="126" style="fill:#6d3fa8">neurone</text>
+  <path class="ra-ld" d="M696,116 L614,124"/>
+  <!-- motor neurone -->
+  <circle cx="620" cy="154" r="7" fill="#e8908a" stroke="#c0392b" stroke-width="1.6"/>
+  <path d="M620,160 C600,196 560,206 520,206 L360,206 C330,206 312,190 296,160" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M430,206 l10,-6 v12z" fill="#c0392b"/>
+  <text class="ra-l" x="440" y="232" style="fill:#c0392b">motor neurone</text>
+  <text class="ra-s" x="520" y="30">synapses in the spinal cord link the three neurones</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" width="760" height="256" role="img" aria-label="Focusing: for a near object the ciliary muscles contract, the suspensory ligaments slacken and the lens becomes fatter, refracting light more; for a distant object the ciliary muscles relax, the ligaments tighten and the lens is pulled thinner, refracting light less. Pupil reflex: in bright light the circular muscles of the iris contract and radial muscles relax, making the pupil smaller; in dim light the radial muscles contract and circular muscles relax, making the pupil larger.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ac-t { font-size: 11.5px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .ac-l { font-size: 12.5px; font-weight: 700; }
+    .ac-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <text class="ac-t" x="6" y="14">FOCUSING (ACCOMMODATION)</text><text class="ac-t" x="400" y="14">PUPIL REFLEX (front view of iris)</text>
+  <line x1="388" y1="6" x2="388" y2="236" stroke="#dfe5ea" stroke-width="1.4"/>
+  <ellipse cx="120" cy="100" rx="18" ry="40" fill="#e6f0f8" stroke="#34588a" stroke-width="2"/><ellipse cx="120" cy="44" rx="12" ry="8" fill="#d98c7f" stroke="#a93226"/><ellipse cx="120" cy="156" rx="12" ry="8" fill="#d98c7f" stroke="#a93226"/><path d="M116,52 C110,58 122,62 116,66 M124,52 C130,58 118,62 124,66 M116,148 C110,142 122,138 116,134 M124,148 C130,142 118,138 124,134" stroke="#6b7a88" stroke-width="1.2" fill="none"/><path d="M10,100 L120,76 L190,100 M10,100 L120,124 L190,100" stroke="#d99a17" stroke-width="1.4" fill="none"/>
+  <ellipse cx="300" cy="100" rx="9" ry="40" fill="#e6f0f8" stroke="#34588a" stroke-width="2"/><ellipse cx="300" cy="44" rx="9" ry="6" fill="#d98c7f" stroke="#a93226"/><ellipse cx="300" cy="156" rx="9" ry="6" fill="#d98c7f" stroke="#a93226"/><path d="M297,50 L297,62 M303,50 L303,62 M297,150 L297,138 M303,150 L303,138" stroke="#16283c" stroke-width="1.6"/><path d="M208,80 L300,80 L376,100 M208,120 L300,120 L376,100" stroke="#d99a17" stroke-width="1.4" fill="none"/>
+  <text class="ac-l" x="6" y="186">Near object</text>
+  <text class="ac-s" x="6" y="202">ciliary muscles contract</text>
+  <text class="ac-s" x="6" y="215">suspensory ligaments slacken</text>
+  <text class="ac-s" x="6" y="228">lens becomes fatter</text>
+  <text class="ac-s" x="6" y="241">→ refracts light more</text>
+  <text class="ac-l" x="200" y="186">Distant object</text>
+  <text class="ac-s" x="200" y="202">ciliary muscles relax</text>
+  <text class="ac-s" x="200" y="215">suspensory ligaments tighten</text>
+  <text class="ac-s" x="200" y="228">lens pulled thinner</text>
+  <text class="ac-s" x="200" y="241">→ refracts light less</text>
+  <circle cx="480" cy="100" r="54" fill="#b98a5c" stroke="#7a5230" stroke-width="1.6"/><path d="M494.0,100.0 L530.0,100.0" stroke="#8f6337" stroke-width="1"/><path d="M493.2,104.8 L527.0,117.1" stroke="#8f6337" stroke-width="1"/><path d="M490.7,109.0 L518.3,132.1" stroke="#8f6337" stroke-width="1"/><path d="M487.0,112.1 L505.0,143.3" stroke="#8f6337" stroke-width="1"/><path d="M482.4,113.8 L488.7,149.2" stroke="#8f6337" stroke-width="1"/><path d="M477.6,113.8 L471.3,149.2" stroke="#8f6337" stroke-width="1"/><path d="M473.0,112.1 L455.0,143.3" stroke="#8f6337" stroke-width="1"/><path d="M469.3,109.0 L441.7,132.1" stroke="#8f6337" stroke-width="1"/><path d="M466.8,104.8 L433.0,117.1" stroke="#8f6337" stroke-width="1"/><path d="M466.0,100.0 L430.0,100.0" stroke="#8f6337" stroke-width="1"/><path d="M466.8,95.2 L433.0,82.9" stroke="#8f6337" stroke-width="1"/><path d="M469.3,91.0 L441.7,67.9" stroke="#8f6337" stroke-width="1"/><path d="M473.0,87.9 L455.0,56.7" stroke="#8f6337" stroke-width="1"/><path d="M477.6,86.2 L471.3,50.8" stroke="#8f6337" stroke-width="1"/><path d="M482.4,86.2 L488.7,50.8" stroke="#8f6337" stroke-width="1"/><path d="M487.0,87.9 L505.0,56.7" stroke="#8f6337" stroke-width="1"/><path d="M490.7,91.0 L518.3,67.9" stroke="#8f6337" stroke-width="1"/><path d="M493.2,95.2 L527.0,82.9" stroke="#8f6337" stroke-width="1"/><circle cx="480" cy="100" r="16" fill="none" stroke="#6b4423" stroke-width="3"/><circle cx="480" cy="100" r="10" fill="#16283c"/>
+  <circle cx="660" cy="100" r="54" fill="#b98a5c" stroke="#7a5230" stroke-width="1.6"/><path d="M694.0,100.0 L710.0,100.0" stroke="#8f6337" stroke-width="1"/><path d="M691.9,111.6 L707.0,117.1" stroke="#8f6337" stroke-width="1"/><path d="M686.0,121.9 L698.3,132.1" stroke="#8f6337" stroke-width="1"/><path d="M677.0,129.4 L685.0,143.3" stroke="#8f6337" stroke-width="1"/><path d="M665.9,133.5 L668.7,149.2" stroke="#8f6337" stroke-width="1"/><path d="M654.1,133.5 L651.3,149.2" stroke="#8f6337" stroke-width="1"/><path d="M643.0,129.4 L635.0,143.3" stroke="#8f6337" stroke-width="1"/><path d="M634.0,121.9 L621.7,132.1" stroke="#8f6337" stroke-width="1"/><path d="M628.1,111.6 L613.0,117.1" stroke="#8f6337" stroke-width="1"/><path d="M626.0,100.0 L610.0,100.0" stroke="#8f6337" stroke-width="1"/><path d="M628.1,88.4 L613.0,82.9" stroke="#8f6337" stroke-width="1"/><path d="M634.0,78.1 L621.7,67.9" stroke="#8f6337" stroke-width="1"/><path d="M643.0,70.6 L635.0,56.7" stroke="#8f6337" stroke-width="1"/><path d="M654.1,66.5 L651.3,50.8" stroke="#8f6337" stroke-width="1"/><path d="M665.9,66.5 L668.7,50.8" stroke="#8f6337" stroke-width="1"/><path d="M677.0,70.6 L685.0,56.7" stroke="#8f6337" stroke-width="1"/><path d="M686.0,78.1 L698.3,67.9" stroke="#8f6337" stroke-width="1"/><path d="M691.9,88.4 L707.0,82.9" stroke="#8f6337" stroke-width="1"/><circle cx="660" cy="100" r="36" fill="none" stroke="#6b4423" stroke-width="3"/><circle cx="660" cy="100" r="30" fill="#16283c"/>
+  <text class="ac-l" x="410" y="186">Bright light</text>
+  <text class="ac-s" x="410" y="202">circular muscles contract,</text>
+  <text class="ac-s" x="410" y="215">radial muscles relax</text>
+  <text class="ac-s" x="410" y="228">pupil constricts (smaller)</text>
+  <text class="ac-s" x="410" y="241">→ less light; protects retina</text>
+  <text class="ac-l" x="600" y="186">Dim light</text>
+  <text class="ac-s" x="600" y="202">radial muscles contract,</text>
+  <text class="ac-s" x="600" y="215">circular muscles relax</text>
+  <text class="ac-s" x="600" y="228">pupil dilates (larger)</text>
+  <text class="ac-s" x="600" y="241">→ more light enters</text>
+</svg>

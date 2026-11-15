@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 214" width="760" height="214" role="img" aria-label="A bubble potometer: a leafy shoot sealed into water-filled apparatus; as the shoot takes up water, an air bubble moves along a capillary tube against a scale. A reservoir with a tap is used to push the bubble back to the start.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .pt-l { font-size: 12.5px; font-weight: 700; }
+    .pt-s { font-size: 11.5px; fill: #33475b; }
+    .pt-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- leafy shoot -->
+  <path d="M120,110 L120,40" stroke="#3d7a1c" stroke-width="3"/>
+  <g fill="#8cc466" stroke="#3d7a1c" stroke-width="1.2">
+    <path d="M120,50 C96,34 76,40 70,48 C84,58 104,58 120,52 Z"/><path d="M120,62 C144,46 164,52 170,60 C156,70 136,70 120,64 Z"/>
+    <path d="M120,80 C96,64 76,70 70,78 C84,88 104,88 120,82 Z"/><path d="M120,92 C144,76 164,82 170,90 C156,100 136,100 120,94 Z"/>
+  </g>
+  <!-- bung + vertical tube -->
+  <rect x="106" y="108" width="28" height="14" rx="3" fill="#6b7a88"/>
+  <rect x="112" y="122" width="16" height="56" fill="#dcecf7" stroke="#33475b" stroke-width="1.6"/>
+  <!-- horizontal capillary -->
+  <rect x="128" y="164" width="470" height="10" fill="#dcecf7" stroke="#33475b" stroke-width="1.4"/>
+  <!-- reservoir -->
+  <path d="M200,164 L200,120" stroke="#33475b" stroke-width="8"/>
+  <path d="M200,164 L200,120" stroke="#dcecf7" stroke-width="5"/>
+  <rect x="190" y="118" width="20" height="8" fill="#c0392b"/>
+  <path d="M180,40 L180,100 Q180,112 192,112 L208,112 Q220,112 220,100 L220,40" fill="#dcecf7" stroke="#33475b" stroke-width="1.6"/>
+  <!-- bubble -->
+  <rect x="430" y="165" width="22" height="8" rx="4" fill="#ffffff" stroke="#33475b" stroke-width="1"/>
+  <path d="M430,152 L380,152" stroke="#0f7b6c" stroke-width="2.4"/><path d="M372,152 l10,-6 v12z" fill="#0f7b6c"/>
+  <!-- scale -->
+  <g stroke="#6b7a88" stroke-width="1">
+    <path d="M250,176 L250,190 M290,176 L290,186 M330,176 L330,190 M370,176 L370,186 M410,176 L410,190 M450,176 L450,186 M490,176 L490,190 M530,176 L530,186 M570,176 L570,190"/>
+    <path d="M250,190 L570,190"/>
+  </g>
+  <text class="pt-s" x="410" y="206" text-anchor="middle">scale (mm)</text>
+  <!-- labels -->
+  <path class="pt-ld" d="M60,60 L80,48"/><text class="pt-l" x="6" y="64">leafy</text><text class="pt-l" x="6" y="78">shoot</text>
+  <text class="pt-s" x="6" y="136">cut and fitted</text><text class="pt-s" x="6" y="150">under water;</text><text class="pt-s" x="6" y="164">joints sealed</text>
+  <path class="pt-ld" d="M240,50 L220,58"/><text class="pt-l" x="244" y="54">reservoir with tap</text>
+  <text class="pt-s" x="244" y="68">resets the bubble</text>
+  <path class="pt-ld" d="M470,130 L444,164"/><text class="pt-l" x="474" y="130">air bubble</text>
+  <text class="pt-s" x="360" y="144" text-anchor="end">moves as water is taken up</text>
+  <line x1="610" y1="20" x2="610" y2="200" stroke="#dfe5ea" stroke-width="1.4"/>
+  <text class="pt-l" x="624" y="48">Rate of water uptake</text>
+  <text class="pt-s" x="624" y="68">= distance moved by</text>
+  <text class="pt-s" x="624" y="82">  the bubble ÷ time</text>
+  <text class="pt-s" x="624" y="108">Change one factor:</text>
+  <text class="pt-s" x="624" y="124">fan (wind), lamp (light),</text>
+  <text class="pt-s" x="624" y="138">plastic bag (humidity),</text>
+  <text class="pt-s" x="624" y="152">room temperature</text>
+</svg>

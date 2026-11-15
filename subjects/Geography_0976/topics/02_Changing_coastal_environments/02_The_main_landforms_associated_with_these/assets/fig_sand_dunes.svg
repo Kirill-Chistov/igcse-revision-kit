@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 318" width="820" height="318" role="img" aria-label="Cross-section of a sand dune system from the beach inland: embryo, yellow, grey dunes, dune slack and mature dunes">
+  <defs>
+    <marker id="sd-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker>
+    <clipPath id="sd-prof">
+      <path d="M0,212 L40,210 L140,203 C160,203 165,188 180,188 C195,188 198,203 210,202 C220,190 228,184 238,195 C255,170 280,112 320,112 C355,112 380,160 405,170 C425,160 445,128 470,128 C500,128 520,170 545,196 C560,206 600,206 615,196 C640,165 670,150 700,150 C730,150 745,165 765,160 C785,152 805,150 820,150 L820,232 L0,232 Z"/>
+    </clipPath>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#16283c">
+    <line x1="20" y1="30" x2="150" y2="30" stroke="#16283c" stroke-width="3" marker-end="url(#sd-arr)"/>
+    <text x="20" y="22" font-size="14" font-weight="700">onshore wind</text>
+    <g clip-path="url(#sd-prof)">
+      <rect x="0" y="100" width="400" height="140" fill="#f1dfa6"/>
+      <rect x="400" y="100" width="140" height="140" fill="#d4ccb4"/>
+      <rect x="540" y="100" width="80" height="140" fill="#bdb393"/>
+      <rect x="620" y="100" width="200" height="140" fill="#a99d7a"/>
+      <path d="M0,213 L150,211 L560,203 L820,199" fill="none" stroke="#2c6e91" stroke-width="1.3" stroke-dasharray="5 3"/>
+    </g>
+    <path d="M0,212 L40,210 L140,203 C160,203 165,188 180,188 C195,188 198,203 210,202 C220,190 228,184 238,195 C255,170 280,112 320,112 C355,112 380,160 405,170 C425,160 445,128 470,128 C500,128 520,170 545,196 C560,206 600,206 615,196 C640,165 670,150 700,150 C730,150 745,165 765,160 C785,152 805,150 820,150" fill="none" stroke="#9c8457" stroke-width="1.5"/>
+    <path d="M0,212 L40,210 L40,232 L0,232 Z" fill="#cfe3ee"/>
+    <path d="M565,203 C575,206 592,206 602,203 Z" fill="#7fb0cc"/>
+    <!-- strandline -->
+    <g stroke="#6d5a3a" stroke-width="2" stroke-linecap="round"><path d="M126,203 l8,-2 M138,202 l6,1 M147,202 l5,-2"/></g>
+    <!-- vegetation -->
+    <g stroke="#4f7d34" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M180,188 l-2,-7 M182,188 l1,-8 M184,188 l3,-6"/><path d="M226,187 l-2,-6 M228,186 l1,-7 M230,187 l3,-5"/>
+      <path d="M262,160 l-3,-14 M265,158 l1,-16 M268,157 l4,-13"/><path d="M290,128 l-3,-14 M293,126 l1,-16 M296,125 l4,-13"/>
+      <path d="M318,113 l-3,-14 M321,113 l1,-16 M324,113 l4,-13"/><path d="M348,121 l-3,-14 M351,123 l1,-16 M354,125 l4,-13"/>
+      <path d="M378,152 l-3,-14 M381,156 l1,-16 M384,160 l4,-13"/>
+      <path d="M575,203 l-1,-10 M579,204 l0,-12 M596,204 l0,-11 M600,203 l1,-9"/>
+    </g>
+    <g fill="#6c9a4b">
+      <circle cx="420" cy="160" r="5"/><circle cx="433" cy="147" r="5"/><circle cx="446" cy="136" r="5"/><circle cx="460" cy="129" r="5"/>
+      <circle cx="474" cy="128" r="5"/><circle cx="488" cy="131" r="5"/><circle cx="501" cy="139" r="5"/><circle cx="514" cy="152" r="5"/><circle cx="527" cy="168" r="5"/>
+    </g>
+    <g fill="#3f6e2c">
+      <circle cx="642" cy="162" r="9"/><circle cx="668" cy="148" r="10"/><circle cx="760" cy="152" r="9"/>
+      <rect x="696" y="120" width="5" height="32" fill="#6d5130"/><circle cx="698" cy="112" r="17"/>
+      <rect x="733" y="126" width="5" height="30" fill="#6d5130"/><circle cx="735" cy="118" r="15"/>
+      <rect x="788" y="118" width="5" height="34" fill="#6d5130"/><circle cx="790" cy="108" r="18"/>
+    </g>
+    <!-- names -->
+    <g font-size="14" font-weight="700" text-anchor="middle">
+      <text x="90" y="186">beach</text>
+      <text x="205" y="164">embryo</text><text x="205" y="178">dunes</text>
+      <text x="320" y="90">yellow (fore) dunes</text>
+      <text x="470" y="104">grey dunes</text>
+      <text x="584" y="172">dune</text><text x="584" y="186">slack</text>
+      <text x="740" y="76">mature dunes</text>
+    </g>
+    <!-- characteristics -->
+    <g font-size="12.5" text-anchor="middle" fill="#33475b">
+      <text x="90" y="250">strandline debris</text><text x="90" y="265">traps blown sand</text>
+      <text x="205" y="250">low; first plants</text><text x="205" y="265">(e.g. sea couch</text><text x="205" y="280">grass)</text>
+      <text x="320" y="250">marram grass binds</text><text x="320" y="265">the sand; still much</text><text x="320" y="280">bare yellow sand</text>
+      <text x="470" y="250">more plants; humus</text><text x="470" y="265">(decayed plants)</text><text x="470" y="280">turns the sand grey</text>
+      <text x="584" y="250">damp hollow:</text><text x="584" y="265">water table at</text><text x="584" y="280">the surface</text>
+      <text x="730" y="250">shrubs and trees;</text><text x="730" y="265">oldest, most stable</text><text x="730" y="280">dunes</text>
+    </g>
+    <line x1="160" y1="304" x2="810" y2="304" stroke="#16283c" stroke-width="1.5" marker-end="url(#sd-arr)"/>
+    <text x="150" y="308" font-size="13" text-anchor="end" font-weight="700">inland:</text>
+    <rect x="330" y="296" width="300" height="16" fill="#ffffff"/>
+    <text x="480" y="308" font-size="13" text-anchor="middle">dunes older, more vegetation, more humus</text>
+    <text x="10" y="226" font-size="11" fill="#2c6e91">sea</text>
+    <text x="812" y="226" font-size="11" fill="#2c6e91" text-anchor="end">- - water table</text>
+  </g>
+</svg>

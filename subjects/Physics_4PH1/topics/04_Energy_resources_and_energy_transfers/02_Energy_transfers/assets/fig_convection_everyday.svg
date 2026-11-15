@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 262" width="820" height="262" role="img"
+     aria-label="Convection current in a room heated by a radiator, and a daytime sea breeze">
+  <defs>
+    <marker id="p4ce-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6b7a88"/>
+    </marker>
+    <marker id="p4ce-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="p4ce-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2e6da4"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <line x1="410" y1="10" x2="410" y2="255" stroke="#dfe5ea" stroke-width="1.5"/>
+
+    <!-- ===== Heating a room ===== -->
+    <text x="205" y="22" font-size="16" font-weight="700" fill="#16283c" text-anchor="middle">Heating a room</text>
+    <rect x="30" y="38" width="350" height="200" fill="#fbfcfd" stroke="#33475b" stroke-width="2"/>
+    <rect x="36" y="168" width="22" height="58" fill="#f2c4bd" stroke="#c0392b" stroke-width="1.5"/>
+    <line x1="42" y1="172" x2="42" y2="222" stroke="#c0392b" stroke-width="1"/>
+    <line x1="47" y1="172" x2="47" y2="222" stroke="#c0392b" stroke-width="1"/>
+    <line x1="52" y1="172" x2="52" y2="222" stroke="#c0392b" stroke-width="1"/>
+    <path d="M78,205 L78,72" stroke="#c0392b" stroke-width="2.5" fill="none" marker-end="url(#p4ce-red)"/>
+    <path d="M90,60 L345,60" stroke="#6b7a88" stroke-width="2.5" fill="none" marker-end="url(#p4ce-grey)"/>
+    <path d="M360,72 L360,205" stroke="#2e6da4" stroke-width="2.5" fill="none" marker-end="url(#p4ce-blue)"/>
+    <path d="M348,222 L92,222" stroke="#2e6da4" stroke-width="2.5" fill="none" marker-end="url(#p4ce-blue)"/>
+    <text x="88" y="130" font-size="13" font-weight="700" fill="#c0392b">warm air</text>
+    <text x="88" y="147" font-size="13" font-weight="700" fill="#c0392b">rises</text>
+    <text x="350" y="130" font-size="13" font-weight="700" fill="#2e6da4" text-anchor="end">cools and</text>
+    <text x="350" y="147" font-size="13" font-weight="700" fill="#2e6da4" text-anchor="end">sinks</text>
+    <text x="218" y="82" font-size="12.5" text-anchor="middle">spreads under the ceiling</text>
+    <text x="218" y="212" font-size="12.5" text-anchor="middle">cool air flows back to the radiator</text>
+    <text x="36" y="255" font-size="12.5" font-weight="700" fill="#c0392b">radiator</text>
+
+    <!-- ===== Sea breeze ===== -->
+    <text x="610" y="22" font-size="16" font-weight="700" fill="#16283c" text-anchor="middle">Sea breeze (daytime)</text>
+    <circle cx="788" cy="46" r="17" fill="#f7c948" stroke="#d99a17" stroke-width="2"/>
+    <rect x="428" y="210" width="182" height="40" fill="#b8d4ea"/>
+    <path d="M428,210 q8,-5 16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 t16,0 l6,0" stroke="#2e6da4" stroke-width="1.5" fill="none"/>
+    <rect x="610" y="198" width="198" height="52" fill="#d8c9a3"/>
+    <path d="M700,180 L700,86" stroke="#c0392b" stroke-width="2.5" fill="none" marker-end="url(#p4ce-red)"/>
+    <path d="M690,74 L532,74" stroke="#6b7a88" stroke-width="2.5" fill="none" marker-end="url(#p4ce-grey)"/>
+    <path d="M520,86 L520,176" stroke="#2e6da4" stroke-width="2.5" fill="none" marker-end="url(#p4ce-blue)"/>
+    <path d="M532,187 L688,187" stroke="#2e6da4" stroke-width="2.5" fill="none" marker-end="url(#p4ce-blue)"/>
+    <text x="710" y="130" font-size="13" font-weight="700" fill="#c0392b">warm air</text>
+    <text x="710" y="147" font-size="13" font-weight="700" fill="#c0392b">rises</text>
+    <text x="510" y="130" font-size="13" font-weight="700" fill="#2e6da4" text-anchor="end">cooler air</text>
+    <text x="510" y="147" font-size="13" font-weight="700" fill="#2e6da4" text-anchor="end">sinks</text>
+    <text x="610" y="178" font-size="13" font-weight="700" fill="#2e6da4" text-anchor="middle">sea breeze</text>
+    <text x="519" y="236" font-size="12.5" text-anchor="middle">sea — warms slowly</text>
+    <text x="709" y="230" font-size="12.5" text-anchor="middle">land — warms quickly</text>
+  </g>
+</svg>

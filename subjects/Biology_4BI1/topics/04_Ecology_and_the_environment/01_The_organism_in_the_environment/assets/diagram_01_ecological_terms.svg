@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 196" width="760" height="196" role="img" aria-label="A pond as an example. Each population is all the organisms of one species, such as all the frogs. The community is all the populations of different species in the pond. The ecosystem is the community together with the abiotic factors such as water, light, temperature, dissolved oxygen and mud. The habitat is the place where an organism lives: the pond is the frogs' habitat.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .lv-h { font-size: 13px; font-weight: 700; }
+    .lv-s { font-size: 12px; fill: #33475b; }
+    .lv-p { font-size: 12px; font-weight: 700; }
+  </style>
+  <!-- ecosystem -->
+  <rect x="4" y="4" width="752" height="188" rx="10" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.8"/>
+  <text class="lv-h" x="18" y="24">ECOSYSTEM</text>
+  <text class="lv-s" x="96" y="24">= the community + the abiotic (non-living) environment, interacting</text>
+  <!-- community -->
+  <rect x="16" y="36" width="520" height="146" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+  <text class="lv-h" x="28" y="56">COMMUNITY</text>
+  <text class="lv-s" x="110" y="56">= all the populations of different species</text>
+  <!-- populations -->
+  <g>
+    <rect x="30" y="70" width="158" height="100" rx="7" fill="#ffffff" stroke="#0f7b6c" stroke-width="1.3" stroke-dasharray="5 3"/>
+    <text class="lv-p" x="109" y="88" text-anchor="middle">POPULATION</text>
+    <text class="lv-s" x="109" y="104" text-anchor="middle">all the frogs</text>
+    <g fill="#4f8a3a"><circle cx="62" cy="130" r="7"/><circle cx="92" cy="146" r="7"/><circle cx="118" cy="126" r="7"/><circle cx="146" cy="150" r="7"/><circle cx="160" cy="124" r="7"/><circle cx="76" cy="156" r="7"/></g>
+  </g>
+  <g>
+    <rect x="197" y="70" width="158" height="100" rx="7" fill="#ffffff" stroke="#0f7b6c" stroke-width="1.3" stroke-dasharray="5 3"/>
+    <text class="lv-p" x="276" y="88" text-anchor="middle">POPULATION</text>
+    <text class="lv-s" x="276" y="104" text-anchor="middle">all the pondweed</text>
+    <g fill="#8bbf5a"><rect x="222" y="120" width="10" height="36" rx="4"/><rect x="250" y="128" width="10" height="30" rx="4"/><rect x="278" y="116" width="10" height="42" rx="4"/><rect x="306" y="126" width="10" height="32" rx="4"/><rect x="330" y="120" width="10" height="38" rx="4"/></g>
+  </g>
+  <g>
+    <rect x="364" y="70" width="158" height="100" rx="7" fill="#ffffff" stroke="#0f7b6c" stroke-width="1.3" stroke-dasharray="5 3"/>
+    <text class="lv-p" x="443" y="88" text-anchor="middle">POPULATION</text>
+    <text class="lv-s" x="443" y="104" text-anchor="middle">all the water snails</text>
+    <g fill="#d99a17"><circle cx="394" cy="136" r="6"/><circle cx="424" cy="152" r="6"/><circle cx="452" cy="130" r="6"/><circle cx="480" cy="150" r="6"/><circle cx="500" cy="128" r="6"/></g>
+  </g>
+  <!-- abiotic -->
+  <rect x="548" y="36" width="196" height="84" rx="8" fill="#ffffff" stroke="#2f6f9f" stroke-width="1.3"/>
+  <text class="lv-p" x="560" y="56">abiotic factors</text>
+  <text class="lv-s" x="560" y="74">water · light · temperature</text>
+  <text class="lv-s" x="560" y="90">dissolved oxygen · CO₂</text>
+  <text class="lv-s" x="560" y="106">mud · pH · mineral ions</text>
+  <!-- habitat -->
+  <rect x="548" y="126" width="196" height="58" rx="8" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.5"/>
+  <text class="lv-p" x="560" y="145">HABITAT</text>
+  <text class="lv-s" x="560" y="162">the pond — the place where</text>
+  <text class="lv-s" x="560" y="177">the frogs live</text>
+</svg>

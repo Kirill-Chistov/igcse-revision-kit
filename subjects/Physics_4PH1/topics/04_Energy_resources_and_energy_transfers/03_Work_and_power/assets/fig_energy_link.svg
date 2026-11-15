@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 272" width="820" height="272" role="img"
+     aria-label="A ball falling from height h: GPE is transferred to KE; with air resistance some energy is transferred to thermal stores">
+  <defs>
+    <marker id="p4el-dim" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#33475b"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- legend -->
+    <rect x="260" y="10" width="13" height="13" fill="#0f7b6c"/><text x="279" y="21" font-size="13">GPE</text>
+    <rect x="322" y="10" width="13" height="13" fill="#4c3fa8"/><text x="341" y="21" font-size="13">KE</text>
+    <rect x="380" y="10" width="13" height="13" fill="#c0392b"/><text x="399" y="21" font-size="13">work done against air resistance (→ thermal store)</text>
+
+    <!-- scene -->
+    <line x1="30" y1="262" x2="215" y2="262" stroke="#33475b" stroke-width="2"/>
+    <line x1="52" y1="62" x2="52" y2="260" stroke="#33475b" stroke-width="1.3" marker-start="url(#p4el-dim)" marker-end="url(#p4el-dim)"/>
+    <text x="40" y="166" font-size="16" font-weight="700" text-anchor="end">h</text>
+    <line x1="120" y1="80" x2="120" y2="231" stroke="#9aa7b3" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <circle cx="120" cy="62" r="14" fill="#f0b27a" stroke="#a0522d" stroke-width="1.5"/>
+    <circle cx="120" cy="155" r="14" fill="#f0b27a" stroke="#a0522d" stroke-width="1.5"/>
+    <circle cx="120" cy="247" r="14" fill="#f0b27a" stroke="#a0522d" stroke-width="1.5"/>
+    <text x="144" y="67" font-size="13" font-weight="700" fill="#16283c">top</text>
+    <text x="144" y="160" font-size="13" font-weight="700" fill="#16283c">half-way</text>
+    <text x="144" y="252" font-size="13" font-weight="700" fill="#16283c">bottom</text>
+
+    <!-- bars: total length = energy at the top -->
+    <rect x="260" y="53" width="300" height="18" fill="#0f7b6c"/>
+    <text x="410.0" y="66.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">GPE</text>
+    <rect x="260" y="53" width="300" height="18" fill="none" stroke="#33475b" stroke-width="1"/>
+    <rect x="260" y="146" width="150" height="18" fill="#0f7b6c"/>
+    <text x="335.0" y="159.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">GPE</text>
+    <rect x="410" y="146" width="150" height="18" fill="#4c3fa8"/>
+    <text x="485.0" y="159.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">KE</text>
+    <rect x="260" y="146" width="300" height="18" fill="none" stroke="#33475b" stroke-width="1"/>
+    <rect x="260" y="221" width="300" height="18" fill="#4c3fa8"/>
+    <text x="410.0" y="234.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">KE</text>
+    <rect x="260" y="221" width="300" height="18" fill="none" stroke="#33475b" stroke-width="1"/>
+    <rect x="260" y="247" width="240" height="18" fill="#4c3fa8"/>
+    <text x="380.0" y="260.5" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">KE</text>
+    <rect x="500" y="247" width="60" height="18" fill="#c0392b"/>
+    <rect x="260" y="247" width="300" height="18" fill="none" stroke="#33475b" stroke-width="1"/>
+    <text x="572" y="67" font-size="13">GPE = <tspan font-style="italic">mgh</tspan>, KE = 0</text>
+    <text x="572" y="160" font-size="13">GPE lost = KE gained</text>
+    <text x="572" y="235" font-size="13">no air resistance: KE = <tspan font-style="italic">mgh</tspan></text>
+    <text x="572" y="261" font-size="13">with air resistance: KE &lt; <tspan font-style="italic">mgh</tspan></text>
+  </g>
+</svg>

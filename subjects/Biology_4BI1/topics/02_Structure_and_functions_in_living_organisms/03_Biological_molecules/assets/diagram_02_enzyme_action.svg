@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" role="img" aria-label="The substrate fits the active site of the enzyme because their shapes are complementary, forming an enzyme-substrate complex; the products are released and the enzyme is unchanged. At high temperature or extreme pH the active site changes shape, the substrate no longer fits and the enzyme is denatured.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ea-t { font-size: 12.5px; font-weight: 700; fill: #0b5f54; }
+    .ea-s { font-size: 12px; fill: #33475b; }
+    .ea-l { font-size: 12px; font-weight: 700; }
+    .ea-r { font-size: 12.5px; font-weight: 700; fill: #c0392b; }
+    .ea-en { fill: #e7f3ef; stroke: #0f7b6c; stroke-width: 2; }
+    .ea-su { fill: #fdf6e5; stroke: #d99a17; stroke-width: 2; }
+    .ea-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+    .ea-ar { fill: none; stroke: #33475b; stroke-width: 2; }
+  </style>
+  <defs>
+    <path id="ea-enz" d="M-50,-10 L-14,-10 L0,6 L14,-10 L50,-10 Q60,-10 60,5 L60,30 Q60,45 45,45 L-45,45 Q-60,45 -60,30 L-60,5 Q-60,-10 -50,-10 Z"/>
+  </defs>
+
+  <!-- 1 enzyme + substrate -->
+  <text class="ea-t" x="90" y="16" text-anchor="middle">1  Substrate meets enzyme</text>
+  <g transform="translate(90,112)">
+    <use href="#ea-enz" class="ea-en"/>
+    <path class="ea-su" d="M-14,-40 L0,-24 L14,-40 L14,-60 L-14,-60 Z"/>
+  </g>
+  <path class="ea-ld" d="M150,78 L96,106"/><text class="ea-l" x="152" y="76">active site</text>
+  <text class="ea-l" x="8" y="66">substrate</text><path class="ea-ld" d="M62,62 L75,62"/>
+  <text class="ea-l" x="90" y="178" text-anchor="middle">enzyme</text>
+
+  <path class="ea-ar" d="M162,120 L190,120"/><path d="M198,120 l-10,-6 v12z" fill="#33475b"/>
+
+  <!-- 2 complex -->
+  <text class="ea-t" x="270" y="16" text-anchor="middle">2  Enzyme–substrate complex</text>
+  <g transform="translate(270,112)">
+    <use href="#ea-enz" class="ea-en"/>
+    <path class="ea-su" d="M-14,-10 L0,6 L14,-10 L14,-30 L-14,-30 Z"/>
+  </g>
+  <text class="ea-s" x="270" y="178" text-anchor="middle">shapes are complementary</text>
+  <text class="ea-s" x="270" y="192" text-anchor="middle">— the substrate fits</text>
+
+  <path class="ea-ar" d="M342,120 L370,120"/><path d="M378,120 l-10,-6 v12z" fill="#33475b"/>
+
+  <!-- 3 products -->
+  <text class="ea-t" x="450" y="16" text-anchor="middle">3  Products released</text>
+  <g transform="translate(450,112)">
+    <use href="#ea-enz" class="ea-en"/>
+    <path class="ea-su" d="M-30,-44 L-16,-28 L-16,-64 L-30,-64 Z"/>
+    <path class="ea-su" d="M30,-44 L16,-28 L16,-64 L30,-64 Z"/>
+  </g>
+  <text class="ea-l" x="496" y="62">products</text>
+  <text class="ea-s" x="450" y="178" text-anchor="middle">enzyme unchanged —</text>
+  <text class="ea-s" x="450" y="192" text-anchor="middle">used again</text>
+
+  <line x1="548" y1="10" x2="548" y2="196" stroke="#dfe5ea" stroke-width="1.5"/>
+
+  <!-- 4 denatured -->
+  <text class="ea-r" x="654" y="16" text-anchor="middle">Denatured enzyme</text>
+  <g transform="translate(654,112)">
+    <path class="ea-en" d="M-50,-10 L-20,-10 L-10,-2 L-2,-8 L6,4 L20,-4 L28,-10 L50,-10 Q60,-10 60,5 L60,30 Q60,45 45,45 L-45,45 Q-60,45 -60,30 L-60,5 Q-60,-10 -50,-10 Z" style="stroke:#c0392b"/>
+    <path class="ea-su" d="M-14,-40 L0,-24 L14,-40 L14,-60 L-14,-60 Z"/>
+  </g>
+  <text class="ea-r" x="690" y="66" style="font-size:18px">✕</text>
+  <text class="ea-s" x="654" y="168" text-anchor="middle">high temperature or extreme pH:</text>
+  <text class="ea-s" x="654" y="182" text-anchor="middle">active site changes shape —</text>
+  <text class="ea-s" x="654" y="196" text-anchor="middle">substrate no longer fits</text>
+</svg>

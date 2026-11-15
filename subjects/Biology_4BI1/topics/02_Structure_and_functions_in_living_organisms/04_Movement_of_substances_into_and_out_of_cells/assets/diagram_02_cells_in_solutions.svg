@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 214" width="760" height="214" role="img" aria-label="Red blood cell in a dilute solution gains water by osmosis, swells and bursts because it has no cell wall; in a concentrated solution it loses water and shrinks. Plant cell in a dilute solution gains water and becomes turgid, the wall stopping it bursting; in a concentrated solution it loses water, becomes flaccid and then plasmolysed, the membrane pulling away from the wall.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .cw-t { font-size: 13px; font-weight: 700; fill: #0b5f54; letter-spacing: 0.04em; }
+    .cw-h { font-size: 12.5px; font-weight: 700; }
+    .cw-s { font-size: 12px; fill: #33475b; }
+    .cw-w { fill: none; stroke: #2e6fa3; stroke-width: 2.2; }
+  </style>
+  <text class="cw-t" x="190" y="16" text-anchor="middle">ANIMAL CELL (red blood cell)</text>
+  <text class="cw-t" x="570" y="16" text-anchor="middle">PLANT CELL</text>
+  <line x1="380" y1="6" x2="380" y2="210" stroke="#dfe5ea" stroke-width="1.5"/>
+
+  <!-- RBC dilute: swollen and bursting -->
+  <circle cx="95" cy="84" r="36" fill="#f2b8b0" stroke="#a93226" stroke-width="2" stroke-dasharray="40 6 60 8 200"/>
+  <path d="M126,62 l12,-8 M130,98 l14,6 M88,48 l-2,-12" stroke="#a93226" stroke-width="1.8"/>
+  <path class="cw-w" d="M26,84 L52,84"/><path d="M60,84 l-9,-5 v10z" fill="#2e6fa3"/>
+  <text class="cw-h" x="95" y="148" text-anchor="middle">dilute solution</text>
+  <text class="cw-s" x="95" y="164" text-anchor="middle">water enters by osmosis;</text>
+  <text class="cw-s" x="95" y="178" text-anchor="middle">cell swells and <tspan font-weight="700">bursts</tspan></text>
+  <text class="cw-s" x="95" y="192" text-anchor="middle">(no cell wall)</text>
+
+  <!-- RBC concentrated: shrunken, crenated -->
+  <path d="M258,66 q8,-8 14,0 q8,-6 12,4 q10,0 8,10 q8,8 0,14 q4,10 -8,12 q-4,10 -14,4 q-8,8 -14,-2 q-10,2 -10,-8 q-8,-6 0,-14 q-4,-10 6,-12 q2,-10 6,-8z" fill="#f2b8b0" stroke="#a93226" stroke-width="2"/>
+  <path class="cw-w" d="M306,84 L340,84"/><path d="M348,84 l-9,-5 v10z" fill="#2e6fa3"/>
+  <text class="cw-h" x="285" y="148" text-anchor="middle">concentrated solution</text>
+  <text class="cw-s" x="285" y="164" text-anchor="middle">water leaves by osmosis;</text>
+  <text class="cw-s" x="285" y="178" text-anchor="middle">cell <tspan font-weight="700">shrinks</tspan></text>
+
+  <!-- plant turgid -->
+  <rect x="432" y="40" width="88" height="88" rx="6" fill="#e3f1d6" stroke="#4a7a1f" stroke-width="5"/>
+  <rect x="438" y="46" width="76" height="76" rx="4" fill="#f7fbf2" stroke="#2f5d12" stroke-width="1.3"/>
+  <rect x="446" y="54" width="60" height="60" rx="14" fill="#dcecf7" stroke="#5b8db8" stroke-width="1.4"/>
+  <path class="cw-w" d="M398,84 L424,84"/><path d="M432,84 l-9,-5 v10z" fill="#2e6fa3"/>
+  <text class="cw-h" x="476" y="148" text-anchor="middle">dilute solution</text>
+  <text class="cw-s" x="476" y="164" text-anchor="middle">vacuole swells; membrane</text>
+  <text class="cw-s" x="476" y="178" text-anchor="middle">pushes on the wall: <tspan font-weight="700">turgid</tspan></text>
+  <text class="cw-s" x="476" y="192" text-anchor="middle">(wall stops it bursting)</text>
+
+  <!-- plant plasmolysed -->
+  <rect x="620" y="40" width="88" height="88" rx="6" fill="#e3f1d6" stroke="#4a7a1f" stroke-width="5"/>
+  <path d="M636,56 C660,50 690,54 694,66 C700,86 696,108 686,112 C664,118 642,116 636,104 C628,88 628,64 636,56 Z" fill="#f7fbf2" stroke="#2f5d12" stroke-width="1.3"/>
+  <rect x="648" y="68" width="34" height="34" rx="10" fill="#dcecf7" stroke="#5b8db8" stroke-width="1.4"/>
+  <path class="cw-w" d="M712,84 L740,84"/><path d="M748,84 l-9,-5 v10z" fill="#2e6fa3"/>
+  <text class="cw-h" x="664" y="148" text-anchor="middle">concentrated solution</text>
+  <text class="cw-s" x="664" y="164" text-anchor="middle">cell becomes <tspan font-weight="700">flaccid</tspan>, then</text>
+  <text class="cw-s" x="664" y="178" text-anchor="middle"><tspan font-weight="700">plasmolysed</tspan>: membrane pulls</text>
+  <text class="cw-s" x="664" y="192" text-anchor="middle">away from the wall</text>
+</svg>

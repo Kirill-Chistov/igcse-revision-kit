@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" role="img" aria-label="Section through the heart, viewed from the front so the left side of the heart is on the right of the diagram. Deoxygenated blood from the vena cava enters the right atrium, passes through a valve into the right ventricle and is pumped into the pulmonary artery to the lungs. Oxygenated blood from the pulmonary vein enters the left atrium, passes through a valve into the left ventricle, which has the thickest muscular wall, and is pumped into the aorta to the body. The septum separates the two sides; semilunar valves at the base of the arteries prevent backflow.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ht-l { font-size: 12.5px; font-weight: 700; }
+    .ht-s { font-size: 11.5px; fill: #33475b; }
+    .ht-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+    .ht-de { fill: #c8daf0; }
+    .ht-ox { fill: #f4c0bb; }
+    .ht-w  { fill: none; stroke: #9c4a3c; }
+  </style>
+  <!-- muscle block behind -->
+  <path d="M176,106 L444,106 L444,232 Q434,300 330,312 L300,312 Q220,300 186,262 Q176,246 176,224 Z" fill="#d98c7f"/>
+  <!-- RA -->
+  <path class="ht-de" d="M184,112 L255,112 L255,184 L184,184 Z"/>
+  <!-- RV -->
+  <path class="ht-de" d="M184,196 L288,196 L288,294 Q236,292 202,258 Q184,240 184,222 Z"/>
+  <!-- LA -->
+  <path class="ht-ox" d="M354,112 L438,112 L438,184 L354,184 Z"/>
+  <!-- LV (thick wall: smaller cavity) -->
+  <path class="ht-ox" d="M326,202 L424,202 L424,232 Q414,280 338,292 L326,292 Z"/>
+  <!-- pulmonary artery channel from RV -->
+  <rect x="262" y="18" width="26" height="180" class="ht-de"/>
+  <path d="M262,18 L262,112 M288,18 L288,196" stroke="#9c4a3c" stroke-width="2"/>
+  <!-- aorta channel from LV -->
+  <path d="M322,202 L322,40 Q322,16 346,16 L470,16 L470,42 L360,42 Q348,42 348,54 L348,202 Z" class="ht-ox"/>
+  <path d="M322,202 L322,40 Q322,16 346,16 L470,16 M470,42 L360,42 Q348,42 348,54 L348,112" fill="none" stroke="#9c4a3c" stroke-width="2"/>
+  <!-- vena cava -->
+  <rect x="196" y="40" width="30" height="74" class="ht-de"/><path d="M196,40 L196,112 M226,40 L226,112" stroke="#9c4a3c" stroke-width="2"/>
+  <path d="M110,156 L184,156 M110,178 L184,178" stroke="#9c4a3c" stroke-width="2"/><rect x="110" y="157" width="74" height="20" class="ht-de"/>
+  <!-- pulmonary vein -->
+  <rect x="438" y="136" width="84" height="22" class="ht-ox"/><path d="M438,136 L522,136 M438,158 L522,158" stroke="#9c4a3c" stroke-width="2"/>
+  <!-- valves -->
+  <g stroke="#16283c" stroke-width="3" stroke-linecap="round">
+    <path d="M190,186 L208,200 M250,186 L232,200"/>
+    <path d="M360,186 L378,204 M432,186 L414,204"/>
+    <path d="M263,196 L272,188 M287,196 L278,188"/>
+    <path d="M323,200 L332,192 M347,200 L338,192"/>
+  </g>
+  <!-- flow arrows -->
+  <g stroke-width="2.4" fill="none">
+    <path d="M211,70 L211,150" stroke="#2e6fa3"/><path d="M220,168 L220,240 C224,262 250,262 272,240" stroke="#2e6fa3"/><path d="M275,160 L275,40" stroke="#2e6fa3"/>
+    <path d="M510,147 L450,147" stroke="#c0392b"/><path d="M396,160 L396,250 C390,270 350,270 336,240" stroke="#c0392b"/><path d="M335,160 L335,50 Q335,29 356,29 L460,29" stroke="#c0392b"/>
+  </g>
+  <g><path d="M211,156 l-5,-9 h10z" fill="#2e6fa3"/><path d="M276,236 l-9,1 l5,8z" fill="#2e6fa3"/><path d="M275,32 l-5,9 h10z" fill="#2e6fa3"/>
+     <path d="M444,147 l9,-5 v10z" fill="#c0392b"/><path d="M333,236 l2,10 l6,-7z" fill="#c0392b"/><path d="M468,29 l-9,-5 v10z" fill="#c0392b"/></g>
+
+  <!-- labels left -->
+  <text class="ht-l" x="6" y="44">vena cava</text><text class="ht-s" x="6" y="58">deoxygenated blood</text><text class="ht-s" x="6" y="72">from the body</text>
+  <path class="ht-ld" d="M76,40 L196,66"/>
+  <text class="ht-l" x="6" y="130">right atrium</text><path class="ht-ld" d="M78,126 L190,130"/>
+  <text class="ht-l" x="6" y="218">valve</text><text class="ht-s" x="6" y="232">stops backflow into the atrium</text><path class="ht-ld" d="M48,214 L196,194"/>
+  <text class="ht-l" x="6" y="272">right ventricle</text><text class="ht-s" x="6" y="286">pumps blood to the lungs</text><path class="ht-ld" d="M92,268 L212,250"/>
+  <!-- labels top/right -->
+  <text class="ht-l" x="256" y="14" text-anchor="end">pulmonary artery → lungs</text>
+  <text class="ht-l" x="480" y="26">aorta → body</text>
+  <text class="ht-l" x="530" y="140">pulmonary vein</text><text class="ht-s" x="530" y="154">oxygenated blood from the lungs</text>
+  <text class="ht-l" x="530" y="100">left atrium</text><path class="ht-ld" d="M526,96 L432,120"/>
+  <text class="ht-l" x="530" y="66">semilunar valves</text><text class="ht-s" x="530" y="80">stop backflow from the arteries</text><path class="ht-ld" d="M526,62 L346,194"/>
+  <text class="ht-l" x="530" y="226">left ventricle</text><text class="ht-s" x="530" y="240">thickest wall: pumps blood at high</text><text class="ht-s" x="530" y="254">pressure all round the body</text><path class="ht-ld" d="M526,222 L424,244"/>
+  <text class="ht-l" x="530" y="292">septum</text><text class="ht-s" x="530" y="306">keeps oxygenated and deoxygenated</text><text class="ht-s" x="530" y="320">blood apart</text><path class="ht-ld" d="M526,288 L306,270"/>
+  <rect x="6" y="306" width="12" height="10" fill="#c8daf0" stroke="#2e6fa3"/><text class="ht-s" x="24" y="315">deoxygenated</text>
+  <rect x="110" y="306" width="12" height="10" fill="#f4c0bb" stroke="#c0392b"/><text class="ht-s" x="128" y="315">oxygenated</text>
+</svg>

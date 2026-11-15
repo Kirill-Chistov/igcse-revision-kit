@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Left: an embryo inside the uterus, surrounded by amniotic fluid inside the amniotic sac, joined by the umbilical cord to the placenta on the uterus wall. Right: at the placenta oxygen, glucose, amino acids, water and mineral ions pass from the mother's blood to the embryo's blood, and carbon dioxide and urea pass from the embryo's blood to the mother's blood; the two bloods do not mix.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .pl-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .pl-l { font-size: 12px; font-weight: 700; }
+    .pl-s { font-size: 11px; fill: #33475b; }
+    .halo { paint-order: stroke; stroke: #ffffff; stroke-width: 4px; stroke-linejoin: round; }
+    .ld { stroke: #8fa3b8; stroke-width: 1; fill: none; }
+  </style>
+  <defs>
+    <marker id="pl-a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#0f7b6c"/></marker>
+    <marker id="pl-a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#c0392b"/></marker>
+  </defs>
+  <text class="pl-t" x="6" y="16">A  EMBRYO IN THE UTERUS</text>
+  <text class="pl-t" x="420" y="16">B  EXCHANGE AT THE PLACENTA</text>
+  <line x1="406" y1="6" x2="406" y2="296" stroke="#dfe5ea" stroke-width="1.4"/>
+
+  <!-- uterus -->
+  <ellipse cx="200" cy="156" rx="130" ry="122" fill="#f4c2c2" stroke="#b0557a" stroke-width="2"/>
+  <ellipse cx="200" cy="156" rx="112" ry="104" fill="#fce8ec"/>
+  <!-- placenta on upper right wall -->
+  <path d="M244,62 C282,72 306,104 310,140 C296,138 286,130 280,120 C272,100 258,84 236,74 Z" fill="#b5475e" stroke="#7d2a3c" stroke-width="1.4"/>
+  <!-- amniotic sac + fluid -->
+  <ellipse cx="192" cy="166" rx="96" ry="88" fill="#d6ebf5" stroke="#5b8fb3" stroke-width="1.6"/>
+  <!-- embryo -->
+  <g fill="#f6cdb4" stroke="#a0604a" stroke-width="1.4">
+    <ellipse cx="192" cy="192" rx="36" ry="46" transform="rotate(-25 192 192)"/>
+    <circle cx="160" cy="130" r="30"/>
+    <path d="M176,222 C150,230 146,248 170,246" fill="none" stroke-width="7" stroke="#f0bfa3"/>
+    <path d="M186,160 C166,172 160,190 176,198" fill="none" stroke-width="6" stroke="#f0bfa3"/>
+  </g>
+  <!-- umbilical cord -->
+  <path d="M206,196 C236,196 236,168 252,160 C270,150 262,128 276,118" fill="none" stroke="#6a52a3" stroke-width="5" stroke-linecap="round"/>
+  <!-- cervix -->
+  <rect x="188" y="272" width="24" height="18" rx="4" fill="#e8a0b4" stroke="#b0557a" stroke-width="1.4"/>
+  <!-- labels -->
+  <text class="pl-l" x="8" y="46">uterus wall</text><path class="ld" d="M74,42 L110,72"/>
+  <text class="pl-l" x="8" y="120">embryo</text><path class="ld" d="M52,116 L130,126"/>
+  <text class="pl-l" x="8" y="216">amniotic fluid</text><path class="ld" d="M88,212 L120,206"/>
+  <text class="pl-l" x="8" y="256">amniotic sac</text><path class="ld" d="M80,252 L128,232"/>
+  <text class="pl-l" x="8" y="288">cervix</text><path class="ld" d="M46,284 L186,282"/>
+  <text class="pl-l" x="326" y="96">placenta</text><path class="ld" d="M324,92 L292,104"/>
+  <text class="pl-l" x="326" y="196">umbilical</text><text class="pl-l" x="326" y="209">cord</text><path class="ld" d="M324,196 L240,180"/>
+
+  <!-- B exchange -->
+  <rect x="420" y="40" width="110" height="200" rx="6" fill="#fbe3e3" stroke="#b0557a" stroke-width="1.2"/>
+  <rect x="640" y="40" width="112" height="200" rx="6" fill="#e9e5f7" stroke="#6a52a3" stroke-width="1.2"/>
+  <text class="pl-l" x="475" y="60" text-anchor="middle">mother's blood</text>
+  <text class="pl-s" x="475" y="74" text-anchor="middle">(uterus wall)</text>
+  <text class="pl-l" x="696" y="60" text-anchor="middle">embryo's blood</text>
+  <text class="pl-s" x="696" y="74" text-anchor="middle">(umbilical cord)</text>
+  <!-- barrier -->
+  <path d="M585,40 L585,240" stroke="#7d2a3c" stroke-width="3"/>
+  <text class="pl-s" x="585" y="32" text-anchor="middle">thin placenta barrier</text>
+  <!-- arrows to embryo -->
+  <g class="pl-s">
+    <path d="M532,96 L636,96" stroke="#0f7b6c" stroke-width="2" marker-end="url(#pl-a1)"/>
+    <path d="M532,120 L636,120" stroke="#0f7b6c" stroke-width="2" marker-end="url(#pl-a1)"/>
+    <path d="M532,144 L636,144" stroke="#0f7b6c" stroke-width="2" marker-end="url(#pl-a1)"/>
+    <path d="M532,168 L636,168" stroke="#0f7b6c" stroke-width="2" marker-end="url(#pl-a1)"/>
+    <path d="M636,198 L532,198" stroke="#c0392b" stroke-width="2" marker-end="url(#pl-a2)"/>
+    <path d="M636,222 L532,222" stroke="#c0392b" stroke-width="2" marker-end="url(#pl-a2)"/>
+  </g>
+  <text class="pl-s halo" x="546" y="92">oxygen</text>
+  <text class="pl-s halo" x="546" y="116">glucose</text>
+  <text class="pl-s halo" x="546" y="140">amino acids</text>
+  <text class="pl-s halo" x="546" y="164">water, mineral ions</text>
+  <text class="pl-s halo" x="546" y="194">carbon dioxide</text>
+  <text class="pl-s halo" x="546" y="218">urea</text>
+  <text class="pl-s" x="420" y="262">Villi give a large surface area; the barrier is thin and the two</text>
+  <text class="pl-s" x="420" y="276">bloods flow close together but do not mix.</text>
+</svg>

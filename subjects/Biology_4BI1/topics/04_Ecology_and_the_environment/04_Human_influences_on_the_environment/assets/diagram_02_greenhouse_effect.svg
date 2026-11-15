@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 226" width="760" height="226" role="img" aria-label="The greenhouse effect. 1: light and heat from the Sun pass through the atmosphere. 2: the Earth absorbs them, warms and radiates heat as infrared. 3: some heat escapes to space. 4: greenhouse gases in the atmosphere absorb some of the heat and re-radiate it back to Earth, keeping it warm. More greenhouse gases from human activities mean more heat is absorbed and re-radiated back to Earth: the enhanced greenhouse effect, which leads to global warming, a rise in the Earth's mean temperature.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .gh-h { font-size: 13px; font-weight: 700; }
+    .gh-b { font-size: 12.5px; font-weight: 700; }
+    .gh-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <defs>
+    <marker id="gh-y" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d99a17"/></marker>
+    <marker id="gh-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8433a"/></marker>
+    <marker id="gh-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="226" fill="#f5f8fc"/>
+  <rect x="0" y="80" width="300" height="42" fill="#dbe8f4"/>
+  <circle cx="77" cy="96" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="114" cy="97" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="185" cy="87" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="14" cy="101" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="83" cy="90" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="289" cy="94" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="244" cy="95" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="189" cy="89" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="188" cy="102" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="156" cy="99" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="198" cy="87" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="222" cy="97" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="94" cy="87" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="252" cy="95" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="211" cy="102" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <circle cx="210" cy="103" r="3.2" fill="#2f6f9f" opacity="0.7"/>
+  <path d="M0,196 Q150,178 300,196 L300,226 L0,226 Z" fill="#4f8a3a"/>
+  <text class="gh-b" x="120" y="216" style="fill:#ffffff">Earth's surface</text>
+  <circle cx="34" cy="30" r="20" fill="#f2c230"/>
+  <path d="M52,46 L136,182" fill="none" stroke="#d99a17" stroke-width="4" marker-end="url(#gh-y)"/>
+  <path d="M166,184 L210,94" fill="none" stroke="#b8433a" stroke-width="3" stroke-dasharray="6 3" marker-end="url(#gh-r)"/>
+  <path d="M212,90 L236,14" fill="none" stroke="#b8433a" stroke-width="3" stroke-dasharray="6 3" marker-end="url(#gh-r)"/>
+  <path d="M224,104 L272,184" fill="none" stroke="#b8433a" stroke-width="3" stroke-dasharray="6 3" marker-end="url(#gh-r)"/>
+  <circle cx="86" cy="64" r="8" fill="#d99a17"/><text class="gh-b" x="86" y="68" text-anchor="middle" style="fill:#fff;font-size:11px">1</text>
+  <circle cx="176" cy="146" r="8" fill="#b8433a"/><text class="gh-b" x="176" y="150" text-anchor="middle" style="fill:#fff;font-size:11px">2</text>
+  <circle cx="242" cy="44" r="8" fill="#b8433a"/><text class="gh-b" x="242" y="48" text-anchor="middle" style="fill:#fff;font-size:11px">3</text>
+  <circle cx="262" cy="148" r="8" fill="#b8433a"/><text class="gh-b" x="262" y="152" text-anchor="middle" style="fill:#fff;font-size:11px">4</text>
+  <circle cx="320" cy="20" r="8" fill="#d99a17"/><text class="gh-b" x="320" y="24" text-anchor="middle" style="fill:#fff;font-size:11px">1</text>
+  <text class="gh-s" x="334" y="24" style="fill:#16283c">Light and heat from the Sun</text>
+  <text class="gh-s" x="334" y="38" style="fill:#16283c">pass through the atmosphere.</text>
+  <circle cx="320" cy="62" r="8" fill="#b8433a"/><text class="gh-b" x="320" y="66" text-anchor="middle" style="fill:#fff;font-size:11px">2</text>
+  <text class="gh-s" x="334" y="66" style="fill:#16283c">The Earth absorbs them, warms</text>
+  <text class="gh-s" x="334" y="80" style="fill:#16283c">and radiates heat (infrared).</text>
+  <circle cx="320" cy="104" r="8" fill="#b8433a"/><text class="gh-b" x="320" y="108" text-anchor="middle" style="fill:#fff;font-size:11px">3</text>
+  <text class="gh-s" x="334" y="108" style="fill:#16283c">Some heat escapes to space.</text>
+  <circle cx="320" cy="132" r="8" fill="#b8433a"/><text class="gh-b" x="320" y="136" text-anchor="middle" style="fill:#fff;font-size:11px">4</text>
+  <text class="gh-s" x="334" y="136" style="fill:#16283c">Greenhouse gases absorb heat</text>
+  <text class="gh-s" x="334" y="150" style="fill:#16283c">and re-radiate it back to</text>
+  <text class="gh-s" x="334" y="164" style="fill:#16283c">Earth — keeping it warm.</text>
+  <rect x="524" y="6" width="230" height="40" rx="7" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.5"/>
+  <text class="gh-b" x="639.0" y="22.8" text-anchor="middle">More greenhouse gases</text>
+  <text class="gh-s" x="639.0" y="37.2" text-anchor="middle">from human activities</text>
+  <rect x="524" y="62" width="230" height="40" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="gh-b" x="639.0" y="78.8" text-anchor="middle">More heat absorbed and</text>
+  <text class="gh-s" x="639.0" y="93.2" text-anchor="middle">re-radiated back to Earth</text>
+  <rect x="524" y="118" width="230" height="34" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.5"/>
+  <text class="gh-b" x="639.0" y="139.0" text-anchor="middle">ENHANCED GREENHOUSE EFFECT</text>
+  <rect x="524" y="168" width="230" height="46" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="gh-b" x="639.0" y="187.8" text-anchor="middle">GLOBAL WARMING</text>
+  <text class="gh-s" x="639.0" y="202.2" text-anchor="middle">Earth's mean temperature rises</text>
+  <path d="M639,46 L639,60" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#gh-g)"/>
+  <path d="M639,102 L639,116" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#gh-g)"/>
+  <path d="M639,152 L639,166" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#gh-g)"/>
+  <circle cx="320" cy="208" r="3.2" fill="#2f6f9f" opacity="0.7"/><text class="gh-s" x="334" y="212">greenhouse gas molecules</text>
+</svg>

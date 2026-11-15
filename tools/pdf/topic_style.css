@@ -1,0 +1,267 @@
+/* ==========================================================================
+   igcse-revision-kit revision-booklet stylesheet
+   Used by render_booklet.py. Chromium (Playwright) print rendering, A4.
+   Fonts: Carlito (Calibri-metric) body, Caladea (Cambria-metric) headings.
+   ========================================================================== */
+
+:root {
+  --ink:        #16283c;   /* headings, strong text            */
+  --ink-soft:   #33475b;   /* body text                        */
+  --muted:      #6b7a88;   /* labels, captions, footer         */
+  --rule:       #dfe5ea;   /* hairlines                        */
+  --rule-soft:  #eef2f5;
+
+  --teal:       #0f7b6c;   /* primary accent                   */
+  --teal-dark:  #0b5f54;
+  --teal-pale:  #e7f3ef;
+  --teal-line:  #cfe4dd;
+
+  --indigo:     #4c3fa8;   /* Paper-2 badge, "why it matters"  */
+  --indigo-pale:#eeedfb;
+
+  --amber:      #d99a17;   /* exam-language callout            */
+  --amber-pale: #fdf6e5;
+
+  --red:        #c0392b;   /* traps, disadvantages             */
+  --red-pale:   #fdeded;
+
+  --green:      #1e8449;   /* advantages                       */
+  --green-pale: #eaf7ef;
+
+  --banner:     #16283c;   /* dark section banners             */
+
+  --sans: "Carlito", "Calibri", "Lato", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Caladea", "Cambria", "Georgia", "Times New Roman", serif;
+}
+
+@page { size: A4; }
+
+* { box-sizing: border-box; }
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 9.6pt;
+  line-height: 1.42;
+  color: var(--ink-soft);
+  -webkit-font-smoothing: antialiased;
+}
+
+p { margin: 0 0 5.5pt; orphans: 2; widows: 2; }
+strong { color: var(--ink); font-weight: 700; }
+em { font-style: italic; }
+a { color: var(--teal-dark); text-decoration: none; }
+code {
+  font-family: "DejaVu Sans Mono", "Consolas", monospace;
+  font-size: 0.9em; background: var(--rule-soft);
+  padding: 0.5pt 2pt; border-radius: 2px;
+}
+
+/* ---------- document header ------------------------------------------- */
+
+.eyebrow {
+  font-size: 7.2pt; font-weight: 700; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--teal-dark);
+  margin: 0 0 6pt;
+}
+h1.doc-title, .doc-title {
+  font-family: var(--serif); font-weight: 700; font-size: 21pt;
+  line-height: 1.15; color: var(--ink); margin: 0 0 4pt;
+}
+.doc-points { font-size: 8.6pt; color: var(--muted); margin: 0 0 6pt; }
+
+/* one subtopic inside a topic PDF: title + spec points, no page break */
+h1.sub-title {
+  font-family: var(--serif); font-weight: 700; font-size: 16.5pt; line-height: 1.2;
+  color: var(--ink); margin: 18pt 0 2pt; padding: 0 0 4pt;
+  border-bottom: 1.6pt solid var(--teal);
+  display: flex; justify-content: space-between; align-items: baseline; gap: 10pt;
+  break-after: avoid; break-inside: avoid;
+}
+section.subtopic:first-of-type h1.sub-title { margin-top: 4pt; }
+h1.sub-title::after {
+  content: attr(data-pts);
+  font-family: var(--sans); font-size: 8.2pt; font-weight: 700; color: var(--muted);
+  white-space: nowrap;
+}
+.doc-subtitle {
+  font-size: 10.5pt; color: var(--muted); margin: 0 0 10pt;
+  line-height: 1.4; max-width: 92%;
+}
+.title-rule {
+  height: 2.4pt; border-radius: 2pt; margin: 0 0 8pt;
+  background: linear-gradient(90deg, var(--teal) 0%, var(--teal-line) 70%, #ffffff 100%);
+}
+
+/* ---------- specification strip --------------------------------------- */
+
+.spec-strip {
+  display: flex; width: 100%;
+  border: 0.6pt solid var(--rule); border-radius: 3pt;
+  background: #f8fafb; margin: 0 0 11pt;
+  break-inside: avoid;
+}
+.spec-strip .cell {
+  flex: 1 1 0; padding: 6pt 9pt; border-left: 0.6pt solid var(--rule);
+}
+.spec-strip .cell:first-child { border-left: 0; }
+.spec-strip .label {
+  font-size: 6.8pt; font-weight: 700; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 2.5pt;
+}
+.spec-strip .value { font-size: 9.4pt; font-weight: 700; color: var(--ink); line-height: 1.3; }
+
+/* ---------- cards & grids --------------------------------------------- */
+
+.grid { display: flex; gap: 10pt; margin: 0 0 11pt; break-inside: avoid; }
+.grid > * { flex: 1 1 0; margin-bottom: 0; }
+
+.card {
+  border: 0.6pt solid var(--rule); border-radius: 3pt;
+  padding: 8pt 10pt 4pt; background: #fff; break-inside: avoid;
+  margin: 0 0 11pt;
+}
+.card > .card-label {
+  font-size: 6.9pt; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--teal-dark); margin-bottom: 5pt;
+}
+.card.indigo > .card-label { color: var(--indigo); }
+.card > :last-child { margin-bottom: 4pt; }
+.card ul, .card ol { margin: 0 0 6pt; padding-left: 14pt; }
+
+/* ---------- section headings ------------------------------------------ */
+
+h2.section {
+  font-family: var(--serif); font-size: 12.8pt; font-weight: 700; color: var(--ink);
+  margin: 12pt 0 0; padding: 0 0 3pt;
+  border-bottom: 0.6pt solid var(--rule);
+  break-after: avoid; break-inside: avoid;
+  display: flex; align-items: center; gap: 8pt;
+}
+h2.section + * { margin-top: 6pt; }
+h2.section .num {
+  display: inline-block; min-width: 15pt; height: 15pt; line-height: 15pt;
+  text-align: center; background: var(--teal); color: #fff;
+  font-family: var(--sans); font-size: 9pt; font-weight: 700;
+  border-radius: 2.5pt; flex: 0 0 auto;
+}
+h2.section .num::before { content: attr(data-n); }
+h3 {
+  font-family: var(--sans); font-size: 10.4pt; font-weight: 700; color: var(--ink);
+  margin: 9pt 0 4pt; break-after: avoid;
+}
+h4 {
+  font-family: var(--sans); font-size: 9.6pt; font-weight: 700; color: var(--ink);
+  margin: 9pt 0 3pt; break-after: avoid;
+}
+
+.badge {
+  display: inline-block; vertical-align: 2pt;
+  background: var(--indigo); color: #fff;
+  font-family: var(--sans); font-size: 6.6pt; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 1.6pt 5pt; border-radius: 7pt; white-space: nowrap;
+}
+.badge.p2 { background: var(--indigo); }
+.badge.teal { background: var(--teal); }
+
+/* ---------- lists ------------------------------------------------------ */
+
+ul, ol { margin: 0 0 5.5pt; padding-left: 14pt; }
+li { margin: 0 0 1.5pt; }
+li > ul, li > ol { margin-top: 2.5pt; }
+
+/* ---------- tables ----------------------------------------------------- */
+
+table {
+  width: 100%; border-collapse: collapse; margin: 0 0 7pt;
+  font-size: 8.8pt; break-inside: auto;
+}
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+th {
+  background: var(--teal-pale); color: var(--teal-dark);
+  font-weight: 700; text-align: left;
+  padding: 3pt 6pt; border-bottom: 0.6pt solid var(--teal-line);
+  font-size: 8.8pt;
+}
+td {
+  padding: 3pt 6pt; border-bottom: 0.5pt solid var(--rule);
+  vertical-align: top;
+}
+tbody tr:last-child td { border-bottom: 0.6pt solid var(--rule); }
+td:first-child { font-weight: 700; color: var(--ink); }
+table.plain td:first-child { font-weight: 400; color: inherit; }
+
+/* ---------- callouts --------------------------------------------------- */
+
+.callout {
+  border-left: 2.6pt solid var(--teal);
+  background: var(--teal-pale);
+  padding: 5pt 9pt 1pt; margin: 0 0 7pt;
+  border-radius: 0 3pt 3pt 0; break-inside: avoid;
+}
+.callout > .callout-label {
+  font-size: 6.9pt; font-weight: 700; letter-spacing: 0.09em;
+  text-transform: uppercase; color: var(--teal-dark); margin-bottom: 4pt;
+}
+.callout > :last-child { margin-bottom: 5pt; }
+.callout ul, .callout ol { margin-bottom: 5pt; }
+
+.callout.definition { border-color: var(--teal);   background: var(--teal-pale); }
+.callout.definition > .callout-label { color: var(--teal-dark); }
+.callout.traps      { border-color: var(--red);    background: var(--red-pale); }
+.callout.traps > .callout-label { color: var(--red); }
+.callout.exam       { border-color: var(--amber);  background: var(--amber-pale); }
+.callout.exam > .callout-label { color: #a5720c; }
+.callout.why        { border-color: var(--indigo); background: var(--indigo-pale); }
+.callout.why > .callout-label { color: var(--indigo); }
+.callout.note       { border-color: var(--muted);  background: #f4f7f9; }
+.callout.note > .callout-label { color: var(--muted); }
+.callout.advantages { border-color: var(--green);  background: var(--green-pale); }
+.callout.advantages > .callout-label { color: var(--green); }
+.callout.disadvantages { border-color: var(--red); background: var(--red-pale); }
+.callout.disadvantages > .callout-label { color: var(--red); }
+
+/* ---------- dark banner ------------------------------------------------ */
+
+.banner {
+  background: var(--banner); color: #fff;
+  padding: 9pt 12pt; border-radius: 3pt;
+  margin: 15pt 0 10pt; break-inside: avoid; break-after: avoid;
+}
+.banner .banner-title {
+  font-family: var(--serif); font-size: 14pt; font-weight: 700;
+  color: #fff; margin: 0; line-height: 1.2;
+}
+.banner .banner-sub {
+  font-size: 8.4pt; color: #c3d0dc; margin: 3pt 0 0; line-height: 1.4;
+}
+
+/* ---------- figures ---------------------------------------------------- */
+
+figure {
+  margin: 3pt 0 8pt; text-align: center; break-inside: avoid;
+}
+figure svg {
+  display: block; width: 100%; height: auto;
+  max-height: 100mm;          /* keep one diagram from owning a whole page */
+  margin: 0 auto;
+}
+figure img { max-width: 100%; max-height: 100mm; height: auto; display: block; margin: 0 auto; }
+figcaption {
+  font-size: 8.2pt; font-style: italic; color: var(--muted);
+  margin-top: 5pt; line-height: 1.35; text-align: center;
+}
+
+/* ---------- misc ------------------------------------------------------- */
+
+.pagebreak { break-after: page; }
+.avoid-break { break-inside: avoid; }
+
+.colophon {
+  margin-top: 14pt; padding-top: 6pt; border-top: 0.6pt solid var(--rule);
+  font-size: 7.6pt; color: var(--muted); line-height: 1.4;
+}

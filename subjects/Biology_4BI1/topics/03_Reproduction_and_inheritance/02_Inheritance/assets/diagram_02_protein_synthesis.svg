@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" width="760" height="318" role="img" aria-label="Transcription in the nucleus: the DNA of a gene unzips and a complementary mRNA strand is built on one DNA strand, with uracil pairing with adenine. The mRNA leaves the nucleus and attaches to a ribosome. Translation: tRNA molecules with anticodons complementary to each mRNA codon bring specific amino acids, which are joined into a chain.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ps-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .ps-l { font-size: 12px; font-weight: 700; }
+    .ps-s { font-size: 11px; fill: #33475b; }
+    .ps-b { font-size: 11.5px; font-weight: 700; fill: #ffffff; }
+    .ps-n { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .ld { stroke: #8fa3b8; stroke-width: 1; fill: none; }
+  </style>
+  <defs><marker id="ps-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6a52a3"/></marker></defs>
+  <rect x="6" y="26" width="336" height="286" rx="14" fill="#f4f0fb" stroke="#6a52a3" stroke-width="1.6"/>
+  <rect x="336" y="238" width="12" height="26" fill="#ffffff"/>
+  <text class="ps-t" x="16" y="18">1  TRANSCRIPTION — in the nucleus</text>
+  <text class="ps-t" x="362" y="18">2  TRANSLATION — at a ribosome in the cytoplasm</text>
+  <path d="M20,60 L40 ,60 L310,60 L330,60" stroke="#16283c" stroke-width="3" fill="none"/>
+  <path d="M20,190 L330,190" stroke="#6b7a88" stroke-width="3" fill="none"/>
+  <rect x="40" y="62" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="52.0" y="75" text-anchor="middle">A</text>
+  <rect x="70" y="62" width="24" height="18" rx="2" fill="#3d8bd6"/><text class="ps-b" x="82.0" y="75" text-anchor="middle">T</text>
+  <rect x="100" y="62" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="112.0" y="75" text-anchor="middle">G</text>
+  <rect x="130" y="62" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="142.0" y="75" text-anchor="middle">C</text>
+  <rect x="160" y="62" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="172.0" y="75" text-anchor="middle">C</text>
+  <rect x="190" y="62" width="24" height="18" rx="2" fill="#3d8bd6"/><text class="ps-b" x="202.0" y="75" text-anchor="middle">T</text>
+  <rect x="220" y="62" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="232.0" y="75" text-anchor="middle">A</text>
+  <rect x="250" y="62" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="262.0" y="75" text-anchor="middle">A</text>
+  <rect x="280" y="62" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="292.0" y="75" text-anchor="middle">G</text>
+  <rect x="40" y="170" width="24" height="18" rx="2" fill="#3d8bd6"/><text class="ps-b" x="52.0" y="183" text-anchor="middle">T</text>
+  <rect x="70" y="170" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="82.0" y="183" text-anchor="middle">A</text>
+  <rect x="100" y="170" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="112.0" y="183" text-anchor="middle">C</text>
+  <rect x="130" y="170" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="142.0" y="183" text-anchor="middle">G</text>
+  <rect x="160" y="170" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="172.0" y="183" text-anchor="middle">G</text>
+  <rect x="190" y="170" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="202.0" y="183" text-anchor="middle">A</text>
+  <rect x="220" y="170" width="24" height="18" rx="2" fill="#3d8bd6"/><text class="ps-b" x="232.0" y="183" text-anchor="middle">T</text>
+  <rect x="250" y="170" width="24" height="18" rx="2" fill="#3d8bd6"/><text class="ps-b" x="262.0" y="183" text-anchor="middle">T</text>
+  <rect x="280" y="170" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="292.0" y="183" text-anchor="middle">C</text>
+  <rect x="40" y="150" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="52.0" y="163" text-anchor="middle">A</text>
+  <rect x="70" y="150" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="82.0" y="163" text-anchor="middle">U</text>
+  <rect x="100" y="150" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="112.0" y="163" text-anchor="middle">G</text>
+  <rect x="130" y="150" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="142.0" y="163" text-anchor="middle">C</text>
+  <rect x="160" y="150" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="172.0" y="163" text-anchor="middle">C</text>
+  <rect x="190" y="150" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="202.0" y="163" text-anchor="middle">U</text>
+  <rect x="220" y="150" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="232.0" y="163" text-anchor="middle">A</text>
+  <rect x="250" y="150" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="262.0" y="163" text-anchor="middle">A</text>
+  <rect x="280" y="150" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="292.0" y="163" text-anchor="middle">G</text>
+  <path d="M34,140 L304,140" stroke="#6a52a3" stroke-width="3"/>
+  <text class="ps-l" x="20" y="48">DNA unzips at the gene</text>
+  <text class="ps-s" x="20" y="222">DNA template strand</text>
+  <text class="ps-l" x="20" y="126" style="fill:#6a52a3">mRNA (complementary copy; U pairs with A)</text>
+  <text class="ps-s" x="20" y="250">free RNA nucleotides pair with the</text><text class="ps-s" x="20" y="263">DNA bases, then join to form mRNA</text>
+  <path d="M306,140 C330,140 330,200 322,240 C318,262 350,258 368,250" fill="none" stroke="#6a52a3" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#ps-ar)"/>
+  <text class="ps-s" x="130" y="298">mRNA leaves through a nuclear pore</text>
+  <ellipse cx="552" cy="254" rx="92" ry="34" fill="#dfe5ea" stroke="#6b7a88" stroke-width="1.6"/>
+  <path d="M390,248 L710,248" stroke="#6a52a3" stroke-width="3"/>
+  <rect x="420" y="250" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="432.0" y="263" text-anchor="middle">A</text>
+  <rect x="450" y="250" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="462.0" y="263" text-anchor="middle">U</text>
+  <rect x="480" y="250" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="492.0" y="263" text-anchor="middle">G</text>
+  <rect x="510" y="250" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="522.0" y="263" text-anchor="middle">C</text>
+  <rect x="540" y="250" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="552.0" y="263" text-anchor="middle">C</text>
+  <rect x="570" y="250" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="582.0" y="263" text-anchor="middle">U</text>
+  <rect x="600" y="250" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="612.0" y="263" text-anchor="middle">A</text>
+  <rect x="630" y="250" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="642.0" y="263" text-anchor="middle">A</text>
+  <rect x="660" y="250" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="672.0" y="263" text-anchor="middle">G</text>
+  <path d="M420,274 L420,280 L504,280 L504,274" stroke="#16283c" stroke-width="1.2" fill="none"/>
+  <path d="M510,274 L510,280 L594,280 L594,274" stroke="#16283c" stroke-width="1.2" fill="none"/>
+  <path d="M600,274 L600,280 L684,280 L684,274" stroke="#16283c" stroke-width="1.2" fill="none"/>
+  <text class="ps-s" x="462" y="294" text-anchor="middle">codon</text><text class="ps-s" x="552" y="294" text-anchor="middle">codon</text><text class="ps-s" x="642" y="294" text-anchor="middle">codon</text>
+  <g><path d="M516,226 L516,180 L588,180 L588,226" fill="#e6f3ec" stroke="#0f7b6c" stroke-width="1.4"/><rect x="510" y="228" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="522.0" y="241" text-anchor="middle">G</text><rect x="540" y="228" width="24" height="18" rx="2" fill="#6ab04c"/><text class="ps-b" x="552.0" y="241" text-anchor="middle">G</text><rect x="570" y="228" width="24" height="18" rx="2" fill="#e07a5f"/><text class="ps-b" x="582.0" y="241" text-anchor="middle">A</text><path d="M552,180 L552,164" stroke="#0f7b6c" stroke-width="2"/></g>
+  <g><path d="M606,226 L606,180 L678,180 L678,226" fill="#e6f3ec" stroke="#0f7b6c" stroke-width="1.4"/><rect x="600" y="228" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="612.0" y="241" text-anchor="middle">U</text><rect x="630" y="228" width="24" height="18" rx="2" fill="#9b6fd1"/><text class="ps-b" x="642.0" y="241" text-anchor="middle">U</text><rect x="660" y="228" width="24" height="18" rx="2" fill="#f2c14e"/><text class="ps-b" x="672.0" y="241" text-anchor="middle">C</text><path d="M642,180 L642,164" stroke="#0f7b6c" stroke-width="2"/></g>
+  <path d="M552,152 L518,128 L484,112" stroke="#33475b" stroke-width="2"/>
+  <circle cx="484" cy="112" r="12" fill="#c46f1c" stroke="#16283c" stroke-width="1"/>
+  <circle cx="518" cy="128" r="12" fill="#0f7b6c" stroke="#16283c" stroke-width="1"/>
+  <circle cx="552" cy="152" r="12" fill="#b0557a" stroke="#16283c" stroke-width="1"/>
+  <circle cx="642" cy="152" r="12" fill="#4c3fa8" stroke="#16283c" stroke-width="1"/>
+  <path d="M566,152 L628,152" stroke="#33475b" stroke-width="2" stroke-dasharray="3 3"/>
+  <text class="ps-l" x="662" y="132">amino acid</text><text class="ps-s" x="662" y="145">carried by tRNA</text><path class="ld" d="M660,136 L652,144"/>
+  <text class="ps-l" x="362" y="56">growing protein chain</text><text class="ps-s" x="362" y="69">amino acids joined in the</text><text class="ps-s" x="362" y="82">order set by the codons</text>
+  <text class="ps-l" x="690" y="200">tRNA</text><path class="ld" d="M688,196 L678,196"/>
+  <text class="ps-l" x="690" y="232">anticodon</text><path class="ld" d="M688,228 L672,236"/>
+  <text class="ps-l" x="360" y="290">ribosome</text><path class="ld" d="M410,282 L470,272"/>
+  <text class="ps-l" x="376" y="234" style="fill:#6a52a3">mRNA</text>
+  </svg>

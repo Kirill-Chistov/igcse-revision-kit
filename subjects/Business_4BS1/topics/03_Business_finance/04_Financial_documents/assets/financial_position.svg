@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 395" width="800" height="395" role="img" aria-label="Statement of financial position: assets (non-current 400,000 and current 120,000) equal liabilities and equity (current liabilities 80,000, non-current liabilities 140,000, equity 300,000); capital employed 440,000">
+<g font-family="Carlito, Calibri, sans-serif">
+<text x="180.0" y="20" font-size="15" font-weight="700" text-anchor="middle" fill="#16283c">ASSETS</text>
+<text x="180.0" y="38" font-size="13" text-anchor="middle" fill="#33475b">what the business owns</text>
+<text x="535.0" y="20" font-size="15" font-weight="700" text-anchor="middle" fill="#16283c">LIABILITIES + EQUITY</text>
+<text x="535.0" y="38" font-size="13" text-anchor="middle" fill="#33475b">what it owes, and the owners' capital</text>
+<rect x="20" y="48" width="320" height="230.7692307692308" fill="#eef2f5" stroke="#33475b" stroke-width="1.6"/>
+<text x="32" y="69" font-size="15" font-weight="700" fill="#16283c">Non-current assets</text>
+<text x="328" y="69" font-size="15" font-weight="700" text-anchor="end" fill="#16283c">400,000</text>
+<text x="32" y="87" font-size="13" fill="#33475b">kept and used for more than a year:</text>
+<text x="32" y="104" font-size="13" fill="#33475b">property 300,000 · machinery 100,000</text>
+<rect x="20" y="278.76923076923083" width="320" height="69.23076923076924" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+<text x="32" y="299.76923076923083" font-size="15" font-weight="700" fill="#0b5f54">Current assets</text>
+<text x="328" y="299.76923076923083" font-size="15" font-weight="700" text-anchor="end" fill="#0b5f54">120,000</text>
+<text x="32" y="317.76923076923083" font-size="13" fill="#33475b">inventory 60,000 · cash 30,000</text>
+<text x="32" y="334.76923076923083" font-size="13" fill="#33475b">trade receivables 30,000</text>
+<rect x="380" y="48" width="310" height="46.15384615384616" fill="#fdeded" stroke="#c0392b" stroke-width="1.6"/>
+<text x="392" y="69" font-size="15" font-weight="700" fill="#a93226">Current liabilities</text>
+<text x="678" y="69" font-size="15" font-weight="700" text-anchor="end" fill="#a93226">80,000</text>
+<text x="392" y="87" font-size="13" fill="#33475b">trade payables 50,000 · overdraft 30,000</text>
+<rect x="380" y="94.15384615384616" width="310" height="80.76923076923077" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+<text x="392" y="115.15384615384616" font-size="15" font-weight="700" fill="#8a5d06">Non-current liabilities</text>
+<text x="678" y="115.15384615384616" font-size="15" font-weight="700" text-anchor="end" fill="#8a5d06">140,000</text>
+<text x="392" y="133.15384615384616" font-size="13" fill="#33475b">bank loan, repaid after more than</text>
+<text x="392" y="150.15384615384616" font-size="13" fill="#33475b">a year</text>
+<rect x="380" y="174.92307692307693" width="310" height="173.0769230769231" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.6"/>
+<text x="392" y="195.92307692307693" font-size="15" font-weight="700" fill="#4c3fa8">Equity (capital)</text>
+<text x="678" y="195.92307692307693" font-size="15" font-weight="700" text-anchor="end" fill="#4c3fa8">300,000</text>
+<text x="392" y="213.92307692307693" font-size="13" fill="#33475b">share capital 200,000</text>
+<text x="392" y="230.92307692307693" font-size="13" fill="#33475b">retained profit 100,000</text>
+<text x="180.0" y="374.00000000000006" font-size="14.5" font-weight="700" text-anchor="middle" fill="#16283c">Total assets 520,000</text>
+<text x="535.0" y="374.00000000000006" font-size="14.5" font-weight="700" text-anchor="middle" fill="#16283c">Total 520,000</text>
+<text x="360.0" y="208.00000000000003" font-size="30" font-weight="700" text-anchor="middle" fill="#16283c">=</text>
+<path d="M700 96.15384615384616 h8 V346.00000000000006 h-8" fill="none" stroke="#16283c" stroke-width="1.8"/>
+<text x="716" y="173.0769230769231" font-size="14.5" font-weight="700" fill="#16283c">Capital</text>
+<text x="716" y="192.0769230769231" font-size="14.5" font-weight="700" fill="#16283c">employed</text>
+<text x="716" y="211.0769230769231" font-size="14.5" font-weight="700" fill="#16283c">440,000</text>
+<text x="716" y="230.0769230769231" font-size="12.5" font-weight="400" fill="#16283c">= non-current</text>
+<text x="716" y="249.0769230769231" font-size="12.5" font-weight="400" fill="#16283c">liabilities</text>
+<text x="716" y="268.0769230769231" font-size="12.5" font-weight="400" fill="#16283c">+ equity</text>
+</g></svg>

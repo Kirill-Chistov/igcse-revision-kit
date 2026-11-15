@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262" role="img" aria-label="Left: a strawberry plant sends out a runner along the soil surface; a new plant grows roots and leaves where the runner touches the soil and later becomes a separate clone. Right: taking a cutting in three steps: cut a shoot below a leaf, remove the lower leaves and dip the cut end in rooting powder, then plant it in damp compost under a plastic bag.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ap-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .ap-l { font-size: 12px; font-weight: 700; }
+    .ap-s { font-size: 11px; fill: #33475b; }
+    .ap-n { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .ld { stroke: #8fa3b8; stroke-width: 1; fill: none; }
+  </style>
+  <text class="ap-t" x="6" y="16">A  NATURAL: RUNNERS (strawberry)</text>
+  <text class="ap-t" x="400" y="16">B  ARTIFICIAL: CUTTINGS</text>
+  <line x1="386" y1="6" x2="386" y2="258" stroke="#dfe5ea" stroke-width="1.4"/>
+  <rect x="6" y="170" width="370" height="40" fill="#efe3d0"/><path d="M6,170 L376,170" stroke="#8a6a3a" stroke-width="1.4"/>
+  <path d="M70,170 L30.5,143.2" stroke="#4f8a3c" stroke-width="2.4"/><ellipse cx="30.5" cy="133.6" rx="16.8" ry="9.6" transform="rotate(-60 30.5 133.6)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M70,170 L70.0,120.4" stroke="#4f8a3c" stroke-width="2.4"/><ellipse cx="70.0" cy="110.8" rx="16.8" ry="9.6" transform="rotate(0 70.0 110.8)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M70,170 L109.5,143.2" stroke="#4f8a3c" stroke-width="2.4"/><ellipse cx="109.5" cy="133.6" rx="16.8" ry="9.6" transform="rotate(60 109.5 133.6)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M70,170 q-6.0,13.2 -12.0,26.4" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M70,170 q0.0,16.8 0.0,33.6" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M70,170 q6.0,12.0 12.0,24.0" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M70,170 q-2.4,9.6 -4.8,19.2" stroke="#b08a5a" stroke-width="1.3" fill="none"/>
+  <path d="M72,168 C110,140 160,152 200,169 C240,148 290,154 330,166" fill="none" stroke="#4f8a3c" stroke-width="2.4"/>
+  <path d="M200,170 L173.7,150.8" stroke="#4f8a3c" stroke-width="1.6"/><ellipse cx="173.7" cy="144.4" rx="11.200000000000001" ry="6.4" transform="rotate(-60 173.7 144.4)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M200,170 L200.0,135.6" stroke="#4f8a3c" stroke-width="1.6"/><ellipse cx="200.0" cy="129.2" rx="11.200000000000001" ry="6.4" transform="rotate(0 200.0 129.2)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M200,170 L226.3,150.8" stroke="#4f8a3c" stroke-width="1.6"/><ellipse cx="226.3" cy="144.4" rx="11.200000000000001" ry="6.4" transform="rotate(60 226.3 144.4)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><path d="M200,170 q-4.0,8.8 -8.0,17.6" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M200,170 q0.0,11.2 0.0,22.4" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M200,170 q4.0,8.0 8.0,16.0" stroke="#b08a5a" stroke-width="1.3" fill="none"/><path d="M200,170 q-1.6,6.4 -3.2,12.8" stroke="#b08a5a" stroke-width="1.3" fill="none"/>
+  <ellipse cx="334" cy="158" rx="8" ry="4" transform="rotate(-30 334 158)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/>
+  <text class="ap-l" x="22" y="236">parent plant</text><path class="ld" d="M60,226 L68,184"/>
+  <text class="ap-l" x="96" y="64">runner</text><text class="ap-s" x="96" y="77">side stem grows along</text><text class="ap-s" x="96" y="90">the soil surface</text><path class="ld" d="M130,94 L140,150"/>
+  <text class="ap-l" x="236" y="64">new plant</text><text class="ap-s" x="236" y="77">roots and shoots grow</text><text class="ap-s" x="236" y="90">where the runner</text><text class="ap-s" x="236" y="103">touches the soil</text><path class="ld" d="M250,106 L214,140"/>
+  <text class="ap-s" x="160" y="230">runner withers → separate plant:</text><text class="ap-s" x="160" y="243">a clone of the parent</text>
+  <path d="M460,200 L460,90" stroke="#4f8a3c" stroke-width="2.6"/><ellipse cx="446" cy="90" rx="13" ry="6.5" transform="rotate(30 446 90)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/>
+    <ellipse cx="474" cy="112" rx="13" ry="6.5" transform="rotate(-30 474 112)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="446" cy="134" rx="13" ry="6.5" transform="rotate(30 446 134)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="474" cy="156" rx="13" ry="6.5" transform="rotate(-30 474 156)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/>
+  <path d="M442,196 L478,188" stroke="#c0392b" stroke-width="2" stroke-dasharray="4 3"/>
+  <text class="ap-s" x="482" y="196">cut</text>
+  <path d="M580,170 L580,60" stroke="#4f8a3c" stroke-width="2.6"/><ellipse cx="566" cy="60" rx="13" ry="6.5" transform="rotate(30 566 60)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="594" cy="82" rx="13" ry="6.5" transform="rotate(-30 594 82)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="566" cy="104" rx="13" ry="6.5" transform="rotate(30 566 104)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/>
+  <path d="M558,170 L602,170 L598,204 L562,204 Z" fill="#f6f1e4" stroke="#8a6a3a" stroke-width="1.3"/><rect x="561" y="178" width="38" height="25" fill="#f3e2b4"/>
+  <path d="M660,90 C656,30 744,30 740,90 L740,172 L660,172 Z" fill="#eef5fb" fill-opacity="0.6" stroke="#6f9cc4" stroke-width="1.4" stroke-dasharray="5 3"/>
+  <path d="M700,184 L700,74" stroke="#4f8a3c" stroke-width="2.6"/><ellipse cx="686" cy="74" rx="13" ry="6.5" transform="rotate(30 686 74)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="714" cy="96" rx="13" ry="6.5" transform="rotate(-30 714 96)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/><ellipse cx="686" cy="118" rx="13" ry="6.5" transform="rotate(30 686 118)" fill="#8cc06c" stroke="#4f8a3c" stroke-width="1.1"/>
+  <path d="M666,168 L734,168 L726,212 L674,212 Z" fill="#c69c6d" stroke="#8a6a3a" stroke-width="1.4"/><rect x="668" y="168" width="64" height="8" fill="#6b4a2b"/>
+  <path d="M700,184 q-4.0,8.0 -8,16" stroke="#f5efe6" stroke-width="1.3" fill="none"/>
+  <path d="M700,184 q3.0,10.0 6,20" stroke="#f5efe6" stroke-width="1.3" fill="none"/>
+  <path d="M700,184 q0.0,12.0 0,24" stroke="#f5efe6" stroke-width="1.3" fill="none"/>
+  <circle cx="460" cy="34" r="9" fill="#0f7b6c"/><text class="ap-n" x="460" y="38" text-anchor="middle">1</text>
+  <text class="ap-s" x="460" y="232" text-anchor="middle">cut a shoot just</text><text class="ap-s" x="460" y="245" text-anchor="middle">below a leaf</text>
+  <circle cx="580" cy="34" r="9" fill="#0f7b6c"/><text class="ap-n" x="580" y="38" text-anchor="middle">2</text>
+  <text class="ap-s" x="580" y="232" text-anchor="middle">remove lower leaves;</text><text class="ap-s" x="580" y="245" text-anchor="middle">dip in rooting powder</text>
+  <circle cx="700" cy="34" r="9" fill="#0f7b6c"/><text class="ap-n" x="700" y="38" text-anchor="middle">3</text>
+  <text class="ap-s" x="700" y="232" text-anchor="middle">damp compost;</text><text class="ap-s" x="700" y="245" text-anchor="middle">plastic bag over it</text>
+  <text class="ap-s" x="606" y="196">(plant</text><text class="ap-s" x="606" y="208">hormones)</text>
+  </svg>

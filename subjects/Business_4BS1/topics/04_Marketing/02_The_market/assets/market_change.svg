@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 336" width="800" height="336" role="img"
+     aria-label="Three market changes lead a business to respond by adapting its marketing mix; adapting keeps sales and market share, failing to adapt loses them">
+  <defs>
+    <marker id="mc-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#16283c"/>
+    </marker>
+    <marker id="mc-arr-g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1e8449"/>
+    </marker>
+    <marker id="mc-arr-r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- the three changes -->
+    <g font-size="13">
+      <rect x="10" y="12" width="245" height="92" rx="7" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+      <text x="22" y="36" font-size="15" font-weight="700" fill="#16283c">Changing customer needs</text>
+      <text x="22" y="58">tastes, fashions, lifestyles and</text>
+      <text x="22" y="76">technology change, e.g. demand for</text>
+      <text x="22" y="94">healthier or eco-friendly products</text>
+
+      <rect x="10" y="122" width="245" height="92" rx="7" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+      <text x="22" y="146" font-size="15" font-weight="700" fill="#16283c">Changing spending patterns</text>
+      <text x="22" y="168">how much and how customers spend,</text>
+      <text x="22" y="186">e.g. incomes fall → cheaper brands;</text>
+      <text x="22" y="204">more customers buy online</text>
+
+      <rect x="10" y="232" width="245" height="92" rx="7" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+      <text x="22" y="256" font-size="15" font-weight="700" fill="#16283c">Increased competition</text>
+      <text x="22" y="278">new rivals enter, including online</text>
+      <text x="22" y="296">and overseas businesses →</text>
+      <text x="22" y="314">customers have more choice</text>
+    </g>
+
+    <line x1="258" y1="58" x2="303" y2="58" stroke="#16283c" stroke-width="2" marker-end="url(#mc-arr)"/>
+    <line x1="258" y1="168" x2="303" y2="168" stroke="#16283c" stroke-width="2" marker-end="url(#mc-arr)"/>
+    <line x1="258" y1="278" x2="303" y2="278" stroke="#16283c" stroke-width="2" marker-end="url(#mc-arr)"/>
+
+    <!-- the response -->
+    <rect x="308" y="12" width="232" height="312" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+    <text x="324" y="40" font-size="16" font-weight="700" fill="#0b5f54">Business must respond</text>
+    <text x="324" y="62" font-size="13">spots the change through market</text>
+    <text x="324" y="80" font-size="13">research and its sales data</text>
+    <line x1="324" y1="96" x2="524" y2="96" stroke="#cfe4dd" stroke-width="1.4"/>
+    <text x="324" y="120" font-size="14" font-weight="700" fill="#16283c">Possible responses:</text>
+    <g font-size="13">
+      <text x="324" y="146">• new or updated products</text>
+      <text x="324" y="170">• change price, special offers</text>
+      <text x="324" y="194">• improve quality or service</text>
+      <text x="324" y="218">• new promotion, stronger brand</text>
+      <text x="324" y="242">• cut costs to compete on price</text>
+      <text x="324" y="266">• sell through new channels,</text>
+      <text x="336" y="284">e.g. online</text>
+    </g>
+
+    <!-- outcomes -->
+    <line x1="543" y1="92" x2="586" y2="92" stroke="#1e8449" stroke-width="2.2" marker-end="url(#mc-arr-g)"/>
+    <line x1="543" y1="250" x2="586" y2="250" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#mc-arr-r)"/>
+    <g font-size="13">
+      <rect x="591" y="38" width="199" height="108" rx="7" fill="#eaf7ef" stroke="#1e8449" stroke-width="1.6"/>
+      <text x="603" y="64" font-size="15" font-weight="700" fill="#1e8449">Adapts in time</text>
+      <text x="603" y="88">keeps its customers, sales</text>
+      <text x="603" y="106">and market share; may win</text>
+      <text x="603" y="124">customers from slower rivals</text>
+
+      <rect x="591" y="186" width="199" height="126" rx="7" fill="#fdeded" stroke="#c0392b" stroke-width="1.6"/>
+      <text x="603" y="212" font-size="15" font-weight="700" fill="#c0392b">Fails to adapt</text>
+      <text x="603" y="236">customers switch to rivals</text>
+      <text x="603" y="254">→ falling sales, market</text>
+      <text x="603" y="272">share and profit;</text>
+      <text x="603" y="290">the business may fail</text>
+    </g>
+  </g>
+</svg>

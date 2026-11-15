@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 328" width="820" height="328" role="img" aria-label="How climate change causes its main impacts">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="8" y="12" width="112" height="302" rx="8" fill="#16283c"/>
+<text x="64" y="112" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">More</text>
+<text x="64" y="129" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">greenhouse</text>
+<text x="64" y="146" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">gases</text>
+<text x="64" y="163" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">↓</text>
+<text x="64" y="180" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">enhanced</text>
+<text x="64" y="197" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">greenhouse</text>
+<text x="64" y="214" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">effect traps</text>
+<text x="64" y="231" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">more heat</text>
+<line x1="122" y1="46.0" x2="352" y2="46.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="356" y="12" width="142" height="68" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+<text x="427" y="43.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">Higher</text>
+<text x="427" y="59.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">global temperatures</text>
+<line x1="500" y1="46.0" x2="518" y2="46.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="522" y="12" width="290" height="68" rx="6" fill="#fdeded" stroke="#e3a59d"/>
+<text x="532" y="27.5" font-size="12" fill="#33475b">Heatwaves and heat-related deaths; glaciers</text>
+<text x="532" y="42.5" font-size="12" fill="#33475b">and Arctic sea ice shrink; species move towards</text>
+<text x="532" y="57.5" font-size="12" fill="#33475b">the poles or uphill; coral bleaching; diseases</text>
+<text x="532" y="72.5" font-size="12" fill="#33475b">such as malaria spread to new areas</text>
+<line x1="122" y1="124.0" x2="142" y2="124.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="146" y="90" width="186" height="68" rx="6" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="239" y="113.0" font-size="12" fill="#33475b" text-anchor="middle">Oceans warm and expand;</text>
+<text x="239" y="128.0" font-size="12" fill="#33475b" text-anchor="middle">glaciers and ice sheets</text>
+<text x="239" y="143.0" font-size="12" fill="#33475b" text-anchor="middle">on land melt</text>
+<line x1="334" y1="124.0" x2="352" y2="124.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="356" y="90" width="142" height="68" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+<text x="427" y="121.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">Rising</text>
+<text x="427" y="137.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">sea levels</text>
+<line x1="500" y1="124.0" x2="518" y2="124.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="522" y="90" width="290" height="68" rx="6" fill="#fdeded" stroke="#e3a59d"/>
+<text x="532" y="113.0" font-size="12" fill="#33475b">Coastal flooding and erosion; salt water gets</text>
+<text x="532" y="128.0" font-size="12" fill="#33475b">into farmland and drinking water; low-lying</text>
+<text x="532" y="143.0" font-size="12" fill="#33475b">land lost and people displaced</text>
+<line x1="122" y1="202.0" x2="142" y2="202.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="146" y="168" width="186" height="68" rx="6" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="239" y="198.5" font-size="12" fill="#33475b" text-anchor="middle">Warmer air holds more water</text>
+<text x="239" y="213.5" font-size="12" fill="#33475b" text-anchor="middle">vapour and more energy</text>
+<line x1="334" y1="202.0" x2="352" y2="202.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="356" y="168" width="142" height="68" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+<text x="427" y="199.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">Changing</text>
+<text x="427" y="215.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">weather patterns</text>
+<line x1="500" y1="202.0" x2="518" y2="202.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="522" y="168" width="290" height="68" rx="6" fill="#fdeded" stroke="#e3a59d"/>
+<text x="532" y="191.0" font-size="12" fill="#33475b">More intense heatwaves and droughts; heavier</text>
+<text x="532" y="206.0" font-size="12" fill="#33475b">rain and flooding; stronger tropical storms;</text>
+<text x="532" y="221.0" font-size="12" fill="#33475b">rain belts shift</text>
+<line x1="122" y1="280.0" x2="142" y2="280.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="146" y="246" width="186" height="68" rx="6" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="239" y="269.0" font-size="12" fill="#33475b" text-anchor="middle">Temperature and rainfall</text>
+<text x="239" y="284.0" font-size="12" fill="#33475b" text-anchor="middle">zones shift towards</text>
+<text x="239" y="299.0" font-size="12" fill="#33475b" text-anchor="middle">the poles</text>
+<line x1="334" y1="280.0" x2="352" y2="280.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="356" y="246" width="142" height="68" rx="6" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+<text x="427" y="277.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">Changing</text>
+<text x="427" y="293.0" font-size="13.5" font-weight="700" fill="#0b5f54" text-anchor="middle">food production</text>
+<line x1="500" y1="280.0" x2="518" y2="280.0" stroke="#16283c" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="522" y="246" width="290" height="68" rx="6" fill="#fdeded" stroke="#e3a59d"/>
+<text x="532" y="269.0" font-size="12" fill="#33475b">Lower crop yields in hot tropical regions;</text>
+<text x="532" y="284.0" font-size="12" fill="#33475b">longer growing seasons in cool high latitudes;</text>
+<text x="532" y="299.0" font-size="12" fill="#33475b">fish stocks move towards the poles</text>
+</g></svg>

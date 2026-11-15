@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 214" width="760" height="214" role="img" aria-label="Graph of dry mass of a seed and seedling against time. Dry mass falls at first while stored food is used in respiration, reaches a minimum when the first leaves open and begin photosynthesis, then rises.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .dm-l { font-size: 12px; font-weight: 700; }
+    .dm-s { font-size: 11px; fill: #33475b; }
+  </style>
+  <path d="M90,20 L90,180 L720,180" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <path d="M86,26 L90,18 L94,26" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <path d="M712,176 L720,180 L712,184" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <text class="dm-l" x="405" y="204" text-anchor="middle">time / days</text>
+  <text class="dm-l" x="72" y="100" transform="rotate(-90 72 100)" text-anchor="middle">dry mass</text>
+  <rect x="91" y="20" width="249" height="159" fill="#fbeee9"/>
+  <rect x="340" y="20" width="370" height="159" fill="#e9f5ef"/>
+  <path d="M340,24 L340,180" stroke="#6b7a88" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <path d="M92,62 C180,80 280,142 340,144 C420,146 560,90 706,34" fill="none" stroke="#0f7b6c" stroke-width="3"/>
+  <circle cx="340" cy="144" r="4.5" fill="#0f7b6c"/>
+  <text class="dm-l" x="104" y="140">stored food used</text>
+  <text class="dm-s" x="104" y="154">in respiration: CO₂ lost</text>
+  <text class="dm-s" x="104" y="167">→ dry mass falls</text>
+  <text class="dm-l" x="350" y="40">first leaves open</text>
+  <text class="dm-s" x="350" y="53">photosynthesis starts</text>
+  <text class="dm-l" x="470" y="140">seedling photosynthesises</text>
+  <text class="dm-s" x="470" y="153">makes more glucose than it respires</text>
+  <text class="dm-s" x="470" y="166">→ dry mass rises</text>
+</svg>

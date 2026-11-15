@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 242" width="760" height="242" role="img" aria-label="Temperature control by the skin. Too hot: sweat glands release sweat, which evaporates and removes heat; vasodilation — arterioles supplying the skin widen so more blood flows near the surface and more heat is lost by radiation. Too cold: vasoconstriction — arterioles narrow so less blood flows near the surface and less heat is lost; little sweat is produced.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .sk-t { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; }
+    .sk-l { font-size: 12px; font-weight: 700; }
+    .sk-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <text class="sk-t" x="6" y="14" style="fill:#c0392b">TOO HOT</text><rect x="6" y="40" width="250" height="18" fill="#f3d9c9" stroke="#b07a5a" stroke-width="1.2"/><rect x="6" y="58" width="250" height="110" fill="#fbeee6" stroke="#e0c4b0" stroke-width="1"/><text class="sk-s" x="182" y="36">skin surface</text><path d="M126,150 L126,72 C126,62 166,62 166,72 L166,150" fill="none" stroke="#c0392b" stroke-width="7"/><path d="M36,150 L126,150" stroke="#c0392b" stroke-width="9"/><path d="M166,150 L246,150" stroke="#2e6fa3" stroke-width="4"/><path d="M46,40 L46,112 c-8,4 -8,12 0,14 c8,2 8,10 0,14 c-8,2 -8,10 0,12" fill="none" stroke="#b8860b" stroke-width="3"/><path d="M42,30 q3,5 0,7 q-3,-2 0,-7z" fill="#5b8db8"/><path d="M50,24 q3,5 0,7 q-3,-2 0,-7z" fill="#5b8db8"/><path d="M44,18 q3,5 0,7 q-3,-2 0,-7z" fill="#5b8db8"/><path d="M134,34 L134,12" stroke="#d99a17" stroke-width="2.4"/><path d="M134,6 l-4,8 h8z" fill="#d99a17"/><path d="M146,34 L146,12" stroke="#d99a17" stroke-width="2.4"/><path d="M146,6 l-4,8 h8z" fill="#d99a17"/><path d="M158,34 L158,12" stroke="#d99a17" stroke-width="2.4"/><path d="M158,6 l-4,8 h8z" fill="#d99a17"/>
+  <text class="sk-t" x="392" y="14" style="fill:#2e6fa3">TOO COLD</text><rect x="392" y="40" width="250" height="18" fill="#f3d9c9" stroke="#b07a5a" stroke-width="1.2"/><rect x="392" y="58" width="250" height="110" fill="#fbeee6" stroke="#e0c4b0" stroke-width="1"/><text class="sk-s" x="568" y="36">skin surface</text><path d="M512,150 L512,72 C512,62 552,62 552,72 L552,150" fill="none" stroke="#c0392b" stroke-width="2.4"/><path d="M422,150 L512,150" stroke="#c0392b" stroke-width="3"/><path d="M552,150 L632,150" stroke="#2e6fa3" stroke-width="4"/><path d="M432,40 L432,112 c-8,4 -8,12 0,14 c8,2 8,10 0,14 c-8,2 -8,10 0,12" fill="none" stroke="#b8860b" stroke-width="3"/><path d="M532,34 L532,22" stroke="#d99a17" stroke-width="1.4"/><path d="M532,18 l-3,6 h6z" fill="#d99a17"/>
+  <line x1="382" y1="6" x2="382" y2="220" stroke="#dfe5ea" stroke-width="1.4"/>
+  <text class="sk-l" x="264" y="84">sweat glands</text><text class="sk-s" x="264" y="98">release sweat; it</text><text class="sk-s" x="264" y="112">evaporates, taking</text><text class="sk-s" x="264" y="126">heat from the skin</text>
+  <path d="M262,90 L50,112" stroke="#8fa3b8" stroke-width="1.1"/>
+  <text class="sk-l" x="6" y="188">vasodilation:</text><text class="sk-s" x="6" y="202">arterioles to the skin widen → more blood flows</text><text class="sk-s" x="6" y="216">near the surface → more heat lost by radiation</text>
+  <text class="sk-l" x="392" y="188">vasoconstriction:</text><text class="sk-s" x="392" y="202">arterioles to the skin narrow → less blood flows</text><text class="sk-s" x="392" y="216">near the surface → less heat lost</text>
+  <text class="sk-s" x="650" y="98">little or no</text><text class="sk-s" x="650" y="112">sweat produced</text>
+  <text class="sk-s" x="66" y="140">arteriole</text><text class="sk-s" x="452" y="140">arteriole</text>
+  <text class="sk-s" x="560" y="100">capillary</text>
+  <text class="sk-s" x="6" y="236">Receptors in the skin and brain detect temperature changes; the brain co-ordinates the response.</text>
+</svg>

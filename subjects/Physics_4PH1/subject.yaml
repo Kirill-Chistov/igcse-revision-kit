@@ -1,0 +1,12 @@
+name: Physics
+board: Pearson Edexcel
+qualification: International GCSE (9–1) Physics
+code: "4PH1"
+aliases: [phys, physics]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Physics/2017/specification-and-sample-assessments/international-gcse-physics-2017-specification.pdf
+tiers: none
+centre_choices: []
+status: notes for every topic
+spec_points: 195
+subtopics_written: 30
+topic_pdfs: 8

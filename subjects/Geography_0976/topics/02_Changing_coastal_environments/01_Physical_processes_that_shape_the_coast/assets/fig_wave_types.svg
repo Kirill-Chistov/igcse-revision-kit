@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 255" width="820" height="255" role="img" aria-label="Constructive and destructive waves compared">
+  <defs>
+    <marker id="wt-arr-t" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3" markerHeight="3" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker>
+    <marker id="wt-arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3" markerHeight="3" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b03a2e"/></marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#16283c">
+    <!-- constructive -->
+    <text x="10" y="26" font-size="19" font-weight="700" fill="#0b5f54">Constructive wave</text>
+    <g transform="translate(0,-95)"><path d="M0,250 L0,200 Q27.5,190 55,200 T110,200 T165,200 T220,200 T275,200 L275,250 Z" fill="#cfe3ee"/></g>
+    <g transform="translate(0,-95)"><path d="M0,200 Q27.5,190 55,200 T110,200 T165,200 T220,200 T275,200" fill="none" stroke="#2c6e91" stroke-width="2"/></g>
+    <g transform="translate(0,-95)"><path d="M150,250 L400,150 L400,250 Z" fill="#efdcae" stroke="#c9a96b" stroke-width="1.5"/></g>
+    <g transform="translate(0,-95)"><line x1="0" y1="250" x2="400" y2="250" stroke="#8a7a58" stroke-width="1.2"/></g>
+    <g transform="translate(0,-95)"><line x1="255" y1="180" x2="352" y2="141.2" stroke="#0f7b6c" stroke-width="6" marker-end="url(#wt-arr-t)"/></g>
+    <g transform="translate(0,-95)"><line x1="350" y1="164" x2="266" y2="197.6" stroke="#0f7b6c" stroke-width="2" marker-end="url(#wt-arr-t)"/></g>
+    <g transform="translate(0,-95)"><text x="296" y="140" font-size="15" font-weight="700" fill="#0b5f54" text-anchor="middle">swash</text></g>
+    <g transform="translate(0,-95)"><text x="352" y="207" font-size="14" fill="#6b4f16" text-anchor="middle">backwash</text></g>
+    <g transform="translate(0,-95)"><path d="M55,176 L55,168 M165,176 L165,168 M55,172 L165,172" stroke="#33475b" stroke-width="1.2" fill="none"/></g>
+    <g transform="translate(0,-95)"><text x="110" y="163" font-size="13" fill="#33475b" text-anchor="middle">long wavelength</text></g>
+    <g transform="translate(0,-95)"><text x="10" y="278" font-size="15">• Low height, long wavelength</text></g>
+    <g transform="translate(0,-95)"><text x="10" y="298" font-size="15">• About 6–8 waves per minute</text></g>
+    <g transform="translate(0,-95)"><text x="10" y="318" font-size="15">• <tspan font-weight="700">Swash stronger than backwash</tspan></text></g>
+    <g transform="translate(0,-95)"><text x="10" y="338" font-size="15">• Material deposited → beach <tspan font-weight="700">built up</tspan></text></g>
+
+    <!-- destructive -->
+    <text x="430" y="26" font-size="19" font-weight="700" fill="#8e2a1f">Destructive wave</text>
+    <g transform="translate(0,-95)"><path d="M420,250 L420,200 Q432.5,150 445,200 T470,200 T495,200 T520,200 T545,200 T570,200 T595,200 T620,200 T645,200 T670,200 T695,200 L695,250 Z" fill="#cfe3ee"/></g>
+    <g transform="translate(0,-95)"><path d="M420,200 Q432.5,150 445,200 T470,200 T495,200 T520,200 T545,200 T570,200 T595,200 T620,200 T645,200 T670,200 T695,200" fill="none" stroke="#2c6e91" stroke-width="2"/></g>
+    <g transform="translate(0,-95)"><path d="M570,250 L820,150 L820,250 Z" fill="#efdcae" stroke="#c9a96b" stroke-width="1.5"/></g>
+    <g transform="translate(0,-95)"><line x1="420" y1="250" x2="820" y2="250" stroke="#8a7a58" stroke-width="1.2"/></g>
+    <g transform="translate(0,-95)"><line x1="675" y1="180" x2="776" y2="139.6" stroke="#b03a2e" stroke-width="2" marker-end="url(#wt-arr-r)"/></g>
+    <g transform="translate(0,-95)"><line x1="770" y1="164" x2="690" y2="196" stroke="#b03a2e" stroke-width="6" marker-end="url(#wt-arr-r)"/></g>
+    <g transform="translate(0,-95)"><text x="716" y="138" font-size="15" fill="#8e2a1f" text-anchor="middle">swash</text></g>
+    <g transform="translate(0,-95)"><text x="772" y="207" font-size="14" font-weight="700" fill="#6b4f16" text-anchor="middle">backwash</text></g>
+    <g transform="translate(0,-95)"><path d="M445,162 L445,154 M495,162 L495,154 M445,158 L495,158" stroke="#33475b" stroke-width="1.2" fill="none"/></g>
+    <g transform="translate(0,-95)"><text x="470" y="148" font-size="13" fill="#33475b" text-anchor="middle">short wavelength</text></g>
+    <g transform="translate(0,-95)"><text x="430" y="278" font-size="15">• High, steep, short wavelength</text></g>
+    <g transform="translate(0,-95)"><text x="430" y="298" font-size="15">• About 10–14 waves per minute</text></g>
+    <g transform="translate(0,-95)"><text x="430" y="318" font-size="15">• <tspan font-weight="700">Backwash stronger than swash</tspan></text></g>
+    <g transform="translate(0,-95)"><text x="430" y="338" font-size="15">• Material removed → beach <tspan font-weight="700">eroded</tspan></text></g>
+    <line x1="410" y1="10" x2="410" y2="250" stroke="#dfe5ea" stroke-width="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 232" font-family="Carlito, Calibri, sans-serif">
+  <defs>
+    <marker id="li-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <rect x="4" y="2" width="352" height="228" rx="10" fill="#ffffff" stroke="#dfe5ea" stroke-width="1.2"/>
+  <rect x="364" y="2" width="352" height="228" rx="10" fill="#ffffff" stroke="#dfe5ea" stroke-width="1.2"/>
+  <g text-anchor="middle">
+    <text x="180" y="24" font-size="15" font-weight="700" fill="#16283c">Unlimited liability</text>
+    <text x="180" y="41" font-size="12" fill="#6b7a88">sole trader, partnership</text>
+    <text x="540" y="24" font-size="15" font-weight="700" fill="#16283c">Limited liability</text>
+    <text x="540" y="41" font-size="12" fill="#6b7a88">Ltd, plc</text>
+  </g>
+  <g font-size="12.5" fill="#33475b" text-anchor="middle">
+    <rect x="60" y="52" width="240" height="30" rx="6" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="180" y="72" font-weight="700" fill="#16283c">Business debts</text>
+    <line x1="180" y1="84" x2="180" y2="102" stroke="#16283c" stroke-width="1.6" marker-end="url(#li-arr)"/>
+    <rect x="60" y="104" width="240" height="30" rx="6" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="180" y="124">paid first from business assets</text>
+    <line x1="180" y1="136" x2="180" y2="158" stroke="#c0392b" stroke-width="1.8" marker-end="url(#li-arr)"/>
+    <text x="190" y="151" text-anchor="start" font-size="11" fill="#c0392b">anything still owed</text>
+    <rect x="60" y="160" width="240" height="40" rx="6" fill="#fdeded" stroke="#c0392b" stroke-width="1.6"/>
+    <text x="180" y="176" font-weight="700" fill="#16283c">Owner's personal assets</text>
+    <text x="180" y="192">(house, car, savings) can be taken</text>
+    <text x="180" y="220" font-size="12" fill="#16283c">Owners can lose more than they invested.</text>
+
+    <rect x="420" y="52" width="240" height="30" rx="6" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="540" y="72" font-weight="700" fill="#16283c">Company debts</text>
+    <line x1="540" y1="84" x2="540" y2="102" stroke="#16283c" stroke-width="1.6" marker-end="url(#li-arr)"/>
+    <rect x="420" y="104" width="240" height="30" rx="6" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="540" y="124">paid only from the company's assets</text>
+    <line x1="540" y1="136" x2="540" y2="146" stroke="#16283c" stroke-width="1.6"/>
+    <line x1="480" y1="148" x2="600" y2="148" stroke="#1e8449" stroke-width="4"/>
+    <text x="608" y="152" text-anchor="start" font-size="11" fill="#1e8449">stops here</text>
+    <rect x="420" y="160" width="240" height="40" rx="6" fill="#eaf7ef" stroke="#1e8449" stroke-width="1.6"/>
+    <text x="540" y="176" font-weight="700" fill="#16283c">Shareholders' personal assets</text>
+    <text x="540" y="192">are safe</text>
+    <text x="540" y="220" font-size="12" fill="#16283c">Shareholders can lose only what they invested.</text>
+  </g>
+</svg>

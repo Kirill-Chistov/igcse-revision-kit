@@ -1,0 +1,88 @@
+# Design decisions
+
+Why the kit works the way it does. Agents treat these as settled: do not re-open one without the
+maintainer (or, in a student's own copy, the student). Each entry states the decision as it stands.
+
+## Specification first
+
+The official exam-board specification defines what is assessable — not a textbook, a revision
+website, a scheme of work or an AI's general knowledge. Material is written only after the
+specification points it covers are identified by official number. Each subject has
+`specification.md` (index), `specification_map.csv` (point → source folder) and
+`coverage_checklist.md`, so agents need not parse the PDF on every request.
+
+## Hierarchies follow each specification
+
+Topic numbering and grouping come from the subject's own specification (Edexcel sections, Cambridge
+topics, MFL themes). No generic hierarchy is imposed across subjects. Folder names carry the
+qualification code (`Physics_4PH1`) because the same subject name exists on several boards.
+
+## Markdown is the master, the PDF is derived
+
+`topic.md` is authoritative; the PDF is regenerated from it, never edited. One PDF per top-level
+topic (`notes/<Subject>/NN_<Topic>.pdf`), subtopics flowing on with one bookmark each.
+
+## Bare minimum, but enough for top marks
+
+Content is filtered A (required) / B (minimum bridging) / C (enrichment — omitted, not labelled).
+Every run ends with a separate lean pass. There is no page limit: length is controlled by the lean
+pass, not a number.
+
+## The PDF is for learning, not testing
+
+The PDF prints only the qualification line, titles, each subtopic's specification points and the
+teaching content. No objectives panel, recap, self-test, answers or checklist. Practice lives in
+`questions.md`; testing happens with the tutor and the tracker.
+
+## Visuals are planned before writing
+
+Processes, structures and patterns get diagrams; tables are for comparisons only; a visual
+replaces the prose it duplicates. Diagrams are SVG drawn for the kit; photos only when openly
+licensed, recorded in `assets/SOURCES.md`.
+
+## Edit before regenerating
+
+Accurate but long material is compressed, not rewritten. Regenerating costs more, loses good
+diagrams and drifts in style.
+
+## Tutoring protocol
+
+Tutoring follows `rules/TUTORING.md`, adapted from Kestin et al., *AI tutoring outperforms in-class
+active learning* (Scientific Reports, 2025): solve and check every question before asking it; brief
+replies, one step at a time; attempt before answer; misses re-tested later from a re-test bank.
+
+## Few flashcards
+
+Cards only for misses, at most 5 per session and one per specification point, with deck ceilings.
+The limits came from experience: writing a card for every point produced 120 cards in four weeks,
+more than a student had time to review.
+
+## Shared content, personal `me/`
+
+Everything that is the same for every student taking a qualification is shared and open
+(`subjects/`, `notes/`, `rules/`, `tools/`). Everything about one student — profile, plan,
+progress, weak spots, marked work, past papers, school material — is in `me/`, which Git ignores.
+A student can keep `me/` in a private repository of their own if they want it backed up.
+
+## Nothing copyrighted in Git
+
+No textbooks, past papers, mark schemes, examiner reports or school documents are committed.
+Students download papers and specifications themselves into ignored folders. Notes paraphrase
+their sources.
+
+## Agent-agnostic
+
+Rules are plain markdown (`CLAUDE.md`, with `AGENTS.md` pointing to it) and the skills are plain
+`SKILL.md` files, so any capable coding agent can follow them. Claude-specific extras (the
+artifact tracker, inline widgets) are optional.
+
+## Two tracker modes
+
+The tracker is one HTML page with two storage back-ends: a local server writing `me/*.json`
+(default — offline, any agent can edit the files) and a claude.ai artifact (phone-friendly, Claude
+only). The data shape is the same in both.
+
+## Sessions commit their own work
+
+A session that changes shared files commits them when it finishes, staging only its own paths.
+No push, rebase or history rewrite unless the user asks.

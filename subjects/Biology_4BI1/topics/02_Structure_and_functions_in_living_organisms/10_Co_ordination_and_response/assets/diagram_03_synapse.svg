@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" role="img" aria-label="A synapse. An electrical impulse arrives at the end of the first neurone; vesicles release neurotransmitter into the gap; the neurotransmitter diffuses across and binds to receptors on the next neurone, starting a new impulse. Neurotransmitter is only released on one side, so impulses cross in one direction only.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .sy-l { font-size: 12px; font-weight: 700; }
+    .sy-s { font-size: 11.5px; fill: #33475b; }
+    .sy-n { font-size: 11px; font-weight: 700; fill: #ffffff; }
+    .sy-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- neurone 1 ending -->
+  <path d="M20,70 L170,70 C210,50 250,56 262,80 L262,140 C250,164 210,170 170,150 L20,150" fill="#eadcf5" stroke="#6d3fa8" stroke-width="2"/>
+  <!-- vesicles -->
+  <g fill="#ffffff" stroke="#6d3fa8" stroke-width="1.4">
+    <circle cx="200" cy="90" r="9"/><circle cx="226" cy="104" r="9"/><circle cx="206" cy="124" r="9"/><circle cx="234" cy="134" r="9"/>
+  </g>
+  <g fill="#0f7b6c"><circle cx="198" cy="88" r="2"/><circle cx="203" cy="93" r="2"/><circle cx="224" cy="102" r="2"/><circle cx="229" cy="107" r="2"/><circle cx="204" cy="122" r="2"/><circle cx="209" cy="127" r="2"/><circle cx="232" cy="132" r="2"/><circle cx="237" cy="137" r="2"/></g>
+  <!-- released NT -->
+  <path d="M258,104 C262,100 264,104 262,108" fill="#ffffff" stroke="#6d3fa8" stroke-width="1.4"/>
+  <g fill="#0f7b6c"><circle cx="272" cy="96" r="2.4"/><circle cx="280" cy="108" r="2.4"/><circle cx="274" cy="120" r="2.4"/><circle cx="286" cy="92" r="2.4"/><circle cx="288" cy="126" r="2.4"/><circle cx="283" cy="114" r="2.4"/></g>
+  <!-- neurone 2 -->
+  <path d="M300,60 C300,60 312,56 330,60 L480,60 L480,160 L330,160 C312,164 300,160 300,160 Z" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="2"/>
+  <g fill="#0f7b6c"><path d="M300,84 l-5,-4 v8z"/><path d="M300,100 l-5,-4 v8z"/><path d="M300,116 l-5,-4 v8z"/><path d="M300,132 l-5,-4 v8z"/></g>
+  <!-- impulse arrows -->
+  <path d="M40,110 L120,110" stroke="#c0392b" stroke-width="3"/><path d="M130,110 l-11,-7 v14z" fill="#c0392b"/>
+  <path d="M340,110 L440,110" stroke="#c0392b" stroke-width="3"/><path d="M450,110 l-11,-7 v14z" fill="#c0392b"/>
+  <text class="sy-s" x="40" y="100">impulse arrives</text>
+  <text class="sy-s" x="340" y="100">new impulse</text>
+  <!-- labels -->
+  <text class="sy-l" x="170" y="28">vesicles of neurotransmitter</text><path class="sy-ld" d="M214,32 L206,80"/>
+  <text class="sy-l" x="260" y="188" text-anchor="middle">synaptic gap</text><path class="sy-ld" d="M270,176 L280,140"/>
+  <text class="sy-l" x="330" y="28">receptors</text><path class="sy-ld" d="M348,32 L300,82"/>
+  <!-- steps -->
+  <line x1="500" y1="14" x2="500" y2="190" stroke="#dfe5ea" stroke-width="1.4"/>
+  <circle cx="522" cy="36" r="9" fill="#0f7b6c"/><text class="sy-n" x="522" y="40" text-anchor="middle">1</text>
+  <text class="sy-s" x="538" y="40">impulse reaches the end of the neurone</text>
+  <circle cx="522" cy="68" r="9" fill="#0f7b6c"/><text class="sy-n" x="522" y="72" text-anchor="middle">2</text>
+  <text class="sy-s" x="538" y="66">vesicles release neurotransmitter</text><text class="sy-s" x="538" y="80">into the gap</text>
+  <circle cx="522" cy="106" r="9" fill="#0f7b6c"/><text class="sy-n" x="522" y="110" text-anchor="middle">3</text>
+  <text class="sy-s" x="538" y="110">it diffuses across the gap</text>
+  <circle cx="522" cy="138" r="9" fill="#0f7b6c"/><text class="sy-n" x="522" y="142" text-anchor="middle">4</text>
+  <text class="sy-s" x="538" y="136">binds to receptors on the next</text><text class="sy-s" x="538" y="150">neurone → new electrical impulse</text>
+  <text class="sy-l" x="516" y="182">impulses cross in one direction only</text>
+</svg>

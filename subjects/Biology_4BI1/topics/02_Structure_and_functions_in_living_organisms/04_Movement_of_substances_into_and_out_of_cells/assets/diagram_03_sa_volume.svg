@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 174" width="760" height="174" role="img" aria-label="Surface area to volume ratio of cubes: a 1 cm cube has surface area 6 square centimetres and volume 1 cubic centimetre, ratio 6 to 1; a 2 cm cube 24 and 8, ratio 3 to 1; a 3 cm cube 54 and 27, ratio 2 to 1. Larger objects have a smaller surface area to volume ratio.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .sv-h { font-size: 13px; font-weight: 700; }
+    .sv-s { font-size: 12px; fill: #33475b; }
+    .sv-r { font-size: 12.5px; font-weight: 700; fill: #0b5f54; }
+    .sv-k { font-size: 13px; font-weight: 700; fill: #0b5f54; }
+  </style>
+  <rect x="60" y="80" width="24" height="24" fill="#fdecc8" stroke="#b86e12" stroke-width="1.6"/><path d="M60,80 L70.8,72.44 L94.8,72.44 L84,80 Z" fill="#fbf3e2" stroke="#b86e12" stroke-width="1.6"/><path d="M84,80 L94.8,72.44 L94.8,96.44 L84,104 Z" fill="#f2d9a8" stroke="#b86e12" stroke-width="1.6"/>
+  <text class="sv-h" x="72.0" y="122" text-anchor="middle">1 cm cube</text>
+  <text class="sv-s" x="72.0" y="138" text-anchor="middle">SA = 6 × 1² = 6 cm²</text>
+  <text class="sv-s" x="72.0" y="152" text-anchor="middle">V = 1³ = 1 cm³</text>
+  <text class="sv-r" x="72.0" y="168" text-anchor="middle">SA : V = 6 : 1</text>
+  <rect x="220" y="56" width="48" height="48" fill="#fdecc8" stroke="#b86e12" stroke-width="1.6"/><path d="M220,56 L241.6,40.88 L289.6,40.88 L268,56 Z" fill="#fbf3e2" stroke="#b86e12" stroke-width="1.6"/><path d="M268,56 L289.6,40.88 L289.6,88.88 L268,104 Z" fill="#f2d9a8" stroke="#b86e12" stroke-width="1.6"/>
+  <text class="sv-h" x="244.0" y="122" text-anchor="middle">2 cm cube</text>
+  <text class="sv-s" x="244.0" y="138" text-anchor="middle">SA = 6 × 2² = 24 cm²</text>
+  <text class="sv-s" x="244.0" y="152" text-anchor="middle">V = 2³ = 8 cm³</text>
+  <text class="sv-r" x="244.0" y="168" text-anchor="middle">SA : V = 3 : 1</text>
+  <rect x="410" y="32" width="72" height="72" fill="#fdecc8" stroke="#b86e12" stroke-width="1.6"/><path d="M410,32 L442.4,9.320000000000004 L514.4,9.320000000000004 L482,32 Z" fill="#fbf3e2" stroke="#b86e12" stroke-width="1.6"/><path d="M482,32 L514.4,9.320000000000004 L514.4,81.32000000000001 L482,104 Z" fill="#f2d9a8" stroke="#b86e12" stroke-width="1.6"/>
+  <text class="sv-h" x="446.0" y="122" text-anchor="middle">3 cm cube</text>
+  <text class="sv-s" x="446.0" y="138" text-anchor="middle">SA = 6 × 3² = 54 cm²</text>
+  <text class="sv-s" x="446.0" y="152" text-anchor="middle">V = 3³ = 27 cm³</text>
+  <text class="sv-r" x="446.0" y="168" text-anchor="middle">SA : V = 2 : 1</text>
+  <text class="sv-k" x="600" y="50">larger object</text><text class="sv-k" x="600" y="66">→ smaller SA : V</text><text class="sv-s" x="600" y="86">less surface for each unit of</text><text class="sv-s" x="600" y="100">volume, so the centre is</text><text class="sv-s" x="600" y="114">supplied more slowly</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" role="img"
+     aria-label="Stages of new product development: idea generation, screening, development and testing, test marketing, launch; many ideas start, few are launched">
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- many ideas, few launched -->
+    <text x="10" y="14" font-size="12.5" font-weight="700" fill="#6b7a88">many ideas</text>
+    <text x="790" y="14" font-size="12.5" font-weight="700" fill="#6b7a88" text-anchor="end">few are launched</text>
+    <polygon points="10,22 790,31 790,35 10,44" fill="#cfe4dd"/>
+
+    <!-- stage chevrons -->
+    <g font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">
+      <polygon points="10,56 150,56 168,80 150,104 10,104" fill="#0f7b6c"/>
+      <text x="86" y="85">Idea generation</text>
+      <polygon points="166,56 306,56 324,80 306,104 166,104 184,80" fill="#0f7b6c"/>
+      <text x="245" y="85">Screening</text>
+      <polygon points="322,56 462,56 480,80 462,104 322,104 340,80" fill="#0f7b6c"/>
+      <text x="401" y="85">Development</text>
+      <polygon points="478,56 618,56 636,80 618,104 478,104 496,80" fill="#0f7b6c"/>
+      <text x="557" y="85">Test marketing</text>
+      <polygon points="634,56 790,56 790,104 634,104 652,80" fill="#16283c"/>
+      <text x="716" y="85">Launch</text>
+    </g>
+
+    <!-- what happens at each stage -->
+    <g font-size="12.5">
+      <text x="14" y="128">ideas from market</text>
+      <text x="14" y="145">research, staff,</text>
+      <text x="14" y="162">customers, rivals</text>
+      <text x="14" y="179">and R&amp;D</text>
+
+      <text x="186" y="128">weak ideas rejected:</text>
+      <text x="186" y="145">is there demand? can</text>
+      <text x="186" y="162">it be made and sold</text>
+      <text x="186" y="179">at a profit?</text>
+
+      <text x="342" y="128">a prototype is made</text>
+      <text x="342" y="145">and tested, e.g. with</text>
+      <text x="342" y="162">a focus group; design</text>
+      <text x="342" y="179">improved</text>
+
+      <text x="498" y="128">sold in one small</text>
+      <text x="498" y="145">area to check real</text>
+      <text x="498" y="162">demand before the</text>
+      <text x="498" y="179">full launch</text>
+
+      <text x="654" y="128">full-scale production,</text>
+      <text x="654" y="145">distribution and</text>
+      <text x="654" y="162">promotion begin</text>
+    </g>
+  </g>
+</svg>

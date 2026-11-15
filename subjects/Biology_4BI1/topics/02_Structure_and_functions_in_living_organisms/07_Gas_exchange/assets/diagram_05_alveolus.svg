@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 236" width="760" height="236" role="img" aria-label="An alveolus with a blood capillary wrapped around it. Oxygen diffuses from the air in the alveolus into the blood; carbon dioxide diffuses from the blood into the alveolus. The alveolus wall and capillary wall are each one cell thick, the lining is moist, there are millions of alveoli and a dense capillary network, and breathing and blood flow keep the concentration gradients steep.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .al-l { font-size: 12.5px; font-weight: 700; }
+    .al-s { font-size: 11.5px; fill: #33475b; }
+    .al-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- bronchiole -->
+  <path d="M168,6 L168,40 M196,6 L196,40" stroke="#c9776b" stroke-width="2"/>
+  <text class="al-s" x="206" y="18">air in and out</text>
+  <!-- alveolus -->
+  <circle cx="182" cy="116" r="80" fill="#eef5fb" stroke="#c9776b" stroke-width="3"/>
+  <path d="M168,38 L196,38" stroke="#eef5fb" stroke-width="5"/>
+  <circle cx="182" cy="116" r="75" fill="none" stroke="#9ecbe8" stroke-width="3" stroke-dasharray="1 0"/>
+  <text class="al-l" x="160" y="108" text-anchor="middle">air in</text>
+  <text class="al-l" x="160" y="124" text-anchor="middle">alveolus</text>
+  <!-- capillary around right/bottom -->
+  <path d="M40,210 C120,226 250,222 280,160 C300,118 300,70 278,40" fill="none" stroke="#c0392b" stroke-width="24" stroke-linecap="round" opacity="0.9"/>
+  <path d="M40,210 C120,226 250,222 280,160 C300,118 300,70 278,40" fill="none" stroke="#e8908a" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#c0392b"><ellipse cx="90" cy="218" rx="7" ry="4"/><ellipse cx="160" cy="221" rx="7" ry="4"/><ellipse cx="236" cy="206" rx="7" ry="4"/><ellipse cx="282" cy="150" rx="4" ry="7"/><ellipse cx="290" cy="96" rx="4" ry="7"/></g>
+  <!-- gas arrows -->
+  <path d="M218,150 L244,172" stroke="#0f7b6c" stroke-width="3"/><path d="M250,178 l-11,-3 l6,-8z" fill="#0f7b6c"/>
+  <text class="al-l" x="210" y="146" text-anchor="end" style="fill:#0b5f54">O₂</text>
+  <path d="M272,104 L236,96" stroke="#4c3fa8" stroke-width="3"/><path d="M228,94 l10,-5 l0,10z" fill="#4c3fa8"/>
+  <text class="al-l" x="224" y="88" text-anchor="end" style="fill:#4c3fa8">CO₂</text>
+  <text class="al-s" x="4" y="172">blood from</text>
+  <text class="al-s" x="4" y="186">pulmonary artery</text>
+  <text class="al-s" x="304" y="30">blood to</text><text class="al-s" x="304" y="44">pulmonary vein</text>
+
+  <!-- adaptation labels -->
+  <line x1="420" y1="8" x2="420" y2="230" stroke="#dfe5ea" stroke-width="1.4"/>
+  <text class="al-l" x="436" y="24">Millions of alveoli</text>
+  <text class="al-s" x="436" y="38">very large surface area</text>
+  <text class="al-l" x="436" y="64">Walls one cell thick (alveolus and capillary)</text>
+  <text class="al-s" x="436" y="78">short diffusion distance</text>
+  <text class="al-l" x="436" y="104">Moist lining</text>
+  <text class="al-s" x="436" y="118">gases dissolve before diffusing across</text>
+  <text class="al-l" x="436" y="144">Dense capillary network</text>
+  <text class="al-s" x="436" y="158">blood flow carries O₂ away and brings CO₂</text>
+  <text class="al-l" x="436" y="184">Ventilation</text>
+  <text class="al-s" x="436" y="198">fresh air keeps O₂ high, CO₂ low in the alveoli</text>
+  <text class="al-s" x="436" y="220">→ both keep the concentration gradients steep</text>
+</svg>

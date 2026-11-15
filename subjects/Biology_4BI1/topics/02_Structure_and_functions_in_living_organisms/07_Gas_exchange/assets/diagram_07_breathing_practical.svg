@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 236" width="760" height="236" role="img" aria-label="Breathing in draws air through limewater in tube A, which stays clear for longer; breathing out bubbles exhaled air through limewater in tube B, which turns cloudy quickly, showing exhaled air contains more carbon dioxide. Graph of breathing rate against time: steady at rest, rises during exercise, and stays high for a while after exercise before returning to the resting rate.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .bp-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .bp-l { font-size: 12px; font-weight: 700; }
+    .bp-s { font-size: 11.5px; fill: #33475b; }
+    .bp-g { fill: none; stroke: #33475b; stroke-width: 2.4; }
+  </style>
+  <text class="bp-t" x="6" y="16">A  CARBON DIOXIDE IN INHALED AND EXHALED AIR</text>
+  <text class="bp-t" x="440" y="16">B  EFFECT OF EXERCISE</text>
+  <line x1="426" y1="6" x2="426" y2="230" stroke="#dfe5ea" stroke-width="1.4"/>
+  <!-- tubes -->
+  <path d="M80,70 L80,170 A20,20 0 0 0 120,170 L120,70" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M81,110 L81,170 A19,19 0 0 0 119,170 L119,110 Z" fill="#eef6fa"/>
+  <path d="M280,70 L280,170 A20,20 0 0 0 320,170 L320,70" fill="#ffffff" stroke="#33475b" stroke-width="1.8"/>
+  <path d="M281,110 L281,170 A19,19 0 0 0 319,170 L319,110 Z" fill="#dcdcd4"/>
+  <rect x="76" y="62" width="48" height="12" rx="3" fill="#6b7a88"/><rect x="276" y="62" width="48" height="12" rx="3" fill="#6b7a88"/>
+  <!-- glass tubes -->
+  <path class="bp-g" d="M92,62 L92,30 L186,30"/><path class="bp-g" d="M112,44 L112,160"/><text class="bp-s" x="118" y="48">air in</text>
+  <path class="bp-g" d="M288,160 L288,30 L214,30"/><path class="bp-g" d="M308,62 L308,44"/><text class="bp-s" x="314" y="48">air out</text>
+  <path class="bp-g" d="M186,30 L214,30 M200,30 L200,52"/>
+  <rect x="190" y="50" width="20" height="14" rx="4" fill="#e3c089" stroke="#9a6b2c"/>
+  <text class="bp-l" x="200" y="82" text-anchor="middle">mouthpiece</text>
+  <path d="M108,64 L108,44 M292,74 L292,40" stroke="none"/>
+  <g fill="#ffffff" stroke="#6b7a88" stroke-width="0.8"><circle cx="288" cy="150" r="3"/><circle cx="291" cy="136" r="3"/><circle cx="287" cy="124" r="2.5"/><circle cx="112" cy="150" r="3"/><circle cx="115" cy="136" r="3"/></g>
+  <text class="bp-l" x="100" y="206" text-anchor="middle">A: breathe in</text>
+  <text class="bp-s" x="100" y="220" text-anchor="middle">air drawn through limewater</text>
+  <text class="bp-s" x="100" y="234" text-anchor="middle">stays clear longer</text>
+  <text class="bp-l" x="300" y="206" text-anchor="middle">B: breathe out</text>
+  <text class="bp-s" x="300" y="220" text-anchor="middle">exhaled air bubbles through</text>
+  <text class="bp-s" x="300" y="234" text-anchor="middle">turns cloudy quickly — more CO₂</text>
+  <text class="bp-s" x="134" y="150">limewater</text>
+  <!-- graph -->
+  <path d="M470,40 L470,180 L740,180" fill="none" stroke="#16283c" stroke-width="1.5"/>
+  <rect x="540" y="40" width="80" height="140" fill="#fdf6e5"/>
+  <path d="M470,150 L540,150 C556,150 560,80 580,74 L620,72 C650,72 660,140 700,148 L740,150" fill="none" stroke="#0f7b6c" stroke-width="2.8"/>
+  <text class="bp-s" x="505" y="170" text-anchor="middle">rest</text>
+  <text class="bp-l" x="580" y="56" text-anchor="middle" style="fill:#b07a0a">exercise</text>
+  <text class="bp-s" x="690" y="62" text-anchor="middle">recovery: stays high,</text>
+  <text class="bp-s" x="690" y="76" text-anchor="middle">then falls to resting</text>
+  <text class="bp-l" x="605" y="198" text-anchor="middle">time / minutes</text>
+  <text class="bp-l" x="460" y="110" transform="rotate(-90 460 110)" text-anchor="middle">breaths per minute</text>
+</svg>

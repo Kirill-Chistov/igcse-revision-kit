@@ -1,0 +1,12 @@
+name: Portuguese
+board: Pearson Edexcel
+qualification: GCSE (9–1) Portuguese (UK GCSE, not International)
+code: "1PG0"
+aliases: [portuguese, pt]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Portuguese/2018/Specification-and-sample-assessments/specification-gcse2017-l12-portuguese-iss4.pdf
+tiers: Foundation | Higher
+centre_choices: []
+status: specification mapped, no notes yet
+spec_points: 31
+subtopics_written: 0
+topic_pdfs: 0

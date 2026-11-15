@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 284" font-family="Carlito, Calibri, sans-serif">
+  <g stroke="#6b7a88" stroke-width="1.4">
+    <line x1="240" y1="46" x2="290" y2="112"/>
+    <line x1="240" y1="141" x2="265" y2="141"/>
+    <line x1="240" y1="236" x2="290" y2="170"/>
+    <line x1="480" y1="46" x2="430" y2="112"/>
+    <line x1="480" y1="141" x2="455" y2="141"/>
+    <line x1="480" y1="236" x2="430" y2="170"/>
+  </g>
+  <rect x="265" y="100" width="190" height="82" rx="9" fill="#16283c"/>
+  <g text-anchor="middle" fill="#ffffff">
+    <text x="360" y="127" font-size="16" font-weight="700">Where to locate?</text>
+    <text x="360" y="148" font-size="12">weighed up according to</text>
+    <text x="360" y="164" font-size="12">the nature of the activity</text>
+  </g>
+  <g font-size="12.5" fill="#33475b">
+    <rect x="10" y="10" width="230" height="72" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="22" y="32" font-weight="700" fill="#16283c">Proximity to market</text>
+    <text x="22" y="52">cuts delivery costs; easy for</text>
+    <text x="22" y="69">customers to reach (shops)</text>
+
+    <rect x="10" y="105" width="230" height="72" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="22" y="127" font-weight="700" fill="#16283c">Proximity to labour</text>
+    <text x="22" y="147">enough workers with the right</text>
+    <text x="22" y="164">skills, at wages it can afford</text>
+
+    <rect x="10" y="200" width="230" height="72" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="22" y="222" font-weight="700" fill="#16283c">Proximity to materials</text>
+    <text x="22" y="242">cuts the cost of transporting</text>
+    <text x="22" y="259">heavy or bulky raw materials</text>
+
+    <rect x="480" y="10" width="230" height="72" rx="7" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="492" y="32" font-weight="700" fill="#16283c">Proximity to competitors</text>
+    <text x="492" y="52">can attract customers or</text>
+    <text x="492" y="69">take them (see below)</text>
+
+    <rect x="480" y="105" width="230" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="492" y="127" font-weight="700" fill="#16283c">The internet</text>
+    <text x="492" y="147">e-commerce and/or fixed</text>
+    <text x="492" y="164">premises (§3)</text>
+
+    <rect x="480" y="200" width="230" height="72" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.4"/>
+    <text x="492" y="222" font-weight="700" fill="#16283c">Legal controls and trade blocs</text>
+    <text x="492" y="242">planning permission;</text>
+    <text x="492" y="259">trade blocs (§4)</text>
+  </g>
+</svg>

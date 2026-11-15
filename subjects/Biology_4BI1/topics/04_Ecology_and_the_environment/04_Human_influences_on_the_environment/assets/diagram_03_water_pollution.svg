@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262" role="img" aria-label="Eutrophication and sewage pollution. Fertiliser on fields is leached by rain, carrying nitrate and phosphate ions into rivers and lakes. Untreated sewage also adds mineral ions, as well as organic matter and pathogens. Extra mineral ions cause an algal bloom. The algae block light, so plants below cannot photosynthesise and die. Decomposer bacteria multiply, feeding on the dead plants and algae and on the organic matter in sewage, and respire aerobically, using up dissolved oxygen. Fish and other aerobic animals die from lack of oxygen. Pathogens in sewage spread diseases such as cholera.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .wp-h { font-size: 13px; font-weight: 700; }
+    .wp-b { font-size: 12.5px; font-weight: 700; }
+    .wp-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <defs>
+    <marker id="wp-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+    <marker id="wp-o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c46a12"/></marker>
+    <marker id="wp-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7a5a3a"/></marker>
+    <marker id="wp-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b8433a"/></marker>
+  </defs>
+  <rect x="6" y="6" width="220" height="50" rx="7" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.5"/>
+  <text class="wp-b" x="116.0" y="20.5" text-anchor="middle">Fertiliser on fields</text>
+  <text class="wp-s" x="116.0" y="35.0" text-anchor="middle">rain leaches nitrate and phosphate</text>
+  <text class="wp-s" x="116.0" y="49.5" text-anchor="middle">ions into rivers and lakes</text>
+  <rect x="290" y="6" width="210" height="50" rx="7" fill="#f1ebe3" stroke="#7a5a3a" stroke-width="1.5"/>
+  <text class="wp-b" x="395.0" y="20.5" text-anchor="middle">Untreated sewage</text>
+  <text class="wp-s" x="395.0" y="35.0" text-anchor="middle">organic matter · mineral ions</text>
+  <text class="wp-s" x="395.0" y="49.5" text-anchor="middle">· pathogens</text>
+  <rect x="560" y="6" width="194" height="50" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="wp-b" x="657.0" y="27.8" text-anchor="middle">Pathogens spread disease</text>
+  <text class="wp-s" x="657.0" y="42.2" text-anchor="middle">e.g. cholera, typhoid</text>
+  <rect x="6" y="92" width="220" height="54" rx="7" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.5"/>
+  <text class="wp-b" x="116.0" y="115.8" text-anchor="middle">Extra mineral ions in water</text>
+  <text class="wp-s" x="116.0" y="130.2" text-anchor="middle">nitrates, phosphates</text>
+  <rect x="266" y="92" width="220" height="54" rx="7" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.5"/>
+  <text class="wp-b" x="376.0" y="115.8" text-anchor="middle">Algal bloom</text>
+  <text class="wp-s" x="376.0" y="130.2" text-anchor="middle">algae grow rapidly on the surface</text>
+  <rect x="526" y="92" width="198" height="54" rx="7" fill="#edf5e8" stroke="#4f8a3a" stroke-width="1.5"/>
+  <text class="wp-b" x="625.0" y="108.5" text-anchor="middle">Algae block light</text>
+  <text class="wp-s" x="625.0" y="123.0" text-anchor="middle">plants below cannot</text>
+  <text class="wp-s" x="625.0" y="137.5" text-anchor="middle">photosynthesise → die</text>
+  <rect x="526" y="184" width="228" height="68" rx="7" fill="#f1ebe3" stroke="#7a5a3a" stroke-width="1.5"/>
+  <text class="wp-b" x="640.0" y="207.5" text-anchor="middle">Decomposer bacteria multiply</text>
+  <text class="wp-s" x="640.0" y="222.0" text-anchor="middle">feed on dead plants and algae</text>
+  <text class="wp-s" x="640.0" y="236.5" text-anchor="middle">(and sewage); respire aerobically</text>
+  <rect x="266" y="184" width="220" height="68" rx="7" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.5"/>
+  <text class="wp-b" x="376.0" y="214.8" text-anchor="middle">Dissolved oxygen falls</text>
+  <text class="wp-s" x="376.0" y="229.2" text-anchor="middle">bacteria use up the oxygen</text>
+  <rect x="6" y="184" width="220" height="68" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="wp-b" x="116.0" y="207.5" text-anchor="middle">Fish and other aerobic</text>
+  <text class="wp-s" x="116.0" y="222.0" text-anchor="middle">animals die</text>
+  <text class="wp-s" x="116.0" y="236.5" text-anchor="middle">(lack of oxygen)</text>
+  <path d="M116,56 L116,88" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M300,56 L210,90" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M500,31 L556,31" fill="none" stroke="#b8433a" stroke-width="2.4" marker-end="url(#wp-r)"/>
+  <path d="M470,56 L470,72 L745,72 L745,180" fill="none" stroke="#7a5a3a" stroke-width="2.2" stroke-dasharray="5 3" marker-end="url(#wp-b)"/>
+  <text class="wp-s" x="580" y="68" style="fill:#7a5a3a">organic matter</text>
+  <path d="M226,119 L262,119" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M486,119 L522,119" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M640,146 L640,180" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M526,218 L490,218" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <path d="M266,218 L230,218" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#wp-g)"/>
+  <text class="wp-h" x="6" y="78" style="fill:#0f7b6c">EUTROPHICATION</text>
+</svg>

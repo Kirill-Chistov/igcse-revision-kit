@@ -1,0 +1,25 @@
+# ── Personal: never commit ─────────────────────────────────────────────
+/me/
+
+# ── Exam-board and publisher files: download locally, never commit ─────
+subjects/*/Specification.pdf
+subjects/*/official_syllabus_update.pdf
+**/Past_Papers/
+**/past_papers/
+*.mp3
+*.m4a
+
+# ── Build output ───────────────────────────────────────────────────────
+tools/tracker/dist/
+*.html.tmp
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── OS / editor ────────────────────────────────────────────────────────
+.DS_Store
+Icon?
+Thumbs.db
+.idea/
+.vscode/

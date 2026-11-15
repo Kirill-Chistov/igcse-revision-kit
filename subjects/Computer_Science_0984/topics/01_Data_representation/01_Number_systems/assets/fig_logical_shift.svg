@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 222" width="660" height="222" role="img" aria-label="Logical left shift of 00010110 to 01011000 and logical right shift of 10110100 to 00101101" font-family="Carlito, Calibri, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<text x="20" y="20" font-size="14" fill="#0f766e" text-anchor="start" font-weight="bold" >Logical left shift, 2 places</text>
+<rect x="40" y="34" width="28" height="32" rx="0" fill="#fdeded" stroke="#16283c" stroke-width="1.2" />
+<text x="54.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="68" y="34" width="28" height="32" rx="0" fill="#fdeded" stroke="#16283c" stroke-width="1.2" />
+<text x="82.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="96" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="110.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="124" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="138.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="152" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="166.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="180" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="194.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="208" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="222.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="236" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="250.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="392" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="406.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="420" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="434.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="448" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="462.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="476" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="490.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="504" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="518.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="532" y="34" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="546.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="560" y="34" width="28" height="32" rx="0" fill="#e7f3ef" stroke="#16283c" stroke-width="1.2" />
+<text x="574.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="588" y="34" width="28" height="32" rx="0" fill="#e7f3ef" stroke="#16283c" stroke-width="1.2" />
+<text x="602.0" y="56.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<text x="68.0" y="84" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="bold" >lost</text>
+<text x="588.0" y="84" font-size="12" fill="#0f766e" text-anchor="middle" font-weight="bold" >0s in</text>
+<text x="152" y="104" font-size="14" fill="#6b7a88" text-anchor="middle" font-weight="normal" >22</text>
+<text x="504" y="104" font-size="14" fill="#6b7a88" text-anchor="middle" font-weight="normal" >88</text>
+<line x1="278" y1="50" x2="378" y2="50" stroke="#16283c" stroke-width="1.8" marker-end="url(#ar)" />
+<text x="328.0" y="42" font-size="13" fill="#16283c" text-anchor="middle" font-weight="bold" >left 2 → × 4</text>
+<text x="20" y="126" font-size="14" fill="#0f766e" text-anchor="start" font-weight="bold" >Logical right shift, 2 places</text>
+<rect x="40" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="54.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="68" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="82.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="96" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="110.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="124" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="138.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="152" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="166.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="180" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="194.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="208" y="140" width="28" height="32" rx="0" fill="#fdeded" stroke="#16283c" stroke-width="1.2" />
+<text x="222.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="236" y="140" width="28" height="32" rx="0" fill="#fdeded" stroke="#16283c" stroke-width="1.2" />
+<text x="250.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="392" y="140" width="28" height="32" rx="0" fill="#e7f3ef" stroke="#16283c" stroke-width="1.2" />
+<text x="406.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="420" y="140" width="28" height="32" rx="0" fill="#e7f3ef" stroke="#16283c" stroke-width="1.2" />
+<text x="434.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="448" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="462.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="476" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="490.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="504" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="518.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="532" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="546.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<rect x="560" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="574.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >0</text>
+<rect x="588" y="140" width="28" height="32" rx="0" fill="#fff" stroke="#16283c" stroke-width="1.2" />
+<text x="602.0" y="162.0" font-size="17" fill="#16283c" text-anchor="middle" font-weight="bold" >1</text>
+<text x="236.0" y="190" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="bold" >lost</text>
+<text x="420.0" y="190" font-size="12" fill="#0f766e" text-anchor="middle" font-weight="bold" >0s in</text>
+<text x="152" y="210" font-size="14" fill="#6b7a88" text-anchor="middle" font-weight="normal" >180</text>
+<text x="504" y="210" font-size="14" fill="#6b7a88" text-anchor="middle" font-weight="normal" >45</text>
+<line x1="278" y1="156" x2="378" y2="156" stroke="#16283c" stroke-width="1.8" marker-end="url(#ar)" />
+<text x="328.0" y="148" font-size="13" fill="#16283c" text-anchor="middle" font-weight="bold" >right 2 → ÷ 4</text>
+</svg>

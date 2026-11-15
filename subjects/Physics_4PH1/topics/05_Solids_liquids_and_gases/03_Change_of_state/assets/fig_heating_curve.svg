@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 322" width="820" height="322" role="img" aria-label="Apparatus: crushed ice in a beaker with a thermometer and stirrer, heated by a Bunsen burner. Temperature-time graph: rises, flat at 0 degrees C while melting, rises, flat at 100 degrees C while boiling">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker>
+<marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker>
+<marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker>
+<marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4c3fa8"/></marker>
+<marker id="ahm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b7a88"/></marker>
+<pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#f6efe0"/><line x1="0" y1="0" x2="0" y2="7" stroke="#d99a17" stroke-width="1.6"/></pattern>
+</defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="70.0" y="150.0" width="110.0" height="72.0" rx="0" fill="#d8eaf6" stroke="none" stroke-width="0"/>
+<rect x="96.9" y="184.5" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-7 101.9 189.0)"/>
+<rect x="129.1" y="189.0" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-22 134.1 193.5)"/>
+<rect x="77.2" y="200.9" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-12 82.2 205.4)"/>
+<rect x="96.6" y="209.8" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-1 101.6 214.3)"/>
+<rect x="149.6" y="180.7" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(7 154.6 185.2)"/>
+<rect x="89.3" y="189.6" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(18 94.3 194.1)"/>
+<rect x="122.0" y="195.5" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(9 127.0 200.0)"/>
+<rect x="81.6" y="196.5" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(5 86.6 201.0)"/>
+<rect x="102.5" y="155.7" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(18 107.5 160.2)"/>
+<rect x="117.6" y="194.3" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(19 122.6 198.8)"/>
+<rect x="138.8" y="205.6" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-5 143.8 210.1)"/>
+<rect x="146.5" y="178.9" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(22 151.5 183.4)"/>
+<rect x="153.3" y="159.5" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-18 158.3 164.0)"/>
+<rect x="95.1" y="208.1" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-3 100.1 212.6)"/>
+<rect x="131.1" y="170.9" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(0 136.1 175.4)"/>
+<rect x="110.0" y="173.7" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(4 115.0 178.2)"/>
+<rect x="127.4" y="204.6" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(9 132.4 209.1)"/>
+<rect x="157.7" y="202.0" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(25 162.7 206.5)"/>
+<rect x="135.1" y="163.1" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(18 140.1 167.6)"/>
+<rect x="160.9" y="204.7" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(3 165.9 209.2)"/>
+<rect x="138.8" y="165.8" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(17 143.8 170.3)"/>
+<rect x="126.5" y="170.0" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-22 131.5 174.5)"/>
+<rect x="151.1" y="209.4" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-21 156.1 213.9)"/>
+<rect x="146.5" y="177.0" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-17 151.5 181.5)"/>
+<rect x="101.9" y="197.1" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(19 106.9 201.6)"/>
+<rect x="79.9" y="188.4" width="10" height="9" rx="1.5" fill="#f4f9fc" stroke="#7fa9c9" stroke-width="1" transform="rotate(-23 84.9 192.9)"/>
+<path d="M64 128 L70 132 L70 222 L180 222 L180 128" fill="none" stroke="#16283c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="92.0" y1="66.0" x2="104.0" y2="214.0" stroke="#8a97a3" stroke-width="4" stroke-linecap="round"/>
+<rect x="121.0" y="40.0" width="9.0" height="170.0" rx="4.5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+<line x1="125.5" y1="150.0" x2="125.5" y2="206.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="125.5" cy="211.0" r="6.5" fill="#c0392b" stroke="#16283c" stroke-width="1.2"/>
+<rect x="48.0" y="222.0" width="154.0" height="5.0" rx="0" fill="url(#hatch)" stroke="#16283c" stroke-width="1"/>
+<line x1="62.0" y1="227.0" x2="50.0" y2="300.0" stroke="#16283c" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="188.0" y1="227.0" x2="200.0" y2="300.0" stroke="#16283c" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M117 258 Q116 246 125 232 Q134 246 133 258 Z" fill="#fbe3b0" stroke="#d99a17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="117.0" y="258.0" width="16.0" height="36.0" rx="0" fill="#c9d3dc" stroke="#16283c" stroke-width="1.3"/>
+<rect x="103.0" y="294.0" width="44.0" height="7.0" rx="2" fill="#c9d3dc" stroke="#16283c" stroke-width="1.3"/>
+<text x="137.0" y="50.0" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">thermometer</text>
+<text x="86.0" y="62.0" font-size="13" fill="#33475b" text-anchor="end" font-weight="400">stirrer</text>
+<line x1="184.0" y1="184.0" x2="198.0" y2="184.0" stroke="#6b7a88" stroke-width="1" stroke-linecap="round"/>
+<text x="202.0" y="180.0" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">crushed</text>
+<text x="202.0" y="195.0" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">ice</text>
+<text x="140.0" y="250.0" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">heat</text>
+<text x="135.0" y="318.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">read the temperature every 30 s</text>
+<line x1="330.0" y1="290.0" x2="806.0" y2="290.0" stroke="#16283c" stroke-width="1.8" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="330.0" y1="290.0" x2="330.0" y2="28.0" stroke="#16283c" stroke-width="1.8" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="806.0" y="308.0" font-size="13" fill="#33475b" text-anchor="end" font-weight="400">time</text>
+<text x="312.0" y="160.0" font-size="13" fill="#33475b" text-anchor="middle" font-weight="400" transform="rotate(-90 312 160)">temperature / °C</text>
+<line x1="330.0" y1="240.0" x2="385.0" y2="240.0" stroke="#6b7a88" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="330.0" y1="90.0" x2="655.0" y2="90.0" stroke="#6b7a88" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="324.0" y="244.0" font-size="13" fill="#33475b" text-anchor="end" font-weight="400">0</text>
+<text x="324.0" y="94.0" font-size="13" fill="#33475b" text-anchor="end" font-weight="400">100</text>
+<path d="M336.0 262.5 L385.0 240.0 L505.0 240.0 L655.0 90.0 L795.0 90.0" fill="none" stroke="#16283c" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="445.0" y="231.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">melting: ice + water</text>
+<text x="725.0" y="110.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">boiling: water + steam</text>
+<text x="394.0" y="268.5" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">ice warms up</text>
+<text x="592.0" y="180.0" font-size="13" fill="#33475b" text-anchor="start" font-weight="400">water warms up</text>
+</g>
+</svg>

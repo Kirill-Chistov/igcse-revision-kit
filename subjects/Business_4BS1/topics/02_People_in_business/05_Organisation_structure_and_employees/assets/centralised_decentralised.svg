@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 170" font-family="Carlito, Calibri, sans-serif">
+<defs>
+<marker id="cd-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16283c"/></marker>
+</defs>
+<style>
+.cd-tt{font-size:15px;font-weight:700;fill:#16283c;text-anchor:middle}
+.cd-ho{fill:#0f7b6c;stroke:#0b5f54;stroke-width:1.5}
+.cd-hol{fill:#e7f3ef;stroke:#0f7b6c;stroke-width:1.5}
+.cd-br{fill:#f4f6f8;stroke:#6b7a88;stroke-width:1.4}
+.cd-brd{fill:#fdf6e5;stroke:#d99a17;stroke-width:1.6}
+.cd-w{font-size:13px;font-weight:700;fill:#ffffff;text-anchor:middle}
+.cd-k{font-size:13px;font-weight:700;fill:#16283c;text-anchor:middle}
+.cd-s{font-size:11.5px;fill:#33475b;text-anchor:middle}
+.cd-ar{stroke:#16283c;stroke-width:1.6;fill:none}
+.cd-cap{font-size:12.5px;fill:#16283c;text-anchor:middle}
+</style>
+<!-- centralised -->
+<text class="cd-tt" x="180" y="18">Centralised</text>
+<rect class="cd-ho" x="100" y="30" width="160" height="40" rx="5"/>
+<text class="cd-w" x="180" y="48">Head office</text>
+<text x="180" y="63" font-size="11.5" fill="#ffffff" text-anchor="middle">makes the decisions</text>
+<path class="cd-ar" d="M140,72 L60,108" marker-end="url(#cd-arr)"/>
+<path class="cd-ar" d="M180,72 V108" marker-end="url(#cd-arr)"/>
+<path class="cd-ar" d="M220,72 L300,108" marker-end="url(#cd-arr)"/>
+<rect class="cd-br" x="15" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="65" y="132">Branch</text>
+<rect class="cd-br" x="130" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="180" y="132">Branch</text>
+<rect class="cd-br" x="245" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="295" y="132">Branch</text>
+<text class="cd-cap" x="180" y="164">branches follow instructions from the top</text>
+<line x1="360" y1="10" x2="360" y2="166" stroke="#dfe5ea" stroke-width="1.2"/>
+<!-- decentralised -->
+<text class="cd-tt" x="540" y="18">Decentralised</text>
+<rect class="cd-hol" x="460" y="30" width="160" height="40" rx="5"/>
+<text class="cd-k" x="540" y="48">Head office</text>
+<text class="cd-s" x="540" y="63">sets overall aims</text>
+<path class="cd-ar" d="M500,72 L420,108" marker-end="url(#cd-arr)" stroke-dasharray="5 3"/>
+<path class="cd-ar" d="M540,72 V108" marker-end="url(#cd-arr)" stroke-dasharray="5 3"/>
+<path class="cd-ar" d="M580,72 L660,108" marker-end="url(#cd-arr)" stroke-dasharray="5 3"/>
+<text x="500" y="90" font-size="11.5" font-style="italic" fill="#33475b" text-anchor="middle">authority</text><text x="500" y="102" font-size="11.5" font-style="italic" fill="#33475b" text-anchor="middle">delegated</text>
+<rect class="cd-brd" x="375" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="425" y="126">Branch</text><text class="cd-s" x="425" y="140">decides locally</text>
+<rect class="cd-brd" x="490" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="540" y="126">Branch</text><text class="cd-s" x="540" y="140">decides locally</text>
+<rect class="cd-brd" x="605" y="112" width="100" height="32" rx="5"/><text class="cd-k" x="655" y="126">Branch</text><text class="cd-s" x="655" y="140">decides locally</text>
+<text class="cd-cap" x="540" y="164">local managers make many decisions themselves</text>
+</svg>

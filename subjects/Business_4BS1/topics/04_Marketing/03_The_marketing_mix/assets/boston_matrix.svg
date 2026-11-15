@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img"
+     aria-label="Boston matrix: market share against market growth giving stars, question marks, cash cows and dogs; cash from cash cows funds stars and question marks">
+  <defs>
+    <marker id="bm-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1e8449"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- cells -->
+    <rect x="110" y="16" width="340" height="124" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.6"/>
+    <rect x="450" y="16" width="340" height="124" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.6"/>
+    <rect x="110" y="140" width="340" height="124" fill="#eaf7ef" stroke="#1e8449" stroke-width="1.6"/>
+    <rect x="450" y="140" width="340" height="124" fill="#fdeded" stroke="#c0392b" stroke-width="1.6"/>
+
+    <g font-size="13">
+      <text x="124" y="44" font-size="18" font-weight="700" fill="#0b5f54">Star</text>
+      <text x="124" y="64" font-style="italic" fill="#6b7a88">high market share · high market growth</text>
+      <text x="124" y="88">sales growing fast and profitable, but</text>
+      <text x="124" y="106">needs heavy promotion to keep up with</text>
+      <text x="124" y="124">the growing market → invest</text>
+
+      <text x="540" y="44" font-size="18" font-weight="700" fill="#a5720c">Question mark</text>
+      <text x="540" y="64" font-style="italic" fill="#6b7a88">low share · high growth</text>
+      <text x="540" y="88">uncertain future; needs heavy</text>
+      <text x="540" y="106">investment to win market share</text>
+      <text x="540" y="124">→ invest in the best, drop the rest</text>
+
+      <text x="124" y="168" font-size="18" font-weight="700" fill="#1e8449">Cash cow</text>
+      <text x="124" y="188" font-style="italic" fill="#6b7a88">high market share · low market growth</text>
+      <text x="124" y="212">high profit with little promotion</text>
+      <text x="124" y="230">→ “milk” it: use its cash to</text>
+      <text x="124" y="248">fund other products</text>
+
+      <text x="540" y="168" font-size="18" font-weight="700" fill="#c0392b">Dog</text>
+      <text x="540" y="188" font-style="italic" fill="#6b7a88">low share · low growth</text>
+      <text x="540" y="212">low sales and profit</text>
+      <text x="540" y="230">→ withdraw or sell off, unless</text>
+      <text x="540" y="248">it still makes a profit</text>
+    </g>
+
+    <!-- cash flows from the cash cow -->
+    <line x1="420" y1="240" x2="420" y2="84" stroke="#1e8449" stroke-width="3" marker-end="url(#bm-arr)"/>
+    <line x1="428" y1="236" x2="522" y2="76" stroke="#1e8449" stroke-width="3" marker-end="url(#bm-arr)"/>
+    <text x="408" y="258" font-size="13" font-weight="700" fill="#1e8449" text-anchor="end">cash</text>
+
+    <!-- axes -->
+    <text x="102" y="30" font-size="12.5" font-weight="700" fill="#16283c" text-anchor="end">High</text>
+    <text x="102" y="262" font-size="12.5" font-weight="700" fill="#16283c" text-anchor="end">Low</text>
+    <text x="60" y="140" font-size="14" font-weight="700" fill="#16283c" text-anchor="middle" transform="rotate(-90 60 140)">Market growth</text>
+    <text x="110" y="284" font-size="12.5" font-weight="700" fill="#16283c">High</text>
+    <text x="790" y="284" font-size="12.5" font-weight="700" fill="#16283c" text-anchor="end">Low</text>
+    <text x="450" y="288" font-size="14" font-weight="700" fill="#16283c" text-anchor="middle">Market share</text>
+  </g>
+</svg>

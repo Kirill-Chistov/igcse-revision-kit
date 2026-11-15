@@ -1,0 +1,13 @@
+name: Computer Science
+board: Cambridge International
+qualification: IGCSE (9–1) Computer Science
+code: "0984"
+aliases: [cs, computer science, computing]
+spec_url: https://www.cambridgeinternational.org/Images/697248-2026-2028-syllabus.pdf
+tiers: none
+centre_choices:
+  - programming language used in class (Python / Java / Visual Basic)
+status: notes for every topic
+spec_points: 96
+subtopics_written: 24
+topic_pdfs: 10

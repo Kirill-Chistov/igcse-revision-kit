@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Carlito, Calibri, sans-serif">
+<style>.tf-bx{fill:#e7f3ef;stroke:#0f7b6c;stroke-width:1.5}.tf-hl{fill:#0f7b6c;stroke:#0b5f54;stroke-width:1.5}.tf-cn{stroke:#6b7a88;stroke-width:1.3;fill:none}.tf-ch{stroke:#0f7b6c;stroke-width:3.2;fill:none}.tf-tt{font-size:15px;font-weight:700;fill:#16283c;text-anchor:middle}.tf-rl{font-size:12px;fill:#33475b;text-anchor:end}.tf-an{font-size:12px;font-weight:700}.tf-bt{font-size:11px;fill:#16283c;text-anchor:middle}.tf-sm{font-size:12.5px;fill:#16283c;text-anchor:middle}</style>
+<text class="tf-tt" x="244" y="18">Tall (hierarchical) structure</text>
+<path class="tf-cn" d="M244.0,64 V78.0 M173.0,78.0 H315.0"/>
+<path class="tf-cn" d="M173.0,78.0 V92"/>
+<path class="tf-cn" d="M315.0,78.0 V92"/>
+<path class="tf-ch" d="M244.0,64 V78.0 H173.0 V92"/>
+<path class="tf-cn" d="M173.0,116 V130.0 M137.5,130.0 H208.5"/>
+<path class="tf-cn" d="M137.5,130.0 V144"/>
+<path class="tf-cn" d="M208.5,130.0 V144"/>
+<path class="tf-cn" d="M315.0,116 V130.0 M279.5,130.0 H350.5"/>
+<path class="tf-cn" d="M279.5,130.0 V144"/>
+<path class="tf-cn" d="M350.5,130.0 V144"/>
+<path class="tf-ch" d="M173.0,116 V130.0 H137.5 V144"/>
+<path class="tf-cn" d="M137.5,168 V182.0 M119.8,182.0 H155.2"/>
+<path class="tf-cn" d="M119.8,182.0 V196"/>
+<path class="tf-cn" d="M155.2,182.0 V196"/>
+<path class="tf-cn" d="M208.5,168 V182.0 M190.8,182.0 H226.2"/>
+<path class="tf-cn" d="M190.8,182.0 V196"/>
+<path class="tf-cn" d="M226.2,182.0 V196"/>
+<path class="tf-cn" d="M279.5,168 V182.0 M261.8,182.0 H297.2"/>
+<path class="tf-cn" d="M261.8,182.0 V196"/>
+<path class="tf-cn" d="M297.2,182.0 V196"/>
+<path class="tf-cn" d="M350.5,168 V182.0 M332.8,182.0 H368.2"/>
+<path class="tf-cn" d="M332.8,182.0 V196"/>
+<path class="tf-cn" d="M368.2,182.0 V196"/>
+<path class="tf-ch" d="M137.5,168 V182.0 H119.8 V196"/>
+<rect class="tf-hl" x="196.0" y="40" width="96" height="24" rx="4"/>
+<text class="tf-rl" x="94" y="56">Director</text>
+<rect class="tf-hl" x="143.0" y="92" width="60" height="24" rx="4"/>
+<rect class="tf-bx" x="285.0" y="92" width="60" height="24" rx="4"/>
+<text class="tf-rl" x="94" y="108">Managers</text>
+<rect class="tf-hl" x="115.5" y="144" width="44" height="24" rx="4"/>
+<rect class="tf-bx" x="186.5" y="144" width="44" height="24" rx="4"/>
+<rect class="tf-bx" x="257.5" y="144" width="44" height="24" rx="4"/>
+<rect class="tf-bx" x="328.5" y="144" width="44" height="24" rx="4"/>
+<text class="tf-rl" x="94" y="160">Supervisors</text>
+<rect class="tf-hl" x="106.8" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="142.2" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="177.8" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="213.2" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="248.8" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="284.2" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="319.8" y="196" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="355.2" y="196" width="26" height="24" rx="4"/>
+<text class="tf-rl" x="94" y="212">Operatives</text>
+<text class="tf-bt" x="244.0" y="56" fill="#ffffff" style="fill:#fff">Managing director</text>
+<path d="M106.8,224 V228 H168.2 V224" fill="none" stroke="#4c3fa8" stroke-width="1.6"/>
+<text class="tf-an" x="106.8" y="243" fill="#4c3fa8">span of control = 2 (narrow)</text>
+<text class="tf-an" x="106.8" y="261" fill="#0f7b6c">chain of command (thick line) = 4 levels (long)</text>
+<text class="tf-sm" x="244" y="286">many levels · narrow spans · long chain of command</text>
+<line x1="452" y1="30" x2="452" y2="290" stroke="#dfe5ea" stroke-width="1.2"/>
+<text class="tf-tt" x="588" y="18">Flat structure</text>
+<path class="tf-cn" d="M590.0,64 V104.0 M485.4,104.0 H694.6"/>
+<path class="tf-cn" d="M485.4,104.0 V144"/>
+<path class="tf-cn" d="M520.3,104.0 V144"/>
+<path class="tf-cn" d="M555.1,104.0 V144"/>
+<path class="tf-cn" d="M590.0,104.0 V144"/>
+<path class="tf-cn" d="M624.9,104.0 V144"/>
+<path class="tf-cn" d="M659.7,104.0 V144"/>
+<path class="tf-cn" d="M694.6,104.0 V144"/>
+<path class="tf-ch" d="M590.0,64 V104.0 H485.4 V144"/>
+<rect class="tf-hl" x="535.0" y="40" width="110" height="24" rx="4"/>
+<text class="tf-bt" x="590.0" y="56" style="fill:#fff">Owner / manager</text>
+<rect class="tf-hl" x="472.4" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="507.3" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="542.1" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="577.0" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="611.9" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="646.7" y="144" width="26" height="24" rx="4"/>
+<rect class="tf-bx" x="681.6" y="144" width="26" height="24" rx="4"/>
+<path d="M472.4,172 V176 H707.6 V172" fill="none" stroke="#4c3fa8" stroke-width="1.6"/>
+<text class="tf-an" x="590.0" y="191" fill="#4c3fa8" text-anchor="middle">span of control = 7 (wide)</text>
+<text class="tf-an" x="590.0" y="209" fill="#0f7b6c" text-anchor="middle">chain of command = 2 levels (short)</text>
+<text class="tf-sm" x="588" y="286">few levels · wide spans · short chain of command</text>
+</svg>

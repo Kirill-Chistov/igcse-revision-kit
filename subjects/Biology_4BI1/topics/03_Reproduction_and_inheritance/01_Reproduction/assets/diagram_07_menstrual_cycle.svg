@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="The 28-day menstrual cycle. Top: the uterus lining breaks down in days 1 to 5, then thickens until ovulation on day 14 and is maintained until about day 26. Bottom: oestrogen rises to a peak just before ovulation; LH surges at day 14; FSH is highest early in the cycle with a small peak at ovulation; progesterone rises after ovulation, peaks around day 21 and falls at the end of the cycle.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .mc-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .mc-l { font-size: 12px; font-weight: 700; }
+    .mc-s { font-size: 11px; fill: #33475b; }
+  </style>
+  <text class="mc-t" x="6" y="16">UTERUS LINING</text>
+  <rect x="90.0" y="44" width="112.5" height="60" fill="#fbe3e3"/>
+  <path d="M90.0,70 C99.4,72.0 127.5,78.3 146.2,82 C165.0,85.7 178.1,93.0 202.5,92 C226.9,91.0 258.8,81.3 292.5,76 C326.2,70.7 371.2,64.0 405.0,60 C438.8,56.0 457.5,53.7 495.0,52 C532.5,50.3 600.0,49.7 630.0,50 C660.0,50.3 660.0,50.7 675.0,54 C690.0,57.3 712.5,67.3 720.0,70 L720.0,100 L90.0,100 Z" fill="#f4c2c2" stroke="#b0557a" stroke-width="1.6"/>
+  <path d="M90.0,100 L720.0,100" stroke="#8a6a3a" stroke-width="1.4"/>
+  <text class="mc-s" x="94.0" y="56">menstruation</text>
+  <text class="mc-s" x="236.25" y="42">repaired, thickens</text>
+  <text class="mc-s" x="461.25" y="42">maintained</text>
+  <text class="mc-s" x="598.5" y="36">breaks down if</text><text class="mc-s" x="598.5" y="48">no pregnancy</text>
+  <path d="M405.0,50 L405.0,292" stroke="#6b7a88" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <circle cx="405.0" cy="114" r="7" fill="#fff7e0" stroke="#b8860b" stroke-width="1.6"/><circle cx="405.0" cy="114" r="2.4" fill="#b8860b"/>
+  <text class="mc-l" x="417.0" y="118">ovulation: egg released (day 14)</text>
+  <text class="mc-t" x="6" y="170">HORMONE</text><text class="mc-t" x="6" y="185">LEVEL IN</text><text class="mc-t" x="6" y="200">BLOOD</text>
+  <path d="M90.0,130 L90.0,280 L720.0,280" fill="none" stroke="#16283c" stroke-width="1.4"/>
+  <path d="M112.5,280 L112.5,285" stroke="#16283c" stroke-width="1.2"/><text class="mc-s" x="112.5" y="298" text-anchor="middle">1</text>
+  <path d="M247.5,280 L247.5,285" stroke="#16283c" stroke-width="1.2"/><text class="mc-s" x="247.5" y="298" text-anchor="middle">7</text>
+  <path d="M405.0,280 L405.0,285" stroke="#16283c" stroke-width="1.2"/><text class="mc-s" x="405.0" y="298" text-anchor="middle">14</text>
+  <path d="M562.5,280 L562.5,285" stroke="#16283c" stroke-width="1.2"/><text class="mc-s" x="562.5" y="298" text-anchor="middle">21</text>
+  <path d="M720.0,280 L720.0,285" stroke="#16283c" stroke-width="1.2"/><text class="mc-s" x="720.0" y="298" text-anchor="middle">28</text>
+  <text class="mc-l" x="405.0" y="316" text-anchor="middle">day of cycle</text>
+  <path d="M90.0,262 C105.0,261.0 150.0,262.7 180.0,256 C210.0,249.3 240.0,239.7 270.0,222 C300.0,204.3 337.5,155.3 360.0,150 C382.5,144.7 390.0,176.3 405.0,190 C420.0,203.7 423.8,230.3 450.0,232 C476.2,233.7 528.8,200.0 562.5,200 C596.2,200.0 626.2,222.3 652.5,232 C678.8,241.7 708.8,253.7 720.0,258" fill="none" stroke="#0f7b6c" stroke-width="2.8"/>
+  <path d="M90.0,268 C135.0,268.0 307.5,269.0 360.0,268 C412.5,267.0 386.2,271.7 405.0,262 C423.8,252.3 446.2,227.0 472.5,210 C498.8,193.0 536.2,161.7 562.5,160 C588.8,158.3 607.5,183.7 630.0,200 C652.5,216.3 682.5,247.0 697.5,258 C712.5,269.0 716.2,264.7 720.0,266" fill="none" stroke="#4c3fa8" stroke-width="2.8"/>
+  <path d="M90.0,238 C101.2,236.3 131.2,227.0 157.5,228 C183.8,229.0 217.5,241.0 247.5,244 C277.5,247.0 315.0,251.0 337.5,246 C360.0,241.0 367.5,213.3 382.5,214 C397.5,214.7 401.2,241.7 427.5,250 C453.8,258.3 498.8,262.0 540.0,264 C581.2,266.0 645.0,264.7 675.0,262 C705.0,259.3 712.5,250.3 720.0,248" fill="none" stroke="#d9822b" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <path d="M90.0,264 C127.5,263.7 270.0,266.0 315.0,262 C360.0,258.0 346.9,261.3 360.0,240 C373.1,218.7 382.5,134.0 393.8,134 C405.0,134.0 414.4,218.3 427.5,240 C440.6,261.7 423.8,259.7 472.5,264 C521.2,268.3 678.8,265.7 720.0,266" fill="none" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <text class="mc-l" x="297.0" y="170" style="fill:#0f7b6c" text-anchor="end">oestrogen</text>
+  <text class="mc-l" x="562.5" y="156" style="fill:#4c3fa8" text-anchor="middle">progesterone</text>
+  <text class="mc-l" x="157.5" y="220" style="fill:#d9822b" text-anchor="middle">FSH</text>
+  <text class="mc-l" x="424" y="152" style="fill:#c0392b">LH</text>
+  <text class="mc-s" x="720" y="134" text-anchor="end">dashed lines (FSH, LH): Paper 2 only</text>
+  </svg>

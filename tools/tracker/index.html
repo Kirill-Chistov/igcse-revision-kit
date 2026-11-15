@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Revision tracker</title>
+<style>
+:root{
+  --bg:#f6f5f1;--panel:#fff;--ink:#1d1d1b;--muted:#6b6a65;--line:#e3e1da;--accent:#1f5f8b;
+  --g:#2e8b57;--g-bg:#dff1e6;--a:#c98a12;--a-bg:#fbefd2;--r:#c0392b;--r-bg:#f8dcd8;--none:#d9d7cf;
+  --radius:10px;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding-bottom:env(safe-area-inset-bottom)}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:.45em .9em}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button:disabled{opacity:.5;cursor:default}
+input,select{font:inherit;border:1px solid var(--line);border-radius:8px;padding:.4em .6em;background:var(--panel);color:var(--ink)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:.6rem 1rem 0}
+header h1{font-size:1.05rem;margin:0 0 .5rem;display:flex;gap:.6rem;align-items:baseline}
+header h1 small{font-weight:400;color:var(--muted);font-size:.8rem}
+nav{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none}
+nav button{border:none;border-bottom:3px solid transparent;border-radius:0;background:none;padding:.45rem .7rem;white-space:nowrap;color:var(--muted)}
+nav button.on{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.badge{display:inline-block;min-width:1.4em;padding:0 .4em;border-radius:1em;background:var(--accent);color:#fff;font-size:.75rem;text-align:center;margin-left:.3em}
+main{padding:1rem;max-width:1400px;margin:0 auto}
+.banner{background:var(--a-bg);border:1px solid var(--a);border-radius:var(--radius);padding:.6rem .9rem;margin-bottom:1rem}
+.banner.err{background:var(--r-bg);border-color:var(--r)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1rem}
+.card h3{margin:0 0 .15rem;font-size:1rem}
+.card .sub{color:var(--muted);font-size:.8rem;margin-bottom:.6rem}
+.bar{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--none);margin:.4rem 0}
+.bar span{display:block}
+.legend{display:flex;gap:.8rem;font-size:.8rem;color:var(--muted);flex-wrap:wrap}
+.dot{display:inline-block;width:.7em;height:.7em;border-radius:50%;margin-right:.3em;vertical-align:-.05em}
+.toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.8rem}
+.toolbar input{flex:1;min-width:180px}
+.tablewrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:.88rem}
+th,td{border-bottom:1px solid var(--line);padding:.35rem .45rem;text-align:left;vertical-align:top}
+thead th{position:sticky;top:0;background:#faf9f6;font-weight:600;font-size:.78rem;color:var(--muted);z-index:2}
+td.ref,th.ref{position:sticky;left:0;background:var(--panel);z-index:1;white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:600}
+thead th.ref{z-index:3;background:#faf9f6}
+td.req{min-width:260px;max-width:520px}
+td.req .tag{display:inline-block;font-size:.7rem;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 .3em;margin-left:.3em}
+tr.sec td{background:#ecebe5;font-weight:700;position:sticky;left:0}
+tr.top td{background:#f6f5f1;font-weight:600;color:#3d3c38}
+td.r{width:2.1rem;min-width:2.1rem;padding:.2rem;text-align:center}
+.cell{width:1.8rem;height:1.6rem;border-radius:5px;border:1px solid var(--line);background:none;padding:0;font-size:.7rem;color:var(--muted)}
+.cell.next{background:repeating-linear-gradient(45deg,#fff,#fff 3px,#eeece6 3px,#eeece6 6px)}
+.cell.g,.chip.g{background:var(--g-bg);border-color:var(--g);color:var(--g)}
+.cell.a,.chip.a{background:var(--a-bg);border-color:var(--a);color:#8a5d00}
+.cell.r,.chip.r{background:var(--r-bg);border-color:var(--r);color:var(--r)}
+.chip{display:inline-block;border:1px solid var(--line);border-radius:1em;padding:0 .55em;font-size:.75rem;white-space:nowrap;color:var(--muted)}
+td.note input{width:100%;min-width:120px;border-color:transparent;background:transparent;padding:.2em .3em}
+td.note input:focus{border-color:var(--line);background:#fff}
+.menu{position:fixed;z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 8px 24px rgba(0,0,0,.12);padding:.3rem;display:flex;flex-direction:column;min-width:190px}
+.menu button{border:none;text-align:left;border-radius:6px}
+.menu button:hover{background:var(--bg)}
+.list{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+.row{display:flex;align-items:center;gap:.8rem;padding:.7rem 1rem;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:none}
+.row .grow{flex:1;min-width:0}
+.row.click{cursor:pointer}
+.row.click:hover{background:#faf9f6}
+.indent{padding-left:2rem}
+.cardq{font-size:.85rem;color:var(--muted);white-space:pre-wrap}
+.overlay{position:fixed;inset:0;background:rgba(29,29,27,.55);z-index:30;display:flex;align-items:center;justify-content:center;padding:1rem}
+.review{background:var(--panel);border-radius:14px;max-width:560px;width:100%;padding:1.4rem;display:flex;flex-direction:column;gap:1rem;max-height:90vh;overflow:auto}
+.review .meta{display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem}
+.review .q{font-size:1.2rem;font-weight:600;white-space:pre-wrap}
+.review .ans{font-size:1.05rem;white-space:pre-wrap;border-top:1px dashed var(--line);padding-top:1rem}
+.review .btns{display:flex;gap:.6rem;justify-content:flex-end;flex-wrap:wrap}
+.muted{color:var(--muted)}
+.empty{padding:2rem;text-align:center;color:var(--muted)}
+@media (max-width:640px){main{padding:.6rem}td.req{min-width:200px}}
+</style>
+</head>
+<body>
+<!-- Filled in by build.py / serve.py. Do not edit by hand. -->
+<script id="spec-data" type="application/json">__SPEC_DATA__</script>
+<script id="mode-data" type="text/plain">__MODE__</script>
+
+<header>
+  <h1>Revision tracker <small id="status"></small></h1>
+  <nav id="tabs"></nav>
+</header>
+<main id="main"><div class="empty">Loading…</div></main>
+<div id="layer"></div>
+
+<script>
+"use strict";
+const SPEC = JSON.parse(document.getElementById("spec-data").textContent);
+const MODE = document.getElementById("mode-data").textContent.trim();
+const CAP = 15;                                   // cards per review run
+const INTERVAL = {1: 1, 2: 3, 3: 7, 4: 21, 5: 60}; // days until due, by box
+const RATING = {r: "Don't know", a: "Need more revision", g: "Feel good"};
+
+let progress = {};   // subject -> pointId -> {h:[...], note}
+let decks = {};      // "<Subject>/<NN>" -> {subject,title,cards:[...]}
+let view = {tab: "overview", filter: "all", q: "", open: {}};
+let store = null;
+
+// ---------- helpers ----------
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function today(offset = 0) {
+  const d = new Date(); d.setDate(d.getDate() + offset);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+const subjById = id => SPEC.subjects.find(s => s.id === id);
+const nowOf = e => { if (!e || !e.h) return null; for (let i = e.h.length - 1; i >= 0; i--) if (e.h[i]) return e.h[i]; return null; };
+function trim(h) { while (h.length && !h[h.length - 1]) h.pop(); return h; }
+function setStatus(t) { $("#status").textContent = t; }
+function counts(subj) {
+  const c = {g: 0, a: 0, r: 0, none: 0}, p = progress[subj.id] || {};
+  for (const it of subj.items) { const n = nowOf(p[it.p]); c[n ? n.r : "none"]++; }
+  return c;
+}
+function dueCards(filter = () => true) {
+  const t = today(), out = [];
+  for (const [id, d] of Object.entries(decks)) for (const c of d.cards || [])
+    if ((c.due || t) <= t && filter(id, d)) out.push({deckId: id, card: c});
+  out.sort((x, y) => (x.card.due || "").localeCompare(y.card.due || ""));
+  return out;
+}
+
+// ---------- storage: local server ----------
+const LocalStore = {
+  async load() {
+    const r = await fetch("api/state", {cache: "no-store"});
+    if (!r.ok) throw new Error("server said " + r.status);
+    const s = await r.json();
+    progress = s.progress.points || {}; decks = s.flashcards.decks || {};
+  },
+  async saveSubject(id) {
+    await this._send("PUT", "api/progress/" + encodeURIComponent(id), {points: progress[id] || {}});
+  },
+  async saveDeck(id) {
+    if (decks[id]) await this._send("PUT", "api/decks/" + encodeURIComponent(id), decks[id]);
+    else await this._send("DELETE", "api/decks/" + encodeURIComponent(id));
+  },
+  async _send(method, url, body) {
+    const r = await fetch(url, {method, headers: {"Content-Type": "application/json"}, body: body ? JSON.stringify(body) : undefined});
+    if (!r.ok) throw new Error(method + " " + url + " → " + r.status);
+  },
+  watch(cb) { window.addEventListener("focus", () => { if (!pending) this.load().then(cb).catch(() => {}); }); },
+};
+
+// ---------- storage: claude.ai artifact database ----------
+const deckDoc = id => "decks/" + id.replace("/", "__");
+const ArtifactStore = {
+  db: null,
+  async init() {
+    if (!window.claude || !window.claude.use) throw new Error("not running inside a claude.ai artifact");
+    this.db = await window.claude.use("db");
+    if (!this.db) throw new Error("the database is not available in this view (signed out, or not declared)");
+  },
+  async load() {
+    const [p, d] = await Promise.all([this.db.collection("progress").get(), this.db.collection("decks").get()]);
+    progress = {}; decks = {};
+    for (const doc of p.docs) progress[doc.id] = structuredClone(doc.data().points || {});
+    for (const doc of d.docs) decks[doc.id.replace("__", "/")] = structuredClone(doc.data());
+  },
+  async saveSubject(id) { await this.db.doc("progress/" + id).set({points: progress[id] || {}}); },
+  async saveDeck(id) { if (decks[id]) await this.db.doc(deckDoc(id)).set(decks[id]); else await this.db.doc(deckDoc(id)).delete(); },
+  watch(cb) {
+    // Pick up writes made by Claude from another session.
+    const refresh = () => { if (!pending) this.load().then(cb).catch(() => {}); };
+    let first = 2;
+    const once = () => { if (first > 0) { first--; return; } refresh(); };
+    this.db.collection("progress").onSnapshot(once, () => {});
+    this.db.collection("decks").onSnapshot(once, () => {});
+  },
+};
+
+// ---------- write queue: one write at a time per document, coalesced ----------
+let pending = 0; const timers = {}; const chains = {};
+function queue(key, fn) {
+  clearTimeout(timers[key]); pending++; setStatus("saving…");
+  timers[key] = setTimeout(() => {
+    chains[key] = (chains[key] || Promise.resolve()).then(fn).then(
+      () => { pending--; if (!pending) setStatus("saved"); },
+      e => { pending--; setStatus("NOT SAVED — " + e.message); });
+  }, 350);
+}
+const saveSubject = id => queue("s:" + id, () => store.saveSubject(id));
+const saveDeck = id => queue("d:" + id, () => store.saveDeck(id));
+
+// ---------- rendering ----------
+function renderTabs() {
+  const due = dueCards().length;
+  const tabs = [["overview", "Overview"], ["cards", `Flashcards${due ? `<span class="badge">${due}</span>` : ""}`]]
+    .concat(SPEC.subjects.map(s => [s.id, esc(s.short)]));
+  $("#tabs").innerHTML = tabs.map(([id, label]) => `<button data-tab="${esc(id)}" class="${view.tab === id ? "on" : ""}">${label}</button>`).join("");
+}
+function render() { renderTabs(); const m = $("#main");
+  if (view.tab === "overview") m.innerHTML = overviewHTML();
+  else if (view.tab === "cards") m.innerHTML = cardsHTML();
+  else m.innerHTML = subjectHTML(subjById(view.tab));
+}
+function barHTML(c) {
+  const tot = c.g + c.a + c.r + c.none || 1, w = k => (100 * c[k] / tot).toFixed(1) + "%";
+  return `<div class="bar"><span style="width:${w("g")};background:var(--g)"></span><span style="width:${w("a")};background:var(--a)"></span><span style="width:${w("r")};background:var(--r)"></span></div>`;
+}
+function overviewHTML() {
+  if (!SPEC.subjects.length) return `<div class="empty">No subjects yet. Run <b>/setup</b> with your AI agent.</div>`;
+  const due = dueCards().length;
+  return `${due ? `<div class="card" style="margin-bottom:1rem;display:flex;align-items:center;gap:1rem"><div class="grow" style="flex:1"><b>${due}</b> flashcard${due > 1 ? "s" : ""} due today</div><button class="primary" data-review="all">Review ${Math.min(due, CAP)}</button></div>` : ""}
+  <div class="grid">${SPEC.subjects.map(s => { const c = counts(s);
+    return `<div class="card"><h3>${esc(s.name)}</h3><div class="sub">${esc(s.board)} · ${esc(s.code)} · ${s.items.length} points</div>${barHTML(c)}
+    <div class="legend"><span><i class="dot" style="background:var(--g)"></i>${c.g}</span><span><i class="dot" style="background:var(--a)"></i>${c.a}</span><span><i class="dot" style="background:var(--r)"></i>${c.r}</span><span><i class="dot" style="background:var(--none)"></i>${c.none} not rated</span></div>
+    <div style="margin-top:.7rem"><button data-tab="${esc(s.id)}">Open</button></div></div>`; }).join("")}</div>
+  <p class="legend" style="margin-top:1rem"><span><i class="dot" style="background:var(--g)"></i>Feel good</span><span><i class="dot" style="background:var(--a)"></i>Need more revision</span><span><i class="dot" style="background:var(--r)"></i>Don't know</span></p>`;
+}
+function subjectHTML(s) {
+  if (!s) return `<div class="empty">Unknown subject.</div>`;
+  const p = progress[s.id] || {};
+  const nR = Math.max(6, ...s.items.map(it => ((p[it.p] || {}).h || []).length + 1));
+  const q = view.q.toLowerCase();
+  let lastSec = null, lastTop = null, rows = "";
+  for (const it of s.items) {
+    const e = p[it.p] || {}, now = nowOf(e);
+    if (view.filter !== "all" && (view.filter === "none" ? now : !now || now.r !== view.filter)) continue;
+    if (q && !(it.p + " " + it.req + " " + (e.note || "")).toLowerCase().includes(q)) continue;
+    if (it.sec !== lastSec) { rows += `<tr class="sec"><td colspan="${nR + 5}">${esc(it.sec)}</td></tr>`; lastSec = it.sec; lastTop = null; }
+    if (it.top && it.top !== lastTop) { rows += `<tr class="top"><td colspan="${nR + 5}">${esc(it.top)}</td></tr>`; lastTop = it.top; }
+    const h = e.h || [], next = h.length;
+    let cells = "";
+    for (let i = 0; i < nR; i++) { const x = h[i];
+      cells += `<td class="r"><button class="cell ${x ? x.r : (i === next ? "next" : "")}" data-cell="${esc(it.p)}" data-i="${i}" title="${x ? RATING[x.r] + " · " + x.d : "R" + (i + 1)}">${x ? x.d.slice(8) : ""}</button></td>`; }
+    rows += `<tr><td class="ref">${esc(it.p)}</td><td class="req">${esc(it.req)}${it.note ? `<span class="tag">${esc(it.note)}</span>` : ""}</td>
+      <td>${now ? `<span class="chip ${now.r}">${RATING[now.r]}</span>` : `<span class="chip">—</span>`}</td>${cells}
+      <td class="muted" style="white-space:nowrap">${now ? esc(now.d) : ""}</td><td class="note"><input data-note="${esc(it.p)}" value="${esc(e.note || "")}" placeholder="note"></td></tr>`;
+  }
+  const c = counts(s);
+  return `<div class="toolbar"><b>${esc(s.name)}</b><span class="muted">${esc(s.code)}</span>
+    <input id="q" placeholder="Search points or notes" value="${esc(view.q)}">
+    <select id="filter">${[["all", "All points"], ["r", "Don't know"], ["a", "Need more revision"], ["g", "Feel good"], ["none", "Not rated"]].map(([v, l]) => `<option value="${v}" ${view.filter === v ? "selected" : ""}>${l}</option>`).join("")}</select>
+    <span class="legend"><span>${c.g} good</span><span>${c.a} more</span><span>${c.r} don't know</span><span>${c.none} not rated</span></span></div>
+    <div class="tablewrap"><table><thead><tr><th class="ref">Ref</th><th>Specification point</th><th>Now</th>${Array.from({length: nR}, (_, i) => `<th>R${i + 1}</th>`).join("")}<th>Last</th><th>Notes</th></tr></thead>
+    <tbody>${rows || `<tr><td colspan="${nR + 5}" class="empty">Nothing matches.</td></tr>`}</tbody></table></div>`;
+}
+function cardsHTML() {
+  const t = today(), bySubj = {};
+  for (const [id, d] of Object.entries(decks)) (bySubj[d.subject || id.split("/")[0]] ||= []).push([id, d]);
+  const subs = Object.keys(bySubj).sort();
+  if (!subs.length) return `<div class="empty">No flashcards yet. Your AI tutor adds a few after each marked session (only for what you missed).</div>`;
+  const total = dueCards().length;
+  let html = `<div class="toolbar"><b>Flashcards</b><span class="muted">${total} due · a review run is at most ${CAP} cards</span><span style="flex:1"></span><button class="primary" data-review="all" ${total ? "" : "disabled"}>Review due</button></div><div class="list">`;
+  for (const sid of subs) {
+    const ds = bySubj[sid].sort(([a], [b]) => a.localeCompare(b));
+    const nCards = ds.reduce((n, [, d]) => n + (d.cards || []).length, 0);
+    const nDue = ds.reduce((n, [, d]) => n + (d.cards || []).filter(c => (c.due || t) <= t).length, 0);
+    const s = subjById(sid);
+    html += `<div class="row click" data-open="${esc(sid)}"><div class="grow"><b>${esc(s ? s.name : sid)}</b> <span class="muted">· ${nCards} cards · ${ds.length} deck${ds.length > 1 ? "s" : ""}</span></div><span class="chip">${nDue} due</span><button data-review="s:${esc(sid)}" ${nDue ? "" : "disabled"}>Review</button></div>`;
+    if (!view.open[sid]) continue;
+    for (const [id, d] of ds) {
+      const dd = (d.cards || []).filter(c => (c.due || t) <= t).length;
+      html += `<div class="row click indent" data-open="${esc(id)}"><div class="grow">${esc(d.title || id)} <span class="muted">· ${(d.cards || []).length} cards</span></div><span class="chip">${dd} due</span><button data-review="d:${esc(id)}" ${dd ? "" : "disabled"}>Review</button></div>`;
+      if (!view.open[id]) continue;
+      for (const c of d.cards || []) html += `<div class="row indent" style="padding-left:3.2rem"><div class="grow"><div>${esc(c.q)}</div><div class="cardq">${esc(c.a)}</div></div><span class="chip" title="box ${c.b}">${esc(c.ref || "")} · due ${esc(c.due || "")}</span><button data-del="${esc(id)}|${esc(c.id)}">Delete</button></div>`;
+    }
+  }
+  return html + "</div>";
+}
+
+// ---------- rating menu ----------
+function openMenu(btn) {
+  const sid = view.tab, pid = btn.dataset.cell, i = +btn.dataset.i, r = btn.getBoundingClientRect();
+  const m = document.createElement("div"); m.className = "menu";
+  m.innerHTML = ["r", "a", "g"].map(k => `<button data-set="${k}"><span class="chip ${k}">${RATING[k]}</span></button>`).join("") + `<button data-set="">Clear</button>`;
+  m.style.left = Math.min(r.left, innerWidth - 210) + "px"; m.style.top = Math.min(r.bottom + 4, innerHeight - 190) + "px";
+  closeLayer(); $("#layer").appendChild(m);
+  m.addEventListener("click", ev => { const b = ev.target.closest("[data-set]"); if (!b) return;
+    const p = (progress[sid] ||= {}), e = (p[pid] ||= {h: [], note: ""}), h = (e.h ||= []);
+    while (h.length < i) h.push(null);
+    h[i] = b.dataset.set ? {r: b.dataset.set, d: (h[i] && h[i].d) || today()} : null;
+    trim(h); if (!h.length && !e.note) delete p[pid];
+    closeLayer(); saveSubject(sid); render();
+  });
+}
+function closeLayer() { $("#layer").innerHTML = ""; document.removeEventListener("keydown", reviewKeys); }
+
+// ---------- review ----------
+let run = null;
+function startReview(scope) {
+  const f = scope === "all" ? () => true : scope.startsWith("s:") ? (id, d) => (d.subject || id.split("/")[0]) === scope.slice(2) : id => id === scope.slice(2);
+  const q = dueCards(f).slice(0, CAP);
+  if (!q.length) return;
+  run = {q, i: 0, shown: false, done: 0, total: q.length}; drawReview();
+  document.addEventListener("keydown", reviewKeys);
+}
+function drawReview() {
+  if (!run || run.i >= run.q.length) { closeLayer(); const n = run ? run.done : 0; run = null; render(); setStatus(n ? `reviewed ${n}` : ""); return; }
+  const {deckId, card} = run.q[run.i], d = decks[deckId], s = subjById(d.subject);
+  $("#layer").innerHTML = `<div class="overlay"><div class="review"><div class="meta"><span>${esc(s ? s.name : d.subject)} · ${esc(d.title || deckId)} · ${esc(card.ref || "")}</span><span>${Math.min(run.done + 1, run.total)} / ${run.total}</span></div>
+    <div class="q">${esc(card.q)}</div>${run.shown ? `<div class="ans">${esc(card.a)}</div>` : ""}
+    <div class="btns">${run.shown ? `<button data-ans="again">Again <span class="muted">1</span></button><button class="primary" data-ans="got">Got it <span>2</span></button>` : `<button data-ans="close">Stop <span class="muted">Esc</span></button><button class="primary" data-ans="show">Show answer <span>Space</span></button>`}</div></div></div>`;
+}
+function answer(kind) {
+  if (!run) return;
+  if (kind === "close") { run.i = run.q.length; return drawReview(); }
+  if (kind === "show") { run.shown = true; return drawReview(); }
+  const item = run.q[run.i], c = item.card, t = today();
+  if (kind === "again") { c.b = 0; c.due = t; c.last = t; run.q.push(item); }
+  else { c.b = Math.min(5, (c.b || 0) + 1); c.due = today(INTERVAL[c.b]); c.last = t; run.done++; }
+  saveDeck(item.deckId); run.i++; run.shown = false; drawReview();
+}
+function reviewKeys(e) {
+  if (!run) return;
+  if (e.key === "Escape") answer("close");
+  else if (e.key === " " && !run.shown) { e.preventDefault(); answer("show"); }
+  else if (e.key === "1" && run.shown) answer("again");
+  else if (e.key === "2" && run.shown) answer("got");
+}
+
+// ---------- events ----------
+document.addEventListener("click", e => {
+  const t = e.target.closest("button,[data-open]"); if (!t) { if (!e.target.closest(".menu")) $(".menu") && closeLayer(); return; }
+  if (t.dataset.tab) { view.tab = t.dataset.tab; view.q = ""; view.filter = "all"; render(); scrollTo(0, 0); }
+  else if (t.dataset.cell) openMenu(t);
+  else if (t.dataset.review) startReview(t.dataset.review);
+  else if (t.dataset.ans) answer(t.dataset.ans);
+  else if (t.dataset.del) {
+    if (t.textContent !== "Sure?") { t.textContent = "Sure?"; return; }
+    const [id, cid] = t.dataset.del.split("|"), d = decks[id];
+    d.cards = d.cards.filter(c => c.id !== cid); if (!d.cards.length) delete decks[id];
+    saveDeck(id); render();
+  } else if (t.dataset.open) { view.open[t.dataset.open] = !view.open[t.dataset.open]; render(); }
+});
+document.addEventListener("input", e => {
+  if (e.target.id === "q") { view.q = e.target.value; const pos = e.target.selectionStart; render(); const q = $("#q"); q.focus(); q.setSelectionRange(pos, pos); }
+});
+document.addEventListener("change", e => {
+  if (e.target.id === "filter") { view.filter = e.target.value; render(); }
+  else if (e.target.dataset.note !== undefined) {
+    const sid = view.tab, pid = e.target.dataset.note, p = (progress[sid] ||= {}), x = (p[pid] ||= {h: [], note: ""});
+    x.note = e.target.value.trim(); if (!x.note && !(x.h || []).length) delete p[pid];
+    saveSubject(sid);
+  }
+});
+
+// ---------- start ----------
+(async () => {
+  try {
+    if (MODE === "artifact") { await ArtifactStore.init(); store = ArtifactStore; }
+    else store = LocalStore;
+    await store.load(); render(); setStatus(MODE === "artifact" ? "" : "local");
+    store.watch(() => { if (!run && !$(".menu")) render(); });
+  } catch (err) {
+    $("#main").innerHTML = `<div class="banner err"><b>Can't load your data.</b> ${esc(err.message)}.<br>${MODE === "artifact" ? "Open this page in claude.ai while signed in." : "Start the tracker with <code>python3 tools/tracker/serve.py</code> and open the address it prints (opening the HTML file directly does not work)."}</div>`;
+  }
+})();
+</script>
+</body>
+</html>

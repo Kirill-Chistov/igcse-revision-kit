@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" width="760" height="312" role="img" aria-label="Genetic diagram for sex determination: female XX crossed with male XY; eggs all carry X; sperm carry X or Y; offspring 2 XX to 2 XY, so 1 female to 1 male and a probability of 0.5 for each sex.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .gd-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .gd-r { font-size: 11.5px; font-weight: 700; fill: #6b7a88; }
+    .gd-v { font-size: 13px; }
+    .gd-g { font-size: 13px; font-weight: 700; }
+    .gd-s { font-size: 11px; fill: #33475b; }
+  </style>
+  <text class="gd-r" x="8" y="44">Parents</text>
+  <text class="gd-r" x="8" y="70">Sex chromosomes</text>
+  <text class="gd-r" x="8" y="104">Gametes</text>
+  <text class="gd-r" x="8" y="175">Punnett square</text>
+  <text class="gd-r" x="8" y="252">Offspring</text>
+  <text class="gd-r" x="8" y="276">Sex</text>
+  <text class="gd-r" x="8" y="300">Probability of a girl</text>
+  <text class="gd-t" x="330" y="18" text-anchor="middle">SEX DETERMINATION</text>
+  <text class="gd-v" x="280" y="44" text-anchor="middle">female</text><text class="gd-v" x="330" y="44" text-anchor="middle">×</text><text class="gd-v" x="380" y="44" text-anchor="middle">male</text>
+  <text class="gd-g" x="280" y="70" text-anchor="middle">XX</text><text class="gd-v" x="330" y="70" text-anchor="middle">×</text><text class="gd-g" x="380" y="70" text-anchor="middle">XY</text>
+  <circle cx="264" cy="100" r="12" fill="#ffffff" stroke="#0f7b6c" stroke-width="1.5"/><text class="gd-g" x="264" y="105" text-anchor="middle">X</text>
+  <circle cx="296" cy="100" r="12" fill="#ffffff" stroke="#0f7b6c" stroke-width="1.5"/><text class="gd-g" x="296" y="105" text-anchor="middle">X</text>
+  <circle cx="364" cy="100" r="12" fill="#ffffff" stroke="#4c3fa8" stroke-width="1.5"/><text class="gd-g" x="364" y="105" text-anchor="middle">X</text>
+  <circle cx="396" cy="100" r="12" fill="#ffffff" stroke="#4c3fa8" stroke-width="1.5"/><text class="gd-g" x="396" y="105" text-anchor="middle">Y</text>
+  <rect x="313.0" y="124" width="34" height="34" fill="#efe9fa" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="347.0" y="124" width="34" height="34" fill="#efe9fa" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="279.0" y="158" width="34" height="34" fill="#e6f3ec" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="313.0" y="158" width="34" height="34" fill="#f6e0ea" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="347.0" y="158" width="34" height="34" fill="#dde8f6" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="279.0" y="192" width="34" height="34" fill="#e6f3ec" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="313.0" y="192" width="34" height="34" fill="#f6e0ea" stroke="#6b7a88" stroke-width="1.2"/>
+  <rect x="347.0" y="192" width="34" height="34" fill="#dde8f6" stroke="#6b7a88" stroke-width="1.2"/>
+  <text class="gd-g" x="330.0" y="146.0" text-anchor="middle">X</text>
+  <text class="gd-g" x="364.0" y="146.0" text-anchor="middle">Y</text>
+  <text class="gd-g" x="296.0" y="180.0" text-anchor="middle">X</text>
+  <text class="gd-g" x="296.0" y="214.0" text-anchor="middle">X</text>
+  <text class="gd-g" x="330.0" y="180.0" text-anchor="middle">XX</text>
+  <text class="gd-g" x="364.0" y="180.0" text-anchor="middle">XY</text>
+  <text class="gd-g" x="330.0" y="214.0" text-anchor="middle">XX</text>
+  <text class="gd-g" x="364.0" y="214.0" text-anchor="middle">XY</text>
+  <text class="gd-v" x="330" y="252" text-anchor="middle">2 XX : 2 XY</text>
+  <text class="gd-v" x="330" y="276" text-anchor="middle">1 female : 1 male</text>
+  <text class="gd-g" x="330" y="300" text-anchor="middle" style="fill:#0f7b6c">1 in 2 = 0.5 = 50%</text>
+  <text class="gd-s" x="490" y="100">All eggs carry an X chromosome.</text>
+  <text class="gd-s" x="490" y="114">Half the sperm carry X, half carry Y.</text>
+  <text class="gd-s" x="490" y="144">The sperm that fertilises the egg</text>
+  <text class="gd-s" x="490" y="158">decides the sex:</text>
+  <text class="gd-s" x="490" y="176">X sperm + X egg → XX, girl</text>
+  <text class="gd-s" x="490" y="192">Y sperm + X egg → XY, boy</text>
+  <text class="gd-s" x="490" y="222">Each pregnancy is independent: the</text>
+  <text class="gd-s" x="490" y="236">chance is 50% every time, whatever</text>
+  <text class="gd-s" x="490" y="250">the sex of earlier children.</text>
+  </svg>

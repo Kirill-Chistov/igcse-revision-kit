@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="The urinary system: two kidneys, each supplied by a renal artery and drained by a renal vein, connected to the aorta and vena cava; a ureter from each kidney carries urine to the bladder, which stores it; the urethra carries urine out of the body.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .us-l { font-size: 12.5px; font-weight: 700; }
+    .us-s { font-size: 11.5px; fill: #33475b; }
+    .us-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- aorta and vena cava -->
+  <rect x="362" y="10" width="14" height="190" fill="#e8908a" stroke="#c0392b" stroke-width="1.4"/>
+  <rect x="384" y="10" width="16" height="190" fill="#9dbbe0" stroke="#2e6fa3" stroke-width="1.4"/>
+  <!-- kidneys -->
+  <path d="M250,40 C210,40 200,110 230,130 C250,142 270,130 276,110 C266,100 266,80 276,70 C272,52 264,40 250,40 Z" fill="#b5654f" stroke="#7a3a28" stroke-width="1.6"/>
+  <path d="M510,40 C550,40 560,110 530,130 C510,142 490,130 484,110 C494,100 494,80 484,70 C488,52 496,40 510,40 Z" fill="#b5654f" stroke="#7a3a28" stroke-width="1.6"/>
+  <!-- renal vessels -->
+  <path d="M276,80 L362,80 M484,80 L376,80" stroke="#c0392b" stroke-width="5"/>
+  <path d="M276,98 L384,98 M484,98 L400,98" stroke="#2e6fa3" stroke-width="5"/>
+  <!-- ureters -->
+  <path d="M268,116 C300,150 330,170 352,190" stroke="#d9b24a" stroke-width="5" fill="none"/>
+  <path d="M492,116 C460,150 430,170 408,190" stroke="#d9b24a" stroke-width="5" fill="none"/>
+  <!-- bladder -->
+  <path d="M340,186 C340,170 420,170 420,186 C426,214 400,228 380,228 C360,228 334,214 340,186 Z" fill="#f7e2a8" stroke="#b8860b" stroke-width="1.6"/>
+  <path d="M380,228 L380,248" stroke="#d9b24a" stroke-width="5"/>
+  <!-- labels -->
+  <text class="us-l" x="6" y="64">kidney</text><text class="us-s" x="6" y="78">filters blood; makes urine</text><path class="us-ld" d="M150,70 L212,78"/>
+  <text class="us-l" x="6" y="170">ureter</text><text class="us-s" x="6" y="184">carries urine to the bladder</text><path class="us-ld" d="M160,176 L300,160"/>
+  <text class="us-l" x="6" y="232">urethra</text><text class="us-s" x="6" y="246">carries urine out of the body</text><path class="us-ld" d="M176,238 L376,240"/>
+  <text class="us-l" x="560" y="30">aorta</text><path class="us-ld" d="M556,26 L376,26"/>
+  <text class="us-l" x="560" y="50">vena cava</text><path class="us-ld" d="M556,46 L400,46"/>
+  <text class="us-l" x="406" y="72" style="fill:#c0392b">renal artery</text>
+  <text class="us-l" x="406" y="116" style="fill:#2e6fa3">renal vein</text>
+  <text class="us-l" x="560" y="200">bladder</text><text class="us-s" x="560" y="214">stores urine</text><path class="us-ld" d="M556,200 L420,200"/>
+</svg>

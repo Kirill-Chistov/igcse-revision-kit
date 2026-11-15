@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 172" font-family="Carlito, Calibri, sans-serif" role="img">
+<title>Plotting a field line with a plotting compass</title>
+<rect x="110.0" y="130.0" width="70.0" height="28.0" fill="#f2b8b0" stroke="#c0392b" stroke-width="1.4"/>
+<text x="145.0" y="149.8" font-size="16" text-anchor="middle" font-weight="bold" fill="#8e2a20">N</text>
+<rect x="180.0" y="130.0" width="70.0" height="28.0" fill="#b9d0ee" stroke="#2e6fb7" stroke-width="1.4"/>
+<text x="215.0" y="149.8" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f4f8a">S</text>
+<path d="M 125,130 C 85,20 275,20 235,130" fill="none" stroke="#0f7b6c" stroke-width="1.4" stroke-dasharray="4 3"/>
+<circle cx="119.6" cy="105.7" r="2.6" fill="#16283c"/>
+<circle cx="124.9" cy="77.2" r="2.6" fill="#16283c"/>
+<circle cx="142.2" cy="58.2" r="2.6" fill="#16283c"/>
+<circle cx="166.6" cy="48.7" r="2.6" fill="#16283c"/>
+<circle cx="193.4" cy="48.7" r="2.6" fill="#16283c"/>
+<circle cx="217.8" cy="58.2" r="2.6" fill="#16283c"/>
+<circle cx="235.1" cy="77.2" r="2.6" fill="#16283c"/>
+<circle cx="240.4" cy="105.7" r="2.6" fill="#16283c"/>
+<circle cx="133.6" cy="67.7" r="17" fill="#ffffff" fill-opacity="0.85" stroke="#33475b" stroke-width="1.4"/>
+<line x1="125.5" y1="76.6" x2="133.6" y2="67.7" stroke="#2e6fb7" stroke-width="3"/>
+<line x1="133.6" y1="67.7" x2="138.9" y2="61.8" stroke="#c0392b" stroke-width="3"/>
+<polygon points="141.6,58.8 139.5,67.7 133.0,61.8" fill="#c0392b"/>
+<circle cx="205.6" cy="53.4" r="17" fill="#ffffff" fill-opacity="0.85" stroke="#33475b" stroke-width="1.4"/>
+<line x1="194.4" y1="49.1" x2="205.6" y2="53.4" stroke="#2e6fb7" stroke-width="3"/>
+<line x1="205.6" y1="53.4" x2="213.1" y2="56.3" stroke="#c0392b" stroke-width="3"/>
+<polygon points="216.8,57.8 207.7,59.0 210.9,50.8" fill="#c0392b"/>
+<polygon points="184.0,47.5 176.0,51.9 176.0,43.1" fill="#0f7b6c"/>
+<circle cx="352" cy="29.5" r="9" fill="#0f7b6c"/>
+<text x="352.0" y="34.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffffff">1</text>
+<text x="370.0" y="34.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">Place the compass near the N pole. Mark a dot at the</text>
+<text x="370.0" y="52.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">end the needle points to.</text>
+<circle cx="352" cy="73.5" r="9" fill="#0f7b6c"/>
+<text x="352.0" y="78.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffffff">2</text>
+<text x="370.0" y="78.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">Move the compass so the tail of the needle is on that</text>
+<text x="370.0" y="96.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">dot; mark the new tip. Repeat until you reach the S pole.</text>
+<circle cx="352" cy="117.5" r="9" fill="#0f7b6c"/>
+<text x="352.0" y="122.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffffff">3</text>
+<text x="370.0" y="122.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">Join the dots with a smooth line and add an arrow N → S.</text>
+<circle cx="352" cy="143.5" r="9" fill="#0f7b6c"/>
+<text x="352.0" y="148.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffffff">4</text>
+<text x="370.0" y="148.0" font-size="13" text-anchor="start" font-weight="normal" fill="#16283c">Start again from other points round the magnet.</text>
+</svg>

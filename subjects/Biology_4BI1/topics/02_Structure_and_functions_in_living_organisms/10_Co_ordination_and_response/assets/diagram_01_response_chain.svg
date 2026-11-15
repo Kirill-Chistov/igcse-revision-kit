@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 134" width="760" height="134" role="img" aria-label="A co-ordinated response: stimulus, a change in the environment; receptor, which detects it; co-ordinator, the central nervous system; effector, a muscle or gland; response. Example: a finger touches a hot plate, heat receptors in the skin detect it, the central nervous system co-ordinates, the biceps muscle contracts and the hand is pulled away.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .rc-h { font-size: 13.5px; font-weight: 700; fill: #ffffff; }
+    .rc-s { font-size: 11.5px; fill: #33475b; }
+    .rc-e { font-size: 11.5px; font-style: italic; fill: #0b5f54; }
+    .rc-t { font-size: 11px; fill: #6b7a88; }
+  </style>
+  <rect x="6" y="10" width="136" height="46" rx="8" fill="#d99a17"/>
+  <text class="rc-h" x="74.0" y="38" text-anchor="middle">Stimulus</text>
+  <text class="rc-s" x="74.0" y="74" text-anchor="middle">a change in the</text><text class="rc-s" x="74.0" y="88" text-anchor="middle">environment</text>
+  <text class="rc-e" x="74.0" y="112" text-anchor="middle">finger touches a</text><text class="rc-e" x="74.0" y="126" text-anchor="middle">hot plate</text>
+  <path d="M144,33 L154,33" stroke="#33475b" stroke-width="2.4"/><path d="M161,33 l-8,-5 v10z" fill="#33475b"/>
+  <rect x="160" y="10" width="136" height="46" rx="8" fill="#0f7b6c"/>
+  <text class="rc-h" x="228.0" y="38" text-anchor="middle">Receptor</text>
+  <text class="rc-s" x="228.0" y="74" text-anchor="middle">detects the</text><text class="rc-s" x="228.0" y="88" text-anchor="middle">stimulus</text>
+  <text class="rc-e" x="228.0" y="112" text-anchor="middle">heat receptors</text><text class="rc-e" x="228.0" y="126" text-anchor="middle">in the skin</text>
+  <path d="M298,33 L308,33" stroke="#33475b" stroke-width="2.4"/><path d="M315,33 l-8,-5 v10z" fill="#33475b"/>
+  <rect x="314" y="10" width="136" height="46" rx="8" fill="#4c3fa8"/>
+  <text class="rc-h" x="382.0" y="38" text-anchor="middle">Co-ordinator</text>
+  <text class="rc-s" x="382.0" y="74" text-anchor="middle">processes the</text><text class="rc-s" x="382.0" y="88" text-anchor="middle">information</text>
+  <text class="rc-e" x="382.0" y="112" text-anchor="middle">central nervous</text><text class="rc-e" x="382.0" y="126" text-anchor="middle">system</text>
+  <path d="M452,33 L462,33" stroke="#33475b" stroke-width="2.4"/><path d="M469,33 l-8,-5 v10z" fill="#33475b"/>
+  <rect x="468" y="10" width="136" height="46" rx="8" fill="#c0392b"/>
+  <text class="rc-h" x="536.0" y="38" text-anchor="middle">Effector</text>
+  <text class="rc-s" x="536.0" y="74" text-anchor="middle">muscle or gland</text><text class="rc-s" x="536.0" y="88" text-anchor="middle">that responds</text>
+  <text class="rc-e" x="536.0" y="112" text-anchor="middle">biceps muscle</text><text class="rc-e" x="536.0" y="126" text-anchor="middle"></text>
+  <path d="M606,33 L616,33" stroke="#33475b" stroke-width="2.4"/><path d="M623,33 l-8,-5 v10z" fill="#33475b"/>
+  <rect x="622" y="10" width="136" height="46" rx="8" fill="#16283c"/>
+  <text class="rc-h" x="690.0" y="38" text-anchor="middle">Response</text>
+  <text class="rc-s" x="690.0" y="74" text-anchor="middle">the action</text><text class="rc-s" x="690.0" y="88" text-anchor="middle">taken</text>
+  <text class="rc-e" x="690.0" y="112" text-anchor="middle">muscle contracts:</text><text class="rc-e" x="690.0" y="126" text-anchor="middle">hand pulled away</text>
+  <text class="rc-t" x="6" y="112">e.g.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290" width="760" height="290" role="img" aria-label="Transport in a flowering plant. Xylem carries water and mineral ions upwards only, from the roots to the stem, leaves and flowers. Phloem carries sucrose and amino acids from the leaves, where they are made, to other parts, up to growing tips and flowers and down to roots and storage organs. Xylem and phloem run together in vascular bundles.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .xp-h { font-size: 13px; font-weight: 700; }
+    .xp-s { font-size: 12px; fill: #33475b; }
+    .xp-x { fill: none; stroke: #2e6fa3; stroke-width: 5; }
+    .xp-p { fill: none; stroke: #b86e12; stroke-width: 5; }
+  </style>
+  <!-- soil -->
+  <rect x="120" y="210" width="260" height="76" fill="#f3ead8"/>
+  <path d="M120,210 L380,210" stroke="#8a6a3a" stroke-width="1.5"/>
+  <!-- stem -->
+  <rect x="236" y="40" width="28" height="172" rx="4" fill="#e3f1d6" stroke="#4a7a1f" stroke-width="1.6"/>
+  <!-- leaves -->
+  <path d="M264,100 C300,70 350,76 370,96 C340,118 296,120 264,104 Z" fill="#cfe8bb" stroke="#4a7a1f" stroke-width="1.6"/>
+  <path d="M236,150 C200,120 150,126 130,146 C160,168 204,170 236,154 Z" fill="#cfe8bb" stroke="#4a7a1f" stroke-width="1.6"/>
+  <!-- flower / growing tip -->
+  <circle cx="250" cy="30" r="14" fill="#f7d3e6" stroke="#a93265" stroke-width="1.6"/>
+  <!-- roots -->
+  <path d="M250,212 C246,240 236,262 222,282 M250,212 C256,244 268,262 282,280 M250,212 L250,284" stroke="#8a6a3a" stroke-width="3" fill="none"/>
+  <!-- storage organ -->
+  <ellipse cx="316" cy="250" rx="30" ry="18" fill="#e8d3a8" stroke="#8a6a3a" stroke-width="1.4"/>
+  <path d="M264,226 C280,236 290,240 298,244" stroke="#8a6a3a" stroke-width="2" fill="none"/>
+  <!-- xylem arrows (blue, up) -->
+  <path class="xp-x" d="M244,270 L244,48"/><path d="M244,40 l-6,11 h12z" fill="#2e6fa3"/>
+  <path class="xp-x" d="M244,150 C220,146 190,144 164,146" style="stroke-width:3"/><path d="M158,146 l10,-5 v10z" fill="#2e6fa3"/>
+  <!-- phloem arrows (orange, both ways) -->
+  <path class="xp-p" d="M320,96 C300,98 280,100 258,104" style="stroke-width:3"/>
+  <path class="xp-p" d="M256,112 L256,50"/><path d="M256,42 l-6,11 h12z" fill="#b86e12"/>
+  <path class="xp-p" d="M256,112 L256,230 C270,238 282,244 290,246"/><path d="M298,248 l-11,-5 l-1,10z" fill="#b86e12"/>
+  <!-- legend / text -->
+  <rect x="420" y="30" width="16" height="6" fill="#2e6fa3"/>
+  <text class="xp-h" x="444" y="38" style="fill:#2e6fa3">Xylem</text>
+  <text class="xp-s" x="444" y="56">carries <tspan font-weight="700">water</tspan> and <tspan font-weight="700">mineral ions</tspan></text>
+  <text class="xp-s" x="444" y="72">from the <tspan font-weight="700">roots</tspan> to the stem, leaves and flowers</text>
+  <text class="xp-s" x="444" y="88"><tspan font-weight="700">upwards only</tspan>; dead, hollow tubes</text>
+  <rect x="420" y="126" width="16" height="6" fill="#b86e12"/>
+  <text class="xp-h" x="444" y="134" style="fill:#b86e12">Phloem</text>
+  <text class="xp-s" x="444" y="152">carries <tspan font-weight="700">sucrose</tspan> and <tspan font-weight="700">amino acids</tspan></text>
+  <text class="xp-s" x="444" y="168">from the <tspan font-weight="700">leaves</tspan>, where they are made, to</text>
+  <text class="xp-s" x="444" y="184">growing tips, flowers, roots and storage organs</text>
+  <text class="xp-s" x="444" y="200"><tspan font-weight="700">up and down</tspan>; living cells</text>
+  <text class="xp-s" x="444" y="236">Xylem and phloem run side by side in</text>
+  <text class="xp-s" x="444" y="252">vascular bundles (veins in the leaf).</text>
+  <text class="xp-s" x="296" y="280">storage organ</text>
+  <text class="xp-s" x="176" y="30">growing tip</text>
+</svg>

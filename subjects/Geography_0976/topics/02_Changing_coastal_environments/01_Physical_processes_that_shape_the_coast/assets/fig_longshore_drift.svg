@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300" role="img" aria-label="Longshore drift in plan view: swash at an angle, backwash straight down the beach, net movement along the coast">
+  <defs>
+    <marker id="ld-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0b5f54"/></marker>
+    <marker id="ld-arr-d" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker>
+    <marker id="ld-arr-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.5" markerHeight="3.5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0b5f54"/></marker>
+    <clipPath id="ld-sea"><rect x="0" y="126" width="580" height="174"/></clipPath>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#16283c">
+    <rect x="0" y="0" width="580" height="56" fill="#dfe8cf"/>
+    <rect x="0" y="56" width="580" height="70" fill="#efdcae"/>
+    <rect x="0" y="126" width="580" height="174" fill="#cfe3ee"/>
+    <line x1="0" y1="126" x2="580" y2="126" stroke="#2c6e91" stroke-width="1.5"/>
+    <text x="572" y="72" font-size="12.5" fill="#6b4f16" text-anchor="end">BEACH</text>
+    <text x="572" y="292" font-size="12.5" fill="#2c6e91" text-anchor="end">SEA</text>
+
+    <!-- wave crests -->
+    <g clip-path="url(#ld-sea)" stroke="#2c6e91" stroke-width="2.2" fill="none" opacity="0.8">
+      <line x1="151" y1="20" x2="560" y2="307"/>
+      <line x1="125" y1="57" x2="535" y2="344"/>
+      <line x1="99" y1="94" x2="509" y2="381"/>
+      <line x1="74" y1="130" x2="483" y2="418"/>
+      <line x1="48" y1="167" x2="457" y2="455"/>
+    </g>
+    <line x1="30" y1="292" x2="80" y2="221" stroke="#16283c" stroke-width="3" marker-end="url(#ld-arr-d)"/>
+    <text x="88" y="262" font-size="13.5" font-weight="700" text-anchor="start" stroke="#cfe3ee" stroke-width="3" paint-order="stroke">prevailing</text>
+    <text x="88" y="277" font-size="13.5" font-weight="700" text-anchor="start" stroke="#cfe3ee" stroke-width="3" paint-order="stroke">wind</text>
+
+    <!-- zigzag -->
+    <g stroke="#0b5f54" stroke-width="2.4" fill="none">
+      <line x1="70" y1="118" x2="137" y2="70" marker-end="url(#ld-arr)"/>
+      <line x1="140" y1="68" x2="140" y2="114" stroke-dasharray="5 3" marker-end="url(#ld-arr-b)"/>
+      <line x1="140" y1="118" x2="207" y2="70" marker-end="url(#ld-arr)"/>
+      <line x1="210" y1="68" x2="210" y2="114" stroke-dasharray="5 3" marker-end="url(#ld-arr-b)"/>
+      <line x1="210" y1="118" x2="277" y2="70" marker-end="url(#ld-arr)"/>
+      <line x1="280" y1="68" x2="280" y2="114" stroke-dasharray="5 3" marker-end="url(#ld-arr-b)"/>
+      <line x1="280" y1="118" x2="347" y2="70" marker-end="url(#ld-arr)"/>
+      <line x1="350" y1="68" x2="350" y2="114" stroke-dasharray="5 3" marker-end="url(#ld-arr-b)"/>
+      <line x1="350" y1="118" x2="417" y2="70" marker-end="url(#ld-arr)"/>
+      <line x1="420" y1="68" x2="420" y2="114" stroke-dasharray="5 3" marker-end="url(#ld-arr-b)"/>
+      <line x1="420" y1="118" x2="487" y2="70" marker-end="url(#ld-arr)"/>
+    </g>
+    <g fill="#8f8a80" stroke="#5c574d" stroke-width="1">
+      <circle cx="70" cy="118" r="5"/><circle cx="140" cy="68" r="5"/><circle cx="140" cy="118" r="5"/><circle cx="210" cy="68" r="5"/>
+      <circle cx="210" cy="118" r="5"/><circle cx="280" cy="68" r="5"/><circle cx="280" cy="118" r="5"/><circle cx="350" cy="68" r="5"/>
+      <circle cx="350" cy="118" r="5"/><circle cx="420" cy="68" r="5"/><circle cx="420" cy="118" r="5"/><circle cx="490" cy="68" r="5"/>
+    </g>
+
+    <!-- net movement -->
+    <line x1="70" y1="30" x2="520" y2="30" stroke="#0b5f54" stroke-width="5" marker-end="url(#ld-arr)"/>
+    <text x="295" y="22" font-size="14" font-weight="700" fill="#0b5f54" text-anchor="middle">net movement of sediment along the coast = longshore drift</text>
+
+    <!-- step badges -->
+    <g font-size="13" font-weight="700" text-anchor="middle">
+      <circle cx="235" cy="205" r="11" fill="#0f7b6c"/><text x="235" y="209.5" fill="#ffffff">1</text>
+      <circle cx="160" cy="80" r="11" fill="#0f7b6c"/><text x="160" y="84.5" fill="#ffffff">2</text>
+      <circle cx="126" cy="100" r="11" fill="#0f7b6c"/><text x="126" y="104.5" fill="#ffffff">3</text>
+      <circle cx="46" cy="30" r="11" fill="#0f7b6c"/><text x="46" y="34.5" fill="#ffffff">4</text>
+    </g>
+
+    <!-- steps -->
+    <g font-size="14">
+      <circle cx="611" cy="22" r="10" fill="#0f7b6c"/><text x="611" y="26.5" fill="#ffffff" font-size="12.5" font-weight="700" text-anchor="middle">1</text>
+      <text x="628" y="27">The prevailing wind drives</text>
+      <text x="628" y="44">waves onto the beach at an angle.</text>
+      <circle cx="611" cy="78" r="10" fill="#0f7b6c"/><text x="611" y="82.5" fill="#ffffff" font-size="12.5" font-weight="700" text-anchor="middle">2</text>
+      <text x="628" y="83">The <tspan font-weight="700">swash</tspan> carries sediment up</text>
+      <text x="628" y="100">the beach at the same angle.</text>
+      <circle cx="611" cy="134" r="10" fill="#0f7b6c"/><text x="611" y="138.5" fill="#ffffff" font-size="12.5" font-weight="700" text-anchor="middle">3</text>
+      <text x="628" y="139">The <tspan font-weight="700">backwash</tspan> drags it straight</text>
+      <text x="628" y="156">back down the beach, at right</text>
+      <text x="628" y="173">angles to the shore (gravity).</text>
+      <circle cx="611" cy="207" r="10" fill="#0f7b6c"/><text x="611" y="211.5" fill="#ffffff" font-size="12.5" font-weight="700" text-anchor="middle">4</text>
+      <text x="628" y="212">Repeated, sediment zigzags</text>
+      <text x="628" y="229">along the coast in the direction</text>
+      <text x="628" y="246">of the prevailing wind.</text>
+    </g>
+  </g>
+</svg>

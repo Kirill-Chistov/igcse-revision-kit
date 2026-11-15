@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="Effects of smoking. Tar: contains carcinogens causing lung cancer; paralyses cilia and increases mucus, causing coughing, bronchitis and infections; damages alveolar walls causing emphysema, a smaller surface area for gas exchange. Carbon monoxide: combines with haemoglobin so blood carries less oxygen. Nicotine: addictive, raises heart rate and blood pressure and narrows arteries. Carbon monoxide and nicotine damage artery linings so fatty deposits build up in the coronary arteries, leading to coronary heart disease.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .sk-h { font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .sk-l { font-size: 12px; font-weight: 700; }
+    .sk-s { font-size: 11.5px; fill: #33475b; }
+    .sk-t { font-size: 11.5px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .sk-ar { fill: none; stroke: #8fa3b8; stroke-width: 1.8; }
+  </style>
+  <text class="sk-t" x="10" y="14">IN SMOKE</text>
+  <text class="sk-t" x="150" y="14">EFFECT</text>
+  <text class="sk-t" x="500" y="14">CONSEQUENCE</text>
+
+  <!-- tar -->
+  <rect x="6" y="24" width="120" height="104" rx="8" fill="#5b4a3a"/>
+  <text class="sk-h" x="66" y="82" text-anchor="middle">Tar</text>
+  <path class="sk-ar" d="M126,44 L144,44"/><path class="sk-ar" d="M126,76 L144,76"/><path class="sk-ar" d="M126,108 L144,108"/>
+  <text class="sk-s" x="150" y="40">contains <tspan font-weight="700">carcinogens</tspan></text>
+  <text class="sk-s" x="150" y="68">stops <tspan font-weight="700">cilia</tspan> beating; more <tspan font-weight="700">mucus</tspan> made,</text>
+  <text class="sk-s" x="150" y="82">which collects in the airways</text>
+  <text class="sk-s" x="150" y="108">damages walls of <tspan font-weight="700">alveoli</tspan></text>
+  <path class="sk-ar" d="M268,36 L492,40" stroke-dasharray="2 3"/><path class="sk-ar" d="M346,74 L492,74" stroke-dasharray="2 3"/><path class="sk-ar" d="M284,104 L492,104" stroke-dasharray="2 3"/>
+  <text class="sk-l" x="500" y="44">lung cancer</text>
+  <text class="sk-l" x="500" y="72">smoker's cough, bronchitis,</text>
+  <text class="sk-l" x="500" y="86">chest infections</text>
+  <text class="sk-l" x="500" y="108">emphysema: <tspan class="sk-s" font-weight="400">smaller surface area for</tspan></text>
+  <text class="sk-s" x="500" y="122">gas exchange → breathless</text>
+
+  <!-- CO -->
+  <rect x="6" y="140" width="120" height="46" rx="8" fill="#6b7a88"/>
+  <text class="sk-h" x="66" y="168" text-anchor="middle">Carbon monoxide</text>
+  <path class="sk-ar" d="M126,160 L144,160"/>
+  <text class="sk-s" x="150" y="156">combines with <tspan font-weight="700">haemoglobin</tspan> →</text>
+  <text class="sk-s" x="150" y="170">blood carries less oxygen</text>
+
+  <!-- nicotine -->
+  <rect x="6" y="198" width="120" height="46" rx="8" fill="#8a5a8a"/>
+  <text class="sk-h" x="66" y="226" text-anchor="middle">Nicotine</text>
+  <path class="sk-ar" d="M126,220 L144,220"/>
+  <text class="sk-s" x="150" y="214"><tspan font-weight="700">addictive</tspan>; raises heart rate and blood</text>
+  <text class="sk-s" x="150" y="228">pressure; narrows arteries</text>
+
+  <!-- converging to CHD -->
+  <path class="sk-ar" d="M300,176 C340,176 340,196 372,196"/><path class="sk-ar" d="M372,222 C340,222 340,222 300,222" />
+  <rect x="372" y="176" width="106" height="60" rx="6" fill="#fdeded" stroke="#c0392b" stroke-width="1.2"/>
+  <text class="sk-s" x="425" y="196" text-anchor="middle">both damage</text>
+  <text class="sk-s" x="425" y="210" text-anchor="middle">artery linings →</text>
+  <text class="sk-s" x="425" y="224" text-anchor="middle">fatty deposits</text>
+  <path class="sk-ar" d="M478,206 L492,206"/>
+  <text class="sk-l" x="500" y="186" style="fill:#c0392b">coronary heart disease</text>
+  <text class="sk-s" x="500" y="202">coronary arteries narrowed or</text>
+  <text class="sk-s" x="500" y="216">blocked (clot) → heart muscle gets</text>
+  <text class="sk-s" x="500" y="230">too little oxygen → heart attack</text>
+</svg>

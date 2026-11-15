@@ -1,0 +1,14 @@
+name: English Literature
+board: Cambridge International
+qualification: IGCSE (9–1) Literature in English
+code: "0992"
+aliases: [lit, english literature, literature]
+spec_url: https://www.cambridgeinternational.org/Images/721390-2027-syllabus.pdf
+tiers: none
+centre_choices:
+  - route (Paper 2 / Paper 3 + 4 / Paper 3 + Component 5)
+  - set texts: poetry, prose, drama
+status: specification mapped, no notes yet
+spec_points: 22
+subtopics_written: 0
+topic_pdfs: 0

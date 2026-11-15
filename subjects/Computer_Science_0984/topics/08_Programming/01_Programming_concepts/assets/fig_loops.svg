@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 236" width="690" height="236" role="img" aria-label="Flowcharts of FOR, WHILE and REPEAT loops" font-family="Carlito, Calibri, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker><marker id="art" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="ara" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b45309"/></marker></defs>
+<text x="115.0" y="16.0" font-size="14" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">Count-controlled — FOR</text>
+<text x="345.0" y="16.0" font-size="14" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">Pre-condition — WHILE</text>
+<text x="575.0" y="16.0" font-size="14" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">Post-condition — REPEAT</text>
+<path d="M115 24 L115 32" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<rect x="60.0" y="32" width="110" height="22" rx="2" fill="#fff" stroke="#16283c" stroke-width="1.4"/>
+<text x="115.0" y="47.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">Count ← 1</text>
+<path d="M115 54 L115 62" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<polygon points="115,62 179,82 115,102 51,82" fill="#e6f4f1" stroke="#0f766e" stroke-width="1.5"/>
+<text x="115.0" y="86.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">Count &lt;= 5 ?</text>
+<path d="M115 102 L115 114" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="127.0" y="112.0" font-size="11" fill="#0f766e" text-anchor="start" font-weight="bold" style="white-space:pre">Yes</text>
+<rect x="60.0" y="114" width="110" height="22" rx="2" fill="#fff" stroke="#16283c" stroke-width="1.4"/>
+<text x="115.0" y="129.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">statements</text>
+<path d="M115 136 L115 144" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<rect x="50.0" y="144" width="130" height="22" rx="2" fill="#fff" stroke="#16283c" stroke-width="1.4"/>
+<text x="115.0" y="159.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">Count ← Count + 1</text>
+<path d="M50 155 L27 155 L27 82 L51 82" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<path d="M179 82 L207 82 L207 186 L157 186" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="193.0" y="76.0" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">No</text>
+<rect x="73" y="176" width="84" height="20" rx="10" fill="#fff" stroke="#5b6b7b" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text x="115.0" y="190.0" font-size="11" fill="#5b6b7b" text-anchor="middle" font-weight="normal" style="white-space:pre">after loop</text>
+<path d="M345 24 L345 50" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<polygon points="345,50 409,70 345,90 281,70" fill="#e6f4f1" stroke="#0f766e" stroke-width="1.5"/>
+<text x="345.0" y="74.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">condition ?</text>
+<path d="M345 90 L345 110" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="357.0" y="104.0" font-size="11" fill="#0f766e" text-anchor="start" font-weight="bold" style="white-space:pre">True</text>
+<rect x="290.0" y="110" width="110" height="22" rx="2" fill="#fff" stroke="#16283c" stroke-width="1.4"/>
+<text x="345.0" y="125.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">statements</text>
+<path d="M290 121 L257 121 L257 38 L345 38" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<path d="M409 70 L437 70 L437 186 L387 186" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="425.0" y="64.0" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">False</text>
+<rect x="303" y="176" width="84" height="20" rx="10" fill="#fff" stroke="#5b6b7b" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text x="345.0" y="190.0" font-size="11" fill="#5b6b7b" text-anchor="middle" font-weight="normal" style="white-space:pre">after loop</text>
+<path d="M575 24 L575 46" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<rect x="520.0" y="46" width="110" height="22" rx="2" fill="#fff" stroke="#16283c" stroke-width="1.4"/>
+<text x="575.0" y="61.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">statements</text>
+<path d="M575 68 L575 92" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<polygon points="575,92 639,112 575,132 511,112" fill="#e6f4f1" stroke="#0f766e" stroke-width="1.5"/>
+<text x="575.0" y="116.5" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">condition ?</text>
+<path d="M511 112 L487 112 L487 36 L575 36" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="501.0" y="127.0" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold" style="white-space:pre">False</text>
+<path d="M575 132 L575 176" fill="none" stroke="#16283c" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="587.0" y="158.0" font-size="11" fill="#0f766e" text-anchor="start" font-weight="bold" style="white-space:pre">True</text>
+<rect x="533" y="176" width="84" height="20" rx="10" fill="#fff" stroke="#5b6b7b" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text x="575.0" y="190.0" font-size="11" fill="#5b6b7b" text-anchor="middle" font-weight="normal" style="white-space:pre">after loop</text>
+<text x="115.0" y="214.0" font-size="12.5" fill="#b45309" text-anchor="middle" font-weight="bold" style="white-space:pre">Repeats a set number</text>
+<text x="115.0" y="229.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">of times</text>
+<text x="345.0" y="214.0" font-size="12.5" fill="#b45309" text-anchor="middle" font-weight="bold" style="white-space:pre">Tests first: may run 0 times;</text>
+<text x="345.0" y="229.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">repeats while condition TRUE</text>
+<text x="575.0" y="214.0" font-size="12.5" fill="#b45309" text-anchor="middle" font-weight="bold" style="white-space:pre">Tests last: runs at least once;</text>
+<text x="575.0" y="229.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="normal" style="white-space:pre">stops when condition TRUE</text>
+</svg>

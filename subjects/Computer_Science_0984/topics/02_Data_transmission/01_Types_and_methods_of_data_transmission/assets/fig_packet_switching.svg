@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 316" width="680" height="316" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Packet switching: three packets take different routes through routers and are reordered at the receiver">
+  <!-- network links -->
+  <g stroke="#cbd5e1" stroke-width="2" fill="none">
+    <line x1="100" y1="116" x2="185" y2="55"/>
+    <line x1="100" y1="116" x2="185" y2="178"/>
+    <line x1="185" y1="55" x2="185" y2="178"/>
+    <line x1="185" y1="55" x2="340" y2="36"/>
+    <line x1="185" y1="55" x2="340" y2="116"/>
+    <line x1="185" y1="178" x2="340" y2="116"/>
+    <line x1="185" y1="178" x2="340" y2="196"/>
+    <line x1="340" y1="36" x2="495" y2="55"/>
+    <line x1="340" y1="116" x2="495" y2="55"/>
+    <line x1="340" y1="116" x2="495" y2="178"/>
+    <line x1="340" y1="196" x2="495" y2="178"/>
+    <line x1="495" y1="55" x2="495" y2="178"/>
+    <line x1="495" y1="55" x2="580" y2="116"/>
+    <line x1="495" y1="178" x2="580" y2="116"/>
+  </g>
+
+  <!-- routes taken by packets 1, 2, 3 -->
+  <polyline points="100,112 185,51 340,32 495,51 580,112" fill="none" stroke="#2563eb" stroke-width="3.2"/>
+  <polyline points="100,116 185,178 340,196 495,178 580,116" fill="none" stroke="#ea580c" stroke-width="3.2"/>
+  <polyline points="100,121 185,60 340,121 495,183 580,121" fill="none" stroke="#7c3aed" stroke-width="3.2"/>
+
+  <!-- routers -->
+  <g fill="#ffffff" stroke="#0f766e" stroke-width="2">
+    <circle cx="185" cy="55" r="17"/><circle cx="185" cy="178" r="17"/>
+    <circle cx="340" cy="36" r="17"/><circle cx="340" cy="116" r="17"/><circle cx="340" cy="196" r="17"/>
+    <circle cx="495" cy="55" r="17"/><circle cx="495" cy="178" r="17"/>
+  </g>
+  <g font-size="12" font-weight="700" fill="#134e4a" text-anchor="middle">
+    <text x="185" y="59">R</text><text x="185" y="182">R</text>
+    <text x="340" y="40">R</text><text x="340" y="120">R</text><text x="340" y="200">R</text>
+    <text x="495" y="59">R</text><text x="495" y="182">R</text>
+  </g>
+
+  <!-- packet tags on their routes -->
+  <rect x="408" y="33" width="20" height="20" rx="3" fill="#2563eb"/>
+  <text x="418" y="48" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">1</text>
+  <rect x="252" y="178" width="20" height="20" rx="3" fill="#ea580c"/>
+  <text x="262" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <rect x="408" y="140" width="20" height="20" rx="3" fill="#7c3aed"/>
+  <text x="418" y="155" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">3</text>
+
+  <!-- sender and receiver -->
+  <rect x="10" y="88" width="90" height="56" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <text x="55" y="121" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">Sender</text>
+  <rect x="580" y="88" width="90" height="56" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <text x="625" y="121" text-anchor="middle" font-size="15" font-weight="700" fill="#134e4a">Receiver</text>
+
+  <!-- queued packets at sender -->
+  <g font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <rect x="22" y="152" width="20" height="20" rx="3" fill="#2563eb"/><text x="32" y="167">1</text>
+    <rect x="45" y="152" width="20" height="20" rx="3" fill="#ea580c"/><text x="55" y="167">2</text>
+    <rect x="68" y="152" width="20" height="20" rx="3" fill="#7c3aed"/><text x="78" y="167">3</text>
+  </g>
+  <!-- arrival and reorder at receiver -->
+  <text x="625" y="166" text-anchor="middle" font-size="11.5" fill="#475569">arrive: 3, 1, 2</text>
+  <text x="625" y="183" text-anchor="middle" font-size="11.5" font-weight="700" fill="#134e4a">reordered: 1, 2, 3</text>
+
+  <!-- step markers on the network -->
+  <g font-size="12" font-weight="700" text-anchor="middle">
+    <circle cx="55" cy="72" r="10" fill="#0f766e"/><text x="55" y="76" fill="#ffffff">1</text>
+    <circle cx="262" cy="118" r="10" fill="#0f766e"/><text x="262" y="122" fill="#ffffff">2</text>
+    <circle cx="372" cy="86" r="10" fill="#0f766e"/><text x="372" y="90" fill="#ffffff">3</text>
+    <circle cx="625" cy="72" r="10" fill="#0f766e"/><text x="625" y="76" fill="#ffffff">4</text>
+  </g>
+
+  <!-- step captions -->
+  <g font-size="12" fill="#1e293b">
+    <rect x="8" y="228" width="158" height="82" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <circle cx="24" cy="244" r="10" fill="#0f766e"/><text x="24" y="248" text-anchor="middle" font-weight="700" fill="#ffffff">1</text>
+    <text x="40" y="248">Data is broken down</text>
+    <text x="18" y="266">into packets; each has</text>
+    <text x="18" y="283">a packet number.</text>
+
+    <rect x="178" y="228" width="158" height="82" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <circle cx="194" cy="244" r="10" fill="#0f766e"/><text x="194" y="248" text-anchor="middle" font-weight="700" fill="#ffffff">2</text>
+    <text x="210" y="248">Each packet is sent</text>
+    <text x="188" y="266">independently and could</text>
+    <text x="188" y="283">take a different route.</text>
+
+    <rect x="348" y="228" width="158" height="82" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <circle cx="364" cy="244" r="10" fill="#0f766e"/><text x="364" y="248" text-anchor="middle" font-weight="700" fill="#ffffff">3</text>
+    <text x="380" y="248">At each router, the</text>
+    <text x="358" y="266">router reads the destination</text>
+    <text x="358" y="283">address and chooses the</text>
+    <text x="358" y="299">next step of the route.</text>
+
+    <rect x="518" y="228" width="158" height="82" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+    <circle cx="534" cy="244" r="10" fill="#0f766e"/><text x="534" y="248" text-anchor="middle" font-weight="700" fill="#ffffff">4</text>
+    <text x="550" y="248">Packets may arrive out</text>
+    <text x="528" y="266">of order. Once the last</text>
+    <text x="528" y="283">arrives, they are reordered</text>
+    <text x="528" y="299">using the packet numbers.</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" font-family="Carlito, Calibri, sans-serif">
+  <defs>
+    <marker id="oc-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <text x="10" y="16" font-size="11.5" font-weight="700" fill="#6b7a88" letter-spacing="0.8">AS A BUSINESS EVOLVES — TYPICAL MAIN OBJECTIVES</text>
+  <g font-size="12.5" fill="#33475b" text-anchor="middle">
+    <rect x="10" y="26" width="200" height="72" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="110" y="47" font-size="14" font-weight="700" fill="#16283c">Start-up</text>
+    <text x="110" y="67">Survival</text>
+    <text x="110" y="84">cover costs, win customers</text>
+    <rect x="260" y="26" width="200" height="72" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="360" y="47" font-size="14" font-weight="700" fill="#16283c">Growing</text>
+    <text x="360" y="67">Sales and profit growth,</text>
+    <text x="360" y="84">increase market share</text>
+    <rect x="510" y="26" width="200" height="72" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.4"/>
+    <text x="610" y="47" font-size="14" font-weight="700" fill="#16283c">Large / established</text>
+    <text x="610" y="67">Market share, financial</text>
+    <text x="610" y="84">security, social objectives</text>
+  </g>
+  <line x1="212" y1="62" x2="256" y2="62" stroke="#16283c" stroke-width="1.8" marker-end="url(#oc-arr)"/>
+  <line x1="462" y1="62" x2="506" y2="62" stroke="#16283c" stroke-width="1.8" marker-end="url(#oc-arr)"/>
+
+  <text x="10" y="126" font-size="11.5" font-weight="700" fill="#6b7a88" letter-spacing="0.8">WHAT CAN CHANGE OBJECTIVES AT ANY STAGE</text>
+  <g font-size="12.5" fill="#33475b">
+    <rect x="10" y="136" width="150" height="25" rx="5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="85" y="153" text-anchor="middle" font-weight="700" fill="#16283c">Market conditions</text>
+    <line x1="162" y1="148.5" x2="182" y2="148.5" stroke="#16283c" stroke-width="1.5" marker-end="url(#oc-arr)"/>
+    <text x="188" y="153">recession or a new rival → survival or defending market share replaces growth</text>
+
+    <rect x="10" y="166" width="150" height="25" rx="5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="85" y="183" text-anchor="middle" font-weight="700" fill="#16283c">Technology</text>
+    <line x1="162" y1="178.5" x2="182" y2="178.5" stroke="#16283c" stroke-width="1.5" marker-end="url(#oc-arr)"/>
+    <text x="188" y="183">new technology → objectives to launch new products or cut costs</text>
+
+    <rect x="10" y="196" width="150" height="25" rx="5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="85" y="213" text-anchor="middle" font-weight="700" fill="#16283c">Performance</text>
+    <line x1="162" y1="208.5" x2="182" y2="208.5" stroke="#16283c" stroke-width="1.5" marker-end="url(#oc-arr)"/>
+    <text x="188" y="213">targets beaten → raised; targets missed → lowered, or survival comes first</text>
+
+    <rect x="10" y="226" width="150" height="25" rx="5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="85" y="243" text-anchor="middle" font-weight="700" fill="#16283c">Legislation</text>
+    <line x1="162" y1="238.5" x2="182" y2="238.5" stroke="#16283c" stroke-width="1.5" marker-end="url(#oc-arr)"/>
+    <text x="188" y="243">new laws, e.g. on pollution or wages → objectives to comply, cut waste or costs</text>
+
+    <rect x="10" y="256" width="150" height="25" rx="5" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="85" y="273" text-anchor="middle" font-weight="700" fill="#16283c">Internal reasons</text>
+    <line x1="162" y1="268.5" x2="182" y2="268.5" stroke="#16283c" stroke-width="1.5" marker-end="url(#oc-arr)"/>
+    <text x="188" y="273">new owners or managers, becoming a company, owner wants a new challenge</text>
+  </g>
+</svg>

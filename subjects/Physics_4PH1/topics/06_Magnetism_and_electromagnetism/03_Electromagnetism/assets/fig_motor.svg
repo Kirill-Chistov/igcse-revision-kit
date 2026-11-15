@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 246" font-family="Carlito, Calibri, sans-serif" role="img">
+<title>Simple d.c. motor: forces on the coil, and the split-ring commutator</title>
+<rect x="20.0" y="40.0" width="46.0" height="160.0" fill="#f2b8b0" stroke="#c0392b" stroke-width="1.4"/>
+<text x="43.0" y="126.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#8e2a20">N</text>
+<rect x="314.0" y="40.0" width="46.0" height="160.0" fill="#b9d0ee" stroke="#2e6fb7" stroke-width="1.4"/>
+<text x="337.0" y="126.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f4f8a">S</text>
+<line x1="66" y1="58" x2="314" y2="58" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.8"/>
+<polygon points="96.0,58.0 90.0,61.3 90.0,54.7" fill="#0f7b6c"/>
+<line x1="66" y1="88" x2="314" y2="88" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.8"/>
+<polygon points="96.0,88.0 90.0,91.3 90.0,84.7" fill="#0f7b6c"/>
+<line x1="66" y1="152" x2="314" y2="152" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.8"/>
+<polygon points="96.0,152.0 90.0,155.3 90.0,148.7" fill="#0f7b6c"/>
+<line x1="66" y1="182" x2="314" y2="182" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4" opacity="0.8"/>
+<polygon points="96.0,182.0 90.0,185.3 90.0,178.7" fill="#0f7b6c"/>
+<line x1="120" y1="120" x2="260" y2="120" stroke="#b5651d" stroke-width="5" stroke-linecap="round"/>
+<circle cx="190" cy="120" r="5" fill="#16283c"/>
+<circle cx="120.0" cy="120.0" r="11" fill="#ffffff" stroke="#16283c" stroke-width="1.6"/>
+<line x1="114.0" y1="114.0" x2="126.0" y2="126.0" stroke="#16283c" stroke-width="1.6"/>
+<line x1="114.0" y1="126.0" x2="126.0" y2="114.0" stroke="#16283c" stroke-width="1.6"/>
+<circle cx="260.0" cy="120.0" r="11" fill="#ffffff" stroke="#16283c" stroke-width="1.6"/>
+<circle cx="260.0" cy="120.0" r="3.1" fill="#16283c"/>
+<line x1="120.0" y1="133.0" x2="120.0" y2="187.2" stroke="#4c3fa8" stroke-width="3"/>
+<polygon points="120.0,196.0 114.0,185.0 126.0,185.0" fill="#4c3fa8"/>
+<line x1="260.0" y1="107.0" x2="260.0" y2="52.8" stroke="#4c3fa8" stroke-width="3"/>
+<polygon points="260.0,44.0 266.1,55.0 253.9,55.0" fill="#4c3fa8"/>
+<text x="134.0" y="194.0" font-size="12.5" text-anchor="start" font-weight="bold" fill="#4c3fa8">force</text>
+<text x="248.0" y="52.0" font-size="12.5" text-anchor="end" font-weight="bold" fill="#4c3fa8">force</text>
+<path d="M 222.6,104.8 A 36 36 0 0 0 157.4,104.8" fill="none" stroke="#16283c" stroke-width="1.8"/>
+<polygon points="155.9,108.3 154.5,99.3 162.7,102.3" fill="#16283c"/>
+<text x="190.0" y="222.0" font-size="13.5" text-anchor="middle" font-weight="bold" fill="#16283c">(a) end view along the axle</text>
+<text x="190.0" y="238.0" font-size="11.5" text-anchor="middle" font-weight="normal" fill="#33475b">⊗ current into page · ⊙ out of page</text>
+<line x1="400" y1="10" x2="400" y2="240" stroke="#dfe5ea" stroke-width="1"/>
+<path d="M 554.1,151.5 A 34 34 0 0 1 554.1,84.5" fill="none" stroke="#b5651d" stroke-width="10"/>
+<path d="M 565.9,84.5 A 34 34 0 0 1 565.9,151.5" fill="none" stroke="#b5651d" stroke-width="10"/>
+<line x1="552.9" y1="80.7" x2="548" y2="36" stroke="#b5651d" stroke-width="2.4"/>
+<line x1="567.1" y1="80.7" x2="572" y2="36" stroke="#b5651d" stroke-width="2.4"/>
+<text x="560.0" y="28.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#33475b">to the coil</text>
+<rect x="506" y="108" width="15" height="20" fill="#16283c"/>
+<rect x="599" y="108" width="15" height="20" fill="#16283c"/>
+<polyline points="506,118 470,118 470,196 552,196" fill="none" stroke="#16283c" stroke-width="1.8"/>
+<polyline points="560,196 650,196 650,118 614,118" fill="none" stroke="#16283c" stroke-width="1.8"/>
+<line x1="552" y1="183" x2="552" y2="209" stroke="#16283c" stroke-width="2.2"/>
+<line x1="560" y1="190" x2="560" y2="202" stroke="#16283c" stroke-width="4.5"/>
+<text x="556.0" y="224.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#33475b">d.c. supply</text>
+<text x="470.0" y="104.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#33475b">brush</text>
+<text x="652.0" y="104.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#33475b">brush</text>
+<text x="700.0" y="60.0" font-size="12.5" text-anchor="end" font-weight="bold" fill="#16283c">split-ring</text>
+<text x="700.0" y="75.0" font-size="12.5" text-anchor="end" font-weight="bold" fill="#16283c">commutator</text>
+<line x1="640.0" y1="72.0" x2="589.0" y2="99.0" stroke="#6b7a88" stroke-width="0.9"/>
+<circle cx="589.0" cy="99.0" r="1.8" fill="#6b7a88"/>
+<text x="560.0" y="240.0" font-size="13.5" text-anchor="middle" font-weight="bold" fill="#16283c">(b) split-ring commutator and brushes</text>
+</svg>

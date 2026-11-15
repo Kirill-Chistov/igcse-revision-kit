@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 246" font-family="Carlito, Calibri, sans-serif">
+<defs>
+<marker id="hz-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#16283c"/></marker>
+</defs>
+<style>
+.hz-h{font-size:16px;font-weight:700}
+.hz-i{font-size:13px;fill:#16283c}
+.hz-e{font-size:12.5px;fill:#16283c}
+.hz-sc{font-size:12.5px;font-weight:700;fill:#16283c}
+</style>
+<!-- scale -->
+<line x1="24" y1="34" x2="696" y2="34" stroke="#16283c" stroke-width="2" marker-start="url(#hz-arr)" marker-end="url(#hz-arr)"/>
+<line x1="360" y1="27" x2="360" y2="41" stroke="#16283c" stroke-width="2"/>
+<text class="hz-sc" x="24" y="15">Dissatisfied</text>
+<text class="hz-sc" x="360" y="15" text-anchor="middle">Neutral: not dissatisfied, not motivated</text>
+<text class="hz-sc" x="696" y="15" text-anchor="end">Satisfied and motivated</text>
+<!-- range brackets -->
+<path d="M24,48 V54 H356 V48" fill="none" stroke="#c0392b" stroke-width="1.6"/>
+<path d="M364,48 V54 H696 V48" fill="none" stroke="#1e8449" stroke-width="1.6"/>
+<!-- hygiene -->
+<rect x="20" y="62" width="336" height="176" rx="6" fill="#fdeded" stroke="#c0392b" stroke-width="1.6"/>
+<text class="hz-h" x="36" y="86" fill="#c0392b">Hygiene factors</text>
+<text class="hz-i" x="36" y="110">• pay</text>
+<text class="hz-i" x="36" y="128">• working conditions</text>
+<text class="hz-i" x="36" y="146">• company policies and rules</text>
+<text class="hz-i" x="196" y="110">• supervision</text>
+<text class="hz-i" x="196" y="128">• relationships with</text>
+<text class="hz-i" x="206" y="146">colleagues</text>
+<text class="hz-i" x="196" y="164">• job security</text>
+<line x1="36" y1="178" x2="340" y2="178" stroke="#e3b3ad" stroke-width="1"/>
+<text class="hz-e" x="36" y="198"><tspan font-weight="700">Poor</tspan> → employees are dissatisfied.</text>
+<text class="hz-e" x="36" y="216"><tspan font-weight="700">Good</tspan> → prevents dissatisfaction but</text>
+<text class="hz-e" x="36" y="232">does <tspan font-weight="700">not</tspan> motivate.</text>
+<!-- motivators -->
+<rect x="364" y="62" width="336" height="176" rx="6" fill="#eaf7ef" stroke="#1e8449" stroke-width="1.6"/>
+<text class="hz-h" x="380" y="86" fill="#1e8449">Motivators</text>
+<text class="hz-i" x="380" y="110">• achievement</text>
+<text class="hz-i" x="380" y="128">• recognition</text>
+<text class="hz-i" x="380" y="146">• responsibility</text>
+<text class="hz-i" x="540" y="110">• the work itself</text>
+<text class="hz-i" x="540" y="128">• promotion</text>
+<text class="hz-i" x="540" y="146">• personal growth</text>
+<line x1="380" y1="178" x2="684" y2="178" stroke="#a9d8ba" stroke-width="1"/>
+<text class="hz-e" x="380" y="198"><tspan font-weight="700">Present</tspan> → satisfaction and motivation.</text>
+<text class="hz-e" x="380" y="216">Provided by job enrichment, autonomy,</text>
+<text class="hz-e" x="380" y="232">promotion.</text>
+</svg>

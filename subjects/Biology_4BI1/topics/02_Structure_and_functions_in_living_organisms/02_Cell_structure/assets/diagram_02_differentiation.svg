@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200" role="img" aria-label="An unspecialised stem cell differentiates into specialised cells: a red blood cell with no nucleus and haemoglobin to carry oxygen, a long nerve cell to carry impulses, and a muscle cell that can contract.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .df-h { font-size: 13px; font-weight: 700; }
+    .df-s { font-size: 12px; fill: #33475b; }
+    .df-k { font-size: 12px; font-weight: 700; fill: #0b5f54; font-style: italic; }
+    .df-ar { fill: none; stroke: #0f7b6c; stroke-width: 2.2; }
+  </style>
+  <!-- stem cell -->
+  <circle cx="80" cy="96" r="36" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="2"/>
+  <circle cx="80" cy="96" r="14" fill="#eadcf5" stroke="#6d3fa8" stroke-width="1.5"/>
+  <text class="df-h" x="80" y="152" text-anchor="middle">unspecialised cell</text>
+  <text class="df-s" x="80" y="168" text-anchor="middle">e.g. a stem cell</text>
+
+  <!-- arrows -->
+  <path class="df-ar" d="M122,90 C170,60 200,36 262,34"/><path d="M270,34 l-10,-6 v12z" fill="#0f7b6c"/>
+  <path class="df-ar" d="M122,96 L262,100"/><path d="M270,100 l-10,-6 v12z" fill="#0f7b6c"/>
+  <path class="df-ar" d="M122,104 C170,136 200,164 262,166"/><path d="M270,166 l-10,-6 v12z" fill="#0f7b6c"/>
+  <text class="df-k" x="150" y="126">differentiation</text>
+
+  <!-- red blood cell -->
+  <ellipse cx="312" cy="34" rx="30" ry="18" fill="#f2b8b0" stroke="#a93226" stroke-width="1.8"/>
+  <ellipse cx="312" cy="34" rx="14" ry="7" fill="#f7d3ce" stroke="none"/>
+  <text class="df-h" x="370" y="30">red blood cell</text>
+  <text class="df-s" x="370" y="46">no nucleus, full of haemoglobin → carries oxygen</text>
+
+  <!-- nerve cell -->
+  <g stroke="#6d3fa8" stroke-width="1.8" fill="none">
+    <path d="M284,100 L352,100"/>
+    <path d="M284,100 l-8,-8 M284,100 l-8,8 M284,100 l-10,0"/>
+    <path d="M352,100 l6,-6 M352,100 l6,6 M352,100 l8,0"/>
+  </g>
+  <circle cx="290" cy="100" r="8" fill="#eadcf5" stroke="#6d3fa8" stroke-width="1.6"/>
+  <text class="df-h" x="370" y="96">nerve cell</text>
+  <text class="df-s" x="370" y="112">very long, with branched endings → carries impulses over long distances</text>
+
+  <!-- muscle cell -->
+  <rect x="280" y="156" width="66" height="20" rx="10" fill="#f6dada" stroke="#a93226" stroke-width="1.8"/>
+  <g fill="#fbe9d0" stroke="#b86e12" stroke-width="1"><ellipse cx="296" cy="166" rx="5" ry="3"/><ellipse cx="313" cy="166" rx="5" ry="3"/><ellipse cx="330" cy="166" rx="5" ry="3"/></g>
+  <text class="df-h" x="370" y="162">muscle cell</text>
+  <text class="df-s" x="370" y="178">can contract; many mitochondria release energy for contraction</text>
+</svg>

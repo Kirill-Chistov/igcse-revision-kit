@@ -1,0 +1,12 @@
+name: Business
+board: Pearson Edexcel
+qualification: International GCSE (9–1) Business
+code: "4BS1"
+aliases: [business, bus]
+spec_url: https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Business%20Studies/2017/specification-and-sample-assessment/9781446942765-international-gcse-business-specification.pdf
+tiers: none
+centre_choices: []
+status: notes for every topic
+spec_points: 59
+subtopics_written: 25
+topic_pdfs: 5

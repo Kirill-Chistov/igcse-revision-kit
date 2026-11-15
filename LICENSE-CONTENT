@@ -1,0 +1,31 @@
+Study material licence
+======================
+
+Copyright (c) 2026 Kirill Chistov and igcse-revision-kit contributors
+
+Everything in this repository that is not software — the revision notes and PDFs (`subjects/`,
+`notes/`), the diagrams drawn for the kit, the rules (`rules/`, `CLAUDE.md`, `AGENTS.md`), the
+skills (`.claude/skills/`) and the templates — is licensed under the
+
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
+    (CC BY-NC-SA 4.0)   https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You may copy, share and adapt it for non-commercial purposes, as long as you give credit
+("Kirill Chistov and igcse-revision-kit contributors", with a link to the repository), indicate changes, and share
+your adaptations under the same licence. You may not sell it or use it in a paid product.
+
+Exceptions
+----------
+
+* Third-party photographs keep their own licences. Each is listed, with author, origin and licence,
+  in the `assets/SOURCES.md` file of the subtopic that uses it.
+* Specification point wording in `specification.md`, `specification_map.csv` and
+  `coverage_checklist.md` is © the awarding bodies (Pearson Education Ltd, Cambridge University
+  Press & Assessment) and is reproduced only to identify what each note covers. The official
+  specifications themselves are not included; `tools/fetch_specs.py` downloads them from the
+  boards' own websites.
+* The software in `tools/` and `.github/` is under the MIT licence (see LICENSE).
+
+This project is not affiliated with, endorsed by or connected to Pearson Edexcel, Cambridge
+International or any other awarding body. Notes are written by students and AI agents and may
+contain mistakes; the official specification and mark schemes are always the authority.

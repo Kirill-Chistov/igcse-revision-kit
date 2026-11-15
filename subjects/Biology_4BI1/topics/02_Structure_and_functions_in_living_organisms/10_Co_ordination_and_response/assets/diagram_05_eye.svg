@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" width="760" height="270" role="img" aria-label="Horizontal section of the eye with functions: cornea refracts light; iris controls the size of the pupil; pupil lets light in; lens focuses light on the retina; ciliary muscles and suspensory ligaments change the shape of the lens; retina contains light-sensitive receptor cells; optic nerve carries impulses to the brain; sclera is the tough protective outer layer.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ey-l { font-size: 12px; font-weight: 700; }
+    .ey-s { font-size: 11.5px; fill: #33475b; }
+    .ey-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- sclera / eyeball -->
+  <circle cx="330" cy="135" r="104" fill="#fbfbf8" stroke="#6b7a88" stroke-width="3"/>
+  <!-- retina -->
+  <path d="M262,67 A96,96 0 1 1 262,203" fill="none" stroke="#c0392b" stroke-width="4"/>
+  <!-- cornea -->
+  <path d="M240,88 C200,100 200,170 240,182" fill="#eef6fa" stroke="#5b8db8" stroke-width="2.4"/>
+  <!-- iris -->
+  <path d="M244,88 L244,116 M244,154 L244,182" stroke="#7a5230" stroke-width="7"/>
+  <!-- lens -->
+  <ellipse cx="262" cy="135" rx="13" ry="32" fill="#e6f0f8" stroke="#34588a" stroke-width="1.8"/>
+  <!-- ciliary muscles + ligaments -->
+  <ellipse cx="258" cy="76" rx="9" ry="6" fill="#d98c7f" stroke="#a93226"/>
+  <ellipse cx="258" cy="194" rx="9" ry="6" fill="#d98c7f" stroke="#a93226"/>
+  <path d="M258,82 L262,104 M254,82 L256,106 M262,82 L266,106 M258,188 L262,166 M254,188 L256,164 M262,188 L266,164" stroke="#6b7a88" stroke-width="1"/>
+  <!-- optic nerve -->
+  <rect x="430" y="124" width="60" height="22" fill="#f6e2a6" stroke="#b8860b" stroke-width="1.6"/>
+  <!-- light rays -->
+  <path d="M150,112 L244,124 L400,135 M150,158 L244,146 L400,135" stroke="#d99a17" stroke-width="1.4" fill="none" stroke-dasharray="4 3"/>
+  <!-- left labels -->
+  <text class="ey-l" x="6" y="30">cornea</text><text class="ey-s" x="6" y="44">transparent; refracts light</text><path class="ey-ld" d="M130,40 L214,100"/>
+  <text class="ey-l" x="6" y="212">iris</text><text class="ey-s" x="6" y="226">coloured muscle; controls</text><text class="ey-s" x="6" y="240">the size of the pupil</text><path class="ey-ld" d="M120,216 L240,176"/>
+  <text class="ey-l" x="6" y="130">pupil</text><text class="ey-s" x="6" y="144">hole that lets light in</text><path class="ey-ld" d="M112,134 L236,135"/>
+  <!-- right labels -->
+  <text class="ey-l" x="510" y="24">ciliary muscle</text><text class="ey-s" x="510" y="38">contracts / relaxes to change lens shape</text><path class="ey-ld" d="M506,28 L266,74"/>
+  <text class="ey-l" x="510" y="64">suspensory ligaments</text><text class="ey-s" x="510" y="78">hold the lens; pull it thin when tight</text><path class="ey-ld" d="M506,68 L264,94"/>
+  <text class="ey-l" x="510" y="104">lens</text><text class="ey-s" x="510" y="118">focuses light onto the retina</text><path class="ey-ld" d="M506,108 L276,128"/>
+  <text class="ey-l" x="510" y="146">optic nerve</text><text class="ey-s" x="510" y="160">carries impulses to the brain</text><path class="ey-ld" d="M506,150 L490,140"/>
+  <text class="ey-l" x="510" y="192">retina</text><text class="ey-s" x="510" y="206">receptor cells (rods and cones)</text><text class="ey-s" x="510" y="220">detect light → impulses</text><path class="ey-ld" d="M506,196 L416,178"/>
+  <text class="ey-l" x="510" y="246">sclera</text><text class="ey-s" x="510" y="260">tough, white protective outer layer</text><path class="ey-ld" d="M506,250 L380,228"/>
+  <text class="ey-s" x="150" y="100">light</text>
+</svg>

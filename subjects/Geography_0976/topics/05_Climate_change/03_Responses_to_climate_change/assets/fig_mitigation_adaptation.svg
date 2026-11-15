@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 262" width="820" height="262" role="img" aria-label="Mitigation acts on the cause, adaptation acts on the impacts">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker><marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker><marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#4c3fa8"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="10" y="96" width="146" height="66" rx="8" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="83.0" y="109.0" font-size="13.5" font-weight="700" fill="#16283c" text-anchor="middle">Human activities</text>
+<text x="83.0" y="125.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">fossil fuels,</text>
+<text x="83.0" y="141.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">deforestation,</text>
+<text x="83.0" y="157.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">agriculture</text>
+<line x1="157" y1="129.0" x2="172" y2="129.0" stroke="#16283c" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="173" y="96" width="146" height="66" rx="8" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="246.0" y="125.0" font-size="13.5" font-weight="700" fill="#16283c" text-anchor="middle">Greenhouse gas</text>
+<text x="246.0" y="141.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">emissions</text>
+<line x1="320" y1="129.0" x2="335" y2="129.0" stroke="#16283c" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="336" y="96" width="146" height="66" rx="8" fill="#16283c" stroke="#b8c4ce"/>
+<text x="409.0" y="117.0" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Enhanced</text>
+<text x="409.0" y="133.0" font-size="12" font-weight="400" fill="#dfe5ea" text-anchor="middle">greenhouse effect</text>
+<text x="409.0" y="149.0" font-size="12" font-weight="400" fill="#dfe5ea" text-anchor="middle">→ climate change</text>
+<line x1="483" y1="129.0" x2="498" y2="129.0" stroke="#16283c" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="499" y="96" width="146" height="66" rx="8" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="572.0" y="109.0" font-size="13.5" font-weight="700" fill="#16283c" text-anchor="middle">Impacts</text>
+<text x="572.0" y="125.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">sea level rise,</text>
+<text x="572.0" y="141.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">extreme weather,</text>
+<text x="572.0" y="157.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">food production</text>
+<line x1="646" y1="129.0" x2="661" y2="129.0" stroke="#16283c" stroke-width="1.8" marker-end="url(#a)"/>
+<rect x="662" y="96" width="146" height="66" rx="8" fill="#eef2f5" stroke="#b8c4ce"/>
+<text x="735.0" y="117.0" font-size="13.5" font-weight="700" fill="#16283c" text-anchor="middle">Harm</text>
+<text x="735.0" y="133.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">to people, economies</text>
+<text x="735.0" y="149.0" font-size="12" font-weight="400" fill="#33475b" text-anchor="middle">and environments</text>
+<rect x="10" y="4" width="472" height="74" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+<text x="22" y="24" font-size="15" font-weight="700" fill="#0b5f54">MITIGATION — tackles the cause</text>
+<text x="22" y="42" font-size="12.5" fill="#16283c">Cut emissions and increase carbon sinks, so less warming happens.</text>
+<text x="22" y="59" font-size="12" fill="#33475b">e.g. renewable energy, carbon capture and storage, afforestation, energy</text>
+<text x="22" y="72" font-size="12" fill="#33475b">efficiency, international agreements to cut emissions</text>
+<line x1="83.0" y1="80" x2="83.0" y2="93" stroke="#0f7b6c" stroke-width="2.4" marker-end="url(#t)"/>
+<line x1="246.0" y1="80" x2="246.0" y2="93" stroke="#0f7b6c" stroke-width="2.4" marker-end="url(#t)"/>
+<rect x="336" y="182" width="472" height="74" rx="8" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.8"/>
+<text x="348" y="202" font-size="15" font-weight="700" fill="#4c3fa8">ADAPTATION — reduces the harm</text>
+<text x="348" y="220" font-size="12.5" fill="#16283c">Change how people live so the impacts do less damage.</text>
+<text x="348" y="237" font-size="12" fill="#33475b">e.g. sea walls, drought-resistant crops, early warning systems,</text>
+<text x="348" y="250" font-size="12" fill="#33475b">water storage, moving people away from risk</text>
+<line x1="572.0" y1="180" x2="572.0" y2="165" stroke="#4c3fa8" stroke-width="2.4" marker-end="url(#p)"/>
+<line x1="735.0" y1="180" x2="735.0" y2="165" stroke="#4c3fa8" stroke-width="2.4" marker-end="url(#p)"/>
+</g></svg>

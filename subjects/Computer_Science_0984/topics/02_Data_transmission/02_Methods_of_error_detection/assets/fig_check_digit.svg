@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 176" width="680" height="176" font-family="Carlito, Calibri, sans-serif" role="img" aria-label="Check digit process">
+<defs><marker id="cd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#0f766e"/></marker><marker id="cdg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#15803d"/></marker><marker id="cdr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker></defs>
+<text x="4" y="14" font-size="12" font-weight="700" fill="#475569" letter-spacing="1">WHEN THE CODE IS CREATED</text>
+<rect x="4" y="22" width="196" height="52" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="102.0" y="52.4" text-anchor="middle" font-size="12.5" font-weight="400" fill="#1e293b">The digits of the code</text>
+<rect x="236" y="22" width="200" height="52" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="336.0" y="44.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">An algorithm calculates the</text>
+<text x="336.0" y="60.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">check digit from these digits</text>
+<rect x="472" y="22" width="204" height="52" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="574.0" y="44.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">The check digit is added</text>
+<text x="574.0" y="60.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">as the final digit</text>
+<line x1="201" y1="48" x2="232" y2="48" stroke="#0f766e" stroke-width="2.2" marker-end="url(#cd)"/>
+<line x1="437" y1="48" x2="468" y2="48" stroke="#0f766e" stroke-width="2.2" marker-end="url(#cd)"/>
+<text x="4" y="104" font-size="12" font-weight="700" fill="#475569" letter-spacing="1">WHEN THE CODE IS TYPED IN OR SCANNED</text>
+<rect x="4" y="112" width="196" height="58" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="102.0" y="129.1" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">The computer recalculates</text>
+<text x="102.0" y="145.4" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">the check digit from the</text>
+<text x="102.0" y="161.6" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">other digits entered</text>
+<rect x="236" y="112" width="200" height="58" rx="6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.8"/>
+<text x="336.0" y="137.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">It compares the result with</text>
+<text x="336.0" y="153.5" text-anchor="middle" font-size="12.5" font-weight="700" fill="#134e4a">the check digit entered</text>
+<rect x="472" y="112" width="204" height="26" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.8"/>
+<text x="574.0" y="129.2" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Match: code accepted</text>
+<rect x="472" y="144" width="204" height="26" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.8"/>
+<text x="574.0" y="161.2" text-anchor="middle" font-size="12" font-weight="700" fill="#7f1d1d">No match: error — re-enter / re-scan</text>
+<line x1="201" y1="141" x2="232" y2="141" stroke="#0f766e" stroke-width="2.2" marker-end="url(#cd)"/>
+<line x1="437" y1="136" x2="468" y2="126" stroke="#0f766e" stroke-width="2.2" marker-end="url(#cd)"/>
+<line x1="437" y1="146" x2="468" y2="156" stroke="#0f766e" stroke-width="2.2" marker-end="url(#cd)"/>
+</svg>

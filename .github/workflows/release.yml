@@ -1,0 +1,20 @@
+name: release
+# Tag vX.Y.Z → a GitHub release with one zip of PDFs per subject.
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip PDFs per subject
+        run: |
+          mkdir dist
+          for d in notes/*/; do s=$(basename "$d"); (cd notes && zip -qr "../dist/${s}_notes.zip" "$s"); done
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true

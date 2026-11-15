@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" font-family="Carlito, Calibri, sans-serif">
+  <defs>
+    <marker id="bf-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-size="12.5" fill="#33475b" text-anchor="middle">
+    <rect x="8" y="8" width="186" height="62" rx="7" fill="#fdeded" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="101" y="34" font-weight="700" fill="#16283c">Cash-flow problems /</text>
+    <text x="101" y="51" font-weight="700" fill="#16283c">lack of finance</text>
+    <rect x="218" y="8" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="302" y="34">Cannot pay suppliers,</text>
+    <text x="302" y="51">wages or loans</text>
+    <rect x="410" y="8" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="494" y="34">Creditors take legal</text>
+    <text x="494" y="51">action; no more credit</text>
+
+    <rect x="8" y="84" width="186" height="62" rx="7" fill="#fdeded" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="101" y="104" font-weight="700" fill="#16283c">Not competitive</text>
+    <text x="101" y="121">higher prices or lower</text>
+    <text x="101" y="137">quality than rivals</text>
+    <rect x="218" y="84" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="302" y="120">Customers switch to rivals</text>
+    <rect x="410" y="84" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="494" y="110">Revenue falls;</text>
+    <text x="494" y="127">losses build up</text>
+
+    <rect x="8" y="160" width="186" height="62" rx="7" fill="#fdeded" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="101" y="180" font-weight="700" fill="#16283c">Failure to adapt</text>
+    <text x="101" y="197">to changes in tastes,</text>
+    <text x="101" y="213">technology or competition</text>
+    <rect x="218" y="160" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="302" y="186">Products become</text>
+    <text x="302" y="203">outdated</text>
+    <rect x="410" y="160" width="168" height="62" rx="7" fill="#ffffff" stroke="#16283c" stroke-width="1.3"/>
+    <text x="494" y="186">Demand falls;</text>
+    <text x="494" y="203">losses build up</text>
+
+    <rect x="610" y="80" width="102" height="70" rx="9" fill="#16283c"/>
+    <text x="661" y="106" font-size="14" font-weight="700" fill="#ffffff">Business</text>
+    <text x="661" y="123" font-size="14" font-weight="700" fill="#ffffff">failure</text>
+    <text x="661" y="140" font-size="11.5" fill="#c3d0dc">stops trading</text>
+  </g>
+  <g stroke="#16283c" stroke-width="1.7" fill="none">
+    <line x1="196" y1="39" x2="214" y2="39" marker-end="url(#bf-arr)"/>
+    <line x1="388" y1="39" x2="406" y2="39" marker-end="url(#bf-arr)"/>
+    <line x1="196" y1="115" x2="214" y2="115" marker-end="url(#bf-arr)"/>
+    <line x1="388" y1="115" x2="406" y2="115" marker-end="url(#bf-arr)"/>
+    <line x1="196" y1="191" x2="214" y2="191" marker-end="url(#bf-arr)"/>
+    <line x1="388" y1="191" x2="406" y2="191" marker-end="url(#bf-arr)"/>
+    <line x1="580" y1="39" x2="607" y2="92" marker-end="url(#bf-arr)"/>
+    <line x1="580" y1="115" x2="606" y2="115" marker-end="url(#bf-arr)"/>
+    <line x1="580" y1="191" x2="607" y2="138" marker-end="url(#bf-arr)"/>
+  </g>
+</svg>

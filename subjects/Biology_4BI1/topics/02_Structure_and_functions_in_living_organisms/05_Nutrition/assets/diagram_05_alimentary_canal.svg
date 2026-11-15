@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-label="The human alimentary canal and associated organs with their functions: mouth, salivary glands, oesophagus, stomach, liver, gall bladder, pancreas, small intestine (duodenum and ileum), large intestine (colon and rectum) and anus.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ac-l { font-size: 12.5px; font-weight: 700; }
+    .ac-s { font-size: 11.5px; fill: #33475b; }
+    .ac-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+    .ac-gut { fill: none; stroke: #c9776b; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <!-- mouth -->
+  <path d="M352,40 C352,20 408,20 408,40 C408,56 352,56 352,40 Z" fill="#f6dada" stroke="#a93226" stroke-width="1.8"/>
+  <path d="M362,40 L398,40" stroke="#a93226" stroke-width="1.4"/>
+  <ellipse cx="336" cy="58" rx="12" ry="7" fill="#fdecc8" stroke="#b86e12" stroke-width="1.3"/>
+  <!-- oesophagus -->
+  <path class="ac-gut" d="M384,54 C386,90 392,110 400,140" stroke-width="10"/>
+  <!-- liver -->
+  <path d="M282,132 C300,112 380,112 398,128 C402,140 390,160 360,172 C330,182 296,176 286,164 C278,154 276,142 282,132 Z" fill="#b5654f" stroke="#7a3a28" stroke-width="1.6"/>
+  <!-- gall bladder -->
+  <ellipse cx="350" cy="182" rx="10" ry="7" fill="#7fb04a" stroke="#3d7a1c" stroke-width="1.4"/>
+  <!-- stomach -->
+  <path d="M398,136 C380,150 382,196 412,206 C440,214 474,200 478,172 C482,148 462,132 446,140 C434,146 432,166 418,164 C408,162 408,146 410,136 Z" fill="#f2c3bb" stroke="#a93226" stroke-width="1.8"/>
+  <!-- pancreas -->
+  <path d="M396,222 C420,212 460,212 486,222 C488,230 462,234 436,232 C416,232 398,232 396,222 Z" fill="#f7e2a8" stroke="#b8860b" stroke-width="1.5"/>
+  <!-- duodenum -->
+  <path class="ac-gut" d="M410,204 C396,212 384,224 386,240 C388,252 402,254 412,250" stroke-width="10"/>
+  <!-- colon (large intestine) -->
+  <path class="ac-gut" d="M322,338 L300,338 L300,250 L476,250 L476,338 L420,338" stroke="#a0624a" stroke-width="16"/>
+  <!-- ileum coils -->
+  <path class="ac-gut" d="M412,250 C440,258 452,270 430,278 C400,288 336,272 330,288 C324,304 452,290 452,306 C452,322 340,310 336,322 C334,332 330,338 322,338" stroke-width="8" stroke="#d98c7f"/>
+  <!-- rectum + anus -->
+  <path class="ac-gut" d="M420,338 C400,344 392,356 392,376 L392,396" stroke="#a0624a" stroke-width="14"/>
+  <path d="M380,404 L404,404" stroke="#16283c" stroke-width="2"/>
+
+  <!-- LEFT labels -->
+  <path class="ac-ld" d="M252,30 L350,38"/>
+  <text class="ac-l" x="6" y="26">mouth</text>
+  <text class="ac-s" x="6" y="40">teeth chew food; saliva contains amylase</text>
+  <path class="ac-ld" d="M252,68 L326,60"/>
+  <text class="ac-l" x="6" y="68">salivary glands</text>
+  <text class="ac-s" x="6" y="82">make saliva</text>
+  <path class="ac-ld" d="M252,128 L292,140"/>
+  <text class="ac-l" x="6" y="124">liver</text>
+  <text class="ac-s" x="6" y="138">makes bile</text>
+  <path class="ac-ld" d="M252,182 L340,184"/>
+  <text class="ac-l" x="6" y="178">gall bladder</text>
+  <text class="ac-s" x="6" y="192">stores bile; releases it into the duodenum</text>
+  <path class="ac-ld" d="M252,236 L382,238"/>
+  <text class="ac-l" x="6" y="232">duodenum (small intestine)</text>
+  <text class="ac-s" x="6" y="246">digestion continues: pancreatic enzymes + bile</text>
+  <path class="ac-ld" d="M252,296 L334,298"/>
+  <text class="ac-l" x="6" y="292">ileum (small intestine)</text>
+  <text class="ac-s" x="6" y="306">digestion finished; digested food absorbed</text>
+  <text class="ac-s" x="6" y="320">into the blood</text>
+  <path class="ac-ld" d="M252,372 L385,370"/>
+  <text class="ac-l" x="6" y="368">rectum (large intestine)</text>
+  <text class="ac-s" x="6" y="382">stores faeces</text>
+
+  <!-- RIGHT labels -->
+  <path class="ac-ld" d="M508,90 L392,92"/>
+  <text class="ac-l" x="512" y="86">oesophagus</text>
+  <text class="ac-s" x="512" y="100">carries food to the stomach by peristalsis</text>
+  <path class="ac-ld" d="M508,160 L474,164"/>
+  <text class="ac-l" x="512" y="142">stomach</text>
+  <text class="ac-s" x="512" y="156">muscular wall churns food; hydrochloric acid</text>
+  <text class="ac-s" x="512" y="170">kills microorganisms and gives the low pH</text>
+  <text class="ac-s" x="512" y="184">for protease, which digests protein</text>
+  <path class="ac-ld" d="M508,222 L484,224"/>
+  <text class="ac-l" x="512" y="216">pancreas</text>
+  <text class="ac-s" x="512" y="230">makes amylase, protease and lipase;</text>
+  <text class="ac-s" x="512" y="244">releases them into the duodenum</text>
+  <path class="ac-ld" d="M508,296 L484,296"/>
+  <text class="ac-l" x="512" y="292">colon (large intestine)</text>
+  <text class="ac-s" x="512" y="306">absorbs water from undigested food</text>
+  <path class="ac-ld" d="M508,404 L406,404"/>
+  <text class="ac-l" x="512" y="400">anus</text>
+  <text class="ac-s" x="512" y="414">faeces egested</text>
+</svg>

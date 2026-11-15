@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 226" width="760" height="226" role="img" aria-label="Sulfur dioxide: burning fossil fuels that contain sulfur, such as coal in power stations, releases sulfur dioxide. It dissolves in rain water to form acid rain, which acidifies lakes and rivers so fish, their eggs and other aquatic organisms die, and damages leaves and leaches minerals from soil so trees die. Sulfur dioxide also irritates the airways and causes breathing problems. Carbon monoxide: incomplete combustion of fuels in car engines, faulty boilers and cigarette smoke releases carbon monoxide, which is colourless and odourless. It combines with haemoglobin in red blood cells more readily than oxygen and does not let go, so less oxygen is carried; this causes tiredness, dizziness, unconsciousness and can cause death.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ap-h { font-size: 13px; font-weight: 700; }
+    .ap-b { font-size: 12.5px; font-weight: 700; }
+    .ap-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <defs>
+    <marker id="ap-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+  </defs>
+  <text class="ap-h" x="6" y="16" style="fill:#c46a12">SULFUR DIOXIDE</text>
+  <rect x="6" y="26" width="170" height="58" rx="7" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.5"/>
+  <text class="ap-b" x="91.0" y="44.5" text-anchor="middle">Burning fossil fuels</text>
+  <text class="ap-s" x="91.0" y="59.0" text-anchor="middle">containing sulfur (e.g. coal</text>
+  <text class="ap-s" x="91.0" y="73.5" text-anchor="middle">in power stations)</text>
+  <rect x="206" y="34" width="90" height="42" rx="7" fill="#fdf1e3" stroke="#c46a12" stroke-width="1.5"/>
+  <text class="ap-b" x="251.0" y="59.0" text-anchor="middle">SO₂ in air</text>
+  <rect x="326" y="26" width="140" height="58" rx="7" fill="#fdf1e3" stroke="#c46a12" stroke-width="1.5"/>
+  <text class="ap-b" x="396.0" y="51.8" text-anchor="middle">Dissolves in rain</text>
+  <text class="ap-s" x="396.0" y="66.2" text-anchor="middle">water → acid rain</text>
+  <rect x="496" y="22" width="258" height="40" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="ap-b" x="506" y="38.8" text-anchor="start">Lakes and rivers acidified</text>
+  <text class="ap-s" x="506" y="53.2" text-anchor="start">fish, their eggs and other aquatic life die</text>
+  <rect x="496" y="68" width="258" height="40" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="ap-b" x="506" y="84.8" text-anchor="start">Trees: leaves damaged,</text>
+  <text class="ap-s" x="506" y="99.2" text-anchor="start">minerals leached from soil → trees die</text>
+  <rect x="206" y="96" width="260" height="26" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="ap-s" x="336.0" y="113.0" text-anchor="middle">Irritates the airways → breathing problems</text>
+  <path d="M176,55 L202,55" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M296,55 L322,55" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M466,48 L492,42" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M466,62 L492,86" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M251,76 L251,92" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <text class="ap-h" x="6" y="148" style="fill:#4c3fa8">CARBON MONOXIDE</text>
+  <rect x="6" y="158" width="170" height="58" rx="7" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.5"/>
+  <text class="ap-b" x="91.0" y="176.5" text-anchor="middle">Incomplete combustion</text>
+  <text class="ap-s" x="91.0" y="191.0" text-anchor="middle">car engines, faulty boilers,</text>
+  <text class="ap-s" x="91.0" y="205.5" text-anchor="middle">cigarette smoke</text>
+  <rect x="206" y="158" width="90" height="58" rx="7" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.5"/>
+  <text class="ap-b" x="251.0" y="176.5" text-anchor="middle">CO in air</text>
+  <text class="ap-s" x="251.0" y="191.0" text-anchor="middle">colourless,</text>
+  <text class="ap-s" x="251.0" y="205.5" text-anchor="middle">odourless</text>
+  <rect x="326" y="158" width="140" height="58" rx="7" fill="#eeebfa" stroke="#4c3fa8" stroke-width="1.5"/>
+  <text class="ap-b" x="396.0" y="176.5" text-anchor="middle">Combines with</text>
+  <text class="ap-s" x="396.0" y="191.0" text-anchor="middle">haemoglobin more readily</text>
+  <text class="ap-s" x="396.0" y="205.5" text-anchor="middle">than O₂ and does not let go</text>
+  <rect x="496" y="158" width="258" height="58" rx="7" fill="#fbecea" stroke="#b8433a" stroke-width="1.5"/>
+  <text class="ap-b" x="506" y="176.5" text-anchor="start">Less oxygen carried by the blood</text>
+  <text class="ap-s" x="506" y="191.0" text-anchor="start">tiredness, dizziness,</text>
+  <text class="ap-s" x="506" y="205.5" text-anchor="start">unconsciousness, death</text>
+  <path d="M176,187 L202,187" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M296,187 L322,187" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+  <path d="M466,187 L492,187" fill="none" stroke="#6f7d8c" stroke-width="2.4" marker-end="url(#ap-g)"/>
+</svg>

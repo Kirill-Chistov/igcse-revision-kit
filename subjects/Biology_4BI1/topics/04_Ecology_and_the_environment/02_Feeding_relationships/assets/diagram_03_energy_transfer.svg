@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 760 256" width="760" height="256" role="img" aria-label="What happens to the energy in the food a rabbit eats. About 35 percent is egested in faeces as undigested food such as cellulose. About 5 percent is excreted, for example in urea. About 50 percent is used in respiration for movement and keeping warm and is lost as heat. Only about 10 percent becomes new biomass, which is the only energy available to the next trophic level. Parts of organisms that are never eaten, such as roots and bones, also do not pass on.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .en-b { font-size: 12.5px; font-weight: 700; }
+    .en-s { font-size: 11.5px; fill: #33475b; }
+    .en-w { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+  </style>
+  <rect x="10" y="60" width="226" height="120" fill="#d99a17" opacity="0.9"/>
+  <text class="en-w" x="24" y="112">energy in the food</text>
+  <text class="en-w" x="24" y="128">a rabbit eats = 100%</text>
+  <text class="en-s" x="10" y="204">Parts never eaten (roots, bones,</text>
+  <text class="en-s" x="10" y="218">fur) do not pass on either.</text>
+  <path d="M236,81 C346,81 320,28 430,28" fill="none" stroke="#a07a4f" stroke-width="42" opacity="0.9"/>
+  <path d="M429.5,1.0 L448,28 L429.5,55.0 z" fill="#a07a4f" opacity="0.9"/>
+  <text class="en-b" x="456" y="26" >35%  egested in faeces</text>
+  <text class="en-s" x="456" y="41">undigested food, e.g. cellulose</text>
+  <path d="M236,108 C346,108 320,96 430,96" fill="none" stroke="#0f7b6c" stroke-width="12" opacity="0.9"/>
+  <path d="M429.5,84.0 L448,96 L429.5,108.0 z" fill="#0f7b6c" opacity="0.9"/>
+  <text class="en-b" x="456" y="94" style="fill:#0f7b6c">≈10%  new biomass (growth)</text>
+  <text class="en-s" x="456" y="109">the only energy passed to the next level</text>
+  <path d="M236,117 C346,117 320,146 430,146" fill="none" stroke="#9a8a2e" stroke-width="6" opacity="0.9"/>
+  <path d="M429.5,137.0 L448,146 L429.5,155.0 z" fill="#9a8a2e" opacity="0.9"/>
+  <text class="en-b" x="456" y="150">5%  excreted, e.g. in urea</text>
+  <path d="M236,150 C346,150 320,204 430,204" fill="none" stroke="#b8433a" stroke-width="60" opacity="0.9"/>
+  <path d="M429.5,168.0 L448,204 L429.5,240.0 z" fill="#b8433a" opacity="0.9"/>
+  <text class="en-b" x="456" y="202" >50%  used in respiration</text>
+  <text class="en-s" x="456" y="217">movement, keeping warm → lost as heat</text>
+</svg>

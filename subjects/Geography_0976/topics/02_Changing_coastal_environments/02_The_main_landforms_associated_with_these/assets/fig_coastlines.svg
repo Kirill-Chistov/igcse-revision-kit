@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 276" width="820" height="276" role="img" aria-label="Plan views of a discordant coastline with headlands and bays, and a concordant coastline with a cove">
+  <defs>
+    <pattern id="cl-hard" width="14" height="10" patternUnits="userSpaceOnUse">
+      <rect width="14" height="10" fill="#9aa0a6"/><path d="M0,5 H14 M7,0 V5 M0,5 V10 M14,5 V10" stroke="#6d7379" stroke-width="1"/>
+    </pattern>
+    <pattern id="cl-soft" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#eadcb9"/><circle cx="3" cy="3" r="1.1" fill="#b59d68"/><circle cx="8" cy="8" r="1.1" fill="#b59d68"/>
+    </pattern>
+    <clipPath id="cl-land1">
+      <path d="M10,40 L390,40 L390,222 L330,222 C328,170 300,152 285,152 C270,152 244,170 240,222 L170,222 C168,165 140,146 125,146 C110,146 84,165 80,222 L10,222 Z"/>
+    </clipPath>
+    <clipPath id="cl-land2">
+      <path d="M430,40 L810,40 L810,222 L602,222 L600,196 C660,188 668,116 598,114 C528,116 540,188 562,196 L560,222 L430,222 Z"/>
+    </clipPath>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#16283c">
+    <!-- discordant -->
+    <text x="10" y="22" font-size="18" font-weight="700" fill="#0b5f54">Discordant coastline</text>
+    <text x="10" y="38" font-size="13" fill="#33475b">rock bands at right angles to the coast</text>
+    <rect x="10" y="44" width="380" height="196" fill="#cfe3ee"/>
+    <g clip-path="url(#cl-land1)">
+      <rect x="10" y="40" width="70" height="190" fill="url(#cl-hard)"/>
+      <rect x="80" y="40" width="90" height="190" fill="url(#cl-soft)"/>
+      <rect x="170" y="40" width="70" height="190" fill="url(#cl-hard)"/>
+      <rect x="240" y="40" width="90" height="190" fill="url(#cl-soft)"/>
+      <rect x="330" y="40" width="60" height="190" fill="url(#cl-hard)"/>
+    </g>
+    <path d="M80,222 C84,165 110,146 125,146 C140,146 168,165 170,222" fill="none" stroke="#e3c27a" stroke-width="8"/>
+    <path d="M240,222 C244,170 270,152 285,152 C300,152 328,170 330,222" fill="none" stroke="#e3c27a" stroke-width="8"/>
+    <g font-size="13.5" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="3" paint-order="stroke">
+      <text x="45" y="60">hard</text><text x="205" y="60">hard</text><text x="360" y="60">hard</text>
+      <text x="125" y="60">soft</text><text x="285" y="60">soft</text>
+      <text x="205" y="210">headland</text><text x="45" y="210">headland</text>
+      <text x="125" y="190">bay</text><text x="285" y="195">bay</text>
+    </g>
+    <text x="125" y="235" font-size="12" text-anchor="middle" fill="#6b4f16" font-style="italic">beach</text>
+    <text x="200" y="235" font-size="13" text-anchor="middle" fill="#2c6e91">SEA</text>
+
+    <!-- concordant -->
+    <text x="430" y="22" font-size="18" font-weight="700" fill="#0b5f54">Concordant coastline</text>
+    <text x="430" y="38" font-size="13" fill="#33475b">rock bands parallel to the coast</text>
+    <rect x="430" y="44" width="380" height="196" fill="#cfe3ee"/>
+    <g clip-path="url(#cl-land2)">
+      <rect x="430" y="40" width="380" height="74" fill="url(#cl-hard)"/>
+      <rect x="430" y="114" width="380" height="72" fill="url(#cl-soft)"/>
+      <rect x="430" y="186" width="380" height="40" fill="url(#cl-hard)"/>
+    </g>
+    <path d="M556,190 C530,176 530,120 598,118 C666,120 666,176 606,190" fill="none" stroke="#e3c27a" stroke-width="7"/>
+    <g font-size="13.5" font-weight="700" stroke="#ffffff" stroke-width="3" paint-order="stroke">
+      <text x="760" y="82" text-anchor="middle">hard rock</text>
+      <text x="740" y="155" text-anchor="middle">soft rock</text>
+      <text x="740" y="210" text-anchor="middle">hard rock</text>
+      <text x="598" y="160" text-anchor="middle">cove</text>
+    </g>
+    <line x1="582" y1="224" x2="582" y2="210" stroke="#16283c" stroke-width="1.2"/>
+    <text x="582" y="236" font-size="12.5" text-anchor="middle">narrow gap eroded in the outer hard rock</text>
+    <text x="480" y="212" font-size="12.5" font-weight="700" stroke="#ffffff" stroke-width="3" paint-order="stroke">straight coast</text>
+
+    <!-- key -->
+    <g font-size="13" fill="#33475b">
+      <rect x="10" y="252" width="24" height="16" fill="url(#cl-hard)" stroke="#6d7379"/><text x="40" y="265">hard (more resistant) rock — eroded slowly</text>
+      <rect x="330" y="252" width="24" height="16" fill="url(#cl-soft)" stroke="#b59d68"/><text x="360" y="265">soft (less resistant) rock — eroded quickly</text>
+      <rect x="650" y="256" width="24" height="8" fill="#e3c27a"/><text x="680" y="265">beach</text>
+    </g>
+  </g>
+</svg>

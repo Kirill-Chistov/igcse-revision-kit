@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Carlito, Calibri, sans-serif">
+<defs>
+<marker id="ms-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4c3fa8"/></marker>
+</defs>
+<style>
+.ms-lv{stroke:#0b5f54;stroke-width:1.5}
+.ms-ln{font-size:14px;font-weight:700;fill:#16283c;text-anchor:middle}
+.ms-ld{font-size:11.5px;fill:#33475b;text-anchor:middle}
+.ms-bp{font-size:12.5px;fill:#16283c}
+.ms-lead{stroke:#6b7a88;stroke-width:1;stroke-dasharray:3 3}
+</style>
+<!-- up arrow -->
+<line x1="22" y1="276" x2="22" y2="30" stroke="#4c3fa8" stroke-width="2.2" marker-end="url(#ms-arr)"/>
+<text x="38" y="153" font-size="12" font-weight="700" fill="#4c3fa8" text-anchor="middle" transform="rotate(-90 38 153)">lower needs met first, then move up</text>
+<!-- pyramid: centre x=215, top half-width 60 at y=20, base half-width 170 at y=280 -->
+<polygon class="ms-lv" fill="#b1d9cc" points="155,20 275,20 297,72 133,72"/>
+<polygon class="ms-lv" fill="#c3e2d8" points="133,72 297,72 319,124 111,124"/>
+<polygon class="ms-lv" fill="#d3e9e2" points="111,124 319,124 341,176 89,176"/>
+<polygon class="ms-lv" fill="#e1f0eb" points="89,176 341,176 363,228 67,228"/>
+<polygon class="ms-lv" fill="#eef7f4" points="67,228 363,228 385,280 45,280"/>
+<text class="ms-ln" x="215" y="43">Self-actualisation</text>
+<text class="ms-ld" x="215" y="60">reaching full potential</text>
+<text class="ms-ln" x="215" y="95">Esteem</text>
+<text class="ms-ld" x="215" y="112">respect, recognition, status</text>
+<text class="ms-ln" x="215" y="147">Social</text>
+<text class="ms-ld" x="215" y="164">belonging, friendship</text>
+<text class="ms-ln" x="215" y="199">Safety</text>
+<text class="ms-ld" x="215" y="216">security, protection from harm</text>
+<text class="ms-ln" x="215" y="251">Physiological</text>
+<text class="ms-ld" x="215" y="268">food, water, shelter, rest</text>
+<!-- business provides -->
+<text x="408" y="14" font-size="12.5" font-weight="700" fill="#0f7b6c" letter-spacing="0.5">WHAT THE BUSINESS CAN PROVIDE</text>
+<line class="ms-lead" x1="290" y1="46" x2="402" y2="46"/>
+<text class="ms-bp" x="408" y="42">challenging work, job enrichment,</text>
+<text class="ms-bp" x="408" y="58">autonomy, training to develop</text>
+<line class="ms-lead" x1="312" y1="98" x2="402" y2="98"/>
+<text class="ms-bp" x="408" y="94">promotion, praise and recognition,</text>
+<text class="ms-bp" x="408" y="110">responsibility, job title</text>
+<line class="ms-lead" x1="334" y1="150" x2="402" y2="150"/>
+<text class="ms-bp" x="408" y="146">teamwork, social events,</text>
+<text class="ms-bp" x="408" y="162">good communication</text>
+<line class="ms-lead" x1="356" y1="202" x2="402" y2="202"/>
+<text class="ms-bp" x="408" y="198">job security (permanent contract),</text>
+<text class="ms-bp" x="408" y="214">safe working conditions, pension</text>
+<line class="ms-lead" x1="378" y1="254" x2="402" y2="254"/>
+<text class="ms-bp" x="408" y="250">pay enough to live on,</text>
+<text class="ms-bp" x="408" y="266">breaks, clean and warm workplace</text>
+</svg>

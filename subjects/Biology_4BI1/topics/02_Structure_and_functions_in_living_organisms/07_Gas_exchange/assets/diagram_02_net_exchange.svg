@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 252" width="760" height="252" role="img" aria-label="Leaves in sealed tubes of hydrogencarbonate indicator, which starts red-orange. In the dark only respiration occurs, carbon dioxide rises and the indicator turns yellow. In dim light photosynthesis equals respiration, there is no net exchange and the indicator stays red-orange. In bright light photosynthesis exceeds respiration, carbon dioxide falls and the indicator turns purple. A control tube with no leaf stays red-orange.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ne-h { font-size: 13px; font-weight: 700; }
+    .ne-s { font-size: 11.5px; fill: #33475b; }
+    .ne-k { font-size: 11.5px; font-weight: 700; fill: #0b5f54; }
+  </style>
+  <defs>
+    <path id="ne-tube" d="M-18,0 L-18,110 A18,18 0 0 0 18,110 L18,0 Z"/>
+    <path id="ne-leaf" d="M-10,-26 C-2,-18 4,-10 0,0 C-6,-10 -12,-16 -10,-26 Z"/>
+  </defs>
+  <!-- tube 1 dark -->
+  <g transform="translate(95,44)">
+    <use href="#ne-tube" fill="#f2d64b" stroke="#33475b" stroke-width="1.8"/>
+    <path d="M-10,30 C4,40 8,60 0,80 C-10,64 -14,46 -10,30 Z" fill="#5aa132" stroke="#2f5d12"/>
+    <rect x="-22" y="-10" width="44" height="12" rx="3" fill="#6b7a88"/>
+    <rect x="-26" y="-14" width="52" height="150" rx="6" fill="none" stroke="#16283c" stroke-width="3" stroke-dasharray="2 3"/>
+  </g>
+  <text class="ne-h" x="95" y="206" text-anchor="middle">Dark (foil)</text>
+  <text class="ne-s" x="95" y="222" text-anchor="middle">respiration only</text>
+  <text class="ne-k" x="95" y="238" text-anchor="middle">CO₂ rises → yellow</text>
+
+  <!-- tube 2 dim -->
+  <g transform="translate(285,44)">
+    <use href="#ne-tube" fill="#e07a6a" stroke="#33475b" stroke-width="1.8"/>
+    <path d="M-10,30 C4,40 8,60 0,80 C-10,64 -14,46 -10,30 Z" fill="#5aa132" stroke="#2f5d12"/>
+    <rect x="-22" y="-10" width="44" height="12" rx="3" fill="#6b7a88"/>
+    <g stroke="#8fa3b8" stroke-width="1"><path d="M-26,10 L26,10 M-26,30 L26,30 M-26,50 L26,50 M-26,70 L26,70 M-26,90 L26,90 M-26,110 L26,110"/></g>
+  </g>
+  <text class="ne-h" x="285" y="206" text-anchor="middle">Dim light (gauze)</text>
+  <text class="ne-s" x="285" y="222" text-anchor="middle">photosynthesis = respiration</text>
+  <text class="ne-k" x="285" y="238" text-anchor="middle">no net exchange → stays red</text>
+
+  <!-- tube 3 bright -->
+  <g transform="translate(475,44)">
+    <use href="#ne-tube" fill="#8e5bb5" stroke="#33475b" stroke-width="1.8"/>
+    <path d="M-10,30 C4,40 8,60 0,80 C-10,64 -14,46 -10,30 Z" fill="#5aa132" stroke="#2f5d12"/>
+    <rect x="-22" y="-10" width="44" height="12" rx="3" fill="#6b7a88"/>
+  </g>
+  <g stroke="#d99a17" stroke-width="2"><path d="M530,40 L512,56 M540,70 L516,76 M534,104 L514,98"/></g>
+  <text class="ne-h" x="475" y="206" text-anchor="middle">Bright light</text>
+  <text class="ne-s" x="475" y="222" text-anchor="middle">photosynthesis > respiration</text>
+  <text class="ne-k" x="475" y="238" text-anchor="middle">CO₂ falls → purple</text>
+
+  <!-- tube 4 control -->
+  <g transform="translate(665,44)">
+    <use href="#ne-tube" fill="#e07a6a" stroke="#33475b" stroke-width="1.8"/>
+    <rect x="-22" y="-10" width="44" height="12" rx="3" fill="#6b7a88"/>
+  </g>
+  <text class="ne-h" x="665" y="206" text-anchor="middle">Control: no leaf</text>
+  <text class="ne-s" x="665" y="222" text-anchor="middle">any light</text>
+  <text class="ne-k" x="665" y="238" text-anchor="middle">stays red</text>
+  <text class="ne-s" x="380" y="16" text-anchor="middle">Hydrogencarbonate indicator starts red-orange (CO₂ as in air). yellow = more CO₂ · purple = less CO₂</text>
+</svg>

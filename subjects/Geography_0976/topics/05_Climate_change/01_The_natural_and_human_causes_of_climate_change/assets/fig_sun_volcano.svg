@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300" role="img" aria-label="Sunspots and volcanic eruptions as natural causes of climate change">
+<defs><marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d99a17"/></marker><marker id="d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="10" y="8" width="330" height="284" rx="8" fill="#ffffff" stroke="#dfe5ea" stroke-width="1.4"/>
+<rect x="350" y="8" width="460" height="284" rx="8" fill="#ffffff" stroke="#dfe5ea" stroke-width="1.4"/>
+<text x="175" y="32" font-size="15" font-weight="700" fill="#16283c" text-anchor="middle">Sunspots</text>
+<circle cx="80" cy="100" r="50" fill="#f7d774" stroke="#d99a17" stroke-width="2.5"/>
+<circle cx="62" cy="88" r="7" fill="#5a4a1a" opacity="0.85"/>
+<circle cx="72" cy="82" r="4" fill="#5a4a1a" opacity="0.85"/>
+<circle cx="94" cy="110" r="8" fill="#5a4a1a" opacity="0.85"/>
+<circle cx="102" cy="102" r="4" fill="#5a4a1a" opacity="0.85"/>
+<circle cx="76" cy="122" r="5" fill="#5a4a1a" opacity="0.85"/>
+<text x="80" y="168" font-size="11.5" fill="#6b7a88" text-anchor="middle">dark, cooler patches</text>
+<text x="80" y="182" font-size="11.5" fill="#6b7a88" text-anchor="middle">caused by magnetic activity</text>
+<text x="150" y="70" font-size="12.5" font-weight="700" fill="#16283c">More sunspots</text>
+<text x="150" y="88" font-size="12.5" font-weight="400" fill="#33475b">= a more active Sun</text>
+<text x="150" y="105" font-size="12.5" font-weight="400" fill="#33475b">→ slightly more energy</text>
+<text x="150" y="122" font-size="12.5" font-weight="400" fill="#33475b">reaches Earth → warming</text>
+<text x="150" y="145" font-size="12.5" font-weight="700" fill="#16283c">Numbers rise and fall</text>
+<text x="150" y="163" font-size="12.5" font-weight="400" fill="#33475b">on an ≈ 11-year cycle</text>
+<rect x="22" y="200" width="306" height="82" rx="6" fill="#eef2f5"/>
+<text x="32" y="218" font-size="12" fill="#33475b">Maunder Minimum, 1645–1715: almost no</text>
+<text x="32" y="233" font-size="12" fill="#33475b">sunspots — during the coldest part of the</text>
+<text x="32" y="248" font-size="12" fill="#33475b">“Little Ice Age”.</text>
+<text x="32" y="269" font-size="12" fill="#33475b">Effect is small: solar output has not risen</text>
+<text x="32" y="284" font-size="12" fill="#33475b">since the 1980s, but temperatures have.</text>
+<text x="370" y="32" font-size="15" font-weight="700" fill="#16283c">Large explosive volcanic eruptions</text>
+<rect x="362" y="62" width="436" height="36" fill="#eeedfb"/>
+<text x="370" y="56" font-size="11.5" fill="#4c3fa8">stratosphere: aerosol layer</text>
+<circle cx="506.0" cy="70.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="643.4" cy="68.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="595.1" cy="76.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="394.4" cy="80.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="385.7" cy="78.3" r="1.8" fill="#4c3fa8"/>
+<circle cx="399.3" cy="69.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="548.3" cy="88.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="422.0" cy="72.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="633.5" cy="91.6" r="1.8" fill="#4c3fa8"/>
+<circle cx="612.4" cy="77.3" r="1.8" fill="#4c3fa8"/>
+<circle cx="780.0" cy="68.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="730.6" cy="74.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="430.6" cy="70.1" r="1.8" fill="#4c3fa8"/>
+<circle cx="499.6" cy="88.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="445.9" cy="82.1" r="1.8" fill="#4c3fa8"/>
+<circle cx="638.3" cy="76.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="600.1" cy="68.6" r="1.8" fill="#4c3fa8"/>
+<circle cx="395.0" cy="72.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="655.8" cy="78.1" r="1.8" fill="#4c3fa8"/>
+<circle cx="501.9" cy="82.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="560.3" cy="74.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="703.6" cy="85.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="472.5" cy="81.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="590.6" cy="89.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="676.4" cy="74.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="781.7" cy="70.1" r="1.8" fill="#4c3fa8"/>
+<circle cx="545.6" cy="86.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="433.8" cy="79.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="386.5" cy="84.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="691.1" cy="81.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="737.7" cy="75.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="662.0" cy="82.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="613.6" cy="78.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="722.8" cy="91.6" r="1.8" fill="#4c3fa8"/>
+<circle cx="569.1" cy="84.3" r="1.8" fill="#4c3fa8"/>
+<circle cx="395.5" cy="85.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="641.8" cy="92.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="715.2" cy="74.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="532.0" cy="84.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="379.5" cy="79.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="440.6" cy="70.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="394.8" cy="87.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="424.3" cy="73.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="534.2" cy="89.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="403.8" cy="78.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="600.8" cy="90.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="714.1" cy="89.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="486.9" cy="77.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="520.7" cy="90.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="772.2" cy="70.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="444.0" cy="73.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="468.0" cy="79.6" r="1.8" fill="#4c3fa8"/>
+<circle cx="617.4" cy="73.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="371.7" cy="77.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="525.1" cy="81.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="770.3" cy="85.0" r="1.8" fill="#4c3fa8"/>
+<circle cx="586.5" cy="83.1" r="1.8" fill="#4c3fa8"/>
+<circle cx="654.0" cy="68.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="747.8" cy="87.3" r="1.8" fill="#4c3fa8"/>
+<circle cx="737.3" cy="87.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="534.8" cy="77.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="413.5" cy="83.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="396.1" cy="68.8" r="1.8" fill="#4c3fa8"/>
+<circle cx="457.7" cy="71.2" r="1.8" fill="#4c3fa8"/>
+<circle cx="512.8" cy="68.4" r="1.8" fill="#4c3fa8"/>
+<circle cx="370.1" cy="70.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="412.6" cy="76.5" r="1.8" fill="#4c3fa8"/>
+<circle cx="380.7" cy="89.7" r="1.8" fill="#4c3fa8"/>
+<circle cx="627.9" cy="70.9" r="1.8" fill="#4c3fa8"/>
+<circle cx="475.9" cy="76.0" r="1.8" fill="#4c3fa8"/>
+<path d="M 380 240 L 442 160 L 478 160 L 540 240 Z" fill="#b9a58c" stroke="#7a6650" stroke-width="1.5"/>
+<path d="M 446 160 C 420 130, 450 110, 435 88 C 465 84, 490 94, 485 110 C 500 130, 470 145, 474 160 Z" fill="#8a8f96" opacity="0.8"/>
+<line x1="362" y1="240" x2="798" y2="240" stroke="#7a6650" stroke-width="1.5"/>
+<line x1="646" y1="22" x2="670" y2="66" stroke="#d99a17" stroke-width="2.2"/>
+<line x1="670" y1="66" x2="684" y2="30" stroke="#d99a17" stroke-width="2.2" marker-end="url(#k)"/>
+<line x1="701" y1="22" x2="725" y2="66" stroke="#d99a17" stroke-width="2.2"/>
+<line x1="725" y1="66" x2="739" y2="30" stroke="#d99a17" stroke-width="2.2" marker-end="url(#k)"/>
+<line x1="756" y1="22" x2="780" y2="66" stroke="#d99a17" stroke-width="2.2"/>
+<line x1="780" y1="66" x2="794" y2="30" stroke="#d99a17" stroke-width="2.2" marker-end="url(#k)"/>
+<line x1="528" y1="40" x2="536" y2="236" stroke="#d99a17" stroke-width="1.4" stroke-dasharray="4 4" marker-end="url(#k)"/>
+<text x="546" y="252" font-size="11.5" fill="#b07a0a">less sunlight reaches the surface</text>
+<text x="555" y="122" font-size="12.5" fill="#33475b" xml:space="preserve">1  Eruption blasts sulphur dioxide and ash</text>
+<text x="555" y="137" font-size="12.5" fill="#33475b" xml:space="preserve">    high into the stratosphere</text>
+<text x="555" y="156" font-size="12.5" fill="#33475b" xml:space="preserve">2  Sulphur dioxide forms tiny droplets</text>
+<text x="555" y="171" font-size="12.5" fill="#33475b" xml:space="preserve">    (aerosols) that spread around the globe</text>
+<text x="555" y="190" font-size="12.5" fill="#33475b" xml:space="preserve">3  They reflect incoming sunlight back to space</text>
+<text x="555" y="209" font-size="12.5" fill="#33475b" xml:space="preserve">4  Surface cools for 1–3 years, until</text>
+<text x="555" y="224" font-size="12.5" fill="#33475b" xml:space="preserve">    the aerosols fall out</text>
+<rect x="362" y="258" width="436" height="28" rx="6" fill="#eef2f5"/>
+<text x="580" y="277" font-size="12" fill="#16283c" text-anchor="middle"><tspan font-weight="700">Mount Pinatubo, Philippines, 1991:</tspan> world ≈ 0.5 °C cooler in 1992</text>
+</g></svg>

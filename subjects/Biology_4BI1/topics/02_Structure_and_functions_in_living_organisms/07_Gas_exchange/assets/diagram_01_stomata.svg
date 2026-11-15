@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 160" width="760" height="160" role="img" aria-label="Surface view of a stoma. Open: the two guard cells are turgid and curve apart, leaving a pore through which carbon dioxide diffuses in and oxygen and water vapour diffuse out. Closed: the guard cells are flaccid and the pore closes, reducing water loss.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .sm-h { font-size: 13px; font-weight: 700; fill: #0b5f54; }
+    .sm-s { font-size: 12px; fill: #33475b; }
+    .sm-g { fill: #cfe8bb; stroke: #2f5d12; stroke-width: 1.6; }
+  </style>
+  <!-- open -->
+  <rect x="30" y="20" width="180" height="120" rx="8" fill="#f4f7f0" stroke="#dfe5ea"/>
+  <path class="sm-g" d="M120,30 C80,30 70,110 120,130 C100,110 100,50 120,30 Z"/>
+  <path class="sm-g" d="M120,30 C160,30 170,110 120,130 C140,110 140,50 120,30 Z"/>
+  <path d="M120,34 C104,54 104,106 120,126 C136,106 136,54 120,34 Z" fill="#ffffff" stroke="#2f5d12" stroke-width="1"/>
+  <g fill="#5aa132"><circle cx="92" cy="64" r="3"/><circle cx="90" cy="90" r="3"/><circle cx="148" cy="64" r="3"/><circle cx="150" cy="92" r="3"/></g>
+  <text class="sm-h" x="240" y="46">Open stoma — in light</text>
+  <text class="sm-s" x="240" y="66">guard cells take in water and become turgid;</text>
+  <text class="sm-s" x="240" y="82">they curve apart and the pore opens</text>
+  <text class="sm-s" x="240" y="104">CO₂ diffuses in for photosynthesis;</text>
+  <text class="sm-s" x="240" y="120">O₂ and water vapour diffuse out</text>
+
+  <line x1="490" y1="16" x2="490" y2="144" stroke="#dfe5ea" stroke-width="1.4"/>
+  <!-- closed -->
+  <path class="sm-g" d="M560,30 C540,30 530,110 560,130 C556,110 556,50 560,30 Z"/>
+  <path class="sm-g" d="M560,30 C580,30 590,110 560,130 C564,110 564,50 560,30 Z"/>
+  <text class="sm-h" x="604" y="58">Closed stoma</text>
+  <text class="sm-s" x="604" y="78">in the dark, or when the</text>
+  <text class="sm-s" x="604" y="94">plant is short of water:</text>
+  <text class="sm-s" x="604" y="110">guard cells flaccid;</text>
+  <text class="sm-s" x="604" y="126">reduces water loss</text>
+</svg>

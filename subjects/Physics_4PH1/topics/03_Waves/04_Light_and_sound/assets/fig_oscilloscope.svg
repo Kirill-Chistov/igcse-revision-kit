@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" width="820" height="280" role="img" aria-label="Oscilloscope screen with a grid of 10 by 8 divisions: two complete waves span 8 divisions, time-base 0.5 ms per division; set-up of signal generator, loudspeaker, microphone and oscilloscope">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c0392b"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0f7b6c"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4c3fa8"/></marker><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6b7a88"/></marker><marker id="aha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d99a17"/></marker></defs>
+<g font-family="Carlito, Calibri, sans-serif">
+<rect x="22.0" y="12.0" width="316.0" height="256.0" rx="6" fill="#16283c" stroke="#16283c" stroke-width="1.4"/>
+<rect x="30.0" y="20.0" width="300.0" height="240.0" rx="0" fill="#eef7f3" stroke="none" stroke-width="0"/>
+<line x1="30.0" y1="20.0" x2="30.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="60.0" y1="20.0" x2="60.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="90.0" y1="20.0" x2="90.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="120.0" y1="20.0" x2="120.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="150.0" y1="20.0" x2="150.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="180.0" y1="20.0" x2="180.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="210.0" y1="20.0" x2="210.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="240.0" y1="20.0" x2="240.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="270.0" y1="20.0" x2="270.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="300.0" y1="20.0" x2="300.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="330.0" y1="20.0" x2="330.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="20.0" x2="330.0" y2="20.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="50.0" x2="330.0" y2="50.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="80.0" x2="330.0" y2="80.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="110.0" x2="330.0" y2="110.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="140.0" x2="330.0" y2="140.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="170.0" x2="330.0" y2="170.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="200.0" x2="330.0" y2="200.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="230.0" x2="330.0" y2="230.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<line x1="30.0" y1="260.0" x2="330.0" y2="260.0" stroke="#b9d3ca" stroke-width="1" stroke-linecap="round"/>
+<polyline points="30.0,140.0 32.0,132.2 34.0,124.4 36.0,116.8 38.0,109.5 40.0,102.5 42.0,95.9 44.0,89.8 46.0,84.3 48.0,79.3 50.0,75.0 52.0,71.5 54.0,68.7 56.0,66.6 58.0,65.4 60.0,65.0 62.0,65.4 64.0,66.6 66.0,68.7 68.0,71.5 70.0,75.0 72.0,79.3 74.0,84.3 76.0,89.8 78.0,95.9 80.0,102.5 82.0,109.5 84.0,116.8 86.0,124.4 88.0,132.2 90.0,140.0 92.0,147.8 94.0,155.6 96.0,163.2 98.0,170.5 100.0,177.5 102.0,184.1 104.0,190.2 106.0,195.7 108.0,200.7 110.0,205.0 112.0,208.5 114.0,211.3 116.0,213.4 118.0,214.6 120.0,215.0 122.0,214.6 124.0,213.4 126.0,211.3 128.0,208.5 130.0,205.0 132.0,200.7 134.0,195.7 136.0,190.2 138.0,184.1 140.0,177.5 142.0,170.5 144.0,163.2 146.0,155.6 148.0,147.8 150.0,140.0 152.0,132.2 154.0,124.4 156.0,116.8 158.0,109.5 160.0,102.5 162.0,95.9 164.0,89.8 166.0,84.3 168.0,79.3 170.0,75.0 172.0,71.5 174.0,68.7 176.0,66.6 178.0,65.4 180.0,65.0 182.0,65.4 184.0,66.6 186.0,68.7 188.0,71.5 190.0,75.0 192.0,79.3 194.0,84.3 196.0,89.8 198.0,95.9 200.0,102.5 202.0,109.5 204.0,116.8 206.0,124.4 208.0,132.2 210.0,140.0 212.0,147.8 214.0,155.6 216.0,163.2 218.0,170.5 220.0,177.5 222.0,184.1 224.0,190.2 226.0,195.7 228.0,200.7 230.0,205.0 232.0,208.5 234.0,211.3 236.0,213.4 238.0,214.6 240.0,215.0 242.0,214.6 244.0,213.4 246.0,211.3 248.0,208.5 250.0,205.0 252.0,200.7 254.0,195.7 256.0,190.2 258.0,184.1 260.0,177.5 262.0,170.5 264.0,163.2 266.0,155.6 268.0,147.8 270.0,140.0 272.0,132.2 274.0,124.4 276.0,116.8 278.0,109.5 280.0,102.5 282.0,95.9 284.0,89.8 286.0,84.3 288.0,79.3 290.0,75.0 292.0,71.5 294.0,68.7 296.0,66.6 298.0,65.4 300.0,65.0 302.0,65.4 304.0,66.6 306.0,68.7 308.0,71.5 310.0,75.0 312.0,79.3 314.0,84.3 316.0,89.8 318.0,95.9 320.0,102.5 322.0,109.5 324.0,116.8 326.0,124.4 328.0,132.2 330.0,140.0" fill="none" stroke="#0f7b6c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="60.0" y1="63.0" x2="60.0" y2="51.0" stroke="#c0392b" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 2"/>
+<line x1="300.0" y1="63.0" x2="300.0" y2="51.0" stroke="#c0392b" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 2"/>
+<rect x="72.0" y="33.0" width="216" height="18" fill="#eef7f3"/>
+<line x1="62.0" y1="55.0" x2="298.0" y2="55.0" stroke="#c0392b" stroke-width="2" stroke-linecap="round" marker-end="url(#ahr)" marker-start="url(#ahr)"/>
+<text x="180.0" y="47.0" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700">2 complete waves = 8 divisions</text>
+<text x="610.0" y="26.0" font-size="14.5" fill="#16283c" text-anchor="middle" font-weight="700">Set-up</text>
+<rect x="420.0" y="60.0" width="110.0" height="56.0" rx="4" fill="#eef2f5" stroke="#16283c" stroke-width="1.4"/>
+<text x="475.0" y="84.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">signal</text>
+<text x="475.0" y="100.0" font-size="13" fill="#16283c" text-anchor="middle" font-weight="700">generator</text>
+<rect x="580.0" y="74.0" width="14.0" height="28.0" rx="0" fill="#16283c" stroke="#16283c" stroke-width="1"/>
+<polygon points="594.0,74.0 616.0,58.0 616.0,118.0 594.0,102.0" fill="#6b7a88" stroke="#16283c" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="530.0" y1="88.0" x2="580.0" y2="88.0" stroke="#16283c" stroke-width="1.4" stroke-linecap="round"/>
+<text x="598.0" y="138.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="700">loudspeaker</text>
+<path d="M628 68 q 10 20 0 40" fill="none" stroke="#6b7a88" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M642 68 q 10 20 0 40" fill="none" stroke="#6b7a88" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M656 68 q 10 20 0 40" fill="none" stroke="#6b7a88" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="721.0" y="72.0" width="18.0" height="28.0" rx="9" fill="#33475b" stroke="#16283c" stroke-width="1.2"/>
+<text x="730.0" y="64.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="700">microphone</text>
+<path d="M730 100 L730 190 L338 190" fill="none" stroke="#16283c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="575.0" y="184.0" font-size="12.5" fill="#16283c" text-anchor="middle" font-weight="700">signal to the oscilloscope</text>
+<rect x="470.0" y="214.0" width="260.0" height="34.0" rx="4" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.2"/>
+<text x="600.0" y="236.0" font-size="13.5" fill="#16283c" text-anchor="middle" font-weight="700">screen: time-base = 0.5 ms per division</text>
+</g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 306" width="800" height="306" role="img"
+     aria-label="Segmentation: the whole market is divided into segments by location, demographics, lifestyle, income and age; the business chooses a target market and tailors its marketing mix to it">
+  <defs>
+    <marker id="sg-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#16283c"/>
+    </marker>
+  </defs>
+  <g font-family="Carlito, Calibri, sans-serif" fill="#33475b">
+    <!-- whole market -->
+    <rect x="8" y="98" width="114" height="110" rx="8" fill="#eef2f5" stroke="#6b7a88" stroke-width="1.6"/>
+    <text x="65" y="136" font-size="16" font-weight="700" fill="#16283c" text-anchor="middle">Whole</text>
+    <text x="65" y="156" font-size="16" font-weight="700" fill="#16283c" text-anchor="middle">market</text>
+    <text x="65" y="180" font-size="12.5" text-anchor="middle">all possible</text>
+    <text x="65" y="196" font-size="12.5" text-anchor="middle">customers</text>
+    <line x1="124" y1="153" x2="147" y2="153" stroke="#16283c" stroke-width="2" marker-end="url(#sg-arr)"/>
+
+    <!-- bases of segmentation -->
+    <rect x="152" y="8" width="322" height="290" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+    <circle cx="172" cy="30" r="11" fill="#0f7b6c"/>
+    <text x="172" y="35" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="190" y="35" font-size="16" font-weight="700" fill="#0b5f54">Identify segments by …</text>
+    <g font-size="13">
+      <line x1="164" y1="50" x2="462" y2="50" stroke="#cfe4dd" stroke-width="1.2"/>
+      <text x="164" y="70" font-size="14" font-weight="700" fill="#16283c">Location</text>
+      <text x="264" y="70">where customers live: region,</text>
+      <text x="264" y="88">town or countryside, climate</text>
+      <line x1="164" y1="99" x2="462" y2="99" stroke="#cfe4dd" stroke-width="1.2"/>
+      <text x="164" y="119" font-size="14" font-weight="700" fill="#16283c">Demographics</text>
+      <text x="264" y="119">gender, ethnicity, religion,</text>
+      <text x="264" y="137">family size</text>
+      <line x1="164" y1="148" x2="462" y2="148" stroke="#cfe4dd" stroke-width="1.2"/>
+      <text x="164" y="168" font-size="14" font-weight="700" fill="#16283c">Lifestyle</text>
+      <text x="264" y="168">interests, hobbies, values,</text>
+      <text x="264" y="186">e.g. fitness, eco-friendly living</text>
+      <line x1="164" y1="197" x2="462" y2="197" stroke="#cfe4dd" stroke-width="1.2"/>
+      <text x="164" y="217" font-size="14" font-weight="700" fill="#16283c">Income</text>
+      <text x="264" y="217">what customers can afford:</text>
+      <text x="264" y="235">budget or luxury products</text>
+      <line x1="164" y1="246" x2="462" y2="246" stroke="#cfe4dd" stroke-width="1.2"/>
+      <text x="164" y="266" font-size="14" font-weight="700" fill="#16283c">Age</text>
+      <text x="264" y="266">wants change with age: children,</text>
+      <text x="264" y="284">teenagers, adults, retired</text>
+    </g>
+    <line x1="476" y1="153" x2="499" y2="153" stroke="#16283c" stroke-width="2" marker-end="url(#sg-arr)"/>
+
+    <!-- target -->
+    <rect x="504" y="88" width="132" height="130" rx="8" fill="#eeedfb" stroke="#4c3fa8" stroke-width="1.8"/>
+    <circle cx="522" cy="110" r="11" fill="#4c3fa8"/>
+    <text x="522" y="115" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="539" y="115" font-size="15" font-weight="700" fill="#4c3fa8">Choose the</text>
+    <text x="516" y="136" font-size="15" font-weight="700" fill="#4c3fa8">target market</text>
+    <text x="516" y="160" font-size="13">the segment(s) the</text>
+    <text x="516" y="178" font-size="13">business aims to</text>
+    <text x="516" y="196" font-size="13">sell to</text>
+    <line x1="638" y1="153" x2="659" y2="153" stroke="#16283c" stroke-width="2" marker-end="url(#sg-arr)"/>
+
+    <!-- mix -->
+    <rect x="664" y="88" width="128" height="130" rx="8" fill="#16283c"/>
+    <circle cx="682" cy="110" r="11" fill="#ffffff"/>
+    <text x="682" y="115" font-size="13" font-weight="700" fill="#16283c" text-anchor="middle">3</text>
+    <text x="699" y="115" font-size="15" font-weight="700" fill="#ffffff">Tailor the</text>
+    <text x="676" y="136" font-size="15" font-weight="700" fill="#ffffff">marketing mix</text>
+    <text x="676" y="160" font-size="13" fill="#c3d0dc">product, price,</text>
+    <text x="676" y="178" font-size="13" fill="#c3d0dc">place, promotion</text>
+    <text x="676" y="196" font-size="13" fill="#c3d0dc">to suit the segment</text>
+  </g>
+</svg>

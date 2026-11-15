@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 270" width="760" height="270" role="img" aria-label="A villus: a finger-like projection of the small intestine wall. Its surface is one cell thick, the cells carry microvilli, it contains a dense network of blood capillaries and a central lacteal. Millions of villi cover the folded inner wall.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .vi-l { font-size: 12.5px; font-weight: 700; }
+    .vi-s { font-size: 11.5px; fill: #33475b; }
+    .vi-t { font-size: 12px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .vi-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- inset: many villi -->
+  <text class="vi-t" x="6" y="16">INNER WALL</text>
+  <path d="M10,150 L10,70 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 q8,-40 16,0 L138,150 Z" fill="#f6dada" stroke="#a93226" stroke-width="1.4"/>
+  <text class="vi-s" x="10" y="170">folded wall covered</text>
+  <text class="vi-s" x="10" y="184">in millions of villi</text>
+  <path d="M130,48 L236,30" class="vi-ld" stroke-dasharray="4 3"/>
+  <path d="M130,70 L236,250" class="vi-ld" stroke-dasharray="4 3"/>
+
+  <!-- villus -->
+  <g transform="translate(250,0)">
+    <!-- outer epithelium -->
+    <path d="M60,250 L60,70 C60,26 160,26 160,70 L160,250" fill="#fbe9e6" stroke="#a93226" stroke-width="2"/>
+    <!-- epithelial cell lines -->
+    <g stroke="#d9a39b" stroke-width="1">
+      <path d="M60,90 L70,90 M60,120 L70,120 M60,150 L70,150 M60,180 L70,180 M60,210 L70,210 M60,240 L70,240"/>
+      <path d="M150,90 L160,90 M150,120 L160,120 M150,150 L160,150 M150,180 L160,180 M150,210 L160,210 M150,240 L160,240"/>
+      <path d="M70,70 L70,250 M150,70 L150,250" stroke="#e6b8b1"/>
+      <path d="M70,70 C74,42 146,42 150,70" fill="none" stroke="#e6b8b1"/>
+    </g>
+    <!-- microvilli fringe -->
+    <path d="M58,240 L54,240 M58,228 L54,228 M58,216 L54,216 M58,204 L54,204 M58,192 L54,192 M58,180 L54,180 M58,168 L54,168 M58,156 L54,156 M58,144 L54,144 M58,132 L54,132 M58,120 L54,120 M58,108 L54,108 M58,96 L54,96 M58,84 L54,84 M58,72 L54,72" stroke="#a93226" stroke-width="1.4"/>
+    <path d="M162,240 L166,240 M162,228 L166,228 M162,216 L166,216 M162,204 L166,204 M162,192 L166,192 M162,180 L166,180 M162,168 L166,168 M162,156 L166,156 M162,144 L166,144 M162,132 L166,132 M162,120 L166,120 M162,108 L166,108 M162,96 L166,96 M162,84 L166,84 M162,72 L166,72" stroke="#a93226" stroke-width="1.4"/>
+    <!-- capillary network -->
+    <path d="M84,250 L84,80 C84,54 136,54 136,80 L136,250" fill="none" stroke="#c0392b" stroke-width="4"/>
+    <path d="M84,110 L136,120 M84,150 L136,160 M84,190 L136,200 M84,228 L136,236" stroke="#c0392b" stroke-width="2"/>
+    <!-- lacteal -->
+    <path d="M102,250 L102,90 C102,78 118,78 118,90 L118,250" fill="#fdf6d8" stroke="#c9a227" stroke-width="2"/>
+    <!-- arrows blood out -->
+    <path d="M136,256 L136,266" stroke="#c0392b" stroke-width="3"/>
+  </g>
+
+  <!-- labels -->
+  <path class="vi-ld" d="M468,40 L372,58"/>
+  <text class="vi-l" x="472" y="36">villi and microvilli</text>
+  <text class="vi-s" x="472" y="50">very large surface area for absorption</text>
+  <path class="vi-ld" d="M468,94 L412,100"/>
+  <text class="vi-l" x="472" y="90">wall one cell thick</text>
+  <text class="vi-s" x="472" y="104">short diffusion distance</text>
+  <path class="vi-ld" d="M468,148 L386,150"/>
+  <text class="vi-l" x="472" y="140">dense capillary network</text>
+  <text class="vi-s" x="472" y="154">absorbs glucose and amino acids; blood flow</text>
+  <text class="vi-s" x="472" y="168">carries them away, keeping the gradient steep</text>
+  <path class="vi-ld" d="M468,212 L368,212"/>
+  <text class="vi-l" x="472" y="208">lacteal</text>
+  <text class="vi-s" x="472" y="222">absorbs fatty acids and glycerol</text>
+  <text class="vi-s" x="472" y="250">cells also have many mitochondria for</text>
+  <text class="vi-s" x="472" y="264">active transport of glucose</text>
+</svg>

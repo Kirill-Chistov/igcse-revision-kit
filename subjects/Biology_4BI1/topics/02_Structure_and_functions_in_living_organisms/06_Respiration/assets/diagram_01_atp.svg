@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 150" width="760" height="150" role="img" aria-label="In every living cell, respiration breaks down glucose in enzyme-controlled reactions and releases energy, which is used to make ATP. ATP then provides the energy for cell processes: muscle contraction, active transport, building large molecules such as proteins, cell division, nerve impulses and keeping warm.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .at-h { font-size: 13px; font-weight: 700; }
+    .at-s { font-size: 12px; fill: #33475b; }
+    .at-b { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+  </style>
+  <rect x="6" y="46" width="120" height="56" rx="8" fill="#fdf6e5" stroke="#d99a17" stroke-width="1.8"/>
+  <text class="at-h" x="66" y="70" text-anchor="middle">glucose</text>
+  <text class="at-s" x="66" y="88" text-anchor="middle">(+ oxygen if aerobic)</text>
+  <path d="M130,74 L166,74" stroke="#0f7b6c" stroke-width="3"/><path d="M176,74 l-11,-7 v14z" fill="#0f7b6c"/>
+  <rect x="180" y="36" width="170" height="76" rx="8" fill="#e7f3ef" stroke="#0f7b6c" stroke-width="1.8"/>
+  <text class="at-h" x="265" y="62" text-anchor="middle">RESPIRATION</text>
+  <text class="at-s" x="265" y="80" text-anchor="middle">enzyme-controlled reactions</text>
+  <text class="at-s" x="265" y="96" text-anchor="middle">in every living cell, all the time</text>
+  <path d="M354,74 L390,74" stroke="#0f7b6c" stroke-width="3"/><path d="M400,74 l-11,-7 v14z" fill="#0f7b6c"/>
+  <text class="at-s" x="376" y="64" text-anchor="middle">energy</text>
+  <rect x="404" y="50" width="70" height="48" rx="24" fill="#4c3fa8"/>
+  <text class="at-b" x="439" y="79" text-anchor="middle">ATP</text>
+  <path d="M478,74 L508,74" stroke="#4c3fa8" stroke-width="3"/><path d="M518,74 l-11,-7 v14z" fill="#4c3fa8"/>
+  <text class="at-h" x="526" y="24">energy for cell processes</text>
+  <text class="at-s" x="526" y="44">• muscle contraction</text>
+  <text class="at-s" x="526" y="60">• active transport</text>
+  <text class="at-s" x="526" y="76">• building large molecules (protein synthesis)</text>
+  <text class="at-s" x="526" y="92">• cell division</text>
+  <text class="at-s" x="526" y="108">• nerve impulses</text>
+  <text class="at-s" x="526" y="124">• keeping warm (birds and mammals)</text>
+</svg>

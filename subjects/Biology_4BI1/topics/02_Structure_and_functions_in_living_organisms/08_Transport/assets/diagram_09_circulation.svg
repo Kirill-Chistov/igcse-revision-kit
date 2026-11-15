@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" role="img" aria-label="The double circulation. The right side of the heart pumps deoxygenated blood through the pulmonary artery to the lungs; oxygenated blood returns in the pulmonary vein to the left side, which pumps it into the aorta. Branches of the aorta supply the liver (hepatic artery), the gut, the kidneys (renal artery) and the rest of the body. Blood from the gut goes to the liver in the hepatic portal vein. Blood returns to the heart in the vena cava from the liver (hepatic vein), the kidneys (renal vein) and the rest of the body.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ci-o { font-size: 13px; font-weight: 700; }
+    .ci-v { font-size: 11.5px; font-weight: 700; }
+    .ci-s { font-size: 11.5px; fill: #33475b; }
+    .ci-b { fill: none; stroke: #2e6fa3; stroke-width: 5; stroke-linejoin: round; }
+    .ci-r { fill: none; stroke: #c0392b; stroke-width: 5; stroke-linejoin: round; }
+    .ci-box { fill: #f7f9fb; stroke: #8fa3b8; stroke-width: 1.4; }
+  </style>
+  <!-- lungs -->
+  <rect class="ci-box" x="270" y="10" width="220" height="42" rx="10"/>
+  <text class="ci-o" x="380" y="36" text-anchor="middle">LUNGS</text>
+  <!-- heart -->
+  <rect x="320" y="110" width="60" height="84" rx="6" fill="#c8daf0" stroke="#9c4a3c" stroke-width="2"/>
+  <rect x="380" y="110" width="60" height="84" rx="6" fill="#f4c0bb" stroke="#9c4a3c" stroke-width="2"/>
+  <text class="ci-o" x="380" y="206" text-anchor="middle">HEART</text>
+  <text class="ci-s" x="350" y="156" text-anchor="middle">right</text><text class="ci-s" x="410" y="156" text-anchor="middle">left</text>
+  <!-- organs -->
+  <rect class="ci-box" x="300" y="222" width="160" height="34" rx="8"/><text class="ci-o" x="380" y="244" text-anchor="middle">LIVER</text>
+  <rect class="ci-box" x="300" y="274" width="160" height="34" rx="8"/><text class="ci-o" x="380" y="296" text-anchor="middle">GUT (intestines)</text>
+  <rect class="ci-box" x="300" y="326" width="160" height="34" rx="8"/><text class="ci-o" x="380" y="348" text-anchor="middle">KIDNEYS</text>
+  <rect class="ci-box" x="300" y="370" width="160" height="26" rx="8"/><text class="ci-o" x="380" y="388" text-anchor="middle">REST OF BODY</text>
+
+  <!-- pulmonary artery -->
+  <path class="ci-b" d="M340,110 L340,80 L300,80 L300,52"/>
+  <text class="ci-v" x="294" y="96" text-anchor="end" style="fill:#2e6fa3">pulmonary artery</text>
+  <!-- pulmonary vein -->
+  <path class="ci-r" d="M460,52 L460,80 L420,80 L420,110"/>
+  <text class="ci-v" x="468" y="96" style="fill:#c0392b">pulmonary vein</text>
+  <!-- aorta trunk -->
+  <path class="ci-r" d="M440,150 L560,150 L560,384 L460,384"/>
+  <text class="ci-v" x="568" y="146" style="fill:#c0392b">aorta</text>
+  <path class="ci-r" d="M560,239 L460,239"/><text class="ci-v" x="568" y="243" style="fill:#c0392b">hepatic artery</text>
+  <path class="ci-r" d="M560,291 L460,291"/><text class="ci-s" x="568" y="295">artery to gut</text>
+  <path class="ci-r" d="M560,343 L460,343"/><text class="ci-v" x="568" y="347" style="fill:#c0392b">renal artery</text>
+  <!-- vena cava trunk -->
+  <path class="ci-b" d="M320,150 L200,150 L200,384 L300,384"/>
+  <text class="ci-v" x="192" y="146" text-anchor="end" style="fill:#2e6fa3">vena cava</text>
+  <path class="ci-b" d="M300,239 L200,239"/><text class="ci-v" x="192" y="243" text-anchor="end" style="fill:#2e6fa3">hepatic vein</text>
+  <path class="ci-b" d="M300,343 L200,343"/><text class="ci-v" x="192" y="347" text-anchor="end" style="fill:#2e6fa3">renal vein</text>
+  <!-- hepatic portal vein -->
+  <path d="M330,274 L330,256" stroke="#6d3fa8" stroke-width="5"/>
+  <text class="ci-v" x="192" y="268" text-anchor="end" style="fill:#6d3fa8">hepatic portal vein</text>
+  <text class="ci-s" x="192" y="282" text-anchor="end">gut → liver: carries</text>
+  <text class="ci-s" x="192" y="296" text-anchor="end">absorbed food</text>
+  <path d="M196,272 L326,266" stroke="#8fa3b8" stroke-width="1.1"/>
+  <!-- arrows -->
+  <path d="M520,150 l-11,-7 v14z" fill="#ffffff" stroke="#c0392b" stroke-width="2"/><path d="M270,150 l-11,-7 v14z" fill="#ffffff" stroke="#2e6fa3" stroke-width="2"/><path d="M300,60 l-7,11 h14z" fill="#ffffff" stroke="#2e6fa3" stroke-width="2"/><path d="M420,102 l-7,-11 h14z" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+  <text class="ci-v" x="604" y="24">Double circulation</text>
+  <text class="ci-s" x="604" y="40">blood passes through the</text>
+  <text class="ci-s" x="604" y="54">heart twice in one complete</text>
+  <text class="ci-s" x="604" y="68">circuit of the body</text>
+  <text class="ci-s" x="604" y="90">lungs: low pressure</text>
+  <text class="ci-s" x="604" y="104">body: high pressure</text>
+</svg>

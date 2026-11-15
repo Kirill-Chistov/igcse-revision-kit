@@ -1,0 +1,14 @@
+name: English (First Language)
+board: Cambridge International
+qualification: IGCSE (9–1) First Language English
+code: "0990"
+aliases: [english, english language, fle]
+spec_url: https://www.cambridgeinternational.org/Images/718785-2027-2029-syllabus.pdf
+tiers: none
+centre_choices:
+  - Paper 2 or Component 3 (coursework)
+  - Component 4 (speaking and listening) taken?
+status: specification mapped, no notes yet
+spec_points: 18
+subtopics_written: 0
+topic_pdfs: 0

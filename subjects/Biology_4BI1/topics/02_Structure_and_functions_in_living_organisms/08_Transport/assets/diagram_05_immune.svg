@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" width="760" height="240" role="img" aria-label="White blood cells and the immune response. A phagocyte ingests a pathogen and digests it. A lymphocyte releases antibodies whose shape is specific to the antigens on the pathogen; they bind to it. Graph: after a vaccine a small, slow antibody response occurs and memory cells are made; on later infection antibodies are produced sooner, faster and in greater quantity.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .im-t { font-size: 11.5px; font-weight: 700; fill: #6b7a88; letter-spacing: 0.05em; }
+    .im-l { font-size: 12px; font-weight: 700; }
+    .im-s { font-size: 11.5px; fill: #33475b; }
+    .im-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <text class="im-t" x="6" y="14">PHAGOCYTE</text><text class="im-t" x="262" y="14">LYMPHOCYTE</text><text class="im-t" x="512" y="14">VACCINATION — PAPER 2 ONLY</text>
+  <line x1="250" y1="6" x2="250" y2="230" stroke="#dfe5ea" stroke-width="1.4"/><line x1="500" y1="6" x2="500" y2="230" stroke="#dfe5ea" stroke-width="1.4"/>
+  <path d="M40,110 C30,60 90,34 130,50 C150,58 154,76 140,84 C128,90 124,100 140,110 C156,120 150,142 128,150 C90,166 46,150 40,110 Z" fill="#eef0fa" stroke="#6d3fa8" stroke-width="1.6"/>
+  <path d="M70,110 C66,98 80,94 82,104 C86,94 98,98 94,108 C100,112 94,124 86,120 C82,128 70,124 72,118 C64,118 64,110 70,110 Z" fill="#8e5bb5"/>
+  <rect x="150" y="92" width="26" height="12" rx="6" fill="#7fb04a" stroke="#3d7a1c"/>
+  <circle cx="104" cy="70" r="12" fill="#f7f0d8" stroke="#b8860b" stroke-width="1"/><rect x="96" y="66" width="16" height="8" rx="4" fill="#9fc478" stroke="#3d7a1c" stroke-width="0.8"/>
+  <text class="im-s" x="126" y="182" text-anchor="middle">flows around and <tspan font-weight="700">ingests</tspan> the</text>
+  <text class="im-s" x="126" y="196" text-anchor="middle">pathogen, then <tspan font-weight="700">digests</tspan> it with</text>
+  <text class="im-s" x="126" y="210" text-anchor="middle">enzymes (phagocytosis)</text>
+  <text class="im-l" x="180" y="84">pathogen</text>
+  <circle cx="304" cy="96" r="30" fill="#eef0fa" stroke="#6d3fa8" stroke-width="1.6"/><circle cx="304" cy="96" r="22" fill="#6a3d9a"/>
+  <g transform="translate(356,72) rotate(70)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,10 L0,0 L-6,-8 M0,0 L6,-8"/></g>
+  <g transform="translate(360,112) rotate(100)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,10 L0,0 L-6,-8 M0,0 L6,-8"/></g>
+  <g transform="translate(350,140) rotate(130)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,10 L0,0 L-6,-8 M0,0 L6,-8"/></g>
+  <circle cx="432" cy="96" r="22" fill="#9fc478" stroke="#3d7a1c" stroke-width="1.4"/>
+  <path d="M454.0,96.0 l5.0,0.0" stroke="#c0392b" stroke-width="3"/>
+  <path d="M447.6,111.6 l3.5,3.5" stroke="#c0392b" stroke-width="3"/>
+  <path d="M432.0,118.0 l0.0,5.0" stroke="#c0392b" stroke-width="3"/>
+  <path d="M416.4,111.6 l-3.5,3.5" stroke="#c0392b" stroke-width="3"/>
+  <path d="M410.0,96.0 l-5.0,0.0" stroke="#c0392b" stroke-width="3"/>
+  <path d="M416.4,80.4 l-3.5,-3.5" stroke="#c0392b" stroke-width="3"/>
+  <path d="M432.0,74.0 l-0.0,-5.0" stroke="#c0392b" stroke-width="3"/>
+  <path d="M447.6,80.4 l3.5,-3.5" stroke="#c0392b" stroke-width="3"/>
+  <g transform="translate(396.0,96.0) rotate(90)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,-10 L0,0 L-6,8 M0,0 L6,8"/></g>
+  <g transform="translate(406.5,70.5) rotate(135)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,-10 L0,0 L-6,8 M0,0 L6,8"/></g>
+  <g transform="translate(406.5,121.5) rotate(45)" stroke="#0f7b6c" stroke-width="2.4" fill="none"><path d="M0,-10 L0,0 L-6,8 M0,0 L6,8"/></g>
+  <text class="im-l" x="400" y="140">antigens</text><path class="im-ld" d="M424,132 L440,118"/>
+  <text class="im-l" x="340" y="46">antibodies</text>
+  <text class="im-s" x="374" y="182" text-anchor="middle">releases <tspan font-weight="700">antibodies</tspan> with a shape</text>
+  <text class="im-s" x="374" y="196" text-anchor="middle"><tspan font-weight="700">specific</tspan> to the pathogen's antigens;</text>
+  <text class="im-s" x="374" y="210" text-anchor="middle">they bind and mark it for destruction</text>
+  <path d="M532,40 L532,170 L742,170" fill="none" stroke="#16283c" stroke-width="1.4"/>
+  <path d="M532.0,170.0 L534.1,170.0 L536.2,170.0 L538.3,170.0 L540.4,169.3 L542.5,165.7 L544.6,162.7 L546.7,160.1 L548.8,157.9 L550.9,155.9 L553.0,154.3 L555.1,152.8 L557.2,151.6 L559.3,150.6 L561.4,149.6 L563.5,148.9 L565.6,148.2 L567.7,147.6 L569.8,147.1 L571.9,147.5 L574.0,148.7 L576.1,149.9 L578.2,151.0 L580.3,152.1 L582.4,153.2 L584.5,154.2 L586.6,155.2 L588.7,156.1 L590.8,157.0 L592.9,157.8 L595.0,158.6 L597.1,159.4 L599.2,160.1 L601.3,160.7 L603.4,161.3 L605.5,161.9 L607.6,162.4 L609.7,162.9 L611.8,163.4 L613.9,163.9 L616.0,164.3 L618.1,164.6 L620.2,165.0 L622.3,165.3 L624.4,165.7 L626.5,165.9 L628.6,166.2 L630.7,166.5 L632.8,166.7 L634.9,166.9 L637.0,167.1 L639.1,167.3 L641.2,167.5 L643.3,167.7 L645.4,167.8 L647.5,168.0 L649.6,168.1 L651.7,140.9 L653.8,114.6 L655.9,96.1 L658.0,83.1 L660.1,73.9 L662.2,67.4 L664.3,64.8 L666.4,65.4 L668.5,66.9 L670.6,69.1 L672.7,71.6 L674.8,74.3 L676.9,77.1 L679.0,80.0 L681.1,82.9 L683.2,85.8 L685.3,88.6 L687.4,91.3 L689.5,94.0 L691.6,96.6 L693.7,99.1 L695.8,101.5 L697.9,103.8 L700.0,106.1 L702.1,108.3 L704.2,110.4 L706.3,112.5 L708.4,114.4 L710.5,116.4 L712.6,118.2 L714.7,120.0 L716.8,121.7 L718.9,123.4 L721.0,125.0 L723.1,126.5 L725.2,128.0 L727.3,129.5 L729.4,130.9 L731.5,132.2 L733.6,133.5 L735.7,134.8 L737.8,136.0 L739.9,137.1 L742.0,138.3" fill="none" stroke="#0f7b6c" stroke-width="2.6"/>
+  <path d="M540,170 L540,178 M650,170 L650,178" stroke="#16283c" stroke-width="1.4"/>
+  <text class="im-s" x="540" y="190" text-anchor="middle">vaccine</text>
+  <text class="im-s" x="650" y="190" text-anchor="middle">infection</text>
+  <text class="im-s" x="544" y="130">slow, small</text>
+  <text class="im-l" x="546" y="58">second response:</text><text class="im-l" x="546" y="72">sooner, faster,</text><text class="im-l" x="546" y="86">more antibody</text>
+  <text class="im-l" x="524" y="105.0" transform="rotate(-90 524 105.0)" text-anchor="middle">antibody level</text>
+  <text class="im-l" x="637.0" y="206" text-anchor="middle">time</text>
+  <text class="im-s" x="637.0" y="222" text-anchor="middle">memory cells from the vaccine</text><text class="im-s" x="637.0" y="236" text-anchor="middle">respond quickly to the pathogen</text>
+</svg>

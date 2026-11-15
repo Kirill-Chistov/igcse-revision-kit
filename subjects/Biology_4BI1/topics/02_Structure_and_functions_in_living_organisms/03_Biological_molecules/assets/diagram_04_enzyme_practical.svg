@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 236" width="760" height="236" role="img" aria-label="Starch solution and amylase solution are warmed in a water bath at the chosen temperature, then mixed and the stop clock started. Every 30 seconds one drop of the mixture is added to a drop of iodine on a spotting tile. The iodine turns blue-black while starch is present and stays orange-brown once all the starch has been digested.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .ep-l { font-size: 12.5px; font-weight: 700; }
+    .ep-s { font-size: 12px; fill: #33475b; }
+    .ep-n { font-size: 12px; font-weight: 700; fill: #ffffff; }
+    .ep-t { font-size: 11px; fill: #6b7a88; }
+    .ep-tube { fill: #ffffff; stroke: #33475b; stroke-width: 1.6; }
+    .ep-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+    .ep-ar { fill: none; stroke: #0f7b6c; stroke-width: 2; }
+  </style>
+  <defs>
+    <path id="ep-tb" d="M-11,0 L-11,110 A11,11 0 0 0 11,110 L11,0"/>
+  </defs>
+  <!-- water bath -->
+  <rect x="10" y="84" width="280" height="118" rx="4" fill="#f4f7f9" stroke="#33475b" stroke-width="1.8"/>
+  <rect x="12" y="108" width="276" height="92" fill="#dcecf7"/>
+  <path d="M12,108 q10,-4 20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t20,0 t16,0" fill="none" stroke="#5b8db8" stroke-width="1.2"/>
+  <!-- tubes -->
+  <g transform="translate(62,62)"><rect x="-11" y="70" width="22" height="50" fill="#fdf6e5"/><use href="#ep-tb" class="ep-tube" style="fill:none"/></g>
+  <g transform="translate(112,62)"><rect x="-11" y="70" width="22" height="50" fill="#e7f3ef"/><use href="#ep-tb" class="ep-tube" style="fill:none"/></g>
+  <g transform="translate(214,62)"><rect x="-11" y="50" width="22" height="70" fill="#f1ecd4"/><use href="#ep-tb" class="ep-tube" style="fill:none"/></g>
+  <text class="ep-s" x="62" y="54" text-anchor="middle">starch</text>
+  <text class="ep-s" x="112" y="54" text-anchor="middle">amylase</text>
+  <path class="ep-ar" d="M126,80 C150,40 180,40 196,64"/><path d="M200,72 l-2,-11 l-9,7z" fill="#0f7b6c"/>
+  <text class="ep-s" x="162" y="30" text-anchor="middle">mix; start clock</text>
+  <!-- thermometer -->
+  <path d="M262,30 L262,178" stroke="#33475b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M262,120 L262,178" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="262" cy="182" r="7" fill="#c0392b"/>
+  <text class="ep-s" x="150" y="220" text-anchor="middle">water bath at the chosen temperature</text>
+
+  <!-- pipette -->
+  <path d="M232,44 L318,44 L318,70" fill="none" stroke="#33475b" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <path d="M312,50 L324,50 L324,58 L320,74 L316,74 L312,58 Z" fill="#ffffff" stroke="#33475b" stroke-width="1.4"/>
+  <text class="ep-s" x="340" y="40">1 drop of mixture every 30 s</text>
+
+  <!-- spotting tile -->
+  <rect x="352" y="84" width="400" height="92" rx="6" fill="#ffffff" stroke="#8fa3b8" stroke-width="1.6"/>
+  <g stroke="#6b7a88" stroke-width="1">
+    <circle cx="384" cy="116" r="15" fill="#1f2a44"/><circle cx="432" cy="116" r="15" fill="#1f2a44"/><circle cx="480" cy="116" r="15" fill="#1f2a44"/>
+    <circle cx="528" cy="116" r="15" fill="#1f2a44"/><circle cx="576" cy="116" r="15" fill="#2d3552"/><circle cx="624" cy="116" r="15" fill="#5a4a50"/>
+    <circle cx="672" cy="116" r="15" fill="#c98a2b"/><circle cx="720" cy="116" r="15" fill="#c98a2b"/>
+  </g>
+  <g text-anchor="middle">
+    <text class="ep-t" x="384" y="148">0 s</text><text class="ep-t" x="432" y="148">30 s</text><text class="ep-t" x="480" y="148">60 s</text>
+    <text class="ep-t" x="528" y="148">90 s</text><text class="ep-t" x="576" y="148">120 s</text><text class="ep-t" x="624" y="148">150 s</text>
+    <text class="ep-t" x="672" y="148">180 s</text><text class="ep-t" x="720" y="148">210 s</text>
+  </g>
+  <text class="ep-s" x="752" y="76" text-anchor="end">each well: 1 drop of iodine solution</text>
+  <path class="ep-ld" d="M369,184 L369,190 L591,190 L591,184"/>
+  <text class="ep-l" x="400" y="208">blue-black</text><text class="ep-s" x="400" y="222">starch still present</text>
+  <path class="ep-ld" d="M657,184 L657,190 L735,190 L735,184"/>
+  <text class="ep-l" x="600" y="208">orange-brown</text><text class="ep-s" x="600" y="222">no starch left → record time</text>
+</svg>

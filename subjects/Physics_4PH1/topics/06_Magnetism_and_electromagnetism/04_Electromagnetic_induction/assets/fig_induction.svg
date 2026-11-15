@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 192" font-family="Carlito, Calibri, sans-serif" role="img">
+<title>Inducing a voltage: a wire moved through a magnetic field, and a magnet moved into a coil</title>
+<text x="165.0" y="16.0" font-size="13.5" text-anchor="middle" font-weight="bold" fill="#16283c">(a) wire between magnetic poles</text>
+<rect x="20.0" y="30.0" width="40.0" height="112.0" fill="#f2b8b0" stroke="#c0392b" stroke-width="1.4"/>
+<text x="40.0" y="92.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#8e2a20">N</text>
+<rect x="270.0" y="30.0" width="40.0" height="112.0" fill="#b9d0ee" stroke="#2e6fb7" stroke-width="1.4"/>
+<text x="290.0" y="92.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f4f8a">S</text>
+<line x1="60" y1="44" x2="270" y2="44" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4"/>
+<polygon points="96.0,44.0 90.0,47.3 90.0,40.7" fill="#0f7b6c"/>
+<line x1="60" y1="66" x2="270" y2="66" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4"/>
+<polygon points="96.0,66.0 90.0,69.3 90.0,62.7" fill="#0f7b6c"/>
+<line x1="60" y1="120" x2="270" y2="120" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4"/>
+<polygon points="96.0,120.0 90.0,123.3 90.0,116.7" fill="#0f7b6c"/>
+<line x1="60" y1="140" x2="270" y2="140" stroke="#0f7b6c" stroke-width="1.1" stroke-dasharray="5 4"/>
+<polygon points="96.0,140.0 90.0,143.3 90.0,136.7" fill="#0f7b6c"/>
+<circle cx="165" cy="93" r="9" fill="#b5651d" stroke="#16283c" stroke-width="1.2"/>
+<line x1="165.0" y1="81.0" x2="165.0" y2="54.0" stroke="#4c3fa8" stroke-width="2.6"/>
+<polygon points="165.0,46.0 170.5,56.0 159.5,56.0" fill="#4c3fa8"/>
+<line x1="165.0" y1="105.0" x2="165.0" y2="132.0" stroke="#4c3fa8" stroke-width="2.6"/>
+<polygon points="165.0,140.0 159.5,130.0 170.5,130.0" fill="#4c3fa8"/>
+<line x1="151.0" y1="93.0" x2="114.4" y2="93.0" stroke="#6b7a88" stroke-width="1.6" stroke-dasharray="4 3"/>
+<polygon points="108.0,93.0 116.0,88.6 116.0,97.4" fill="#6b7a88"/>
+<line x1="179.0" y1="93.0" x2="215.6" y2="93.0" stroke="#6b7a88" stroke-width="1.6" stroke-dasharray="4 3"/>
+<polygon points="222.0,93.0 214.0,97.4 214.0,88.6" fill="#6b7a88"/>
+<text x="165.0" y="164.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#4c3fa8">wire moved up or down: cuts field lines → voltage</text>
+<text x="165.0" y="180.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#33475b">wire moved along the lines, or held still: no voltage</text>
+<line x1="342" y1="8" x2="342" y2="186" stroke="#dfe5ea" stroke-width="1"/>
+<text x="530.0" y="16.0" font-size="13.5" text-anchor="middle" font-weight="bold" fill="#16283c">(b) magnet and coil</text>
+<rect x="370.0" y="70.0" width="52.0" height="26.0" fill="#b9d0ee" stroke="#2e6fb7" stroke-width="1.4"/>
+<text x="396.0" y="88.4" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f4f8a">S</text>
+<rect x="422.0" y="70.0" width="52.0" height="26.0" fill="#f2b8b0" stroke="#c0392b" stroke-width="1.4"/>
+<text x="448.0" y="88.4" font-size="15" text-anchor="middle" font-weight="bold" fill="#8e2a20">N</text>
+<line x1="392.0" y1="56.0" x2="444.8" y2="56.0" stroke="#4c3fa8" stroke-width="2.4"/>
+<polygon points="452.0,56.0 443.0,61.0 443.0,51.0" fill="#4c3fa8"/>
+<text x="422.0" y="46.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#4c3fa8">push in</text>
+<ellipse cx="516" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="532" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="548" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="564" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="580" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="596" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<ellipse cx="612" cy="83" rx="9" ry="32" fill="none" stroke="#b5651d" stroke-width="2.2"/>
+<polyline points="514,115 514,162 542,162" fill="none" stroke="#16283c" stroke-width="1.6"/>
+<polyline points="614,115 614,162 594,162" fill="none" stroke="#16283c" stroke-width="1.6"/>
+<circle cx="568" cy="162" r="24" fill="#ffffff" stroke="#16283c" stroke-width="1.8"/>
+<path d="M 552,158 A 17 17 0 0 1 584,158" fill="none" stroke="#6b7a88" stroke-width="1.2"/>
+<text x="568.0" y="153.0" font-size="9.5" text-anchor="middle" font-weight="normal" fill="#33475b">0</text>
+<line x1="568" y1="172" x2="578" y2="148" stroke="#c0392b" stroke-width="2"/>
+<circle cx="568" cy="172" r="2.5" fill="#16283c"/>
+<text x="640.0" y="158.0" font-size="12" text-anchor="start" font-weight="normal" fill="#33475b">centre-zero</text>
+<text x="640.0" y="172.0" font-size="12" text-anchor="start" font-weight="normal" fill="#33475b">meter</text>
+<text x="640.0" y="50.0" font-size="12.5" text-anchor="start" font-weight="bold" fill="#16283c">coil</text>
+<line x1="638.0" y1="54.0" x2="622.0" y2="66.0" stroke="#6b7a88" stroke-width="0.9"/>
+<circle cx="622.0" cy="66.0" r="1.8" fill="#6b7a88"/>
+</svg>

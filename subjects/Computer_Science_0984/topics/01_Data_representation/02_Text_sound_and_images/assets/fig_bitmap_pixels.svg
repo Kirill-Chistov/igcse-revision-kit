@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 246" width="640" height="246" role="img" aria-label="A 6 by 6 pixel bitmap with a 2-bit colour depth and its binary codes" font-family="Carlito, Calibri, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16283c"/></marker></defs>
+<rect x="40" y="30" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="30" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="30" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="30" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="30" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="30" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="40" y="60" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="60" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="60" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="60" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="60" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="60" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="40" y="90" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="90" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="90" width="30" height="30" rx="0" fill="#0f766e" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="90" width="30" height="30" rx="0" fill="#0f766e" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="90" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="90" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="40" y="120" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="120" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="120" width="30" height="30" rx="0" fill="#0f766e" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="120" width="30" height="30" rx="0" fill="#0f766e" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="120" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="120" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="40" y="150" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="150" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="150" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="150" width="30" height="30" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="150" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="150" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="40" y="180" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="70" y="180" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="100" y="180" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="130" y="180" width="30" height="30" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<rect x="160" y="180" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="190" y="180" width="30" height="30" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<rect x="38" y="28" width="184" height="34" rx="0" fill="none" stroke="#c0392b" stroke-width="2.2" />
+<text x="130" y="232" font-size="13" fill="#6b7a88" text-anchor="middle" font-weight="normal" >6 × 6 = 36 pixels</text>
+<text x="280" y="36" font-size="14" fill="#16283c" text-anchor="start" font-weight="bold" >colour depth 2 bits → 2² = 4 colours</text>
+<rect x="280" y="52" width="22" height="22" rx="0" fill="#ffffff" stroke="#94a3b8" stroke-width="1" />
+<text x="312" y="68" font-size="15" fill="#16283c" text-anchor="start" font-weight="bold" >00</text>
+<rect x="280" y="80" width="22" height="22" rx="0" fill="#9fd3c7" stroke="#94a3b8" stroke-width="1" />
+<text x="312" y="96" font-size="15" fill="#16283c" text-anchor="start" font-weight="bold" >01</text>
+<rect x="280" y="108" width="22" height="22" rx="0" fill="#0f766e" stroke="#94a3b8" stroke-width="1" />
+<text x="312" y="124" font-size="15" fill="#16283c" text-anchor="start" font-weight="bold" >10</text>
+<rect x="280" y="136" width="22" height="22" rx="0" fill="#16283c" stroke="#94a3b8" stroke-width="1" />
+<text x="312" y="152" font-size="15" fill="#16283c" text-anchor="start" font-weight="bold" >11</text>
+<text x="280" y="186" font-size="13" fill="#c0392b" text-anchor="start" font-weight="normal" >top row stored as:</text>
+<text x="280" y="208" font-size="17" fill="#16283c" text-anchor="start" font-weight="bold" font-family="DejaVu Sans Mono, monospace">00 00 11 11 00 00</text>
+<text x="280" y="232" font-size="13" fill="#33475b" text-anchor="start" font-weight="normal" >whole image: 36 pixels × 2 bits = 72 bits</text>
+</svg>

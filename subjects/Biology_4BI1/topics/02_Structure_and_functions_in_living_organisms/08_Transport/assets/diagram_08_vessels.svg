@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 196" width="760" height="196" role="img" aria-label="Cross-sections of blood vessels. Artery: thick wall of muscle and elastic tissue, narrow lumen. Vein: thin wall, wide lumen, with valves that close to stop backflow. Capillary: wall one cell thick, lumen just wide enough for red blood cells in single file.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .bv-h { font-size: 13px; font-weight: 700; fill: #0b5f54; }
+    .bv-s { font-size: 11.5px; fill: #33475b; }
+    .bv-ld { fill: none; stroke: #8fa3b8; stroke-width: 1.1; }
+  </style>
+  <!-- artery -->
+  <text class="bv-h" x="100" y="16" text-anchor="middle">Artery</text>
+  <circle cx="100" cy="92" r="62" fill="#e6b0a6" stroke="#9c4a3c" stroke-width="2"/>
+  <circle cx="100" cy="92" r="44" fill="#f0cfc0" stroke="#c9776b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="100" cy="92" r="22" fill="#f6dada" stroke="#9c4a3c" stroke-width="1.6"/>
+  <text class="bv-s" x="100" y="178" text-anchor="middle">thick wall: muscle and</text>
+  <text class="bv-s" x="100" y="192" text-anchor="middle">elastic tissue; narrow lumen</text>
+  <!-- vein -->
+  <text class="bv-h" x="300" y="16" text-anchor="middle">Vein</text>
+  <ellipse cx="270" cy="92" rx="54" ry="44" fill="#c9d8ee" stroke="#34588a" stroke-width="2"/>
+  <ellipse cx="270" cy="92" rx="46" ry="36" fill="#e6eef9" stroke="#34588a" stroke-width="1.2"/>
+  <!-- valve longitudinal -->
+  <rect x="340" y="40" width="44" height="110" fill="#e6eef9" stroke="#34588a" stroke-width="2"/>
+  <path d="M342,104 L360,82 M382,104 L364,82" stroke="#16283c" stroke-width="2.4"/>
+  <path d="M362,140 L362,120" stroke="#2e6fa3" stroke-width="2"/><path d="M362,114 l-5,9 h10z" fill="#2e6fa3"/>
+  <text class="bv-s" x="390" y="84">valve</text><text class="bv-s" x="390" y="134">blood to</text><text class="bv-s" x="390" y="148">the heart</text>
+  <text class="bv-s" x="300" y="178" text-anchor="middle">thin wall; wide lumen;</text>
+  <text class="bv-s" x="300" y="192" text-anchor="middle">valves stop backflow</text>
+  <!-- capillary -->
+  <text class="bv-h" x="600" y="16" text-anchor="middle">Capillary</text>
+  <rect x="470" y="70" width="260" height="44" rx="4" fill="#fbe9e6" stroke="none"/>
+  <path d="M470,70 L730,70 M470,114 L730,114" stroke="#c9776b" stroke-width="3"/>
+  <g stroke="#c9776b" stroke-width="1"><path d="M520,66 L520,74 M580,66 L580,74 M640,66 L640,74 M700,66 L700,74 M550,110 L550,118 M610,110 L610,118 M670,110 L670,118"/></g>
+  <g fill="#e8736a" stroke="#b03a2e"><ellipse cx="530" cy="92" rx="14" ry="16"/><ellipse cx="574" cy="92" rx="14" ry="16"/><ellipse cx="618" cy="92" rx="14" ry="16"/></g>
+  <path class="bv-ld" d="M660,48 L650,68"/><text class="bv-s" x="620" y="44">wall one cell thick</text>
+  <text class="bv-s" x="600" y="146" text-anchor="middle">red blood cells pass in single file</text>
+  <text class="bv-s" x="600" y="178" text-anchor="middle">(drawn much larger than the</text>
+  <text class="bv-s" x="600" y="192" text-anchor="middle">artery and vein)</text>
+</svg>

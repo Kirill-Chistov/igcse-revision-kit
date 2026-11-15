@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 35 820 290" width="820" height="290" role="img"
+     aria-label="Sankey diagram for an electric motor: 500 J in, 300 J useful, 150 J wasted by heating, 50 J wasted as sound">
+  <g font-family="Carlito, Calibri, sans-serif">
+   <g transform="translate(40,0)">
+    <!-- input band: 500 J = 150 px wide (0.3 px per J) -->
+    <rect x="60" y="60" width="240" height="150" fill="#5b7083"/>
+    <!-- useful: 300 J = 90 px, straight on -->
+    <rect x="299" y="60" width="341" height="90" fill="#0f7b6c"/>
+    <polygon points="640,45 700,105 640,165" fill="#0f7b6c"/>
+    <!-- wasted by heating: 150 J = 45 px, bends down -->
+    <path d="M299,150 L330,150 A70,70 0 0 1 400,220 L400,290 L355,290 L355,220 A25,25 0 0 0 330,195 L299,195 Z" fill="#c0392b"/>
+    <polygon points="346,290 409,290 377.5,316" fill="#c0392b"/>
+    <!-- wasted as sound: 50 J = 15 px, bends down first -->
+    <path d="M299,195 L300,195 A35,35 0 0 1 335,230 L335,290 L320,290 L320,230 A20,20 0 0 0 300,210 L299,210 Z" fill="#d99a17"/>
+    <polygon points="313,290 342,290 327.5,310" fill="#d99a17"/>
+
+    <!-- labels -->
+    <text x="180" y="130" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">500 J</text>
+    <text x="180" y="152" font-size="14" fill="#ffffff" text-anchor="middle">supplied electrically</text>
+
+    <text x="480" y="100" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">300 J useful</text>
+    <text x="480" y="122" font-size="13.5" fill="#ffffff" text-anchor="middle">gravitational store of the load</text>
+
+    <text x="422" y="252" font-size="15" font-weight="700" fill="#c0392b">150 J wasted</text>
+    <text x="422" y="271" font-size="13.5" fill="#33475b">by heating (friction, resistance)</text>
+
+    <text x="304" y="252" font-size="15" font-weight="700" fill="#a8740c" text-anchor="end">50 J wasted</text>
+    <text x="304" y="271" font-size="13.5" fill="#33475b" text-anchor="end">as sound</text>
+
+   </g>
+    <text x="810" y="316" font-size="12" fill="#6b7a88" text-anchor="end">arrow widths drawn to scale</text>
+  </g>
+</svg>

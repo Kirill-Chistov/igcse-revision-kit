@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 196" width="760" height="196" role="img" aria-label="Chain of effects of a mutation: a base in the DNA changes, so an mRNA codon changes, so a different amino acid is placed in the protein, so the protein folds into a different shape, for example an enzyme's active site changes, so the phenotype may change. Most mutations have no effect, some a small effect, and rarely a significant effect.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .mu-l { font-size: 12px; font-weight: 700; }
+    .mu-s { font-size: 11px; fill: #33475b; }
+    .mu-c { font-size: 12px; font-weight: 700; font-family: Carlito, Calibri, sans-serif; }
+  </style>
+  <defs><marker id="mu-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6b7a88"/></marker></defs>
+  <rect x="6" y="14" width="112" height="66" rx="8" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="62.0" y="36" text-anchor="middle">base in DNA</text><text class="mu-l" x="62.0" y="51" text-anchor="middle">changes</text>
+  <text class="mu-s" x="62.0" y="68" text-anchor="middle">TAC → TAA</text>
+  <path d="M119,47 L130,47" stroke="#6b7a88" stroke-width="1.6" marker-end="url(#mu-ar)"/>
+  <rect x="131" y="14" width="112" height="66" rx="8" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="187.0" y="36" text-anchor="middle">mRNA codon</text><text class="mu-l" x="187.0" y="51" text-anchor="middle">changes</text>
+  <text class="mu-s" x="187.0" y="68" text-anchor="middle">AUG → AUU</text>
+  <path d="M244,47 L255,47" stroke="#6b7a88" stroke-width="1.6" marker-end="url(#mu-ar)"/>
+  <rect x="256" y="14" width="112" height="66" rx="8" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="312.0" y="36" text-anchor="middle">different</text><text class="mu-l" x="312.0" y="51" text-anchor="middle">amino acid</text>
+  <text class="mu-s" x="312.0" y="68" text-anchor="middle">in the chain</text>
+  <path d="M369,47 L380,47" stroke="#6b7a88" stroke-width="1.6" marker-end="url(#mu-ar)"/>
+  <rect x="381" y="14" width="112" height="66" rx="8" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="437.0" y="36" text-anchor="middle">protein folds</text><text class="mu-l" x="437.0" y="51" text-anchor="middle">differently</text>
+  <text class="mu-s" x="437.0" y="68" text-anchor="middle">new shape</text>
+  <path d="M494,47 L505,47" stroke="#6b7a88" stroke-width="1.6" marker-end="url(#mu-ar)"/>
+  <rect x="506" y="14" width="112" height="66" rx="8" fill="#efe9fa" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="562.0" y="36" text-anchor="middle">e.g. active</text><text class="mu-l" x="562.0" y="51" text-anchor="middle">site changes</text>
+  <text class="mu-s" x="562.0" y="68" text-anchor="middle">enzyme fails</text>
+  <path d="M619,47 L630,47" stroke="#6b7a88" stroke-width="1.6" marker-end="url(#mu-ar)"/>
+  <rect x="631" y="14" width="112" height="66" rx="8" fill="#fbe3e3" stroke="#6a52a3" stroke-width="1.3"/>
+  <text class="mu-l" x="687.0" y="36" text-anchor="middle">phenotype</text><text class="mu-l" x="687.0" y="51" text-anchor="middle">may change</text>
+  <text class="mu-l" x="6" y="112">Effect on the phenotype</text>
+  <rect x="6" y="122" width="300" height="64" rx="8" fill="#e6f3ec" stroke="#0f7b6c" stroke-width="1.2"/>
+  <text class="mu-l" x="16" y="142" style="fill:#0f7b6c">most: no effect</text><text class="mu-s" x="16" y="158">change is in non-coding DNA, or the new codon</text><text class="mu-s" x="16" y="172">codes for the same amino acid, or protein still works</text>
+  <rect x="318" y="122" width="200" height="64" rx="8" fill="#fff4dc" stroke="#b8860b" stroke-width="1.2"/>
+  <text class="mu-l" x="328" y="142" style="fill:#b8860b">some: small effect</text><text class="mu-s" x="328" y="158">protein works slightly differently</text><text class="mu-s" x="328" y="172"></text>
+  <rect x="530" y="122" width="224" height="64" rx="8" fill="#fbe3e3" stroke="#c0392b" stroke-width="1.2"/>
+  <text class="mu-l" x="540" y="142" style="fill:#c0392b">rarely: significant</text><text class="mu-s" x="540" y="158">protein cannot work at all</text><text class="mu-s" x="540" y="172">(e.g. an enzyme with no active site)</text>
+  </svg>

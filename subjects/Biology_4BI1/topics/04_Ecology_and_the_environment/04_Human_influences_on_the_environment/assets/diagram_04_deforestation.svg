@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" width="760" height="262" role="img" aria-label="Effects of deforestation. Leaching: fewer roots take up mineral ions, so rain washes them out of the soil and the soil becomes infertile. Soil erosion: no roots hold the soil and no canopy shelters it, so topsoil is washed or blown away, silting rivers and causing flooding. Evapotranspiration: less transpiration means less water vapour in the air, so less rainfall and a drier climate, and more run-off. Carbon cycle and atmospheric gases: less photosynthesis removes less carbon dioxide and releases less oxygen, while burning and decay of the trees release carbon dioxide, so carbon dioxide in the air increases, adding to global warming.">
+  <style>
+    text { font-family: Carlito, Calibri, sans-serif; fill: #16283c; }
+    .df-h { font-size: 13px; font-weight: 700; }
+    .df-b { font-size: 12.5px; font-weight: 700; }
+    .df-s { font-size: 11.5px; fill: #33475b; }
+  </style>
+  <defs>
+    <marker id="df-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6f7d8c"/></marker>
+  </defs>
+  <rect x="6" y="86" width="150" height="90" rx="8" fill="#6b5a45"/>
+  <text class="df-h" x="81" y="118" text-anchor="middle" style="fill:#fff">TREES REMOVED</text>
+  <text class="df-s" x="81" y="136" text-anchor="middle" style="fill:#fff">felled or burned</text>
+  <text class="df-s" x="81" y="152" text-anchor="middle" style="fill:#fff">(e.g. for farmland)</text>
+  <rect x="196" y="6" width="558" height="58" rx="7" fill="#fbf4ea" stroke="#c46a12" stroke-width="1.5"/>
+  <text class="df-b" x="206" y="24.5" text-anchor="start">Leaching</text>
+  <text class="df-s" x="206" y="39.0" text-anchor="start">fewer roots take up mineral ions → rain washes them out of</text>
+  <text class="df-s" x="206" y="53.5" text-anchor="start">the soil → soil becomes infertile</text>
+  <path d="M156,131 L192,35.0" fill="none" stroke="#6f7d8c" stroke-width="1.8" marker-end="url(#df-g)"/>
+  <rect x="196" y="70" width="558" height="58" rx="7" fill="#fbf4ea" stroke="#c46a12" stroke-width="1.5"/>
+  <text class="df-b" x="206" y="88.5" text-anchor="start">Soil erosion</text>
+  <text class="df-s" x="206" y="103.0" text-anchor="start">no roots to hold soil, no canopy to shelter it → topsoil washed or</text>
+  <text class="df-s" x="206" y="117.5" text-anchor="start">blown away → rivers silt up, flooding</text>
+  <path d="M156,131 L192,99.0" fill="none" stroke="#6f7d8c" stroke-width="1.8" marker-end="url(#df-g)"/>
+  <rect x="196" y="134" width="558" height="58" rx="7" fill="#fbf4ea" stroke="#c46a12" stroke-width="1.5"/>
+  <text class="df-b" x="206" y="152.5" text-anchor="start">Evapotranspiration disturbed</text>
+  <text class="df-s" x="206" y="167.0" text-anchor="start">less transpiration → less water vapour in the air → less rain,</text>
+  <text class="df-s" x="206" y="181.5" text-anchor="start">drier climate; more run-off → flooding</text>
+  <path d="M156,131 L192,163.0" fill="none" stroke="#6f7d8c" stroke-width="1.8" marker-end="url(#df-g)"/>
+  <rect x="196" y="198" width="558" height="58" rx="7" fill="#eaf2f9" stroke="#2f6f9f" stroke-width="1.5"/>
+  <text class="df-b" x="206" y="216.5" text-anchor="start">Carbon cycle and balance of atmospheric gases</text>
+  <text class="df-s" x="206" y="231.0" text-anchor="start">less photosynthesis → less CO₂ removed, less O₂ released; burning and</text>
+  <text class="df-s" x="206" y="245.5" text-anchor="start">decay of trees release CO₂ → more CO₂ in the air → global warming</text>
+  <path d="M156,131 L192,227.0" fill="none" stroke="#6f7d8c" stroke-width="1.8" marker-end="url(#df-g)"/>
+</svg>

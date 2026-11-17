@@ -12,6 +12,8 @@ jobs:
       - name: Repository checks (consistency, privacy, licences)
         run: python3 tools/check_repo.py
       - name: Generated indexes are up to date
-        run: python3 tools/build_index.py --check
+        run: |
+          pip install --quiet pypdf
+          python3 tools/build_index.py --check
       - name: Tracker smoke test
         run: python3 tools/tracker/serve.py --check

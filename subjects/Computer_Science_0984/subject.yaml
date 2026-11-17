@@ -4,6 +4,7 @@ qualification: IGCSE (9–1) Computer Science
 code: "0984"
 aliases: [cs, computer science, computing]
 spec_url: https://www.cambridgeinternational.org/Images/697248-2026-2028-syllabus.pdf
+exam_page: https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-9-1-computer-science-0984/past-papers/
 tiers: none
 centre_choices:
   - programming language used in class (Python / Java / Visual Basic)
@@ -11,3 +12,4 @@ status: notes for every topic
 spec_points: 96
 subtopics_written: 24
 topic_pdfs: 10
+papers_note: 0984 is the same course as 0478 (graded A*–G), so 0478 papers are good practice too.

@@ -35,7 +35,7 @@ In `subjects/<Folder>/`, modelled on the closest existing subject:
 
 | File | Content |
 | --- | --- |
-| `subject.yaml` | name, board, qualification, code, aliases, spec_url, tiers, centre_choices, status |
+| `subject.yaml` | name, board, qualification, code, aliases, spec_url, exam_page (the board's page where past papers are), tiers, centre_choices, status |
 | `specification.md` | header table (official document path, downloaded-from URL, issue/version), qualification at a glance (papers, timings, weightings), AOs, course distinctions, then every content point by official number, grouped exactly as the spec groups them, with the planned content folder per group |
 | `specification_map.csv` | `spec_point,section,topic,requirement,content_path,content_status,notes` — one row per assessable point, official numbering, requirement text close to the official wording, `content_status` = `spec_mapped;content_not_written`, notes for tier/paper-only points |
 | `coverage_checklist.md` | the same points as `- [ ]` lines in official order |
@@ -50,6 +50,7 @@ Point ids must be unique within the subject and stable — the tracker keys rati
 
 ## 4. Check
 
+- `python3 tools/build_index.py` adds it to `PAPERS.md`, `notes/README.md` and `docs/catalog.json`.
 - `python3 tools/check_repo.py --subject <Folder>` passes (map ↔ folders ↔ checklist agree).
 - Every assessable point in the PDF is in the map (count them against the spec's own list).
 - Nothing copied at length from the PDF beyond point wording.

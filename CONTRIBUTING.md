@@ -37,6 +37,7 @@ reading it before you submit. Reviewers will check it against the specification.
 pip install -r tools/pdf/requirements.txt
 python3 -m playwright install chromium
 python3 tools/pdf/build_pdf.py Physics_4PH1/03_Waves     # build one topic PDF
+python3 tools/build_index.py                             # refresh notes/README.md, PAPERS.md, catalog
 python3 tools/check_repo.py                              # run the checks
 ```
 

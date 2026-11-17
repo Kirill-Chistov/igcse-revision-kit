@@ -4,6 +4,7 @@ qualification: IGCSE (9–1) Literature in English
 code: "0992"
 aliases: [lit, english literature, literature]
 spec_url: https://www.cambridgeinternational.org/Images/721390-2027-syllabus.pdf
+exam_page: https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-english-literature-0992/
 tiers: none
 centre_choices:
   - route (Paper 2 / Paper 3 + 4 / Paper 3 + Component 5)

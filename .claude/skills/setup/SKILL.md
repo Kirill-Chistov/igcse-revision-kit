@@ -78,9 +78,8 @@ writing anything personal.
 - Run `python3 tools/fetch_specs.py <Subject> …` for their subjects (downloads each official
   specification into `subjects/<Subject>/Specification.pdf`, ignored by Git). If the network
   blocks it, give them the URLs from `subject.yaml` to download themselves.
-- Tell them where past papers come from: the board's own site (Pearson: qualifications.pearson.com
-  → the qualification → Exam materials; Cambridge: the School Support Hub via their school, or
-  their teacher). Papers go in `me/papers/<Subject>/` in any layout; `/test` finds them by name.
+- Point them to `PAPERS.md` for where each subject's past papers are (links per subject). Papers go
+  in `me/papers/<Subject>/` in any layout; `/test` finds them by name.
 - School material (class case-study documents, textbook pages they photograph) goes in
   `me/sources/<Subject>/`.
 

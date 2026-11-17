@@ -1,0 +1,2534 @@
+{
+ "version": 1,
+ "subjects": [
+  {
+   "id": "Biology_4BI1",
+   "name": "Biology",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Biology",
+   "code": "4BI1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Biology/2017/specification-and-sample-assessments/international-gcse-biology-2017-specification1.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-biology-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_The_nature_and_variety_of_living_organisms",
+     "title": "1 The nature and variety of living organisms",
+     "pdf": "notes/Biology_4BI1/01_The_nature_and_variety_of_living_organisms.pdf",
+     "pages": 4,
+     "subtopics": [
+      {
+       "folder": "01_Characteristics_of_living_organisms",
+       "title": "Characteristics of living organisms",
+       "spec_points": "1.1",
+       "written": true
+      },
+      {
+       "folder": "02_Variety_of_living_organisms",
+       "title": "Variety of living organisms",
+       "spec_points": "1.2–1.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_Structure_and_functions_in_living_organisms",
+     "title": "2 Structure and functions in living organisms",
+     "pdf": "notes/Biology_4BI1/02_Structure_and_functions_in_living_organisms.pdf",
+     "pages": 28,
+     "subtopics": [
+      {
+       "folder": "01_Level_of_organisation",
+       "title": "Level of organisation",
+       "spec_points": "2.1",
+       "written": true
+      },
+      {
+       "folder": "02_Cell_structure",
+       "title": "Cell structure",
+       "spec_points": "2.2–2.6B",
+       "written": true
+      },
+      {
+       "folder": "03_Biological_molecules",
+       "title": "Biological molecules",
+       "spec_points": "2.7–2.14B",
+       "written": true
+      },
+      {
+       "folder": "04_Movement_of_substances_into_and_out_of_cells",
+       "title": "Movement of substances into and out of cells",
+       "spec_points": "2.15–2.17",
+       "written": true
+      },
+      {
+       "folder": "05_Nutrition",
+       "title": "Nutrition",
+       "spec_points": "2.18–2.33B",
+       "written": true
+      },
+      {
+       "folder": "06_Respiration",
+       "title": "Respiration",
+       "spec_points": "2.34–2.39",
+       "written": true
+      },
+      {
+       "folder": "07_Gas_exchange",
+       "title": "Gas exchange",
+       "spec_points": "2.40B–2.50",
+       "written": true
+      },
+      {
+       "folder": "08_Transport",
+       "title": "Transport",
+       "spec_points": "2.51–2.69",
+       "written": true
+      },
+      {
+       "folder": "09_Excretion",
+       "title": "Excretion",
+       "spec_points": "2.70–2.79B",
+       "written": true
+      },
+      {
+       "folder": "10_Co_ordination_and_response",
+       "title": "Co-ordination and response",
+       "spec_points": "2.80–2.95B",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Reproduction_and_inheritance",
+     "title": "3 Reproduction and inheritance",
+     "pdf": "notes/Biology_4BI1/03_Reproduction_and_inheritance.pdf",
+     "pages": 11,
+     "subtopics": [
+      {
+       "folder": "01_Reproduction",
+       "title": "Reproduction",
+       "spec_points": "3.1–3.13",
+       "written": true
+      },
+      {
+       "folder": "02_Inheritance",
+       "title": "Inheritance",
+       "spec_points": "3.14–3.39",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Ecology_and_the_environment",
+     "title": "4 Ecology and the environment",
+     "pdf": "notes/Biology_4BI1/04_Ecology_and_the_environment.pdf",
+     "pages": 8,
+     "subtopics": [
+      {
+       "folder": "01_The_organism_in_the_environment",
+       "title": "The organism in the environment",
+       "spec_points": "4.1–4.5",
+       "written": true
+      },
+      {
+       "folder": "02_Feeding_relationships",
+       "title": "Feeding relationships",
+       "spec_points": "4.6–4.9",
+       "written": true
+      },
+      {
+       "folder": "03_Cycles_within_ecosystems",
+       "title": "Cycles within ecosystems",
+       "spec_points": "4.10–4.11B",
+       "written": true
+      },
+      {
+       "folder": "04_Human_influences_on_the_environment",
+       "title": "Human influences on the environment",
+       "spec_points": "4.12–4.18B",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "05_Use_of_biological_resources",
+     "title": "5 Use of biological resources",
+     "pdf": "notes/Biology_4BI1/05_Use_of_biological_resources.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Food_production",
+       "title": "Food production",
+       "spec_points": "5.1–5.9B",
+       "written": true
+      },
+      {
+       "folder": "02_Selective_breeding",
+       "title": "Selective breeding",
+       "spec_points": "5.10–5.11",
+       "written": true
+      },
+      {
+       "folder": "03_Genetic_modification_genetic_engineering",
+       "title": "Genetic modification (genetic engineering)",
+       "spec_points": "5.12–5.16",
+       "written": true
+      },
+      {
+       "folder": "04_Cloning",
+       "title": "Cloning",
+       "spec_points": "5.17B–5.20B",
+       "written": true
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Business_4BS1",
+   "name": "Business",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Business",
+   "code": "4BS1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Business%20Studies/2017/specification-and-sample-assessment/9781446942765-international-gcse-business-specification.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-business-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Business_activity_and_influences_on_business",
+     "title": "1 Business activity and influences on business",
+     "pdf": "notes/Business_4BS1/01_Business_activity_and_influences_on_business.pdf",
+     "pages": 12,
+     "subtopics": [
+      {
+       "folder": "01_Business_objectives",
+       "title": "Business objectives",
+       "spec_points": "1.1.1–1.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_Types_of_organisations",
+       "title": "Types of organisations",
+       "spec_points": "1.2.1–1.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Classification_of_businesses",
+       "title": "Classification of businesses",
+       "spec_points": "1.3.1",
+       "written": true
+      },
+      {
+       "folder": "04_Decisions_on_location",
+       "title": "Decisions on location",
+       "spec_points": "1.4.1",
+       "written": true
+      },
+      {
+       "folder": "05_Business_and_the_international_economy",
+       "title": "Business and the international economy",
+       "spec_points": "1.5.1–1.5.4",
+       "written": true
+      },
+      {
+       "folder": "06_Government_objectives_and_policies",
+       "title": "Government objectives and policies",
+       "spec_points": "1.6.1–1.6.3",
+       "written": true
+      },
+      {
+       "folder": "07_External_factors",
+       "title": "External factors",
+       "spec_points": "1.7.1",
+       "written": true
+      },
+      {
+       "folder": "08_What_makes_a_business_successful",
+       "title": "What makes a business successful?",
+       "spec_points": "1.8.1–1.8.2",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_People_in_business",
+     "title": "2 People in business",
+     "pdf": "notes/Business_4BS1/02_People_in_business.pdf",
+     "pages": 10,
+     "subtopics": [
+      {
+       "folder": "01_Internal_and_external_communication",
+       "title": "Internal and external communication",
+       "spec_points": "2.1.1–2.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_Recruitment_and_selection_process",
+       "title": "Recruitment and selection process",
+       "spec_points": "2.2.1–2.2.4",
+       "written": true
+      },
+      {
+       "folder": "03_Training",
+       "title": "Training",
+       "spec_points": "2.3.1",
+       "written": true
+      },
+      {
+       "folder": "04_Motivation_and_rewards",
+       "title": "Motivation and rewards",
+       "spec_points": "2.4.1–2.4.2",
+       "written": true
+      },
+      {
+       "folder": "05_Organisation_structure_and_employees",
+       "title": "Organisation structure and employees",
+       "spec_points": "2.5.1–2.5.3",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Business_finance",
+     "title": "3 Business finance",
+     "pdf": "notes/Business_4BS1/03_Business_finance.pdf",
+     "pages": 9,
+     "subtopics": [
+      {
+       "folder": "01_Business_finance_sources",
+       "title": "Business finance – sources",
+       "spec_points": "3.1.1–3.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_Cash_flow_forecasting",
+       "title": "Cash flow forecasting",
+       "spec_points": "3.2.1–3.2.2",
+       "written": true
+      },
+      {
+       "folder": "03_Costs_and_break_even_analysis",
+       "title": "Costs and break-even analysis",
+       "spec_points": "3.3.1–3.3.3",
+       "written": true
+      },
+      {
+       "folder": "04_Financial_documents",
+       "title": "Financial documents",
+       "spec_points": "3.4.1–3.4.2",
+       "written": true
+      },
+      {
+       "folder": "05_Accounts_analysis",
+       "title": "Accounts analysis",
+       "spec_points": "3.5.1–3.5.3",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Marketing",
+     "title": "4 Marketing",
+     "pdf": "notes/Business_4BS1/04_Marketing.pdf",
+     "pages": 11,
+     "subtopics": [
+      {
+       "folder": "01_Market_research",
+       "title": "Market research",
+       "spec_points": "4.1.1–4.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_The_market",
+       "title": "The market",
+       "spec_points": "4.2.1–4.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_The_marketing_mix",
+       "title": "The marketing mix",
+       "spec_points": "4.3.1–4.3.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "05_Business_operations",
+     "title": "5 Business operations",
+     "pdf": "notes/Business_4BS1/05_Business_operations.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Economies_and_diseconomies_of_scale",
+       "title": "Economies and diseconomies of scale",
+       "spec_points": "5.1.1–5.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_Production",
+       "title": "Production",
+       "spec_points": "5.2.1–5.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Factors_of_production",
+       "title": "Factors of production",
+       "spec_points": "5.3.1",
+       "written": true
+      },
+      {
+       "folder": "04_Quality",
+       "title": "Quality",
+       "spec_points": "5.4.1",
+       "written": true
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Chemistry_4CH1",
+   "name": "Chemistry",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Chemistry",
+   "code": "4CH1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Chemistry/2017/specification-and-sample-assessments/international-gcse-chemistry-2017-specification.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-chemistry-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Principles_of_chemistry",
+     "title": "1 Principles of chemistry",
+     "pdf": "notes/Chemistry_4CH1/01_Principles_of_chemistry.pdf",
+     "pages": 19,
+     "subtopics": [
+      {
+       "folder": "01_States_of_matter",
+       "title": "States of matter",
+       "spec_points": "1.1–1.7C",
+       "written": true
+      },
+      {
+       "folder": "02_Elements_compounds_and_mixtures",
+       "title": "Elements, compounds and mixtures",
+       "spec_points": "1.8–1.13",
+       "written": true
+      },
+      {
+       "folder": "03_Atomic_structure",
+       "title": "Atomic structure",
+       "spec_points": "1.14–1.17",
+       "written": true
+      },
+      {
+       "folder": "04_The_Periodic_Table",
+       "title": "The Periodic Table",
+       "spec_points": "1.18–1.24",
+       "written": true
+      },
+      {
+       "folder": "05_Chemical_formulae_equations_and_calculations",
+       "title": "Chemical formulae, equations and calculations",
+       "spec_points": "1.25–1.36",
+       "written": true
+      },
+      {
+       "folder": "06_Ionic_bonding",
+       "title": "Ionic bonding",
+       "spec_points": "1.37–1.43",
+       "written": true
+      },
+      {
+       "folder": "07_Covalent_bonding",
+       "title": "Covalent bonding",
+       "spec_points": "1.44–1.51",
+       "written": true
+      },
+      {
+       "folder": "08_Metallic_bonding",
+       "title": "Metallic bonding",
+       "spec_points": "1.52C–1.54C",
+       "written": true
+      },
+      {
+       "folder": "09_Electrolysis",
+       "title": "Electrolysis",
+       "spec_points": "1.55C–1.60C",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_Inorganic_chemistry",
+     "title": "2 Inorganic chemistry",
+     "pdf": "notes/Chemistry_4CH1/02_Inorganic_chemistry.pdf",
+     "pages": 16,
+     "subtopics": [
+      {
+       "folder": "01_Group_1_alkali_metals_lithium_sodium_and",
+       "title": "Group 1 (alkali metals) – lithium, sodium and potassium",
+       "spec_points": "2.1–2.4C",
+       "written": true
+      },
+      {
+       "folder": "02_Group_7_halogens_chlorine_bromine_and_iodine",
+       "title": "Group 7 (halogens) – chlorine, bromine and iodine",
+       "spec_points": "2.5–2.8C",
+       "written": true
+      },
+      {
+       "folder": "03_Gases_in_the_atmosphere",
+       "title": "Gases in the atmosphere",
+       "spec_points": "2.9–2.14",
+       "written": true
+      },
+      {
+       "folder": "04_Reactivity_series",
+       "title": "Reactivity series",
+       "spec_points": "2.15–2.21",
+       "written": true
+      },
+      {
+       "folder": "05_Extraction_and_uses_of_metals",
+       "title": "Extraction and uses of metals",
+       "spec_points": "2.22C–2.27C",
+       "written": true
+      },
+      {
+       "folder": "06_Acids_alkalis_and_titrations",
+       "title": "Acids, alkalis and titrations",
+       "spec_points": "2.28–2.33C",
+       "written": true
+      },
+      {
+       "folder": "07_Acids_bases_and_salt_preparations",
+       "title": "Acids, bases and salt preparations",
+       "spec_points": "2.34–2.43C",
+       "written": true
+      },
+      {
+       "folder": "08_Chemical_tests",
+       "title": "Chemical tests",
+       "spec_points": "2.44–2.50",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Physical_chemistry",
+     "title": "3 Physical chemistry",
+     "pdf": "notes/Chemistry_4CH1/03_Physical_chemistry.pdf",
+     "pages": 9,
+     "subtopics": [
+      {
+       "folder": "01_Energetics",
+       "title": "Energetics",
+       "spec_points": "3.1–3.8",
+       "written": true
+      },
+      {
+       "folder": "02_Rates_of_reaction",
+       "title": "Rates of reaction",
+       "spec_points": "3.9–3.16",
+       "written": true
+      },
+      {
+       "folder": "03_Reversible_reactions_and_equilibria",
+       "title": "Reversible reactions and equilibria",
+       "spec_points": "3.17–3.22C",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Organic_chemistry",
+     "title": "4 Organic chemistry",
+     "pdf": "notes/Chemistry_4CH1/04_Organic_chemistry.pdf",
+     "pages": 12,
+     "subtopics": [
+      {
+       "folder": "01_Introduction",
+       "title": "Introduction to organic chemistry",
+       "spec_points": "4.1–4.6",
+       "written": true
+      },
+      {
+       "folder": "02_Crude_oil",
+       "title": "Crude oil",
+       "spec_points": "4.7–4.18",
+       "written": true
+      },
+      {
+       "folder": "03_Alkanes",
+       "title": "Alkanes",
+       "spec_points": "4.19–4.22",
+       "written": true
+      },
+      {
+       "folder": "04_Alkenes",
+       "title": "Alkenes",
+       "spec_points": "4.23–4.28",
+       "written": true
+      },
+      {
+       "folder": "05_Alcohols",
+       "title": "Alcohols",
+       "spec_points": "4.29C–4.33C",
+       "written": true
+      },
+      {
+       "folder": "06_Carboxylic_acids",
+       "title": "Carboxylic acids",
+       "spec_points": "4.34C–4.37C",
+       "written": true
+      },
+      {
+       "folder": "07_Esters",
+       "title": "Esters",
+       "spec_points": "4.38C–4.43C",
+       "written": true
+      },
+      {
+       "folder": "08_Synthetic_polymers",
+       "title": "Synthetic polymers",
+       "spec_points": "4.44–4.50C",
+       "written": true
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Computer_Science_0984",
+   "name": "Computer Science",
+   "board": "Cambridge International",
+   "qualification": "IGCSE (9–1) Computer Science",
+   "code": "0984",
+   "spec_url": "https://www.cambridgeinternational.org/Images/697248-2026-2028-syllabus.pdf",
+   "exam_page": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-9-1-computer-science-0984/past-papers/",
+   "papers_note": "0984 is the same course as 0478 (graded A*–G), so 0478 papers are good practice too.",
+   "topics": [
+    {
+     "folder": "01_Data_representation",
+     "title": "1 Data representation",
+     "pdf": "notes/Computer_Science_0984/01_Data_representation.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Number_systems",
+       "title": "Number systems",
+       "spec_points": "1.1.1–1.1.6",
+       "written": true
+      },
+      {
+       "folder": "02_Text_sound_and_images",
+       "title": "Text, sound and images",
+       "spec_points": "1.2.1–1.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Data_storage_and_compression",
+       "title": "Data storage and compression",
+       "spec_points": "1.3.1–1.3.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_Data_transmission",
+     "title": "2 Data transmission",
+     "pdf": "notes/Computer_Science_0984/02_Data_transmission.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Types_and_methods_of_data_transmission",
+       "title": "Types and methods of data transmission",
+       "spec_points": "2.1.1–2.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_Methods_of_error_detection",
+       "title": "Methods of error detection",
+       "spec_points": "2.2.1–2.2.4",
+       "written": true
+      },
+      {
+       "folder": "03_Encryption",
+       "title": "Encryption",
+       "spec_points": "2.3.1–2.3.2",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Hardware",
+     "title": "3 Hardware",
+     "pdf": "notes/Computer_Science_0984/03_Hardware.pdf",
+     "pages": 9,
+     "subtopics": [
+      {
+       "folder": "01_Computer_architecture",
+       "title": "Computer architecture",
+       "spec_points": "3.1.1–3.1.5",
+       "written": true
+      },
+      {
+       "folder": "02_Input_and_output_devices",
+       "title": "Input and output devices",
+       "spec_points": "3.2.1–3.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Data_storage",
+       "title": "Data storage",
+       "spec_points": "3.3.1–3.3.6",
+       "written": true
+      },
+      {
+       "folder": "04_Network_hardware",
+       "title": "Network hardware",
+       "spec_points": "3.4.1–3.4.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Software",
+     "title": "4 Software",
+     "pdf": "notes/Computer_Science_0984/04_Software.pdf",
+     "pages": 5,
+     "subtopics": [
+      {
+       "folder": "01_Types_of_software_and_interrupts",
+       "title": "Types of software and interrupts",
+       "spec_points": "4.1.1–4.1.4",
+       "written": true
+      },
+      {
+       "folder": "02_Types_of_programming_language_translators_and",
+       "title": "Types of programming language, translators and IDEs",
+       "spec_points": "4.2.1–4.2.5",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "05_The_internet_and_its_uses",
+     "title": "5 The internet and its uses",
+     "pdf": "notes/Computer_Science_0984/05_The_internet_and_its_uses.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_The_internet_and_the_world_wide_web",
+       "title": "The internet and the world wide web",
+       "spec_points": "5.1.1–5.1.6",
+       "written": true
+      },
+      {
+       "folder": "02_Digital_currency",
+       "title": "Digital currency",
+       "spec_points": "5.2.1–5.2.2",
+       "written": true
+      },
+      {
+       "folder": "03_Cyber_security",
+       "title": "Cyber security",
+       "spec_points": "5.3.1–5.3.2",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "06_Automated_and_emerging_technologies",
+     "title": "6 Automated and emerging technologies",
+     "pdf": "notes/Computer_Science_0984/06_Automated_and_emerging_technologies.pdf",
+     "pages": 5,
+     "subtopics": [
+      {
+       "folder": "01_Automated_systems",
+       "title": "Automated systems",
+       "spec_points": "6.1.1–6.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_Robotics",
+       "title": "Robotics",
+       "spec_points": "6.2.1–6.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Artificial_intelligence",
+       "title": "Artificial intelligence",
+       "spec_points": "6.3.1–6.3.3",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "07_Algorithm_design_and_problem_solving",
+     "title": "7 Algorithm design and problem solving",
+     "pdf": "notes/Computer_Science_0984/07_Algorithm_design_and_problem_solving.pdf",
+     "pages": 8,
+     "subtopics": [
+      {
+       "folder": "07_Algorithm_design_and_problem_solving",
+       "title": "Algorithm design and problem-solving",
+       "spec_points": "7.1–7.9",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "08_Programming",
+     "title": "8 Programming",
+     "pdf": "notes/Computer_Science_0984/08_Programming.pdf",
+     "pages": 9,
+     "subtopics": [
+      {
+       "folder": "01_Programming_concepts",
+       "title": "Programming concepts",
+       "spec_points": "8.1.1–8.1.8",
+       "written": true
+      },
+      {
+       "folder": "02_Arrays",
+       "title": "Arrays",
+       "spec_points": "8.2.1–8.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_File_handling",
+       "title": "File handling",
+       "spec_points": "8.3.1–8.3.2",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "09_Databases",
+     "title": "9 Databases",
+     "pdf": "notes/Computer_Science_0984/09_Databases.pdf",
+     "pages": 3,
+     "subtopics": [
+      {
+       "folder": "09_Databases",
+       "title": "Databases",
+       "spec_points": "9.1–9.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "10_Boolean_logic",
+     "title": "10 Boolean logic",
+     "pdf": "notes/Computer_Science_0984/10_Boolean_logic.pdf",
+     "pages": 4,
+     "subtopics": [
+      {
+       "folder": "10_Boolean_logic",
+       "title": "Boolean logic",
+       "spec_points": "10.1–10.3",
+       "written": true
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "English_Language_0990",
+   "name": "English (First Language)",
+   "board": "Cambridge International",
+   "qualification": "IGCSE (9–1) First Language English",
+   "code": "0990",
+   "spec_url": "https://www.cambridgeinternational.org/Images/718785-2027-2029-syllabus.pdf",
+   "exam_page": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-9-1-first-language-english-0990/past-papers/",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Reading",
+     "title": "1 Reading",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Explicit_meanings",
+       "title": "1 Explicit meanings",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Implicit_meanings_and_attitudes",
+       "title": "2 Implicit meanings and attitudes",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Analyse_evaluate_and_develop",
+       "title": "3 Analyse evaluate and develop",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Writers_effects_and_influence",
+       "title": "4 Writers effects and influence",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Selecting_and_summarising",
+       "title": "5 Selecting and summarising",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Genres_devices_and_imagery",
+       "title": "6 Genres devices and imagery",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "02_Writing",
+     "title": "2 Writing",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Expressing_experience_and_imagination",
+       "title": "1 Expressing experience and imagination",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Organisation_and_structure",
+       "title": "2 Organisation and structure",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Vocabulary_and_sentence_structures",
+       "title": "3 Vocabulary and sentence structures",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Audience_purpose_and_form",
+       "title": "4 Audience purpose and form",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Spelling_punctuation_and_grammar",
+       "title": "5 Spelling punctuation and grammar",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Text_types_and_forms",
+       "title": "6 Text types and forms",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Composition_styles",
+       "title": "7 Composition styles",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "03_Speaking_and_Listening",
+     "title": "3 Speaking and Listening",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Individual_talk",
+       "title": "1 Individual talk",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Conversation",
+       "title": "2 Conversation",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Clarity_fluency_and_register",
+       "title": "3 Clarity fluency and register",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "English_Literature_0992",
+   "name": "English Literature",
+   "board": "Cambridge International",
+   "qualification": "IGCSE (9–1) Literature in English",
+   "code": "0992",
+   "spec_url": "https://www.cambridgeinternational.org/Images/721390-2027-syllabus.pdf",
+   "exam_page": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-english-literature-0992/",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Paper_1_Section_A_Poetry",
+     "title": "1 Paper 1 Section A Poetry",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Songs_of_Ourselves_Volume_1",
+       "title": "1 Songs of Ourselves Volume 1",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Songs_of_Ourselves_Volume_2_Part_3",
+       "title": "2 Songs of Ourselves Volume 2 Part 3",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Kayo_Chingonyi_Kumukanda",
+       "title": "3 Kayo Chingonyi Kumukanda",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "02_Paper_1_Section_B_Prose",
+     "title": "2 Paper 1 Section B Prose",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    },
+    {
+     "folder": "03_Drama_Paper_2_or_Paper_3",
+     "title": "3 Drama Paper 2 or Paper 3",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    },
+    {
+     "folder": "04_Paper_4_Unseen",
+     "title": "4 Paper 4 Unseen",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    },
+    {
+     "folder": "05_Component_5_Coursework",
+     "title": "5 Component 5 Coursework",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    },
+    {
+     "folder": "06_Critical_Skills",
+     "title": "6 Critical Skills",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_AO1_Knowledge_and_reference",
+       "title": "1 AO1 Knowledge and reference",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_AO2_Meanings_and_context",
+       "title": "2 AO2 Meanings and context",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_AO3_Language_structure_and_form",
+       "title": "3 AO3 Language structure and form",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_AO4_Personal_response",
+       "title": "4 AO4 Personal response",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Geography_0976",
+   "name": "Geography",
+   "board": "Cambridge International",
+   "qualification": "IGCSE (9–1) Geography",
+   "code": "0976",
+   "spec_url": "https://www.cambridgeinternational.org/Images/718939-2027-2029-syllabus.pdf",
+   "exam_page": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-geography-9-1-0976/",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Changing_river_environments",
+     "title": "1 Changing river environments",
+     "pdf": "notes/Geography_0976/01_Changing_river_environments.pdf",
+     "pages": 13,
+     "subtopics": [
+      {
+       "folder": "01_Hydrological_characteristics_and_processes_in",
+       "title": "Rivers and drainage basins: characteristics and processes",
+       "spec_points": "1.1.1–1.1.5",
+       "written": true
+      },
+      {
+       "folder": "02_The_main_landforms_associated_with_these",
+       "title": "The main landforms associated with river processes",
+       "spec_points": "1.2.1",
+       "written": true
+      },
+      {
+       "folder": "03_Rivers_present_opportunities_and_hazards_for",
+       "title": "Rivers present opportunities and hazards for people",
+       "spec_points": "1.3.1–1.3.9",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_Changing_coastal_environments",
+     "title": "2 Changing coastal environments",
+     "pdf": "notes/Geography_0976/02_Changing_coastal_environments.pdf",
+     "pages": 12,
+     "subtopics": [
+      {
+       "folder": "01_Physical_processes_that_shape_the_coast",
+       "title": "Physical processes that shape the coast",
+       "spec_points": "2.1.1–2.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_The_main_landforms_associated_with_these",
+       "title": "The main landforms associated with these processes",
+       "spec_points": "2.2.1–2.2.2",
+       "written": true
+      },
+      {
+       "folder": "03_Coasts_present_opportunities_and_hazards_for",
+       "title": "Coasts present opportunities and hazards for people",
+       "spec_points": "2.3.1–2.3.8",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Changing_ecosystems",
+     "title": "3 Changing ecosystems",
+     "pdf": "notes/Geography_0976/03_Changing_ecosystems.pdf",
+     "pages": 13,
+     "subtopics": [
+      {
+       "folder": "01_Characteristics_of_the_Antarctic_ecosystem",
+       "title": "Characteristics of the Antarctic ecosystem",
+       "spec_points": "3.1.1–3.1.4",
+       "written": true
+      },
+      {
+       "folder": "02_Threats_to_the_Antarctic_ecosystem_and_how_they",
+       "title": "Threats to the Antarctic ecosystem and how they can be managed",
+       "spec_points": "3.2.1–3.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_Characteristics_of_the_tropical_rainforest",
+       "title": "Characteristics of the tropical rainforest ecosystem",
+       "spec_points": "3.3.1–3.3.4",
+       "written": true
+      },
+      {
+       "folder": "04_Threats_to_tropical_rainforest_ecosystems_and",
+       "title": "Threats to tropical rainforest ecosystems and how they can be managed",
+       "spec_points": "3.4.1–3.4.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Tectonic_hazards",
+     "title": "4 Tectonic hazards",
+     "pdf": "notes/Geography_0976/04_Tectonic_hazards.pdf",
+     "pages": 13,
+     "subtopics": [
+      {
+       "folder": "01_The_structure_of_the_Earth_and_distribution_of",
+       "title": "The structure of the Earth and distribution of earthquakes and volcanoes",
+       "spec_points": "4.1.1–4.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_The_processes_and_features_associated_with",
+       "title": "The processes and features associated with earthquakes and volcanoes",
+       "spec_points": "4.2.1–4.2.6",
+       "written": true
+      },
+      {
+       "folder": "03_The_impacts_of_tectonic_hazards",
+       "title": "The impacts of tectonic hazards",
+       "spec_points": "4.3.1–4.3.4",
+       "written": true
+      },
+      {
+       "folder": "04_Managing_the_impacts_of_tectonic_hazards",
+       "title": "Managing the impacts of tectonic hazards",
+       "spec_points": "4.4.1–4.4.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "05_Climate_change",
+     "title": "5 Climate change",
+     "pdf": "notes/Geography_0976/05_Climate_change.pdf",
+     "pages": 8,
+     "subtopics": [
+      {
+       "folder": "01_The_natural_and_human_causes_of_climate_change",
+       "title": "The natural and human causes of climate change",
+       "spec_points": "5.1.1–5.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_The_impacts_of_climate_change_at_a_range_of",
+       "title": "The impacts of climate change at a range of geographic scales",
+       "spec_points": "5.2.1",
+       "written": true
+      },
+      {
+       "folder": "03_Responses_to_climate_change",
+       "title": "Responses to climate change",
+       "spec_points": "5.3.1–5.3.3",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "06_Changing_populations",
+     "title": "6 Changing populations",
+     "pdf": "notes/Geography_0976/06_Changing_populations.pdf",
+     "pages": 8,
+     "subtopics": [
+      {
+       "folder": "01_Populations_grow_and_decline",
+       "title": "Populations grow and decline",
+       "spec_points": "6.1.1–6.1.4",
+       "written": true
+      },
+      {
+       "folder": "02_Population_structures_change_over_time",
+       "title": "Population structures change over time",
+       "spec_points": "6.2.1–6.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_The_causes_and_impacts_of_international",
+       "title": "The causes and impacts of international migration",
+       "spec_points": "6.3.1–6.3.5",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "07_Changing_towns_and_cities",
+     "title": "7 Changing towns and cities",
+     "pdf": "notes/Geography_0976/07_Changing_towns_and_cities.pdf",
+     "pages": 6,
+     "subtopics": [
+      {
+       "folder": "01_Where_people_live",
+       "title": "Where people live",
+       "spec_points": "7.1.1–7.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_Opportunities_and_challenges_of_urbanisation",
+       "title": "Opportunities and challenges of urbanisation",
+       "spec_points": "7.2.1–7.2.3",
+       "written": true
+      },
+      {
+       "folder": "03_The_management_of_urban_growth",
+       "title": "The management of urban growth",
+       "spec_points": "7.3.1–7.3.2",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "08_Development",
+     "title": "8 Development",
+     "pdf": "notes/Geography_0976/08_Development.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Measuring_development",
+       "title": "Measuring development",
+       "spec_points": "8.1.1–8.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_The_world_is_developing_unevenly",
+       "title": "The world is developing unevenly",
+       "spec_points": "8.2.1–8.2.2",
+       "written": true
+      },
+      {
+       "folder": "03_Achieving_sustainable_development",
+       "title": "Achieving sustainable development",
+       "spec_points": "8.3.1–8.3.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "09_Changing_economies",
+     "title": "9 Changing economies",
+     "pdf": "notes/Geography_0976/09_Changing_economies.pdf",
+     "pages": 10,
+     "subtopics": [
+      {
+       "folder": "01_Changing_employment_structures",
+       "title": "Changing employment structures",
+       "spec_points": "9.1.1–9.1.3",
+       "written": true
+      },
+      {
+       "folder": "02_The_impact_of_globalisation_and_the_role_of",
+       "title": "The impact of globalisation and the role of transnational corporations",
+       "spec_points": "9.2.1–9.2.6",
+       "written": true
+      },
+      {
+       "folder": "03_Tourism_is_a_growing_industry",
+       "title": "Tourism is a growing industry",
+       "spec_points": "9.3.1–9.3.5",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "10_Resource_provision",
+     "title": "10 Resource provision",
+     "pdf": "notes/Geography_0976/10_Resource_provision.pdf",
+     "pages": 14,
+     "subtopics": [
+      {
+       "folder": "01_How_food_is_produced",
+       "title": "How food is produced",
+       "spec_points": "10.1.1–10.1.2",
+       "written": true
+      },
+      {
+       "folder": "02_The_global_patterns_of_food_supply_and_demand",
+       "title": "The global patterns of food supply and demand",
+       "spec_points": "10.2.1–10.2.5",
+       "written": true
+      },
+      {
+       "folder": "03_The_challenges_of_food_supply",
+       "title": "The challenges of food supply",
+       "spec_points": "10.3.1–10.3.6",
+       "written": true
+      },
+      {
+       "folder": "04_How_our_energy_is_produced",
+       "title": "How our energy is produced",
+       "spec_points": "10.4.1",
+       "written": true
+      },
+      {
+       "folder": "05_The_global_patterns_of_energy_supply_and_demand",
+       "title": "The global patterns of energy supply and demand",
+       "spec_points": "10.5.1–10.5.3",
+       "written": true
+      },
+      {
+       "folder": "06_The_impacts_of_energy_production",
+       "title": "The impacts of energy production",
+       "spec_points": "10.6.1–10.6.4",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "11_Geographical_Skills",
+     "title": "11 Geographical Skills",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    },
+    {
+     "folder": "12_Paper_4_Geographical_Investigations",
+     "title": "12 Paper 4 Geographical Investigations",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    }
+   ],
+   "extras": [
+    {
+     "title": "5.2 Impacts of climate change poster",
+     "pdf": "notes/Geography_0976/extras/5.2_Impacts_of_climate_change_poster.pdf",
+     "pages": 1
+    }
+   ]
+  },
+  {
+   "id": "Mathematics_4MA1",
+   "name": "Mathematics A",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Mathematics A",
+   "code": "4MA1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Mathematics%20A/2016/Specification%20and%20sample%20assessments/international-gcse-in-mathematics-spec-a.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-mathematics-a-2016.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Numbers_and_the_number_system",
+     "title": "1 Numbers and the number system",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Integers",
+       "title": "1 Integers",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Fractions",
+       "title": "2 Fractions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Decimals",
+       "title": "3 Decimals",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Powers_and_roots",
+       "title": "4 Powers and roots",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Set_language_and_notation",
+       "title": "5 Set language and notation",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Percentages",
+       "title": "6 Percentages",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Ratio_and_proportion",
+       "title": "7 Ratio and proportion",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "08_Degree_of_accuracy",
+       "title": "8 Degree of accuracy",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "09_Standard_form",
+       "title": "9 Standard form",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "10_Applying_number",
+       "title": "10 Applying number",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "11_Electronic_calculators",
+       "title": "11 Electronic calculators",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "02_Equations_formulae_and_identities",
+     "title": "2 Equations formulae and identities",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Use_of_symbols",
+       "title": "1 Use of symbols",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Algebraic_manipulation",
+       "title": "2 Algebraic manipulation",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Expressions_and_formulae",
+       "title": "3 Expressions and formulae",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Linear_equations",
+       "title": "4 Linear equations",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Proportion",
+       "title": "5 Proportion",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Simultaneous_linear_equations",
+       "title": "6 Simultaneous linear equations",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Quadratic_equations",
+       "title": "7 Quadratic equations",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "08_Inequalities",
+       "title": "8 Inequalities",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "03_Sequences_functions_and_graphs",
+     "title": "3 Sequences functions and graphs",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Sequences",
+       "title": "1 Sequences",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Function_notation",
+       "title": "2 Function notation",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Graphs",
+       "title": "3 Graphs",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Calculus",
+       "title": "4 Calculus",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "04_Geometry_and_trigonometry",
+     "title": "4 Geometry and trigonometry",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Angles_lines_and_triangles",
+       "title": "1 Angles lines and triangles",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Polygons",
+       "title": "2 Polygons",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Symmetry",
+       "title": "3 Symmetry",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Measures",
+       "title": "4 Measures",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Construction",
+       "title": "5 Construction",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Circle_properties",
+       "title": "6 Circle properties",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Geometrical_reasoning",
+       "title": "7 Geometrical reasoning",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "08_Trigonometry_and_Pythagoras_theorem",
+       "title": "8 Trigonometry and Pythagoras theorem",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "09_Mensuration_of_2D_shapes",
+       "title": "9 Mensuration of 2D shapes",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "10_3D_shapes_and_volume",
+       "title": "10 3D shapes and volume",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "11_Similarity",
+       "title": "11 Similarity",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "05_Vectors_and_transformation_geometry",
+     "title": "5 Vectors and transformation geometry",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Vectors",
+       "title": "1 Vectors",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Transformation_geometry",
+       "title": "2 Transformation geometry",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "06_Statistics_and_probability",
+     "title": "6 Statistics and probability",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Graphical_representation_of_data",
+       "title": "1 Graphical representation of data",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Statistical_measures",
+       "title": "2 Statistical measures",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Probability",
+       "title": "3 Probability",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Physics_4PH1",
+   "name": "Physics",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Physics",
+   "code": "4PH1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Physics/2017/specification-and-sample-assessments/international-gcse-physics-2017-specification.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-physics-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Forces_and_motion",
+     "title": "1 Forces and motion",
+     "pdf": "notes/Physics_4PH1/01_Forces_and_motion.pdf",
+     "pages": 11,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Forces and motion — units",
+       "spec_points": "1.1–1.2P",
+       "written": true
+      },
+      {
+       "folder": "02_Movement_and_position",
+       "title": "Movement and position",
+       "spec_points": "1.3–1.10",
+       "written": true
+      },
+      {
+       "folder": "03_Forces_movement_shape_and_momentum",
+       "title": "Forces, movement, shape and momentum",
+       "spec_points": "1.11–1.33P",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "02_Electricity",
+     "title": "2 Electricity",
+     "pdf": "notes/Physics_4PH1/02_Electricity.pdf",
+     "pages": 10,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Electricity — units",
+       "spec_points": "2.1",
+       "written": true
+      },
+      {
+       "folder": "02_Mains_electricity",
+       "title": "Mains electricity",
+       "spec_points": "2.2–2.6",
+       "written": true
+      },
+      {
+       "folder": "03_Energy_and_voltage_in_circuits",
+       "title": "Energy and voltage in circuits",
+       "spec_points": "2.7–2.21",
+       "written": true
+      },
+      {
+       "folder": "04_Electric_charge",
+       "title": "Electric charge",
+       "spec_points": "2.22P–2.28P",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "03_Waves",
+     "title": "3 Waves",
+     "pdf": "notes/Physics_4PH1/03_Waves.pdf",
+     "pages": 10,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Units",
+       "spec_points": "3.1",
+       "written": true
+      },
+      {
+       "folder": "02_Properties_of_waves",
+       "title": "Properties of waves",
+       "spec_points": "3.2–3.9",
+       "written": true
+      },
+      {
+       "folder": "03_The_electromagnetic_spectrum",
+       "title": "The electromagnetic spectrum",
+       "spec_points": "3.10–3.13",
+       "written": true
+      },
+      {
+       "folder": "04_Light_and_sound",
+       "title": "Light and sound",
+       "spec_points": "3.14–3.29P",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "04_Energy_resources_and_energy_transfers",
+     "title": "4 Energy resources and energy transfers",
+     "pdf": "notes/Physics_4PH1/04_Energy_resources_and_energy_transfers.pdf",
+     "pages": 10,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Units",
+       "spec_points": "4.1",
+       "written": true
+      },
+      {
+       "folder": "02_Energy_transfers",
+       "title": "Energy transfers",
+       "spec_points": "4.2–4.10",
+       "written": true
+      },
+      {
+       "folder": "03_Work_and_power",
+       "title": "Work and power",
+       "spec_points": "4.11–4.17",
+       "written": true
+      },
+      {
+       "folder": "04_Energy_resources_and_electricity_generation",
+       "title": "Energy resources and electricity generation",
+       "spec_points": "4.18P–4.19P",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "05_Solids_liquids_and_gases",
+     "title": "5 Solids liquids and gases",
+     "pdf": "notes/Physics_4PH1/05_Solids_liquids_and_gases.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Solids, liquids and gases — units",
+       "spec_points": "5.1–5.2P",
+       "written": true
+      },
+      {
+       "folder": "02_Density_and_pressure",
+       "title": "Density and pressure",
+       "spec_points": "5.3–5.7",
+       "written": true
+      },
+      {
+       "folder": "03_Change_of_state",
+       "title": "Change of state",
+       "spec_points": "5.8P–5.14P",
+       "written": true
+      },
+      {
+       "folder": "04_Ideal_gas_molecules",
+       "title": "Ideal gas molecules",
+       "spec_points": "5.15–5.22",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "06_Magnetism_and_electromagnetism",
+     "title": "6 Magnetism and electromagnetism",
+     "pdf": "notes/Physics_4PH1/06_Magnetism_and_electromagnetism.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Magnetism and electromagnetism — units",
+       "spec_points": "6.1",
+       "written": true
+      },
+      {
+       "folder": "02_Magnetism",
+       "title": "Magnetism",
+       "spec_points": "6.2–6.7",
+       "written": true
+      },
+      {
+       "folder": "03_Electromagnetism",
+       "title": "Electromagnetism",
+       "spec_points": "6.8–6.14",
+       "written": true
+      },
+      {
+       "folder": "04_Electromagnetic_induction",
+       "title": "Electromagnetic induction",
+       "spec_points": "6.15–6.20",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "07_Radioactivity_and_particles",
+     "title": "7 Radioactivity and particles",
+     "pdf": "notes/Physics_4PH1/07_Radioactivity_and_particles.pdf",
+     "pages": 8,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Radioactivity and particles — units",
+       "spec_points": "7.1",
+       "written": true
+      },
+      {
+       "folder": "02_Radioactivity",
+       "title": "Radioactivity",
+       "spec_points": "7.2–7.16",
+       "written": true
+      },
+      {
+       "folder": "03_Fission_and_fusion",
+       "title": "Fission and fusion",
+       "spec_points": "7.17–7.26",
+       "written": true
+      }
+     ]
+    },
+    {
+     "folder": "08_Astrophysics",
+     "title": "8 Astrophysics",
+     "pdf": "notes/Physics_4PH1/08_Astrophysics.pdf",
+     "pages": 7,
+     "subtopics": [
+      {
+       "folder": "01_Units",
+       "title": "Units",
+       "spec_points": "8.1",
+       "written": true
+      },
+      {
+       "folder": "02_Motion_in_the_universe",
+       "title": "Motion in the universe",
+       "spec_points": "8.2–8.6",
+       "written": true
+      },
+      {
+       "folder": "03_Stellar_evolution",
+       "title": "Stellar evolution",
+       "spec_points": "8.7–8.12P",
+       "written": true
+      },
+      {
+       "folder": "04_Cosmology",
+       "title": "Cosmology",
+       "spec_points": "8.13P–8.18P",
+       "written": true
+      }
+     ]
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Portuguese_GCSE_1PG0",
+   "name": "Portuguese",
+   "board": "Pearson Edexcel",
+   "qualification": "GCSE (9–1) Portuguese (UK GCSE, not International)",
+   "code": "1PG0",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Portuguese/2018/Specification-and-sample-assessments/specification-gcse2017-l12-portuguese-iss4.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-gcses/portuguese-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Theme_1_Identity_and_culture",
+     "title": "1 Theme 1 Identity and culture",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Who_am_I",
+       "title": "1 Who am I",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Daily_life",
+       "title": "2 Daily life",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Cultural_life",
+       "title": "3 Cultural life",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "02_Theme_2_Local_area_holiday_and_travel",
+     "title": "2 Theme 2 Local area holiday and travel",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Holidays",
+       "title": "1 Holidays",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Travel_and_tourist_transactions",
+       "title": "2 Travel and tourist transactions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Town_region_and_country",
+       "title": "3 Town region and country",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "03_Theme_3_School",
+     "title": "3 Theme 3 School",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_What_school_is_like",
+       "title": "1 What school is like",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_School_activities",
+       "title": "2 School activities",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "04_Theme_4_Future_aspirations_study_and_work",
+     "title": "4 Theme 4 Future aspirations study and work",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Using_languages_beyond_the_classroom",
+       "title": "1 Using languages beyond the classroom",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Ambitions",
+       "title": "2 Ambitions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Work",
+       "title": "3 Work",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "05_Theme_5_International_and_global_dimension",
+     "title": "5 Theme 5 International and global dimension",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Bringing_the_world_together",
+       "title": "1 Bringing the world together",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Environmental_issues",
+       "title": "2 Environmental issues",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "06_Grammar",
+     "title": "6 Grammar",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Nouns_gender_singular_and_plural_forms",
+       "title": "1 Nouns gender singular and plural forms",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Articles",
+       "title": "2 Articles",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Adjectives",
+       "title": "3 Adjectives",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Adverbs",
+       "title": "4 Adverbs",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Comparatives_and_superlatives",
+       "title": "5 Comparatives and superlatives",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Connectives",
+       "title": "6 Connectives",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Quantifiers_and_intensifiers",
+       "title": "7 Quantifiers and intensifiers",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "08_Pronouns_personal_demonstratives_and",
+       "title": "8 Pronouns personal demonstratives and",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "09_Verbs_voice_and_person_infinitive_forms_past",
+       "title": "9 Verbs voice and person infinitive forms past",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "10_Numbers_and_quantity",
+       "title": "10 Numbers and quantity",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "11_Prepositions",
+       "title": "11 Prepositions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "12_Conjunctions",
+       "title": "12 Conjunctions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "13_Times_and_dates",
+       "title": "13 Times and dates",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "14_Negatives",
+       "title": "14 Negatives",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "07_Language_Skills",
+     "title": "7 Language Skills",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Listening",
+       "title": "1 Listening",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Speaking",
+       "title": "2 Speaking",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Reading_and_translation_into_English",
+       "title": "3 Reading and translation into English",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Writing_and_translation_into_Portuguese",
+       "title": "4 Writing and translation into Portuguese",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "08_Vocabulary_Appendix_3",
+     "title": "8 Vocabulary Appendix 3",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    }
+   ],
+   "extras": []
+  },
+  {
+   "id": "Spanish_4SP1",
+   "name": "Spanish",
+   "board": "Pearson Edexcel",
+   "qualification": "International GCSE (9–1) Spanish",
+   "code": "4SP1",
+   "spec_url": "https://qualifications.pearson.com/content/dam/pdf/International%20GCSE/Spanish/2017/specification-and-sample-assessments/international-gcse-spanish-specification.pdf",
+   "exam_page": "https://qualifications.pearson.com/en/qualifications/edexcel-international-gcses/international-gcse-spanish-2017.html",
+   "papers_note": "",
+   "topics": [
+    {
+     "folder": "01_Home_and_abroad",
+     "title": "1 Home and abroad",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Life_in_the_town_and_rural_life",
+       "title": "1 Life in the town and rural life",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Holidays_tourist_information_and_directions",
+       "title": "2 Holidays tourist information and directions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Services",
+       "title": "3 Services",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Customs",
+       "title": "4 Customs",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Everyday_life_traditions_and_communities",
+       "title": "5 Everyday life traditions and communities",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "02_Education_and_employment",
+     "title": "2 Education and employment",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_School_life_and_routine",
+       "title": "1 School life and routine",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_School_rules_and_pressures",
+       "title": "2 School rules and pressures",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_School_trips_events_and_exchanges",
+       "title": "3 School trips events and exchanges",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Work_careers_and_volunteering",
+       "title": "4 Work careers and volunteering",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Future_plans",
+       "title": "5 Future plans",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "03_Personal_life_and_relationships",
+     "title": "3 Personal life and relationships",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_House_and_home",
+       "title": "1 House and home",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Daily_routines_and_helping_at_home",
+       "title": "2 Daily routines and helping at home",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Role_models",
+       "title": "3 Role models",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Relationships_with_family_and_friends",
+       "title": "4 Relationships with family and friends",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Childhood",
+       "title": "5 Childhood",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "04_The_world_around_us",
+     "title": "4 The world around us",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Environmental_issues",
+       "title": "1 Environmental issues",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Weather_and_climate",
+       "title": "2 Weather and climate",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Travel_and_transport",
+       "title": "3 Travel and transport",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_The_media",
+       "title": "4 The media",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Information_and_communication_technology",
+       "title": "5 Information and communication technology",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "05_Social_activities_fitness_and_health",
+     "title": "5 Social activities fitness and health",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Special_occasions",
+       "title": "1 Special occasions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Hobbies_interests_sports_and_exercise",
+       "title": "2 Hobbies interests sports and exercise",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Shopping_and_money_matters",
+       "title": "3 Shopping and money matters",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Accidents_injuries_ailments_and_health",
+       "title": "4 Accidents injuries ailments and health",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Food_and_drink",
+       "title": "5 Food and drink",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "06_Grammar",
+     "title": "6 Grammar",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Nouns_and_articles",
+       "title": "1 Nouns and articles",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Adjectives",
+       "title": "2 Adjectives",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Adverbs_and_quantifiers",
+       "title": "3 Adverbs and quantifiers",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Pronouns",
+       "title": "4 Pronouns",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "05_Verbs_present_ser_estar_reflexive",
+       "title": "5 Verbs present ser estar reflexive",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "06_Past_tenses",
+       "title": "6 Past tenses",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "07_Future_and_conditional",
+       "title": "7 Future and conditional",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "08_Imperative_and_subjunctive",
+       "title": "8 Imperative and subjunctive",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "09_Gerund_passive_and_se_constructions",
+       "title": "9 Gerund passive and se constructions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "10_Negatives_and_questions",
+       "title": "10 Negatives and questions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "11_Prepositions_and_conjunctions",
+       "title": "11 Prepositions and conjunctions",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "12_Numbers_dates_and_time",
+       "title": "12 Numbers dates and time",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "07_Exam_skills",
+     "title": "7 Exam skills",
+     "pdf": null,
+     "pages": null,
+     "subtopics": [
+      {
+       "folder": "01_Paper_1_Listening",
+       "title": "1 Paper 1 Listening",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "02_Paper_2_Reading",
+       "title": "2 Paper 2 Reading",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "03_Paper_2_Writing",
+       "title": "3 Paper 2 Writing",
+       "spec_points": null,
+       "written": false
+      },
+      {
+       "folder": "04_Paper_3_Speaking",
+       "title": "4 Paper 3 Speaking",
+       "spec_points": null,
+       "written": false
+      }
+     ]
+    },
+    {
+     "folder": "08_General_vocabulary",
+     "title": "8 General vocabulary",
+     "pdf": null,
+     "pages": null,
+     "subtopics": []
+    }
+   ],
+   "extras": []
+  }
+ ]
+}

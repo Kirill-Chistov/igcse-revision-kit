@@ -68,6 +68,7 @@ render, say so and tell the student the one command to run, or that CI builds it
 
 - Every point and sub-bullet in scope covered at command-word depth; subject `QA_CHECKLIST.md` run.
 - Tick `coverage_checklist.md`, set `content_status` in `specification_map.csv` — those rows only.
+- `python3 tools/build_index.py` (updates `notes/README.md`, `PAPERS.md`, `docs/catalog.json`).
 - `python3 tools/check_repo.py --subject <Subject>` passes.
 - No personal data anywhere outside `me/` (`CLAUDE.md` § Privacy).
 

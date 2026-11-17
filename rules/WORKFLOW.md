@@ -81,6 +81,7 @@ Builds the whole topic PDF from every written subtopic. Needs Chromium (`tools/p
 the agent's environment cannot render, say so: the student can run the command, or push and let
 the GitHub Action build it. When it does render, look at every affected page and fix genuine
 render problems. The PDF is stale the moment a `topic.md` changes — rebuild, never patch.
+Then run `python3 tools/build_index.py` so the notes index and catalogue list it.
 
 ## 8. QA and trackers
 

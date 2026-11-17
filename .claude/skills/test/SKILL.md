@@ -15,8 +15,8 @@ a time (TUTORING §3). Missing and unclear from the message → one short questi
 
 ## 0. Read (quietly, every time)
 
-`CLAUDE.md`, `rules/TUTORING.md`, `rules/REVISION.md`, `me/profile.md`,
-`me/weak_spots/<Subject>.md`. No `me/`? Offer `/setup`.
+`CLAUDE.md`, `rules/TUTORING.md`, `rules/REVISION.md`, `me/profile.md`, `me/sessions.md` (newest
+entries for this subject), `me/weak_spots/<Subject>.md`. No `me/`? Offer `/setup`.
 
 ## 1. Scope
 
@@ -63,7 +63,8 @@ Ratings from first attempts (`rules/REVISION.md` § Ratings); untested points ge
   for each rated point (artifact mode: the database tools, per `tools/tracker/README.md`);
 - ≤ 5 flashcards, misses only, deck checked first, ceilings respected;
 - weak-spots log: round entry, priorities, every miss in the re-test bank in full;
-- English and 6+ mark answers: the answer and marking to `me/work/`.
+- English and 6+ mark answers: the answer and marking to `me/work/`;
+- session log: one entry at the top of `me/sessions.md`.
 
 ## 5. Close (one message)
 

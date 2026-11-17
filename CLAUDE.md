@@ -10,18 +10,24 @@ file must agree with it; on a conflict this file wins.
 2. Read `me/profile.md`. **If `me/` does not exist, the student has not been set up:** say so in
    one line and offer `/setup` before anything else (a quick question about a topic can still be
    answered).
-3. Then read what the task needs:
+3. Read the newest entries in `me/sessions.md` — where the last sessions stopped and what comes
+   next. If the student just says "hi" or "let's revise", suggest that next step.
+4. Then read what the task needs:
    - making or editing notes → `rules/WORKFLOW.md`, `rules/CONTENT_RULES.md`
    - teaching, quizzing, testing, marking → `rules/TUTORING.md`, `rules/REVISION.md`,
      `me/weak_spots/<Subject>.md`
    - planning → `rules/REVISION.md` § Planning, `me/study_plan.md`
    - anything → `rules/DECISIONS.md` (settled design; do not re-open)
+5. **Record the session before it ends, without being asked** — any session that taught, quizzed,
+   tested, marked or planned, whether or not a skill was used: an entry in `me/sessions.md`, plus
+   tracker rounds, weak spots and flashcards after marked work (`rules/REVISION.md` § What gets
+   saved).
 
 ## Skills
 
 | Command | Does |
 | --- | --- |
-| `/setup` | first-run interview → `me/` (subjects, options, schedule, preferences, tracker) |
+| `/setup` | first-run interview → `me/` (subjects, options, exam dates, target grades, schedule, preferences, tracker) |
 | `/add-subject <board> <code>` | adds a qualification the kit does not have: spec → map → empty topic folders |
 | `/make-topic <subject> <topic>` | writes, edits, compresses or audits a topic's notes and rebuilds its PDF |
 | `/revise <subject> <topic>` | the revision loop: blurt → check → read gaps → cards → questions → record |
@@ -65,8 +71,9 @@ igcse-revision-kit/
 ├── tools/tracker/                progress + flashcards web app (local server or claude.ai artifact)
 ├── tools/fetch_specs.py · tools/check_repo.py
 └── me/                           EVERYTHING PERSONAL — ignored by Git (created by /setup)
-    ├── profile.md                subjects + options, exam dates, time available, preferences
-    ├── study_plan.md             schedule and backlog
+    ├── profile.md                subjects + options, target grades, time available, preferences
+    ├── study_plan.md             exam dates, schedule and backlog
+    ├── sessions.md               session log: one entry per session, newest first
     ├── progress.json · flashcards.json     tracker data
     ├── weak_spots/<Subject>.md   priorities + re-test bank
     ├── work/                     marked long answers

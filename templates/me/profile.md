@@ -27,11 +27,11 @@ Private: this folder is ignored by Git. Only what changes how the AI helps is re
 - School tests (days): 
 - Things to fit around: 
 
-## How I'm doing (my own words)
+## Grades and how I'm doing
 
-| Subject | Feels | What slips |
-| --- | --- | --- |
-|  |  |  |
+| Subject | Target grade | Grade now (if known) | What slips |
+| --- | --- | --- | --- |
+|  |  |  |  |
 
 ## How I like to be taught
 - Reply length: short, one step at a time (default)

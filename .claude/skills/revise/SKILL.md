@@ -11,7 +11,8 @@ minutes; shorter if the student says so.
 ## 0. Read (quietly)
 
 `CLAUDE.md`, `rules/TUTORING.md`, `rules/REVISION.md`, `me/profile.md`, `me/study_plan.md`,
-`me/weak_spots/<Subject>.md` (may not exist yet). No `me/`? Offer `/setup` first.
+`me/sessions.md` (newest entries for this subject), `me/weak_spots/<Subject>.md` (may not exist
+yet). No `me/`? Offer `/setup` first.
 
 ## 1. Resolve
 
@@ -49,7 +50,9 @@ database if `tracker: artifact`):
 - a tracker round for every point tested, rated from first attempts;
 - ≤ 5 flashcards for the misses worth most marks (check the deck first; respect the ceilings);
 - the weak-spots log: dated one-line round entry, priority list, every missed question in the
-  re-test bank, now-correct items moved to fixed.
+  re-test bank, now-correct items moved to fixed;
+- the session log: one entry at the top of `me/sessions.md` (what was covered, score, misses, what
+  comes next).
 
 ## 6. Close (one short message)
 

@@ -7,7 +7,8 @@ description: Show where the student stands and what to do today — tracker summ
 
 ## 0. Read
 
-`me/profile.md`, `me/study_plan.md`, `me/weak_spots/*.md` (priority lists only), and the tracker
+`me/profile.md`, `me/study_plan.md`, `me/sessions.md` (the last ~10 entries),
+`me/weak_spots/*.md` (priority lists only), and the tracker
 data: `python3 tools/tracker/record.py summary` and `python3 tools/tracker/record.py due`
 (artifact mode: read `progress/*` and `decks/*` with the database tools, per
 `tools/tracker/README.md`). No `me/`? Offer `/setup`.
@@ -16,8 +17,9 @@ data: `python3 tools/tracker/record.py summary` and `python3 tools/tracker/recor
 
 - **Today:** the plan's slot for today (and the test it prepares for, if any) + flashcards due
   (count, capped at 15 per run).
-- **Per subject** (small table): points rated g / a / r / not rated, and the change since the last
-  week if `d` dates allow it.
+- **Per subject** (small table): target grade, points rated g / a / r / not rated, the change since
+  the last week if `d` dates allow it, and when it was last revised (from the session log).
+- **Days to go** until mocks / the first exam, if `me/study_plan.md` has the dates.
 - **Top 3 weak spots** across subjects, from the weak-spots priority lists.
 - One suggested next action as a command (`/revise Biology "2.5"`).
 

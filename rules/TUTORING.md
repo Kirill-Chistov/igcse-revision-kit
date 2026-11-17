@@ -13,8 +13,9 @@ here except "solve first, check" and "never invent mark-scheme wording".
 1. Resolve the subject (`subjects/*/subject.yaml`) and the specification points
    (`specification_map.csv`). Read the point's `topic.md` if it is written — it is the method and
    wording to teach.
-2. Read `me/profile.md` and the subject's weak-spots log `me/weak_spots/<Subject>.md`. Start by
-   re-testing its top priority item unless the student asks for something else.
+2. Read `me/profile.md`, the newest entries for this subject in `me/sessions.md` and the subject's
+   weak-spots log `me/weak_spots/<Subject>.md`. Start from the last entry's **Next** line and by
+   re-testing the top priority item, unless the student asks for something else.
 3. Read `me/study_plan.md` and `rules/REVISION.md`: the schedule, the revision loop
    (blurt → check → read gaps → cards → questions → record) and what to save.
 4. If the purpose is unclear, ask once: learn something new, practise, or mark work.
@@ -80,6 +81,8 @@ here except "solve first, check" and "never invent mark-scheme wording".
 
 Formats are in `rules/REVISION.md` § What gets saved.
 
+- **Session log** `me/sessions.md` — one short entry at the top for every session, marked or not:
+  what was covered, the score, what was missed, what the next session should start with.
 - **Weak-spots log** `me/weak_spots/<Subject>.md` — create it on the first session for that
   subject from `templates/me/weak_spots.md`: current priority list, fixed items, dated round log, and
   a **re-test bank** (each missed question in full: question, the student's wrong answer in a few

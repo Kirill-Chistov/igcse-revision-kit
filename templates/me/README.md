@@ -6,8 +6,9 @@ material stay on your computer.
 
 | Path | What |
 | --- | --- |
-| `profile.md` | subjects and options, dates, time, how you like to be taught |
-| `study_plan.md` | weekly shape and backlog (`/plan`) |
+| `profile.md` | subjects and options, target grades, time, how you like to be taught |
+| `study_plan.md` | exam dates, weekly shape and backlog (`/plan`) |
+| `sessions.md` | the session log: what each session covered, the score, what comes next |
 | `progress.json` | tracker ratings (format: `rules/REVISION.md`) |
 | `flashcards.json` | flashcard decks |
 | `weak_spots/<Subject>.md` | priorities and the re-test bank |

@@ -68,12 +68,33 @@ are **not** kept: they add nothing a later session can use, and book pages are c
 
 | What | Where | When |
 | --- | --- | --- |
+| Session log entry | `me/sessions.md` | at the end of **every** session, marked or not |
 | Tracker round for the points covered | `me/progress.json` (or the artifact tracker) | after every marked session |
 | Missed questions, priorities | `me/weak_spots/<Subject>.md` | after every marked session |
 | New flashcards (≤ 5) | `me/flashcards.json` (or the artifact tracker) | after every marked session |
 | Long written answers + marking | `me/work/<YYYY-MM-DD>_<Subject>_<task>.md` | English, 6+ mark answers |
 | Schedule, test dates | `me/study_plan.md` | when it changes |
-| Subjects, options, preferences | `me/profile.md` | `/setup`, or when the student says something changed |
+| Subjects, options, target grades, preferences | `me/profile.md` | `/setup`, or when the student says something changed |
+
+### Session log — `me/sessions.md`
+
+The tutor's memory between conversations. Every session that taught, quizzed, tested, marked or
+planned anything ends with one entry added at the top (create the file from
+`templates/me/sessions.md` if it is missing):
+
+```
+## 2026-11-17 · Biology_4BI1 · 2 Enzymes (2.10–2.13) · revise
+- Did: blurt, then 8 questions (3 from June 2024 P1)
+- Score: 14/20 · ratings: 2.10 g, 2.11 a, 2.12 a, 2.13 r
+- Missed: effect of pH on the active site; units in the rate calculation
+- Next: re-test 2.13, then start 2.14 Diffusion
+```
+
+At most 5 short lines; details belong in the weak-spots log, not here. A session with no marked
+questions (a plan, an explanation) leaves out the Score line. The start of the next session reads
+the newest entries for that subject and begins from their **Next** line unless the student asks
+for something else. If the student stops without saying so, write the entry as soon as it is clear
+the session is over — or first thing next time, from the conversation, marked "(written late)".
 
 ### `me/progress.json`
 
@@ -143,7 +164,8 @@ days, and a short backlog order. Built from `me/profile.md` (available time, ene
 find hard) and the tracker. Rules:
 
 - Fit the time the student actually has. A week of flashcards only is acceptable.
-- Order the backlog by: soonest test → most marks at stake → weakest (most `r`/`a`) → quick wins.
+- Order the backlog by: soonest test → most marks at stake → biggest gap between target grade and
+  grade now (`me/profile.md`) → weakest (most `r`/`a`) → quick wins.
 - Many "not rated yet" points are content not yet taught — ask before treating them as backlog.
 - For a subject the student says is strong, a short mixed **diagnostic** (~20 min, marked, ratings
   set from the result) beats rating point by point.

@@ -37,7 +37,7 @@ point is unresolved and what source would close it.
 3. Read the official wording of those points in the PDF. `specification.md` is an index, not a
    substitute.
 4. If a request falls outside the specification, say so and leave it out (enrichment is omitted —
-   see `CLAUDE.md`).
+   see `AGENTS.md`).
 
 ## How to write
 

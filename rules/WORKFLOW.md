@@ -1,7 +1,7 @@
 # Workflow — making or editing a topic
 
 The ordered process for creating, editing, compressing or auditing a topic (`/make-topic`).
-`CLAUDE.md` holds the rules; this file holds the steps.
+`AGENTS.md` holds the rules; this file holds the steps.
 
 ## The pipeline
 
@@ -49,7 +49,7 @@ placeholder policy or ask. Never invent it.
 
 Before writing, list every process, mechanism, sequence, cycle, structure, graph shape and
 spatial pattern in the mapped points and choose diagram / graph / photo / table / prose for each
-(`CLAUDE.md` § Visual rule). Existing packs: note where a table or bullet list is doing a
+(`AGENTS.md` § Visual rule). Existing packs: note where a table or bullet list is doing a
 diagram's job.
 
 ## 5. Write or edit
@@ -68,7 +68,7 @@ diagram's job.
 ## 6. Mandatory lean pass
 
 Re-read every file section by section and cut whatever the student could lose without losing marks
-or understanding (full wording in `CLAUDE.md`). `summary.md` must be materially shorter than
+or understanding (full wording in `AGENTS.md`). `summary.md` must be materially shorter than
 `topic.md`.
 
 ## 7. Build and inspect
@@ -92,7 +92,7 @@ Then run `python3 tools/build_index.py` so the notes index and catalogue list it
 
 ## 9. Commit
 
-Commit only the paths this session touched, with a one-line message (`CLAUDE.md` § Git).
+Commit only the paths this session touched, with a one-line message (`AGENTS.md` § Git).
 
 ## 10. Report and stop
 

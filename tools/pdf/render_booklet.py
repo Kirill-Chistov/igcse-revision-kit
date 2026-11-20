@@ -10,7 +10,7 @@ Chromium builds the PDF bookmarks from the headings.
 
 Never printed: `## Specification coverage`, `## What you must be able to do`, self-check /
 test / answers sections, and `::: revision|test|answers|checklist` blocks. These are agent-facing
-or banned; see CLAUDE.md.
+or banned; see AGENTS.md.
 
 Requires: python3 with `markdown`, `pyyaml`, `playwright` (Chromium) and `pypdf` —
 see tools/pdf/README.md for setup.

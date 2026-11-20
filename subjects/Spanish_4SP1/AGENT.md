@@ -25,7 +25,7 @@ writing anything.
 
 ## How to write
 
-- `rules/STYLE_GUIDE.md`, `rules/SOURCE_POLICY.md`, `CLAUDE.md` content filter A/B/C.
+- `rules/STYLE_GUIDE.md`, `rules/SOURCE_POLICY.md`, `AGENTS.md` content filter A/B/C.
 - A topic sub-topic pack = the Appendix 1 vocabulary for that sub-topic + the phrases and
   structures needed to speak and write about it at top-band level (opinions with reasons, three
   time frames). Grammar is taught in `06_Grammar`, not repeated in every topic.

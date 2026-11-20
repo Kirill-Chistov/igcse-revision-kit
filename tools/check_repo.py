@@ -12,6 +12,7 @@ Checks
   5. every SVG that embeds a raster image (a photo) is listed in that folder's assets/SOURCES.md
   6. no forbidden files are tracked (me/, Specification.pdf, past papers, mark schemes, textbooks)
   7. no obvious personal data (emails, phone numbers) in shared files
+  8. the slash-command pointer files match commands/ (tools/sync_commands.py --check)
 Exit code 1 on errors; warnings do not fail.
 """
 from __future__ import annotations
@@ -129,6 +130,10 @@ def main(argv):
             check_subject(d)
     if only is None:
         check_files()
+        sync = subprocess.run([sys.executable, str(ROOT / "tools/sync_commands.py"), "--check"],
+                              capture_output=True, text=True)
+        if sync.returncode:
+            err("command pointers out of date: run python3 tools/sync_commands.py\n" + sync.stdout.strip())
     for w in warnings:
         print("warning:", w)
     for e in errors:

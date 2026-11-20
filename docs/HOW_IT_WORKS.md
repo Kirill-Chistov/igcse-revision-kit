@@ -17,7 +17,7 @@ marks*:
 - every run ends with a separate pass that asks, block by block, "would the student lose marks
   without this?".
 
-The full rules an agent follows are in [`CLAUDE.md`](../CLAUDE.md) and [`rules/`](../rules). The PDFs
+The full rules an agent follows are in [`AGENTS.md`](../AGENTS.md) and [`rules/`](../rules). The PDFs
 are built from the markdown by [`tools/pdf/build_pdf.py`](../tools/pdf/README.md) (headless
 Chromium); they are never edited by hand.
 
@@ -37,7 +37,9 @@ in [`rules/REVISION.md`](../rules/REVISION.md).
 | `PAPERS.md` | where to download each subject's past papers |
 | `subjects/<Subject>/` | specification map, subject rules, and the markdown sources in `topics/` |
 | `rules/` | how notes are written and how tutoring works |
-| `.claude/skills/` | the commands: setup, plan, revise, test, progress, make-topic, add-subject |
+| `AGENTS.md` | the rules every AI follows (`CLAUDE.md`, `GEMINI.md` point to it) |
+| `commands/` | the commands: setup, plan, revise, test, progress, make-topic, add-subject |
+| `.claude/` `.cursor/` `.gemini/` `.github/prompts/` | generated pointers so the commands appear in each tool's `/` menu (`tools/sync_commands.py`) |
 | `tools/` | PDF builder, tracker, checks, spec downloader, index builder |
 | `templates/` | templates for notes and for the private `me/` folder |
 | `docs/catalog.json` | every subject → topic → subtopic → PDF, machine-readable (for a future website) |

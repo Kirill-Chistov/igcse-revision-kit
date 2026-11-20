@@ -1,6 +1,6 @@
 # Revision — method, flashcards and what gets saved
 
-Read by every skill that revises, tests or plans (`/revise`, `/test`, `/plan`, `/progress`).
+Read by every command that revises, tests or plans (`/revise`, `/test`, `/plan`, `/progress`).
 How to teach and mark is in `rules/TUTORING.md`; this file is what to do and what to record.
 
 ## Principles

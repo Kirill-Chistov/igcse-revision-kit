@@ -1,5 +1,5 @@
 ---
-# Machine-readable part — used by the tracker and the skills. Keep the keys.
+# Machine-readable part — used by the tracker and the commands. Keep the keys.
 subjects: []            # subject folder names, e.g. [Biology_4BI1, Physics_4PH1]
 exam_session: ""        # e.g. "May–June 2027"
 mocks: ""               # e.g. "January 2027"

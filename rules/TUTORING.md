@@ -45,8 +45,8 @@ here except "solve first, check" and "never invent mark-scheme wording".
 - **Draw / label / measure / plot parts go in the chat as interactive visuals, never on paper.**
   The student answers by typing in chat and cannot draw on a PDF, so any part that asks the student to
   draw a ray or normal, complete a path, label an angle, measure an angle or length, plot points,
-  or draw a line or curve of best fit is set as an interactive in-chat widget (in Claude: the visualize /
-  `show_widget` tool; elsewhere, whatever inline-visual tool the agent has): a to-scale diagram the student clicks on to place lines, with a live protractor or
+  or draw a line or curve of best fit is set as an interactive in-chat widget (whatever inline-visual or widget tool the agent has; without one, the
+  text fallbacks below): a to-scale diagram the student clicks on to place lines, with a live protractor or
   ruler readout; a grid the student clicks to plot points and drags a best-fit line on, with the gradient
   shown. Give the measurements and marks the official mark scheme expects. Do not tell the student to
   draw it on paper, and do not score such parts as not attempted. When issuing a paper set, list

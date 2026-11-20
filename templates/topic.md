@@ -26,7 +26,7 @@ teaches it.
 
 ## 1. <First section, in specification order>
 
-Plan the visuals first (CLAUDE.md § Visual rule): each process, structure, sequence or pattern
+Plan the visuals first (AGENTS.md § Visual rule): each process, structure, sequence or pattern
 gets its diagram/graph/photo, and the prose it replaces is cut. Tables only for comparisons.
 Explain mechanisms; do not just name them. Definitions go in `::: definition` blocks and are
 mark-scheme precise. Processes, equations and methods get their own labelled block. Required

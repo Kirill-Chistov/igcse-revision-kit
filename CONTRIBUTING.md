@@ -11,7 +11,7 @@ writes a topic the next person can revise from.
 | Fix a topic | Edit its `topic.md` (and `summary.md` / `questions.md` if affected), rebuild the PDF, open a pull request. |
 | Write a missing topic | `/make-topic <subject> <topic>` with your agent, review the result yourself, open a PR. |
 | Add a subject | `/add-subject <board> <code>` → specification map and empty topic folders. A PR with just the map is already useful. |
-| Improve the tools | Tracker, PDF pipeline, checks, skills — PRs welcome; keep `tools/` dependency-light. |
+| Improve the tools | Tracker, PDF pipeline, checks, commands — PRs welcome; keep `tools/` dependency-light. |
 
 ## Rules for pull requests
 
@@ -21,7 +21,7 @@ writes a topic the next person can revise from.
    school documents or specification PDFs. Paraphrase; draw your own diagrams; photos only if
    openly licensed and recorded in `assets/SOURCES.md` (file, what it shows, URL, author, licence).
 3. **Specification first.** Every note names the official point numbers it covers. Content not in
-   the specification is cut, not labelled "extra". The rules are in `CLAUDE.md` and `rules/`.
+   the specification is cut, not labelled "extra". The rules are in `AGENTS.md` and `rules/`.
 4. **One topic per PR**, with the rebuilt PDF. If you can't build PDFs locally, say so — CI builds
    them, and a maintainer will commit the result.
 5. **Run the checks**: `python3 tools/check_repo.py` must pass.

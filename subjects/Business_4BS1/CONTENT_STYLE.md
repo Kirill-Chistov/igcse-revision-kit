@@ -174,7 +174,7 @@ formula → one concise worked example if necessary → interpretation only if a
 
 ## 12. Visuals
 
-Follow `CLAUDE.md` § Visual rule: plan visuals before writing. Anything with a shape gets a
+Follow `AGENTS.md` § Visual rule: plan visuals before writing. Anything with a shape gets a
 diagram, not a table or bullet list — for example the break-even chart, cash-flow forecast chain,
 product life cycle, organisation structures, distribution channels, supply and demand, the
 recruitment process, motivation models, economies/diseconomies of scale. Tables only for

@@ -4,8 +4,8 @@ Study material licence
 Copyright (c) 2026 Kirill Chistov and igcse-revision-kit contributors
 
 Everything in this repository that is not software — the revision notes and PDFs (`subjects/`,
-`notes/`), the diagrams drawn for the kit, the rules (`rules/`, `CLAUDE.md`, `AGENTS.md`), the
-skills (`.claude/skills/`) and the templates — is licensed under the
+`notes/`), the diagrams drawn for the kit, the rules (`rules/`, `AGENTS.md`), the
+commands (`commands/` and the pointer files generated from them) and the templates — is licensed under the
 
     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
     (CC BY-NC-SA 4.0)   https://creativecommons.org/licenses/by-nc-sa/4.0/

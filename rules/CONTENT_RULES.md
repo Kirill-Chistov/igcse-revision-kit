@@ -3,7 +3,7 @@
 ## Purpose
 
 Detailed content rules for creating, editing, compressing, reviewing or auditing study material in
-this repository. `CLAUDE.md` is the canonical rule set (layout, write safety, PDF rules, lean pass)
+this repository. `AGENTS.md` is the canonical rule set (layout, write safety, PDF rules, lean pass)
 and wins on any conflict; `rules/WORKFLOW.md` gives the ordered steps. This file explains
 **how much** to write and **how** to present it.
 
@@ -52,7 +52,7 @@ scope. The official PDF wins when `specification.md` is condensed or ambiguous. 
 
 ## 5. Repository architecture
 
-See `CLAUDE.md` § Repository layout. In short: one PDF per top-level topic in
+See `AGENTS.md` § Repository layout. In short: one PDF per top-level topic in
 `notes/<Subject>/NN_<Topic>.pdf`; all sources in `subjects/<Subject>/topics/NN_<Topic>/NN_<Subtopic>/`;
 everything personal in `me/`. Do not redesign this architecture during content generation.
 
@@ -76,7 +76,7 @@ exist only in the summary or the PDF.
 
 ## 7. Visual rule
 
-Plan visuals before writing (see `CLAUDE.md` § Visual rule). Use labelled diagrams, flowcharts,
+Plan visuals before writing (see `AGENTS.md` § Visual rule). Use labelled diagrams, flowcharts,
 graphs, maps, timelines, worked visual examples, experimental setups, cause → mechanism →
 consequence diagrams. A useful diagram replaces several paragraphs — delete those paragraphs.
 Tables are for comparisons only. No decorative images.
@@ -141,7 +141,7 @@ Safe: Session A → Biology topic 02, Session B → Chemistry topic 01, Session 
 
 Never run parallel sessions that may change the same topic, `rules/*`, `tools/*`, the
 same subject's specification map/checklist. Sessions sharing a subject skip tracker updates; do one
-tracker pass afterwards. Each session commits only its own paths when it finishes (`CLAUDE.md` §
+tracker pass afterwards. Each session commits only its own paths when it finishes (`AGENTS.md` §
 Commit when you finish). Before large batches, make a clean baseline commit and a
 backup. Parallel sessions do not create extra usage allowance — optimise for completed useful
 topics per unit of usage.

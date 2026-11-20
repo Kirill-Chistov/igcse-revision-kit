@@ -108,6 +108,6 @@ in the built PDF.
 
 ## House rules the pipeline assumes
 
-Set by `CLAUDE.md` and `rules/CONTENT_RULES.md`: teach each required point
+Set by `AGENTS.md` and `rules/CONTENT_RULES.md`: teach each required point
 once, in its strongest representation (annotated diagram > compact table > prose); never diagram
 *and* table *and* prose for the same content; no back matter.
